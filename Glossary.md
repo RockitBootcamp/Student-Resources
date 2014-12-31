@@ -25,10 +25,10 @@ Content Delivery Networks are systems of distributed servers (network) that deli
 A piece of software (such as a [User Agent](#user-content-user-agent) / Browser) which receives information from a [server](#user-content-server).
 
 ## Design Pattern
-A commonly understood solution to a recurring problem
+A commonly understood solution to a recurring problem, generally in the form of a software algorithm.
 
 ## Directory
-Another word for “folder” as seen in Finder (OsX) or Windows Explorer (Microsoft Windows)
+Another word for "folder" as seen in Finder (OsX) or Windows Explorer (Microsoft Windows)
 
 ## Gecko 
 The [Browser Rendering Engine](#user-content-browser-rendering-engine) of Mozilla Firefox. See more: http://en.wikipedia.org/wiki/Gecko_(software)
@@ -140,7 +140,7 @@ A process of loading [assets](#user-content-assets) in sequence such that one th
 Two or more [elements](#user-content-element) that belong to the same [parent element](#user-content-parent-element) in a [tree-structure](#user-content-tree-structure).
 
 ## Tag
-HTML Tags are a syntax for describing content. Tags use greater-than and less-than characters to denote the tag name. Content will have an opening and a closing tag as follows: `<user>Dave Smith</user>`. Where the tag name is "user" which describes the content within - “Dave Smith”.
+HTML Tags are a syntax for describing content. Tags use greater-than and less-than characters to denote the tag name. Content will have an opening and a closing tag as follows: `<user>Dave Smith</user>`. Where the tag name is "user" which describes the content within: "Dave Smith".
 
 ## Viewport
 The visible portion of a website within the browser
@@ -148,10 +148,10 @@ The visible portion of a website within the browser
 # CSS: Cascading Style Sheets
 
 ## Box Model
-A set of rules that describes how the content of an [element](#user-content-element), its padding, border, and margin are layers and how those layers interact with other element’s box models.
+A set of rules that describes how the content of an [element](#user-content-element), its padding, border, and margin are layers and how those layers interact with other element's box models.
 
 ## Cascade
-The process in which child [elements](#user-content-element) inherit their parent’s styles.
+The process in which child [elements](#user-content-element) inherit their parent's styles.
 
 ## Class
 An identifying name given to one or more [elements](#user-content-element) which can then be used with a CSS [selectors](#user-content-selector)

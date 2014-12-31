@@ -43,6 +43,7 @@ Unix: 2.2    | Explain the difference between public and private keys
 Identifier   | Objectives
 -------------|------------
 Git: 1.1     | Demonstrate how to `$ git clone`
+Git: 1.1     | Demonstrate how to `$ git init`
 Git: 1.2     | Demonstrate how to `$ git add`
              | &bull; Explain "staging" for a commit
 Git: 1.3     | Demonstrate how to `$ git commit`

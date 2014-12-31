@@ -24,6 +24,11 @@ HTML: 1.4    | Use Common Block Tags
              | &bull; `<ul>`
              | &bull; `<ol>`
              | &bull; `<li>`
+             | &bull; `<header>`
+             | &bull; `<footer>`
+             | &bull; `<aside>`
+             | &bull; `<main>`
+             | &bull; `<nav>`
 HTML: 1.5    | Use Common empty (one-sided) tags
              | &bull; `<br>`
              | &bull; `<hr>`
@@ -58,13 +63,27 @@ HTML: 3.3    | Describe Common Attributes:
 HTML: 3.4    | Explain multiple class attribute syntax
              | &bull; `<div class="foo bar"></div>`
 
+## Semantic Tags
+Identifier   | Objectives
+-------------|------------
+HTML: 4.1    | Explain what HTML semantics mean
+HTML: 4.2    | Explain the purpose of the following HTML5 semantic tags:
+             | &bull; `<header>`
+             | &bull; `<footer>`
+             | &bull; `<aside>`
+             | &bull; `<main>`
+             | &bull; `<nav>`
+             | &bull; `<menu>`
+             | &bull; `<article>`
+             | &bull; `<section>`
+
 ## Form Basics
 Identifier   | Objectives
 -------------|------------
-HTML: 4.1    | Explain form syntax with common attributes:
+HTML: 5.1    | Explain form syntax with common attributes:
              | &bull; `action`
              | &bull; `method`
-HTML: 4.2    | Demonstrate use of `<input>` the element and its HTML4 types:
+HTML: 5.2    | Demonstrate use of `<input>` the element and its HTML4 types:
              | &bull; `<input type="text">`
              | &bull; `<input type="checkbox">`
              | &bull; `<input type="radio">`
@@ -72,48 +91,35 @@ HTML: 4.2    | Demonstrate use of `<input>` the element and its HTML4 types:
              | &bull; `<input type="button">`
              | &bull; `<input type="hidden">`
              | &bull; `<input type="input">`
-HTML: 4.3    | Demonstrate how to use the `radio` input field type...
+HTML: 5.3    | Demonstrate how to use the `radio` input field type...
              | &bull; With the `name` attribute to group radio buttons
-HTML: 4.4    | Demonstrate how to use `checkbox` input field type
-HTML: 4.5    | Demonstrate how to use the `<label>` element...
+HTML: 5.4    | Demonstrate how to use `checkbox` input field type
+HTML: 5.5    | Demonstrate how to use the `<label>` element...
              | &bull; With the `for` attribute and an `id` on the input field, or...
              | &bull; Wrapped around the input field
-HTML: 4.6    | Demonstrate use of the `<select>` element (dropdown field)
+HTML: 5.6    | Demonstrate use of the `<select>` element (dropdown field)
              | &bull; With the `<option>` element
-HTML: 4.7    | Demonstrate use of the `<button>` element and its various types:
+HTML: 5.7    | Demonstrate use of the `<button>` element and its various types:
              | &bull; `<button></button>`
              | &bull; `<button type="button"></button>`
              | &bull; `<button type="submit"></button>`
              | &bull; `<button type="reset"></button>`
-HTML: 4.8    | Demonstrate the `placeholder` attribute
+HTML: 5.8    | Demonstrate the `placeholder` attribute
              | &bull; This is not a substitute for labels 
 
 ## Form Constraint Validation
 Identifier   | Objectives
 -------------|------------
-HTML: 5.1    | Demonstrate use of `<input>` the element and its HTML5 types:
+HTML: 6.1    | Demonstrate use of `<input>` the element and its HTML6 types:
              | &bull; `email`
              | &bull; `number`
              | &bull; `date`
              | &bull; `datalist`
              | &bull; `search`
              | &bull; `range`
-HTML: 5.2    | Demonstrate "Attribute Minimization" syntax where some attributes can be written without quotes:
+HTML: 6.2    | Demonstrate "Attribute Minimization" syntax where some attributes can be written without quotes:
              | &bull; `<input required>`
              | &bull; `<button disabled>`
              | &bull; `<option selected>`
-HTML: 5.3    | Demonstrate pattern attribute with regular expressions
-HTML: 5.4    | Demonstrate the form's `novalidate` attribute
-
-## Semantic Tags
-Identifier   | Objectives
--------------|------------
-HTML: 6.1    | Explain what HTML semantics mean
-HTML: 6.2    | Explain the purpose of the following HTML5 semantic tags:
-             | &bull; `<header>`
-             | &bull; `<footer>`
-             | &bull; `<aside>`
-             | &bull; `<main>`
-             | &bull; `<nav>`
-             | &bull; `<menu>`
-             | &bull; `<section>`
+HTML: 6.3    | Demonstrate pattern attribute with regular expressions
+HTML: 6.4    | Demonstrate the form's `novalidate` attribute
