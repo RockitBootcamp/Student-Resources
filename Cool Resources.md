@@ -12,16 +12,27 @@
 - [24Ways](http://24ways.org/)
 
 ## Week 1 Material
-- [Hello World](https://www.youtube.com/watch?v=nKIu9yen5nc)
-- [Web Content Video](https://www.youtube.com/watch?v=6gmP4nk0EOE)
+- [Become a programmer (Video)](https://www.youtube.com/watch?v=nKIu9yen5nc)
+- [Web Content (Video)](https://www.youtube.com/watch?v=6gmP4nk0EOE)
+- [Apache on Mac](http://jason.pureconcepts.net/2012/10/install-apache-php-mysql-mac-os-x/)
 - [Styleguide for HTML and CSS](http://codeguide.co/)
 - [How to use Sublime - worth paying for](http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293)
 - [Free GitHub account for .edu](https://education.github.com/pack)
 - [How technologies are related](https://coggle.it/diagram/5398a137dbff8e364a004242/d8cd77db8aaec383b578a3c05016d3249174f5e8cec862a311ca6829a75e320b)
+- [Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html)
+- [Seriously, Just Make a JSFiddle](http://css-tricks.com/seriously-just-make-a-jsfiddle/)
+
+## Keyboard Shortcuts
+- [Sublime OsX](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html)
+- [Sublime Linux](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html)
+- [Sublime Linux (alternative)](https://gist.github.com/Belgand/2856947)
+- [Chrome](https://support.google.com/chrome/answer/157179?hl=en&rd=1)
 
 ## Cool Beginner Articles
 - [Multiple CSS Backgrounds](http://www.css3.info/preview/multiple-backgrounds/)
 - [Introduction to jQuery](http://ejohn.org/apps/workshop/intro/)
+- [JavaScript Basics](http://jqfundamentals.com/chapter/javascript-basics)
+- [jQuery: Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 
 ## Git and GitHub
 - [GitHub's Official Tutorial](https://try.github.io/levels/1/challenges/1)
@@ -38,6 +49,7 @@
 - [Gif vs. Jpeg vs. Png](http://www.digitaltrends.com/computing/whats-the-difference-between-a-gif-a-jpg-and-a-png-file/)
 - [Bower on Ubuntu](http://stackoverflow.com/questions/21491996/installing-bower-on-ubuntu)
 - [Label and Name Input Property](https://developers.google.com/web/fundamentals/input/form/label-and-name-inputs)
+- [History of the Internet (Video)](https://www.youtube.com/watch?v=9hIQjrMHTv4)
 
 ## Essential Tools
 - [Font Awesome (for icons)](http://fortawesome.github.io/Font-Awesome/)
@@ -45,10 +57,14 @@
 - [Modernizr](http://modernizr.com/)
 - [CSS3 Generator](http://css3generator.com/)
 - [Caniuse (Learn which browsers support which front-end technologies)](http://caniuse.com)
+- [Homebrew for Mac users](http://brew.sh/)
+- [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin)
 - [Use IE on a Mac](https://www.modern.ie/en-us)
 - [Wireframe tool: Balsamiq](http://balsamiq.com/)
 - [Codepen.io](http://codepen.io/)
 - [Normalize.css](http://necolas.github.io/normalize.css/)
+- [Regular Expression Tester](http://regexr.com/)
+- [Brad's Reptile Forms](https://github.com/bradwestfall/ReptileForms)
 
 ## User Interface (UI)
 - [Dribbble (for design ideas)](http://dribbble.com)
@@ -64,6 +80,7 @@
 - [CSS Specificity Calculator](http://specificity.keegan.st/)
 - [XSS Game](https://xss-game.appspot.com/)
 - [Google Hangouts](http://www.google.com/+/learnmore/hangouts/)
+- [Phone Gap: Make Apps using HTML/CSS/JS](http://phonegap.com/about/)
 
 ## Advanced CSS Tools
 - [CSS clip-path maker](http://bennettfeely.com/clippy/)
@@ -83,6 +100,8 @@
 - [Comprehensive list of polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 - [Deep Dive into jQuery with Paul Irish](https://www.youtube.com/watch?v=i_qE1iAmjFg)
 - [Two way data binding in native JS](http://www.html5rocks.com/en/tutorials/es7/observe/)
+- [CSS Triangles](http://callmenick.com/2014/05/03/css-triangles/)
+- [Interview with Paul Irish](https://www.youtube.com/watch?v=JhWGSD_TY2Y#t=1410)
 
 ## Computer Science
 - [What every programmer should know about floating points](http://blog.reverberate.org/2014/09/what-every-computer-programmer-should.html)
@@ -92,6 +111,9 @@
 - [What is a CSS preprocessor](https://www.youtube.com/watch?v=PJkWbezpHpE#t=254)
 - [Syntactically Awesome Style Sheets (Sass)](http://sass-lang.com/)
 - [Less CSS](http://lesscss.org/)
+
+## APIs
+- todo
 
 ## People to follow (be aware of)
 - Paul Irish (Google)

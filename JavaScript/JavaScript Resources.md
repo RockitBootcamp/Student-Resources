@@ -12,6 +12,7 @@
 
 ## Basic Logic
 - [If and If Else](http://www.tutorialspoint.com/javascript/javascript_ifelse.htm)
+- [Statements (Control Flow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
 
 ## Built-in Methods & Properties
 - __W3 Schools__ [String Functions](http://www.w3schools.com/jsref/jsref_obj_string.asp)
@@ -51,6 +52,7 @@
 ## jQuery Events
 - __W3 Schools__ [Event Methods](http://www.w3schools.com/jquery/jquery_ref_events.asp)
 - __W3 Schools__ [Event Methods Syntax](http://www.w3schools.com/jquery/jquery_events.asp)
+- [jQuery Events](http://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners/jQuery-Events-16)
 - [jQuery Callbacks](http://www.w3schools.com/jquery/jquery_callback.asp)
 - __jQuery.com__ [jQuery Event Basics](http://learn.jquery.com/events/event-basics/)
 
