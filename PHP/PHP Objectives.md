@@ -25,7 +25,8 @@ PHP: 3.2     | Define the various Scalar Primitive types
              | &bull; Boolean
              | &bull; String  
              | &bull; Null
-PHP: 3.2     | Explain Type Casting
+PHP: 3.2     | Explain addition operator: `+`            
+PHP: 3.3     | Explain Type Casting
              | &bull; Implicit Type Casting
              | &bull; Explicit Type Casting
 
@@ -39,9 +40,11 @@ PHP: 4.1     | Demonstrate Arithmetic Operators
              | &bull; `/` Division
              | &bull; `%` Modulus
              | &bull; `**` Exponentiation
-PHP: 4.2     | Demonstrate String Operators
+PHP: 4.2     | Use parenthesis to group mathematical operations
+             | &bull; `$x = ((6 / 3) * (2 * 9)) + 1`
+PHP: 4.3     | Demonstrate String Operators
              | &bull; `.` Concatenation
-PHP: 4.3     | Demonstrate Increment / Decrement Operators
+PHP: 4.4     | Demonstrate Increment / Decrement Operators
              | &bull; `+=`
              | &bull; `-=`
              | &bull; `*=`
@@ -89,7 +92,7 @@ Identifier   | Objectives
 PHP: 7.1     | Explain Indexed Arrays
 PHP: 7.2     | Explain Associative Arrays
 PHP: 7.3     | Demonstrate array creation syntax
-             | &bull; Indexed: `$x = Array(‘Joe’, ‘Smith’);`
+             | &bull; Indexed: `$x = Array('Joe', 'Smith');`
              | &bull; Indexed: `$x = ['Joe', 'Smith'];`
              | &bull; Associative: `$x = Array('first_name' => 'Joe', 'last_name' => 'Smith');`
              | &bull; Associative: `$x = ['first_name' => 'Joe', 'last_name' => 'Smith'];`
@@ -105,8 +108,7 @@ PHP: 7.6     | Use basic PHP array functions
              | &bull; `print_r()`
              | &bull; `array_push()`
              | &bull; `array_pop()`
-             | &bull; `explode()`
-             | &bull; `implode()`
+             | &bull; `array_key_exists()`
 
 ## Loops
 Identifier   | Objectives

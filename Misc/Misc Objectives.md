@@ -42,19 +42,22 @@ Unix: 2.2    | Explain the difference between public and private keys
 ## Git Basics
 Identifier   | Objectives
 -------------|------------
-Git: 1.1     | Demonstrate how to `$ git clone`
-Git: 1.1     | Demonstrate how to `$ git init`
-Git: 1.2     | Demonstrate how to `$ git add`
-             | &bull; Explain "staging" for a commit
-Git: 1.3     | Demonstrate how to `$ git commit`
+Git: 1.1     | Demonstrate how to initialize a new (local) git project
+             | &bull; `$ git init`
+Git: 1.2     | Demonstrate how to clone an existing project from GitHub
+             | &bull; `$ git clone [path]`
+Git: 1.2     | Explain "staging" for a commit
+Git: 1.3     | Demonstrate how to add files to the stage
+             | &bull; `$ git add [path]`
+Git: 1.3     | Demonstrate how to commit staged files into the repo
+             | &bull; `$ git commit -m '[your message]'`
 Git: 1.4     | Demonstrate how to `$ git push` and `$ get pull`
 Git: 1.5     | Explain `$ git status`
 
-## Git Projects
+## GitHub and Collaboration
 Identifier   | Objectives
 -------------|------------
-Git: 2.1     | Demonstrate initializing a git project
-             | &bull; `$ git init`
+Git: 2.2     | Demonstrate creating a repo at GitHub and cloning the repository to the local machine
 Git: 2.2     | Demonstrate setting up remotes at GitHub
 Git: 2.3     | Demonstrate resolution of merge conflicts
 Git: 2.4     | Demonstrate removing files from a local git repo

@@ -48,6 +48,9 @@ To start, usually a body of code
 ## Instantiate 
 To create something from a pattern or template
 
+## Loose Coupling
+In computing and systems design a loosely coupled system is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. See More: http://en.wikipedia.org/wiki/Loose_coupling
+
 ## Nesting
 To place within, as in HTML and Code. See more: http://webdesign.about.com/od/beginningtutorials/a/aa090407.htm
 
