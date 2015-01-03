@@ -22,7 +22,7 @@ The newer versions of browser understand HTML5 but if you want your site to work
 It's difficult remembering all the complex syntax of CSS3, especially with all the browser prefixes. This tool will generate CSS3 for you based on your form selections.
 
 ### [Caniuse](http://caniuse.com)
-There's tons of new features in CSS3 and HTML5. But not all of them are supported in every browser. When you want to use a modern feature, you might want to check if it's available in the browsers you want to support. It's easier to do a search from Google iteself for __"caniuse [whatever tool]"__, rather than going to the Caniuse site directly.
+There's tons of new features in CSS3 and HTML5. But not all of them are supported in every browser. When you want to use a modern feature, you might want to check if it's available in the browsers you want to support. It's easier to do a search from Google itself for __"caniuse [whatever tool]"__, rather than going to the Caniuse site directly.
 
 ### [Codepen.io](http://codepen.io/)
 Codepen.io was co-creaed by CSS-Trick's Chris Coyier. It allows anyone (even without an account) to spin up small HTML/CSS/JS examples for testing ideas. Your "pen" will have a unique URL so you can pass it around. It's a nice way of conveying you're questions or bugs to someone too. 
