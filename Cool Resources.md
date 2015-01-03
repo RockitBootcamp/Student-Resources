@@ -112,6 +112,16 @@
 - [Syntactically Awesome Style Sheets (Sass)](http://sass-lang.com/)
 - [Less CSS](http://lesscss.org/)
 
+## Brad's Gists
+- [OsX (Yosemite) Apache Environment Setup](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
+- [OsX (Mavericks) Apache Environment Setup](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
+- [Ubuntu Apache Environment Setup](https://gist.github.com/bradwestfall/b478157ce6d507802133)
+- [Comprehensive JavaScript](https://gist.github.com/bradwestfall/002312c3628eac9cc215)
+- [Event Binding in jQuery](https://gist.github.com/bradwestfall/c87fb32047247eac899b)
+- [Ubuntu IP Tables](https://gist.github.com/bradwestfall/d8a00045221e179e3ae9)
+- [Get Instagram Images via JavaScript](https://gist.github.com/bradwestfall/f5a010e96fb0c4d18556)
+- [PHP Singleton Example](https://gist.github.com/bradwestfall/5310a4d221734a30f50b)
+
 ## APIs
 - todo
 
