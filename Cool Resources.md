@@ -125,7 +125,7 @@
 ## APIs
 - todo
 
-## People to follow (be aware of)
+## People to follow (these are the people to be aware of in the relms of Front-End Development)
 - Paul Irish (Google)
 - Addy Osmani (Google)
 - Christian Heilmann (Mozilla)
