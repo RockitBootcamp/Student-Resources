@@ -28,7 +28,7 @@ There's tons of new features in CSS3 and HTML5. But not all of them are supporte
 Codepen.io was co-creaed by CSS-Trick's Chris Coyier. It allows anyone (even without an account) to spin up small HTML/CSS/JS examples for testing ideas. Your "pen" will have a unique URL so you can pass it around. It's a nice way of conveying you're questions or bugs to someone too. 
 
 ### [Regular Expression Tester](http://regexr.com/)
-If you need to test your regular expression, the easiest thing to do is to find one of these. There are many online, this is just one of them.
+It's in the description, it's a regular expression tester. There are many online, this is just one of them.
 
 
 ## Workflow
