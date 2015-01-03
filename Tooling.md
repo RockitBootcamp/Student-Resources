@@ -71,8 +71,8 @@ Handlebars is a popular JavaScript templating tool. It is commonly used with jQu
 ### [Normalize.css](http://necolas.github.io/normalize.css/)
 Normalize.css was created to be an alternative to the "CSS Reset" paradigm that developers have been using for years. It's very well thought out and is becoming very standard in most front-end developers CSS workflow. Be sure to include it a the top of all your CSS. It can be downloaded with Bower.
 
-### [Reptile Forms](https://github.com/bradwestfall/ReptileForms)
-Write minimal form HTML and ReptileForms will re-factor it into something much better with structural CSS, Validation, and AJAX-style HTTP requests by default. It has a dependency on jQuery.
+### [ReptileForms](https://github.com/bradwestfall/ReptileForms)
+Write minimal HTML for a form and ReptileForms will re-factor it into something much better with structural CSS, Validation, and AJAX-style HTTP requests by default. It has a dependency on jQuery.
 
 ### [Sass](http://sass-lang.com/) and [Less](http://lesscss.org/)
 Theses are preprocessors that allow you to write in their advanced CSS syntax, then your file is converted by the preprocessor software into actual CSS. Watch this "[What is a CSS preprocessor](https://www.youtube.com/watch?v=PJkWbezpHpE#t=254)" video for more info. Generally these two tools are considered alternatives and are not meant to be used together.
