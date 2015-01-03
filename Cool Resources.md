@@ -94,8 +94,8 @@
 - [JavaScript Events, Heap, and Stack](http://vimeo.com/96425312)
 
 ## Brad's Gists
-- [OsX (Yosemite) Apache Environment Setup](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
-- [OsX (Mavericks) Apache Environment Setup](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
+- [OS X Yosemite Apache Environment Setup](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
+- [OS X Mavericks Apache Environment Setup](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
 - [Ubuntu Apache Environment Setup](https://gist.github.com/bradwestfall/b478157ce6d507802133)
 - [Comprehensive JavaScript](https://gist.github.com/bradwestfall/002312c3628eac9cc215)
 - [Event Binding in jQuery](https://gist.github.com/bradwestfall/c87fb32047247eac899b)

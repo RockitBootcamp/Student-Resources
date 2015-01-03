@@ -1,6 +1,12 @@
 # Tooling
 
-## Enhance your Page (Beginner)
+## Enhance your Page
+
+### [Google Analytics](http://www.google.com/analytics/)
+Google Analytics tracks various visitor statistics about your site. It's one of the most commonly used third-party tool on the web with almost every website using it. Google Analytics will provide you a snippet of JavaScript which you paste at the bottom of your HTML. Then you can log into your Google Analytics account to see the data.
+
+### [Google Fonts](https://www.google.com/fonts)
+Go to Google Fonts and choose the various fonts you want to use. Then proceed to choose the font weights you'll need. Google will give you the CSS link to include the fonts onto your page.
 
 ### [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 Include a CSS link to FontAwesome into your page to use icons on your page. Using an icon requires this syntax:
@@ -8,9 +14,6 @@ Include a CSS link to FontAwesome into your page to use icons on your page. Usin
 ```html
 <i class="fa fa-user"></i>
 ```
-
-### [Google Fonts](https://www.google.com/fonts)
-Go to Google Fonts and choose the various fonts you want to use. Then proceed to choose the font weights you'll need. Google will give you the CSS link to include the fonts onto your page.
 
 ### [Modernizr](http://modernizr.com/)
 The newer versions of browser understand HTML5 but if you want your site to work on older versions of Internet Explorer, you'll need this polyfill tool to aid the browser in understanding your markup. Just include the link to Modernizer's JavaScript file before the `<body>` tag for it to work.
