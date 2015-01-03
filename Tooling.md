@@ -41,7 +41,7 @@ brew install [package name]
 ```
 
 ### [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin)
-Despite the confusing name, this tool doesn't administer PHP, it administers MySQL. It's basically an already made PHP project that's sole purpose is to give you a User Interface to managing a MySQL database. Learn how to install it from [Brad's Video](https://www.youtube.com/watch?v=e80KsIxCrtA&list=UUZi-0WJPUNb_LQocFMJw5dA)
+Despite the confusing name, this tool doesn't administer PHP, it administers MySQL. It's a PHP project that you download and setup as a Virtual Host. It's basically a PHP project that gives you a User Interface for MySQL. Learn how to install it from [Brad's Video](https://www.youtube.com/watch?v=e80KsIxCrtA&list=UUZi-0WJPUNb_LQocFMJw5dA)
 
 ### [NPM](https://www.npmjs.com/)
 The _Node Package Manager_ is a software dependency manager - specifically those that are created in JavaScript or Node. NPM is usually used by beginners to bring in other tools such as Bower, and Gulp or Grunt.
