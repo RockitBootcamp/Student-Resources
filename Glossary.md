@@ -24,6 +24,9 @@ Content Delivery Networks are systems of distributed servers (network) that deli
 ## Client
 A piece of software (such as a [User Agent](#user-content-user-agent) / Browser) which receives information from a [server](#user-content-server).
 
+## Dependencies
+The a piece of software will only work if another piece of software is in the same environment, then the first software is said to have a "dependency" on the second. For example, BackboneJS (a JavaScript Framework) has a dependency of jQuery.
+
 ## Design Pattern
 A commonly understood solution to a recurring problem, generally in the form of a software algorithm.
 
@@ -68,6 +71,9 @@ Code which supplements features into the browser that are not there by default b
 
 ## POST
 An [HTTP](#user-content-http) method used to send request parameters through the HTTP Headers.
+
+## Preprocessor
+A language that is written and then processed into another language.
 
 ## Query String
 The part of a URL (or URI) that passes variables from the [Client](#user-content-client) to the [Server](#user-content-server). Typically these variables come after the "?" Question Mark in the URL. Query String variables are a means to create a [GET](#user-content-get) HTTP request.
