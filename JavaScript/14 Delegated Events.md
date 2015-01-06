@@ -2,8 +2,8 @@
 
 Identifier   | Objectives
 -------------|------------
-JS: 13.1     | Explain Delegated Events
-JS: 13.2     | Demonstrate using the `.on()` method with delegated events
+JS: 14.1     | Explain Delegated Events
+JS: 14.2     | Demonstrate using the `.on()` method with delegated events
              | &bull; `$('body').on('click', 'button', foo);`
 
 ## Resources
