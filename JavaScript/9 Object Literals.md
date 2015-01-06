@@ -15,6 +15,7 @@ JS: 9.4      | Explain JSON
 
 ## Resources
 
+- __Brad's Gist__ [Objects](https://gist.github.com/bradwestfall/002312c3628eac9cc215)
 - [Object Literals](http://www.dyn-web.com/tutorials/object-literal/)
 - [Basics of Object Oriented JavaScript](http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
 - [JSON](http://htmldog.com/guides/javascript/intermediate/json/)

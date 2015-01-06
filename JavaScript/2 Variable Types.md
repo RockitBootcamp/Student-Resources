@@ -15,5 +15,5 @@ JS: 2.3      | Explain Type Casting
 
 ## Resources
 
-- __Brad's Gist__ [Variables and Primitive Data Types](https://gist.github.com/bradwestfall/002312c3628eac9cc215#chapter-1-variables-and-primitive-data-types)
+- __Brad's Gist__ [Variables and Primitive Data Types](https://gist.github.com/bradwestfall/002312c3628eac9cc215)
 - __W3 Schools__ [Data Types](http://www.w3schools.com/js/js_datatypes.asp)
