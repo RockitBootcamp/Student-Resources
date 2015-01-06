@@ -1,0 +1,23 @@
+# Lesson 7: Arrays
+
+Identifier   | Objectives
+-------------|------------
+JS: 7.1      | Demonstrate array creation syntax
+             | &bull; `var x = new Array('Joe', 'Smith');`
+             | &bull; `var x = ['Joe', 'Smith'];`
+JS: 7.1      | Demonstrate pushing values to end of array
+             | &bull; `x.push('value');`
+JS: 7.1      | Explain Indexed Arrays
+JS: 7.1      | Demonstrate accessing values of arrays
+             | &bull; `var value = x[0];`
+JS: 7.1      | Use basic array methods and properties
+             | &bull; `.length`
+             | &bull; `.indexOf()`
+             | &bull; `.join()`
+             | &bull; `.pop()`
+
+## Resources
+
+- http://htmldog.com/guides/javascript/beginner/arrays/ 
+- __W3 Schools__ [Arrays](http://www.w3schools.com/jsref/jsref_obj_array.asp)
+- __MDN__ [Array Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Array_literals)
