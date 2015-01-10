@@ -16,19 +16,13 @@
 - [Web Content (Video)](https://www.youtube.com/watch?v=6gmP4nk0EOE)
 - [Apache on Mac](http://jason.pureconcepts.net/2012/10/install-apache-php-mysql-mac-os-x/)
 - [Styleguide for HTML and CSS](http://codeguide.co/)
-- [How to use Sublime - worth paying for](http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293)
 - [Free GitHub account for .edu](https://education.github.com/pack)
 - [How technologies are related](https://coggle.it/diagram/5398a137dbff8e364a004242/d8cd77db8aaec383b578a3c05016d3249174f5e8cec862a311ca6829a75e320b)
 - [Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html)
 - [Seriously, Just Make a JSFiddle](http://css-tricks.com/seriously-just-make-a-jsfiddle/)
 - [Some nice backgrounds](http://downloads.dvq.co.nz/)
 - [Subtle Patterns](http://subtlepatterns.com/)
-
-## Keyboard Shortcuts
-- [Sublime OsX](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html)
-- [Sublime Linux](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html)
-- [Sublime Linux (alternative)](https://gist.github.com/Belgand/2856947)
-- [Chrome](https://support.google.com/chrome/answer/157179?hl=en&rd=1)
+- [Chrome Keystrokes](https://support.google.com/chrome/answer/157179?hl=en&rd=1)
 
 ## Cool Beginner Articles
 - [Multiple CSS Backgrounds](http://www.css3.info/preview/multiple-backgrounds/)
@@ -41,12 +35,17 @@
 - [Git Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
 - [Git for grown ups](http://24ways.org/2013/git-for-grownups/)
 
+## Beginning JavaScript
+- [Common Mistakes](http://www.w3schools.com/js/js_mistakes.asp)
+- [Best Practices](http://www.w3schools.com/js/js_best_practices.asp)
+
 ## Good to know
 - [Naming things is hard](http://24ways.org/2014/naming-things/)
 - [Top 10 Mistakes Web Developers Make](http://www.toptal.com/web/top-10-mistakes-that-web-developers-make)
 - [5 ways to not shoot yourself in the foot with CSS](https://medium.com/@jxnblk/5-ways-to-not-shoot-yourself-in-the-foot-with-css-8d3c84c94364)
 - [The 3 Big Myths that Are Holding Back America's Internet](https://medium.com/backchannel/the-3-big-myths-that-are-holding-back-americas-internet-1d96dd47e944)
 - [What it takes to build a website](http://24ways.org/2014/what-it-takes-to-build-a-website/)
+- [Technical Debt 101](https://medium.com/@joaomilho/festina-lente-e29070811b84)
 - [Types of Polling / Sockets (Advanced HTTP)](http://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
 - [Gif vs. Jpeg vs. Png](http://www.digitaltrends.com/computing/whats-the-difference-between-a-gif-a-jpg-and-a-png-file/)
 - [Label and Name Input Property](https://developers.google.com/web/fundamentals/input/form/label-and-name-inputs)
@@ -86,6 +85,7 @@
 - [Deep Dive into jQuery with Paul Irish](https://www.youtube.com/watch?v=i_qE1iAmjFg)
 - [Two way data binding in native JS](http://www.html5rocks.com/en/tutorials/es7/observe/)
 - [CSS Triangles](http://callmenick.com/2014/05/03/css-triangles/)
+- [JavaScript Performance](http://www.w3schools.com/js/js_performance.asp)
 - [Interview with Paul Irish](https://www.youtube.com/watch?v=JhWGSD_TY2Y#t=1410)
 - [Inspiration for Dialog Events](http://tympanus.net/codrops/2014/12/08/inspiration-dialog-effects/)
 

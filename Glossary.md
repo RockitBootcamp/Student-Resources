@@ -42,6 +42,9 @@ An [HTTP](#user-content-http) method used to send request parameters through the
 ## Graceful Degradation
 The thought process that developers should create features for more modern browsers first then apply fixes and polyfills second to bring older browsers up to speed. This thought process is sometimes in conflict with [Progressive Enhancement](#user-content-progressive-enhancement).
 
+## GUI (pronounced Gooey)
+Graphical User Interface - Presenting software to the user in the form of graphics (buttons, menus, links, images etc) as opposed to CLI ([Command Line Interface](#user-content-command-line)).
+
 ## HTTP
 Hyper Text Transfer Protocol - A set of rules used to transfer data between [Server](#user-content-server) and [Client](#user-content-client)
 
@@ -248,7 +251,7 @@ The command-line interpreter that allows a user to interact with the computer in
 A window, commonly black background and white or green text, that runs bash. Common usage: "open up a bash window"
 
 ## Command Line
-See [Bash](#user-content-bash)
+Aka CLI (Command Line Interface). See [Bash](#user-content-bash)
 
 ## Command Prompt
 The prompt in [bash](#user-content-bash) where the user types in a command
