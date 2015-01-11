@@ -130,9 +130,6 @@ WF: 6.1      | todo
 
 
 
-
-
-
 # Web
 
 ## Basic HTTP Concepts
