@@ -25,4 +25,4 @@ PHP: 6.6     | Use basic PHP array functions
 
 ## Resources
 - __W3 Schools__ [PHP Arrays](http://www.w3schools.com/php/php_arrays.asp) 
-- [PHP Arrays](http://www.phpknowhow.com/basics/arrays/)
+- __PHPKnowHow__ [PHP Arrays](http://www.phpknowhow.com/basics/arrays/)

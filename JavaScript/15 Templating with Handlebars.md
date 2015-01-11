@@ -9,4 +9,4 @@ JS: 15.4     | Demonstrate use of `template()` function
 
 ## Resources
 
-- http://handlebarsjs.com
+- [handlebars](http://handlebarsjs.com)

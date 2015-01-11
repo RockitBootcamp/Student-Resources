@@ -18,4 +18,4 @@ HTML: 6.4    | Demonstrate the form's `novalidate` attribute
 
 ## Resources
 
-- http://www.sitepoint.com/using-the-html5-constraint-api-for-form-validation/
+- [Constraint Validation](http://www.sitepoint.com/using-the-html5-constraint-api-for-form-validation/)

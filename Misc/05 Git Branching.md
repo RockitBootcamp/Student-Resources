@@ -9,4 +9,4 @@ Git: 3.1     | Demonstrate switching between branches
 Git: 3.1     | Demonstrate branch merging
 
 ## Resources
-- [General Guide - Has a good section on branching](http://rogerdudler.github.io/git-guide/)
+- [General Guide - Branching](http://rogerdudler.github.io/git-guide/)

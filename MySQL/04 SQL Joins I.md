@@ -8,4 +8,4 @@ MySQL: 4.2   | Use "many-to-many" joins and use a join-table
 MySQL: 4.3   | Use `AS` syntax to Alias
 
 ## Resources
-- http://www.cristhianny.com/others/mysql_joins_quick.html
+- [MySQL Joins](http://www.cristhianny.com/others/mysql_joins_quick.html)

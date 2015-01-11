@@ -12,4 +12,4 @@ PHP: 8.3     | Explain and demonstrate the return statement
 
 ## Resources
 - __W3 Schools__ [User Defined Functions](http://www.w3schools.com/php/php_functions.asp)
-- http://www.phpforkids.com/php/php-functions-user-defined.php
+- __PHP For Kids__ [User Defined Functions](http://www.phpforkids.com/php/php-functions-user-defined.php)

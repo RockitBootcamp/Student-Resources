@@ -9,5 +9,5 @@ CSS: 9.4     | Explain how Absolute Position changes flow
 CSS: 9.5     | Demonstrate Position Fixed
 
 ## Resources
-- __W3 Schools__ [CSS Positioning](http://www.w3schools.com/css/css_positioning.asp
+- __W3 Schools__ [CSS Positioning](http://www.w3schools.com/css/css_positioning.asp)
 - __Video__ [CSS Position: Static, Relative, Absolute, Fixed ](https://www.youtube.com/watch?v=TiAgx7HkTM8)

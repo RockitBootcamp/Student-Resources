@@ -17,4 +17,4 @@ HTML: 3.4    | Explain multiple class attribute syntax
 
 ## Resources
 
-- [HTML Attributes](http://www.w3schools.com/html/html_attributes.asp)
+- __W3 Schools__ [HTML Attributes](http://www.w3schools.com/html/html_attributes.asp)

@@ -22,4 +22,4 @@ Web: 4.4     | Demonstrate character classes
 ## Resources
 - [Regular Expression Tester](http://rubular.com/)
 - [Regular Expression Cheat Sheet](bit.ly/1BffjFC)
-- [Preg Match](http://php.net/manual/en/function.preg-match.php)
+- __PHP.net__ [Preg Match](http://php.net/manual/en/function.preg-match.php)

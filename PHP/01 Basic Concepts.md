@@ -16,7 +16,7 @@ PHP: 1.6     | Demonstrate modularization with...
              | &bull; `require` and `require_once`
 
 ## Resources
-- http://www.w3schools.com/php/php_syntax.asp 
-- http://www.w3schools.com/php/php_variables.asp 
-- http://www.w3schools.com/php/php_echo_print.asp 
-- [Inlcude vs Include Once](http://www.wallpaperama.com/forums/difference-between-include-vs-include-once-in-php-t6883.html)
+- __W3 Schools__ [PHP Syntax](http://www.w3schools.com/php/php_syntax.asp) 
+- __W3 Schools__ [PHP Variables](http://www.w3schools.com/php/php_variables.asp) 
+- __W3 Schools__ [PHP Echo and Print](http://www.w3schools.com/php/php_echo_print.asp) 
+- __W3 Schools__ [Inlcude vs Include Once](http://www.wallpaperama.com/forums/difference-between-include-vs-include-once-in-php-t6883.html)

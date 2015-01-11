@@ -13,4 +13,4 @@ HTML: 2.2    | Describe the HTML’s tree-structure hierarchy using Relational T
 
 ## Resources
 
-- [Very Beginner CSS Selectors and HTML Nesting](https://www.youtube.com/watch?v=4fmnwMtLW2I)
+- __Video__ [Very Beginner CSS Selectors and HTML Nesting](https://www.youtube.com/watch?v=4fmnwMtLW2I)

@@ -14,4 +14,4 @@ PHP: 2.3     | Explain Type Casting
              | &bull; Explicit Type Casting
 
 ## Resources
-- [PHP Data Types](http://www.w3schools.com/php/php_datatypes.asp)
+- __W3 Schools__ [PHP Data Types](http://www.w3schools.com/php/php_datatypes.asp)

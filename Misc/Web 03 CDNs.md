@@ -9,4 +9,4 @@ Web: 3.2     | Use common CDNs
              | &bull; Google Fonts
 
 ## Resources
-- http://searchaws.techtarget.com/definition/content-delivery-network-CDN
+- [CDN](http://searchaws.techtarget.com/definition/content-delivery-network-CDN)
