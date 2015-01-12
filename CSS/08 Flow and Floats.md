@@ -14,3 +14,36 @@ CSS: 8.3     | Explain float clearing approaches
 
 ## Resources
 - __Video__ [Getting along with Floats](https://www.youtube.com/watch?v=4gE1mThzhSw)
+
+## Practice
+
+### Media Object
+
+![Media Object](assets/float.png)
+
+```html
+<div class="container">
+	<div class="graphic"></div>
+	<div class="content">Content here</div>
+</div>
+```
+
+```css
+.container {
+	background-color: red;
+	width: 400px;
+	overflow: hidden;
+}
+
+.container .graphic {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+}
+
+.container .content {
+	margin-left: 50px;
+	background-color: yellow;
+}
+```

@@ -1,0 +1,45 @@
+div.page {
+	width: 960px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #eee;
+}
+
+aside {
+	width: 200px;
+	min-height: 100px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #AAA;
+}
+
+main {
+	background-color: yellow;
+	margin-left: 210px;
+	min-height: 100px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+	background-color: #ddd;
+}
+
+.comment .image {
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-color: #aaa;
+}
+
+.comment .content {
+	margin-left: 70px;
+	background-color: #aaa;
+}
+
+.comment::after {
+	content: '';
+	clear: both;
+}
