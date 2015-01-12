@@ -54,4 +54,8 @@ CSS:
 
 ### Homework
 
-Build a page using the media object pattern. [See Practice Page](https://github.com/PhoenixRockit/Student-Resources/tree/master/Practice/css/floats)
+Build the following page using the media object pattern:
+
+![Screenshot](screenshot.png)
+
+The solution is provided in HTML and CSS files.
