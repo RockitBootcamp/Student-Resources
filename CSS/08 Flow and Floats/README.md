@@ -21,7 +21,7 @@ CSS: 8.3     | Explain float clearing approaches
 
 Study the following media object.
 
-![Media Object](assets/float.png)
+![Media Object](float.png)
 
 HTML:
 ```html
