@@ -1,4 +1,4 @@
-# Web 2: Front-end Performance Basics
+# Lesson 2: Front-end Performance Basics
 
 Identifier   | Objectives
 -------------|------------

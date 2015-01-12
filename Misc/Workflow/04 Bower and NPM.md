@@ -1,4 +1,4 @@
-# Workflow 4: Bower and NPM
+# Lesson 4: Bower and NPM
 
 Identifier   | Objectives
 -------------|------------

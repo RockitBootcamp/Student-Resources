@@ -1,4 +1,4 @@
-# Web 1: Basic HTTP Concepts
+# Lesson 1: Basic HTTP Concepts
 
 Identifier   | Objectives
 -------------|------------

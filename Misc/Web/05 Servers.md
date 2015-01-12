@@ -1,4 +1,4 @@
-# Web 5: Servers
+# Lesson 5: Servers
 
 Identifier   | Objectives
 -------------|------------

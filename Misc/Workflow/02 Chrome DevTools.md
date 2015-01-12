@@ -1,4 +1,4 @@
-# Workflow 2: Chrome DevTools
+# Lesson 2: Chrome DevTools
 
 Identifier   | Objectives
 -------------|------------

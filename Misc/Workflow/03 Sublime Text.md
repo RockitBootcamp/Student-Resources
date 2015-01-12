@@ -1,4 +1,4 @@
-# Workflow 3: Sublime Text
+# Lesson 3: Sublime Text
 
 Identifier   | Objectives
 -------------|------------

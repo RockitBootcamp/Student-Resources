@@ -1,4 +1,4 @@
-# Workflow 1: Local Environment
+# Lesson 1: Local Environment
 
 Identifier   | Objectives
 -------------|------------

@@ -1,4 +1,4 @@
-# Web 4: Regular Expressions
+# Lesson 4: Regular Expressions
 
 Identifier   | Objectives
 -------------|------------

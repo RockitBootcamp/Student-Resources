@@ -1,4 +1,5 @@
 # Lesson 1: Unix Basics
+
 Identifier   | Objectives
 -------------|------------
 Unix: 1.1    | Demonstrate how to navigate the filesystem in Unix using:

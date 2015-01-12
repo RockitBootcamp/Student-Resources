@@ -1,8 +1,8 @@
-# Workflow 6: Sass
+# Lesson 5: Gulp
 
 Identifier   | Objectives
 -------------|------------
-WF: 6.1      | todo
+WF: 5.1      | todo
 
 ## Resources
 - n/a

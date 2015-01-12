@@ -1,4 +1,4 @@
-# Lesson 3: Git Basics
+# Lesson 1: Git Basics
 Identifier   | Objectives
 -------------|------------
 Git: 1.1     | Demonstrate how to initialize a new (local) git project

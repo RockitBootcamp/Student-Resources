@@ -1,4 +1,4 @@
-# Web 3: CDNs
+# Lesson 3: CDNs
 
 Identifier   | Objectives
 -------------|------------
