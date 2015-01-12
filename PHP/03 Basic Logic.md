@@ -1,12 +1,12 @@
-# Lesson 4: Basic Logic
+# Lesson 3: Basic Logic
 
 Identifier   | Objectives
 -------------|------------
-PHP: 4.1     | Demonstrate `if` and `if else` statements
-PHP: 4.2     | Demonstrate use of logic operators
+PHP: 3.1     | Demonstrate `if` and `if else` statements
+PHP: 3.2     | Demonstrate use of logic operators
              | &bull; `&&` AND operator
              | &bull; `||` OR operator
-PHP: 4.3     |
+PHP: 3.3     |
              | &bull; Demonstrate use of comparison operators
              | &bull; `==` Equal value
              | &bull; `===` Equal value and type
