@@ -10,16 +10,6 @@ For a really great video series on how to use Sublime Text, watch [Perfect Workf
 - [Instant File Changing](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/instant-file-changing)
 - [All About Projects](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/all-about-projects)
 - [Package Control](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/package-control)
-
-### Items to learn
-- How do Default Settings differ from "User Settings"?
-- Use the Command Palette
- - Set the syntax of the page
-- Changing between files with shortcuts
-- How to setup a new project
-- Package Control
-
-### Keyboard Shortcuts
 - [Multiple Cursors and Incremental Search](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/multiple-cursors-and-incremental-search)
 
 
