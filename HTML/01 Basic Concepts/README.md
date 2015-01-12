@@ -16,7 +16,6 @@ HTML: 1.3    | Use Common Inline Tags
              | &bull; `<button>`
              | &bull; `<input>`
 HTML: 1.4    | Use Common Block Tags
-             | &bull; div, p, h1, ul, ol, li
              | &bull; `<div>`
              | &bull; `<p>`
              | &bull; `<h1>` through `<h6>`
