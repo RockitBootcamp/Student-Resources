@@ -57,7 +57,7 @@ You may want to install the following settings depending on your personal prefer
 ```
 
 ### "autocomplete": false
-Disable Sublime's suggestion dropdown menu when typing code.
+Disable Sublime's suggestion menu that shows when typing code.
 
 ### "bold_folder_labels": true 
 By default, folders in the sidebar are not bold and can be hard to distinguish from files. This setting makes them bold.
@@ -70,7 +70,3 @@ Sometimes it can be difficult to work on a file when you're typing at the bottom
 
 ### "word_wrap": false
 When writing code, sometimes there are long lines that you would prefer to not have broken down onto a new line. For some this increases legibility.
-
-
-## Snippets
-

@@ -1,0 +1,18 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script>
+
+    ${1}
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
+]]></content>
+  <tabTrigger>htmljs</tabTrigger>
+</snippet>
