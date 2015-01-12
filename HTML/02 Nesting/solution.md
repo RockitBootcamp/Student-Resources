@@ -1,3 +1,6 @@
+# Practice Solution:
+
+```html
 <body>
 	<header>
 		<a class="logo"></a>
@@ -26,3 +29,4 @@
 	</main>
 	<footer></footer>
 </body>
+```
