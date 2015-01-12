@@ -19,8 +19,11 @@ CSS: 8.3     | Explain float clearing approaches
 
 ### Media Object
 
+Study the following media object.
+
 ![Media Object](assets/float.png)
 
+HTML:
 ```html
 <div class="container">
 	<div class="graphic"></div>
@@ -28,6 +31,7 @@ CSS: 8.3     | Explain float clearing approaches
 </div>
 ```
 
+CSS:
 ```css
 .container {
 	background-color: red;
@@ -47,3 +51,7 @@ CSS: 8.3     | Explain float clearing approaches
 	background-color: yellow;
 }
 ```
+
+### Homework
+
+Build a page using the media object pattern. [See Practice Page](https://github.com/PhoenixRockit/Student-Resources/tree/master/Practice/css/floats)
