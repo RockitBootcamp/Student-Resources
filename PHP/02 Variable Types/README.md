@@ -9,8 +9,11 @@ PHP: 2.1     | Define the various Scalar Primitive types
              | &bull; String  
              | &bull; Null
 PHP: 2.2     | Explain addition operator: `+`
-PHP: 2.3     | Explain concatenation operator `.`          
-PHP: 2.4     | Explain Type Casting
+PHP: 2.3     | Explain concatenation operator `.`  
+             | &bull; `$a = "hello " . $name;`
+PHP: 2.4     | Variable interpolation
+             | &bull; `$a = "hello $name;"`
+PHP: 2.5     | Explain Type Casting
              | &bull; Implicit Type Casting
              | &bull; Explicit Type Casting
 
