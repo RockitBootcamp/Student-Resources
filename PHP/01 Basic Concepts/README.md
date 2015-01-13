@@ -7,6 +7,7 @@ PHP: 1.2     | Use basic PHP Variables
              | &bull; Assignment Operator `=`
 PHP: 1.3     | Demonstrate use of strings
              | &bull; Enclosed in double or single quotes
+             | &bull; Escaping quotes in strings
 PHP: 1.4     | Demonstrate use of the echo construct
 PHP: 1.5     | Use PHP Comments
              | &bull; One-line

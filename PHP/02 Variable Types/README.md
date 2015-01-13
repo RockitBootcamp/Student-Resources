@@ -104,3 +104,22 @@ echo $combined; // Outputs: Hello World
 
 The main point of showing these examples is to show how expressive your code can be. There are many ways to do the same thing and it's good to see a variety of them to get a sense of how things work.
 
+
+### Variable Interpolation
+
+You may remember from the previous lesson when we discussed the difference between using single and double quotes for making strings. For the most part it doesn't matter which you choose to use. Your choice just determines which type of quotes you need to escape.
+
+Creating strings in double quotes has some special features that single quotes don't have. For instance we can do "Variable Interpolation" with double quoted strings. Varible Interpolation allows us to embed variables in a string without using concatenation. Let's look at an example:
+
+```php
+$name = 'Dave';
+
+// With concatenation
+$text = 'Welcome ' . $name . ', you are not signed in';
+
+// With variable interpolation
+$text = "Welcome $name, you are not signed in";
+
+```
+
+With single quotes, we can only embed the `$name` variable by using concatenation. But with double quotes, we can put the variable directly in the string without breaking up the string and doing concatenation. Sometimes it can be more difficult to see your variables when variable interpolation is used. This might be a good reason to not use it but it's up to you.
