@@ -17,4 +17,4 @@ WF: 2.5      | Explain Network Tab
 WF: 2.6      | Disable cache (while DevTools is open)
 
 ## Resources
-- n/a 
+- [Chrome DevTools Documentation](https://developer.chrome.com/devtools)
