@@ -12,7 +12,7 @@ PHP: 2.2     | Explain addition operator: `+`
 PHP: 2.3     | Explain concatenation operator `.`  
              | &bull; `$a = "hello " . $name;`
 PHP: 2.4     | Variable interpolation
-             | &bull; `$a = "hello $name;"`
+             | &bull; `$a = "hello $name";`
 PHP: 2.5     | Explain Type Casting
              | &bull; Implicit Type Casting
              | &bull; Explicit Type Casting
