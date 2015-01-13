@@ -27,10 +27,10 @@ Create variables of different types:
 ```php
 
 $a = 5;        // Integer
-$b = '5'       // String
-$c = 5.2       // Float
-$d = false     // Boolean
-$e = 'false'   // String
+$b = '5';      // String
+$c = 5.2;      // Float
+$d = false;    // Boolean
+$e = 'false';  // String
 $f = Null;     // Null
 $g = 'Null';   // String
 
@@ -109,7 +109,7 @@ The main point of showing these examples is to show how expressive your code can
 
 You may remember from the previous lesson when we discussed the difference between using single and double quotes for making strings. For the most part it doesn't matter which you choose to use. Your choice just determines which type of quotes you need to escape.
 
-Creating strings in double quotes has some special features that single quotes don't have. For instance we can do "Variable Interpolation" with double quoted strings. Varible Interpolation allows us to embed variables in a string without using concatenation. Let's look at an example:
+Creating strings in double quotes has some special features that single quotes don't have. For instance we can do "Variable Interpolation" with double quoted strings. Varible interpolation allows us to embed variables in a string without using concatenation. Let's look at an example:
 
 ```php
 $name = 'Dave';
