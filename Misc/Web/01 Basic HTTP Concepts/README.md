@@ -12,3 +12,5 @@ Web: 1.2     | Explain Common HTTP Status Codes
 ## Resources
 - [HTTP Headers for Dummies](http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
 - [HTTP Status Codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+[View Presentation](https://docs.google.com/a/azpixels.com/presentation/d/1zwj2KV0dzwhF0Q-G1QgkYsB-KR08-HVAqrnSXZRxFzc/edit#slide=id.p)
