@@ -46,6 +46,16 @@ While quote marks are optional and either single or double quotes can be used, w
 <a href="#" class="foo">link</a>
 ```
 
+While it may be allowed by the browser, it is discouraged to put spaces around the equal sign of attributes:
+
+```html
+<!-- discouraged -->
+<a class = "foo"></a>
+
+<!-- better -->
+<a class="foo"></a>
+```
+
 Attributes are never allowed to be used more than once in a single tag:
 
 ```html
