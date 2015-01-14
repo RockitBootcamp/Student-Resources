@@ -6,8 +6,7 @@ PHP: 3.1     | Demonstrate `if` and `if else` statements
 PHP: 3.2     | Demonstrate use of logic operators
              | &bull; `&&` AND operator
              | &bull; `||` OR operator
-PHP: 3.3     |
-             | &bull; Demonstrate use of comparison operators
+PHP: 3.3     | Demonstrate use of comparison operators
              | &bull; `==` Equal value
              | &bull; `===` Equal value and type
              | &bull; `!=` Not equal value
