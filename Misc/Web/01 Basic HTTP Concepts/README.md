@@ -10,9 +10,7 @@ Web: 1.3     | Explain Common HTTP Status Codes
              | &bull; 404: Page not found
              | &bull; 500: Internal Server Error
 Web: 1.4     | Explain terms:
-             | &bull; Client vs.
-             | &bull; User Agent vs.
-             | &bull; Browser
+             | &bull; Client vs. User Agent vs. Browser
              | &bull; Server
              | &bull; "Stateless" Requests
              
