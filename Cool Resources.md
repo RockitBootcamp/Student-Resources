@@ -23,6 +23,7 @@
 - [Some nice backgrounds](http://downloads.dvq.co.nz/)
 - [Subtle Patterns](http://subtlepatterns.com/)
 - [Chrome Keystrokes](https://support.google.com/chrome/answer/157179?hl=en&rd=1)
+- [CSS Almanac](http://css-tricks.com/almanac/)
 
 ## Cool Beginner Articles
 - [Multiple CSS Backgrounds](http://www.css3.info/preview/multiple-backgrounds/)
