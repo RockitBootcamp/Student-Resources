@@ -75,4 +75,4 @@ Attributes cannot have two values with the exception of the `class`attribute:
 
 ### Class Names
 
-Since `class` attributes use spaces to delimit two or more names, it's not possible to have a classname with a space. If a class name is two words, it is common to use hyphens to separate the words, ie: `is-active` or `current-user`.
+Since `class` attributes use spaces to delimit two or more names, it's not possible to have a classname with a space. If a class name is two words, it is common to use hyphens to separate the words, i.e.: `is-active` or `current-user`.
