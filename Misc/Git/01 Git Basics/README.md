@@ -42,7 +42,7 @@ All Git commands can only be run on the command line. Make sure you are in the c
 ```
 $ git init
 ```
-This creates a new subdirectory named .git and will contain your repository files. 
+This creates a new subdirectory named `.git` and will contain your repository files. 
 
 #### Git Clone
 
