@@ -66,11 +66,11 @@ If you have no changes, you will see a message that your branch is up-to-date an
 
 To see what has changed, you can run the following command:
 ```
-git diff
+$ git diff
 ```
 #### Git Add
 
-Each time you make a change to your files and are ready to upload to github, you will start with adding the changes. You can use the name of the files or, if you have many files you can use the "." to add everything. 
+Each time you make a change to your files and are ready to upload to github, you will start with adding the changes. You can use the name of the files or, if you have many files you can use the "." to add everything in the current directory. 
 ```
 $ git add .
 ```
