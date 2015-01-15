@@ -62,6 +62,12 @@ This will show you any changes to files within the repository including edits, n
 
 If you have no changes, you will see a message that your branch is up-to-date and there is "nothing to commit, working directory clean."
 
+#### Git Diff
+
+To see what has changed, you can run the following command:
+```
+git diff
+```
 #### Git Add
 
 Each time you make a change to your files and are ready to upload to github, you will start with adding the changes. You can use the name of the files or, if you have many files you can use the "." to add everything. 
