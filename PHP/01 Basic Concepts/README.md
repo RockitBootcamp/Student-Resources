@@ -90,12 +90,12 @@ The use of quotation marks makes strings. Notice the use of single quotes vs dou
 
 ### Escaping
 
-Since the quotation marks are significant in making the string, we need to take extra consideration when we want to use quotation marks within the string. Consider this sentence: `The code doesn't work`. Let's write some code:
+Since the quotation marks are significant in making the string, we need to take extra consideration when we want to use quotation marks within the string. Consider this sentence: `He doesn't like apples`. Let's write some code:
 
 ```php
 <?php
 
-$text = 'The code doesn't work'; // causes error
+$text = 'He doesn't like apples'; // causes error
 
 ?>
 ```
@@ -105,12 +105,12 @@ The problem here is that the first quote starts the string, but which quote ends
 ```php
 <?php
 
-$text = 'The code doesn\'t work'; // escaping
+$text = 'He doesn\'t like apples'; // works, because of escaping
 
 ?>
 ```
 
-Escaping is when we use backslashes to indicate that we want this character (in this case a quotation mark) to literally be a part of the string. Note that the backslash is not going to become a part of the string, it's just there to instruct PHP of what's going on. The string we produced is going to be `The code doesn't work`.
+Escaping is when we use backslashes to indicate that we want this character (in this case a quotation mark) to literally be a part of the string. Note that the backslash is not going to become a part of the string, it's just there to instruct PHP of what's going on. The string we produced is going to be `He doesn't like apples`.
 
 It's important to know that we only needed this escaping concept in this case because there was a conflict with wanting to use single quotes to define the string and also use single quote in the string. Had we used double quotes to make the string, there would have been no need to escape:
 
@@ -118,7 +118,7 @@ It's important to know that we only needed this escaping concept in this case be
 ```php
 <?php
 
-$text = "The code doesn't work";
+$text = "He doesn't like apples";
 
 ?>
 ```
@@ -154,7 +154,7 @@ So which one is better? It depends. Most developers prefer to use single quotes 
 ```php
 <?php
 
-$html = '<a href="index.html" class="home-link">Home</a>';
+$link = '<a href="index.html" class="home-link">Home</a>';
 
 ?>
 ```
@@ -164,7 +164,7 @@ Since PHP is used to create dynamic HTML, and HTML often has double quotes, it w
 ```php
 <?php
 
-$html = "<a href=\"index.html\" class=\"home-link\">Home</a>";
+$link = "<a href=\"index.html\" class=\"home-link\">Home</a>";
 
 ?>
 ```
@@ -180,13 +180,13 @@ One common way to create output is to use the `echo` construct.
 ```php
 <?php
 
-$html = '<a href="index.html" class="home-link">Home</a>';
-echo $html;
+$link = '<a href="index.html" class="home-link">Home</a>';
+echo $link;
 
 ?>
 ```
 
-In this case we are echoing the variable we created. This totally works! But we could have simply echoed the text without creating a variable:
+In this case we are echoing the variable we created. Echoing variables works but it should be known that `echo` just wants a string to echo. We could have simply echoed the text without creating a variable:
 
 ```php
 <?php
