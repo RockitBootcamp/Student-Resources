@@ -24,7 +24,7 @@ div > ul li {}
 ```
 
 Considerations
-- We need to go after the first child `ul` of div so we leave out the one that's in `nav`
+- We need to go after the first child `ul` of `div` so we leave out the one that's in `nav`
 
 ## Four
 
