@@ -24,6 +24,7 @@
 - [Subtle Patterns](http://subtlepatterns.com/)
 - [Chrome Keystrokes](https://support.google.com/chrome/answer/157179?hl=en&rd=1)
 - [CSS Almanac](http://css-tricks.com/almanac/)
+- [Explain CSS Selectors as I write them](http://gallery.theopalgroup.com/selectoracle/)
 
 ## Cool Beginner Articles
 - [Multiple CSS Backgrounds](http://www.css3.info/preview/multiple-backgrounds/)
