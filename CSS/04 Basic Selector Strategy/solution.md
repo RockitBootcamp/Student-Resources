@@ -1,6 +1,6 @@
 # CSS Basic Selector Strategy Solution
 
-## <li>one</li>
+## One
 
 ```css
 div nav li:first-child {}
@@ -11,13 +11,13 @@ Considerations:
 - `div li:first-child` would also select "three"
 - `nav li:first-child` would also select "four"
 
-## <li>two</li>
+## Two
 
 ```css
 div nav li:last-child {}
 ```
 
-## <li>three</li>
+## Three
 
 ```css
 div > ul li {}
@@ -26,7 +26,7 @@ div > ul li {}
 Considerations
 - We need to go after the first child `ul` of div so we leave out the one that's in `nav`
 
-## <li>four</li>
+## Four
 
 ```css
 body > nav li:first-child {}
