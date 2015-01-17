@@ -153,7 +153,7 @@ The circumstances are:
 
 - Do I want to own a vehicle?
 - Is school close?
-- Do I like to go offroading?
+- Do I like to go off-roading?
 
 Of these circumstances, which one cuts our problem in half the best? I would say it's "Do I want to own a vehicle". If that is yes, then we'll need a car or truck. If no, then bike or buss. Let's see if you can do the logic to complete this problem.
 
@@ -162,7 +162,7 @@ Of these circumstances, which one cuts our problem in half the best? I would say
 Let's decide if you're a cat person or a dog person (or neither). Write some logic that shows which one you are. Feel free to come up with your own circumstances but some options might be:
 
 - Do I travel a lot?
-- Do I like to take walks
+- Do I like to take walks?
 - Do I want my face trampled on in the morning?
 - Do I want to teach my pet tricks?
 - Am I crazy?
