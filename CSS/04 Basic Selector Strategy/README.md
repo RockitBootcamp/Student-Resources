@@ -37,4 +37,10 @@ Examine the following HTML. See if you can select specific parts:
 </body>
 ```
 
+Try to select
+- `<li>one</li>`
+- `<li>two</li>`
+- `<li>three</li>`
+- `<li>four</li>`
+
 Try first, then [see the solution](solution.md)
