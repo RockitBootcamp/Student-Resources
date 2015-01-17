@@ -72,7 +72,6 @@ Can you tell the difference between these two selectors?
 
 ```css
 div.foo {}
-
 div .foo {}
 ```
 
