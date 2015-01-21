@@ -168,7 +168,3 @@ Let's decide if you're a cat person or a dog person (or neither). Write some log
 - Am I crazy?
 
 You won't need all these circumstances, maybe just a few.
-
-### Elevator Project
-
-[todo]
