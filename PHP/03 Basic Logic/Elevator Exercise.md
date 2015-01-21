@@ -23,6 +23,8 @@ Will the elevator pick me up?
 - The elevator and the person are going the same direction and are on the same floor
 	- message: "Yes, pick me up."
 
+### Step 3: write your code
+
 ### Hints
 
 - Do not use `&&` in your `if-statements`.
