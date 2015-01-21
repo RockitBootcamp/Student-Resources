@@ -5,7 +5,7 @@
 	<title>Document</title>
 
 	<style>
-		aside ul:nth-child(2) li:first-child {
+		nav {
 
 		}
 
@@ -15,23 +15,23 @@
 <body>
 
 	<aside>
-		<nav>
+		<nav class="foo bar">
 			<ul>
-				<li class="foo bar">first</li>
-				<li>second</li>
-				<li class="foo">third</li>
+				<li>first</li>
+				<li class="bar">second</li>
+				<li>third</li>
 			</ul>
 		</nav>
 		<ul>
-			<li class="foo bar"></li>
-			<li class="bar"></li>
+			<li class="foo bar">fourth</li>
+			<li class="bar">fifth</li>
 		</ul>
 	</aside>
-	<nav>
+	<nav class="foo">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>sixth</li>
+			<li class="foo bar">seventh</li>
+			<li>eighth</li>
 		</ul>
 	</nav>
 
