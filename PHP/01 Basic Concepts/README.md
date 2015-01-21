@@ -261,3 +261,20 @@ $gender = 'female';
 ```
 
 Notice that this is the same multi-line comment that that we had before, it just has some extra stuff. That extra stuff is just there to make the comment look more pleasant. The extra asterisks are meaningless to making the comment. As long as `/*` is at the beginning and `*/` is at the end, then we have the freedom to put anything in the middle.
+
+### PHP Include and Require
+`require()` & `require_once()` vs. `include()` & `include_once()` 
+
+- using `require()` and `include()` will allow the file to be used numerous times
+- using `require_once()` and `include_once()` will limit the file to be used only once
+
+- using `require()` and `require_once()` will stop the code from executing if the file to be included is not found
+- using `include()` and `include_once()` allows the code to continue executing if the file to be included is not found, but will give a warning
+
+              |    Fatal Error!    |  Warning!
+--------------|--------------------|---------------
+Nx ->         |   `require()`      |  `include()`
+1x ->         |  `require_once()`  |  `include_once()`
+
+
+
