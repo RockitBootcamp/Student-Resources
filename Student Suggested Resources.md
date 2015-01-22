@@ -67,3 +67,14 @@
   
 - PHP exercises, practice, and solution
   - http://www.w3resource.com/php-exercises/
+
+###Week 2
+
+####General
+- regular expressions practice
+  - https://www.regex101.com/
+  - http://www.regexr.com/
+
+####Articles
+- Apple's new programming language is growing like mad
+  - http://www.wired.com/2015/01/redmonk-swift/
