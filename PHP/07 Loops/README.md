@@ -74,6 +74,7 @@ foreach ($array as $value){
 }
 ```
 The internal array pointer automatically points to the first element when the `foreach` loop begins, then moves to the next element with each iteration. 
+#####example 1:
 ```php
 $animals = ['dog', 'cat', 'fish', 'horse', 'bird'];
 
@@ -88,4 +89,26 @@ I would like to have a cat.
 I would like to have a fish.
 I would like to have a horse.
 I would like to have a bird.
+```
+#####example 2:
+```php
+$team = [
+	'name' => 'The Suns',
+	'num_player' => 7,
+	'primary_color' => 'orange',
+	'record' => '5-20',
+	'last_championship' => 'never'
+];
+
+foreach($team as $property => $value) {
+	echo "idx: $property, value: $value<br>";
+}
+```
+The above result will be: 
+```ssh
+idx: name, value: The Suns
+idx: num_player, value: 7
+idx: primary_color, value: orange
+idx: record, value: 5-20
+idx: last_championship, value: never
 ```
