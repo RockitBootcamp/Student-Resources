@@ -112,3 +112,69 @@ idx: primary_color, value: orange
 idx: record, value: 5-20
 idx: last_championship, value: never
 ```
+#####example 3:
+create a dropdown that allows you to select from a list of states
+```php
+<?php
+$states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut'];
+$states_opts = '';
+
+foreach($states as $state) {
+    $state_opts .= "<option>$state</option>\n";
+}
+?>
+
+ <select name="" id="">
+    <?php echo $state_opts; ?>
+ </select>
+ ```
+ #####example 4:
+create a drop down with a list of products and a "buy it now" button, and set the option to the value of the last item selected.
+```php
+<?php 
+$products = [
+	'select one' => 'Select One',
+	'2342314asdf' => 'chair',
+	'23314sdf' => 'boat',
+	'734253eah' => 'car'
+];
+
+$product_id = NULL;
+$msg = '';
+if(isset($_GET['product_id'])){
+	$product_id = $_GET['product_id'];
+	$msg = 'You ordered a ' . $products[$product_id] . "<br>";
+}
+
+$opts = '';
+foreach($products as $prod_id=>$prod_name){
+	if($prod_id == $product_id){
+		$opts .= "<option selected value=\"$prod_id\">$prod_name</option>";
+	}else{
+		$opts .= "<option value=\"$prod_id\">$prod_name</option>";
+	}
+}
+
+ ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>php loops</title>
+</head>
+<body>
+
+Pick a product:
+<form action="">
+	 <select name="product_id" id="">
+	 	<?php echo $opts; ?>
+	 </select>
+	 <button>Buy it NOW</button>
+ </form>
+<br>
+	<?php echo $msg; ?>
+</body>
+</html>
+```
+ 
