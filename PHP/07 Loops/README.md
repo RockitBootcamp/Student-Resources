@@ -18,7 +18,7 @@ PHP: 7.4     | Demonstrate `break` and `continue` statements
 ```php
 $i = 0;
 while ($i <= 10){
-  echo $1++;
+  echo $i++, "<br>";
 }
 ```
 The above loops through until $i is no longer less than or equal to 10 and will print the numbers 1 through 10.
