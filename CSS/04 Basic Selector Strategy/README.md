@@ -44,3 +44,7 @@ Try to select
 - `<li>four</li>`
 
 Try first, then [see the solution](solution.md)
+
+### Design a page
+
+Use the contents at "[Design a page](design-a-page)" and edit the `design.css` file until every box has a unique color

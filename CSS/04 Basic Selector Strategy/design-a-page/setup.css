@@ -1,0 +1,28 @@
+body * {
+	background-color: #EEE;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #777;
+	display: block;
+}
+
+a {
+	display: inline-block;
+}
+
+header,main {
+	overflow: hidden;
+}
+
+header nav {
+	float: right;
+}
+
+aside {
+	float: left;
+	width: 200px;
+}
+
+article {
+	margin-left: 230px;
+}
