@@ -144,12 +144,8 @@ $products = [
 #######Step 2: create options
 ```php
 $opts = '';
-foreach($products as $prod_id=>$prod_name){
-	if($prod_id == $product_id){
-		$opts .= "<option selected value=\"$prod_id\">$prod_name</option>";
-	}else{
-		$opts .= "<option value=\"$prod_id\">$prod_name</option>";
-	}
+foreach($products as $key => $product){
+    $opts .= "<option value=\"$key\">$product</option>";
 }
 
 ?>
