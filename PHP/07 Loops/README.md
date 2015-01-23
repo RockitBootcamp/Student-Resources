@@ -135,7 +135,7 @@ create a drop down with a list of products and a "buy it now" button, and set th
 ```php
 <?php 
 $products = [
-	'select one' => 'Select One',
+	'7897wej2' => 'desk',,
 	'2342314asdf' => 'chair',
 	'23314sdf' => 'boat',
 	'734253eah' => 'car'
