@@ -15,3 +15,7 @@ CSS: 11.4    | Explain Tiles with...
 
 ## Resources
 - n/a
+
+## Code Examples
+
+- See [lightbox](lightbox) code example
