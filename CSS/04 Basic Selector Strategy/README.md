@@ -47,4 +47,6 @@ Try first, then [see the solution](solution.md)
 
 ### Design a page
 
-Use the contents at "[Design a page](design-a-page)" and edit the `design.css` file until every box has a unique color
+Use the contents at "[Design a page](design-a-page)" and edit the `design.css` file until every box has a unique color.
+
+> Remember, don't edit this file from within this repository or you may get Git merge conflicts when the teachers make updates. Instead, copy the folder to your localhost.
