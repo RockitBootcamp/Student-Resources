@@ -65,15 +65,30 @@ The above will iterate through 5 times and modify the assigned value of two vari
 
 So, the result is a sentence that reads: At the end of the loop a=50 and b=25.  
 #### `foreach` loops
-`foreach` loops are used to iterate through arrays and objects
+`foreach` loops are used to iterate through arrays and objects and there are two syntaxes
 ```php
 $array = [1, 2, 3, 4];
 
 foreach ($array as $value){
   execute some code;
 }
+
+//or it can be written with the $key and $value as follows:
+
+$array = [
+   'a' => 'donut',
+   'b' => 'coffee',
+   'c' => 'soda',
+   'd' => 'cereal'
+];
+
+foreach ($array as $key => $value){
+  execute some code;
+}
 ```
 The internal array pointer automatically points to the first element when the `foreach` loop begins, then moves to the next element with each iteration. 
+
+The syntax of the `foreach` includes the name of your array ($array), then after 'as' you can have simply the value of the array ($value) or the `$key => $value` pair
 #####example 1:
 ```php
 $animals = ['dog', 'cat', 'fish', 'horse', 'bird'];
