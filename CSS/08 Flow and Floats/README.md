@@ -39,6 +39,12 @@ CSS:
 	overflow: hidden;
 }
 
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .container .graphic {
 	float: left;
 	width: 50px;
