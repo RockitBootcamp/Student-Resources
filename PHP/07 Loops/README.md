@@ -128,7 +128,8 @@ foreach($states as $state) {
     <?php echo $state_opts; ?>
  </select>
  ```
- #####example 4:
+######example 4:
+
 create a drop down with a list of products and a "buy it now" button, and set the option to the value of the last item selected.
 #######Step 1: Create your products list
 ```php
@@ -152,8 +153,11 @@ foreach($products as $prod_id=>$prod_name){
 }
 
 ?>
+```
+
 #######Step 3: add the html and put options in a select tag & test it 
 #######Step 4: finish the form (action is blank because we're submitting back to ourselves, method is GET. We will get the values from the GET array)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
