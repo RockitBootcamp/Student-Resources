@@ -130,6 +130,7 @@ foreach($states as $state) {
  ```
  #####example 4:
 create a drop down with a list of products and a "buy it now" button, and set the option to the value of the last item selected.
+#######Step 1: Create your products list
 ```php
 <?php 
 $products = [
@@ -138,14 +139,9 @@ $products = [
 	'23314sdf' => 'boat',
 	'734253eah' => 'car'
 ];
-
-$product_id = NULL;
-$msg = '';
-if(isset($_GET['product_id'])){
-	$product_id = $_GET['product_id'];
-	$msg = 'You ordered a ' . $products[$product_id] . "<br>";
-}
-
+```
+#######Step 2: create options
+```php
 $opts = '';
 foreach($products as $prod_id=>$prod_name){
 	if($prod_id == $product_id){
@@ -155,8 +151,10 @@ foreach($products as $prod_id=>$prod_name){
 	}
 }
 
- ?>
-
+?>
+#######Step 3: add the html and put options in a select tag & test it 
+#######Step 4: finish the form (action is blank because we're submitting back to ourselves, method is GET. We will get the values from the GET array)
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -167,14 +165,81 @@ foreach($products as $prod_id=>$prod_name){
 
 Pick a product:
 <form action="">
-	 <select name="product_id" id="">
-	 	<?php echo $opts; ?>
-	 </select>
-	 <button>Buy it NOW</button>
- </form>
-<br>
-	<?php echo $msg; ?>
+   <select name="product_id" id="">
+	 <?php echo $opts; ?>
+   </select>
+   <button>Buy it NOW</button>
+</form>
 </body>
 </html>
 ```
- 
+#######Step 5: handle the form submission by:
+########5a: check to see if anything (product_id) is there. This will go right below your products list and above your code from step 2.
+```php
+if(isset($_GET['product_id'])){
+}
+```
+#######5b: set the product_id to a variable with an empty string, then set it to the input we get within the if-statement.
+```php
+$product_id = '';
+
+if(isset($_GET['product_id'])){
+   $product_id = $_GET['product_id'];
+}
+```
+#######5c: create a message that also outputs the product name selected.
+```php
+if(isset($_GET['product_id'])){
+   $product_id = $_GET['product_id'];
+   $msg = "You bought a {$products[$product_id]}";
+}
+```
+#######5d: put the message within html (below or above the form tags)
+```html
+<?php echo $msg ?>
+```
+#######Finally, the code put all together should look like this:
+```php
+<?php 
+$products = [
+    '7897wej2' => 'desk',
+    '2342314asdf' => 'chair',
+    '23314sdf' => 'boat',
+    '734253eah' => 'car'
+];
+
+$product_id = '';
+
+if(isset($_GET['product_id'])){
+	$product_id = $_GET['product_id'];
+	$msg = "You bought a {$products[$product_id]}";
+}
+
+$opts = '';
+foreach($products as $key => $product){
+	$opts .= "<option value=\"$key\">$product</option>";
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>php ex4</title>
+</head>
+<body>
+
+Pick a product:
+<form action="">
+	<select name="product_id" id="">
+		<?php echo $opts ?>
+	</select>
+	<button>Buy it NOW!</button>
+</form>
+	<br>
+	<?php echo $msg ?>
+</body>
+</html>
+```
+
+
