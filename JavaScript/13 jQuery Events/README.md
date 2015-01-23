@@ -22,3 +22,7 @@ JS: 13.3     | Explain the `$(this)` keyword in the context of an event callback
 - [jQuery Events](http://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners/jQuery-Events-16)
 - [jQuery Callbacks](http://www.w3schools.com/jquery/jquery_callback.asp)
 - __jQuery.com__ [jQuery Event Basics](http://learn.jquery.com/events/event-basics/)
+
+## Code Example
+
+See a basic [task list](task-list) maker
