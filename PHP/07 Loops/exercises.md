@@ -37,19 +37,34 @@ http://php.net/ref.strings
 http://php.net/manual/en/ref.array.php
 
 ## Exercises w/ $colors:
-- create an ordered list (in HTML) of all the colors
--  create and unordered list (in HTML) of all the colors that includes the **1-based** number of the color, example output html below
-```html
+1. create an ordered list (in HTML) of all the colors
+1.  create and unordered list (in HTML) of all the colors that includes the **1-based** number of the color, example output html below
+  
+  ```html
+  <ul>
+    <li> color 1: red</li>
+    <li> color 2: green</li>
+    <li> color 3: blue</li>
+    ... all the other colors
+  </ul>
+  ```
+1. create a dropdown list of all the colors
+1. add a form to the above dropdown so that when it is submitted the resulting page first displays the selected color, if any, and then the dropdown box. make sure the URL parameter being passed is the index of the color, not the color name itself
+1. modify the above so that it only includes colors whose name is **longer** than 4 characters
+1. as above, but instead of name length, include only colors whose index is odd
+1. create a **new** array that has only colors whose name is 4 characters or less
+1. create a **new** array that has only colors whose index is a multiple of 3
+
+
+## Exercises with $users
+**Note: In this set of exercises, "index" and "user_id" are used synonymously**
+- create an unordered list (in HTML) of all users whose name starts with "m", example output below:
+```php
 <ul>
-  <li> color 1: red</li>
-  <li> color 2: green</li>
-  <li> color 3: blue</li>
-  ... all the other colors
+  <li>user #3: mary</li>
+  <li>user #13: mark</li>
+  ...etc
 </ul>
 ```
-- create a dropdown list of all the colors
-- add a form to the above dropdown so that when it is submitted the resulting page first displays the selected color, if any, and then the dropdown box. make sure the URL parameter being passed is the index of the color, not the color name itself
-- modify the above so that it only includes colors whose name is **longer** than 4 characters
-- as above, but instead of name length, include only colors whose index is odd
-
+- create a dropdown
 ## More to come...
