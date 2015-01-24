@@ -1,5 +1,9 @@
 # Loop and Array Exercises
 
+Below are 4 sets of exercises that will build and tone your loopius-maximus muscles. They are meant to be done in order with each one building off of concepts from the previous. That said, you can do them in any order you want. 
+
+**NOTE:** Each exercise stands on it own. Don't try to have one chunk of code handle multiple exercises unless you are just trying to make life extra difficult. ;-)
+
 ## Use these arrays for the exercises:
 ```php
 $colors = ['red', 'green', 'blue', 'yellow', 'pink', 'orange', 'purple', 'black', 'lime', 'teal'];
