@@ -58,13 +58,53 @@ http://php.net/manual/en/ref.array.php
 
 ## Exercises with $users
 **Note: In this set of exercises, "index" and "user_id" are used synonymously**
-- create an unordered list (in HTML) of all users whose name starts with "m", example output below:
+1. create an unordered list (in HTML) of all users whose name starts with "m", example output below:
+
+  ```php
+  <ul>
+    <li>user #3: mary</li>
+    <li>user #13: mark</li>
+    ...etc
+  </ul>
+  ```
+1. create a dropdown of the users such that the user-id is what will be submitted (not the user name)
+1. wrap a form around the above dropdown and make it so it prints the user name when the form is submitted
+2. as above, but only show users whose name starts with 'b' and the length is less than 4 or greater than 4
+3. as above, but now make it so the dropdown has the previously selected user pre-selected (if there is one)
+4. create a **new** array that has **only** names that start with 'r' **and** has the keys and values reversed. So it would be the same as if you created the array as below:
+
+  ```php
+  $users2 = ['linda' => 2,'luke' => 32,'laura' => 15,'lance' => 20];
+  ```
+  
+## Exercises with $pet, it's gonna start getting trickier, but it's all the same stuff
+1. create an unordered list that has each key/value pair as a list item
+2. create a form that has a text input for each key in the array. Note you are going to create the text inputs inside a loop, not as static html.
+3. update above so that the value from the array is displayed as the value inside the text input (this is basically an "edit" page)
+
+## Exercises with strings
+With all these exercises you will reimplement the functionality of a standard PHP string function. Don't worry about properly making a function, just worry about the code to do it. Below is an example:
 ```php
-<ul>
-  <li>user #3: mary</li>
-  <li>user #13: mark</li>
-  ...etc
-</ul>
+// implement the PHP implode function (http://php.net/function.implode)
+$glue = ','; // or other seperator
+$pieces = $colors; // or other test array
+$output_string = '';
+foreach($pieces as $idx => $piece) {
+  if($idx > 0) {
+    $output_string .= $glue;
+  }
+  $output_string .= $piece;
+}
 ```
-- create a dropdown
+
+Feel free to use any of the other standard PHP functions **except** the one you are reimplementing. So you can't use strrev() to reimplement strrev()
+
+1. get the n'th character out of a string so the 9th character of "it's a small world" would be 'm'
+2. reimplement the strlen() function
+3. reimplement the substr() function
+4. reimplement the strrev() function
+5. reimplement the strpos() function
+
+
+
 ## More to come...
