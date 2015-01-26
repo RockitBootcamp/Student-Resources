@@ -22,6 +22,8 @@ PHP: 6.6     | Use basic PHP array functions
              | &bull; `array_push()`
              | &bull; `array_pop()`
              | &bull; `array_key_exists()`
+             | &bull; `implode()`
+             | &bull; `explode()`
 
 ## Resources
 - __W3 Schools__ [PHP Arrays](http://www.w3schools.com/php/php_arrays.asp) 
