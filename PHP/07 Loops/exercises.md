@@ -62,6 +62,7 @@ http://php.net/manual/en/ref.array.php
 
 ## Exercises with $users
 **Note: In this set of exercises, "index" and "user_id" are used synonymously**
+
 1. create an unordered list (in HTML) of all users whose name starts with "m", example output below:
 
   ```php
