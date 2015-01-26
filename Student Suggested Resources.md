@@ -60,6 +60,7 @@
   
 - CSS-Tricks
   - Child and sibling selectors: http://css-tricks.com/child-and-sibling-selectors/
+  - Box Sizing: http://css-tricks.com/box-sizing/ 
 
 ####PHP
 - beginner to intermediate exercises for PHP
@@ -74,7 +75,20 @@
 - regular expressions practice
   - https://www.regex101.com/
   - http://www.regexr.com/
+- Scratch: Create stories, games, and animations
+  - http://scratch.mit.edu/
+- Identify Fonts: https://www.myfonts.com/WhatTheFont/
 
 ####Articles
 - Apple's new programming language is growing like mad
   - http://www.wired.com/2015/01/redmonk-swift/
+
+####HTML & CSS
+- CSS-Tricks
+  - Box Sizing: http://css-tricks.com/box-sizing/
+- CSS: Clearing Floats with Overflow
+  - http://webdesignerwall.com/tutorials/css-clearing-floats-with-overflow
+
+####Github
+- Setting your Github config email to your Github profile to associate your commits with your accounts
+  - https://help.github.com/articles/setting-your-email-in-git/ 
