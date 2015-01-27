@@ -39,11 +39,15 @@ CSS:
 	overflow: hidden;
 }
 
+/* another way to do this is to not use `overflow: hidden;` and include the pseudo `::after` as follows.
+
 .container::after {
 	content: '';
 	display: block;
 	clear: both;
 }
+
+*/
 
 .container .graphic {
 	float: left;
