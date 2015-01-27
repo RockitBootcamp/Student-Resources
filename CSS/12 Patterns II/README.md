@@ -15,3 +15,7 @@ CSS: 12.4    | Demonstrate Tabs with...
 
 ## Resources
 - n/a
+
+## Code Example
+
+- [Lightbox](lightbox)
