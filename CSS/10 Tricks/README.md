@@ -13,4 +13,4 @@ CSS: 10.5    | Demonstrate multiple backgrounds
 CSS: 10.6    | Demonstrate the `transform` property with `translate`
 
 ## Resources
-- n/a
+__Video:__ [Lobotomized Owl](https://www.youtube.com/watch?v=w4skJXB03Ho)
