@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: yellow;
+	overflow: hidden;
+	width: 500px;
+	padding: 5px;
+}
+
+.tile {
+	background-color: green;
+	width: calc(25% - 10px);
+	height: 60px;
+	float: left;
+	margin: 5px;
+}
