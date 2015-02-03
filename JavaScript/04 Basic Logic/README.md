@@ -6,8 +6,7 @@ JS: 4.1      | Demonstrate `if` and `if else` statements
 JS: 4.2      | Demonstrate use of logic operators
              | &bull; `&&` AND operator
              | &bull; `||` OR operator
-JS: 4.3      |
-             | &bull; Demonstrate use of comparison operators
+JS: 4.3      |Demonstrate use of comparison operators
              | &bull; `==` Equal value
              | &bull; `===` Equal value and type
              | &bull; `!=` Not equal value
