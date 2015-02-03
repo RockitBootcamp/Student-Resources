@@ -20,6 +20,7 @@ Web: 4.4     | Demonstrate character classes
              | &bull; `\d` Digit Character   
 
 ## Resources
-- [Regular Expression Tester](http://rubular.com/)
+- [10 Common Regular Expressions](https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149)
+- [Regular Expression Tester](https://www.regex101.com/)
 - [Regular Expression Cheat Sheet](bit.ly/1BffjFC)
 - __PHP.net__ [Preg Match](http://php.net/manual/en/function.preg-match.php)
