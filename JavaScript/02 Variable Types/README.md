@@ -12,6 +12,7 @@ JS: 2.2      | Define special data types
 JS: 2.3      | Explain Type Casting
              | &bull; Implicit Type Casting
              | &bull; Explicit Type Casting
+JS: 2.4      |Demonstrate definition of local and global variables
 
 ## Resources
 
