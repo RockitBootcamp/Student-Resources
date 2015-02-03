@@ -4,7 +4,7 @@ Identifier   | Objectives
 -------------|------------
 JS: 5.1      | Demonstrate using built-in basic function names
              | &bull; Function Name
-             | -        example: parseInt()
+             | &nbsp;&nbsp;&nbsp;&nbsp;example: parseInt()
              | &bull; Arguments
              | &bull; Return Value
 JS: 5.2      | Demonstrate using function calls as arguments
