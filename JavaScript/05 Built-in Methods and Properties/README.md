@@ -2,12 +2,13 @@
 
 Identifier   | Objectives
 -------------|------------
-JS: 5.1      | Demonstrate basic function usage syntax
+JS: 5.1      | Demonstrate using built-in basic function names
              | &bull; Function Name
+             | -        example: parseInt()
              | &bull; Arguments
              | &bull; Return Value
 JS: 5.2      | Demonstrate using function calls as arguments
-             | &bull; `x = foo(bar());`
+             | &bull; `x = parseInt(foo());`
 JS: 5.3      | Use basic JavaScript string functions
              | &bull; `.length`
              | &bull; `.charAt()`
