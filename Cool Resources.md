@@ -59,6 +59,8 @@
 - ["Full Screen Sections" with CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
 - [Understanding Web UI Visual Hierarchy](http://www.awwwards.com/understanding-web-ui-visual-hierarchy.html)
 - [Label Placement on Forms](http://css-tricks.com/label-placement-on-forms/)
+- [7 Rules for creating gorgeous UI Part I](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)
+- [7 Rules for creating gorgeous UI Part II](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
 
 ## Just Cool Things
 - [Live Reload](http://www.ryanthaut.com/guides/sublime-text-3-markdown-and-live-reload/)
