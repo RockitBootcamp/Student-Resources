@@ -3,12 +3,11 @@
 Identifier   | Objectives
 -------------|------------
 JS: 5.1      | Demonstrate using built-in basic function names
-             | &bull; Function Name
-             | &nbsp;&nbsp;&nbsp;&nbsp;example: parseInt()
-             | &bull; Arguments
-             | &bull; Return Value
-JS: 5.2      | Demonstrate using function calls as arguments
-             | &bull; `x = parseInt(foo());`
+             | &bull; How to call built-in functions
+             | &bull; How to pass arguments
+             | &bull; How to accept a return value
+JS: 5.2      | Demonstrate nesting function calls
+             | &bull; `x = text.substr(0, parseInt('2'));`
 JS: 5.3      | Use basic JavaScript string functions
              | &bull; `.length`
              | &bull; `.charAt()`
