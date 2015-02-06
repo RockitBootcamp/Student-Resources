@@ -92,3 +92,62 @@
 ####Github
 - Setting your Github config email to your Github profile to associate your commits with your accounts
   - https://help.github.com/articles/setting-your-email-in-git/ 
+
+###Week 3
+
+####General
+- OSI Model (Open Systems Interconnection Model)
+  - https://www.youtube.com/watch?v=ekKDoBhoH-U
+- Free programming courses with `stanford engineering everywhere`
+  - http://see.stanford.edu/default.aspx
+- HexChat, an IRC (internet relay chat) that is supported and free
+  - https://hexchat.github.io/downloads.html
+- Telegram Messenger, a messaging app that focuses on speed and security
+  - https://telegram.org/
+
+####Articles
+- New Linux Bug Could Cause "a Lot of Collateral Damage on the Internet"
+  - http://gizmodo.com/new-linux-bug-could-cause-a-lot-of-collateral-damage-o-1682234096?utm_campaign=socialflow_gizmodo_facebook&utm_source=gizmodo_facebook&utm_medium=socialflow
+- 8 Regular Expressions You Should Know
+  - http://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149
+
+####HTML & CSS
+- Lobotomized Owl `* + *`
+  - http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+
+####PHP
+- PHP beginners tutorial 30 - foreach loop (10 min)
+  - https://www.youtube.com/watch?v=FMOKJ3QWKvM&list=PL41lfR-6DnOphKZdzukiMDU5B6i_JLY8w
+- Head First Design Patterns (from it-ebooks.info)
+  - http://www.sws.bfh.ch/~amrhein/ADP/HeadFirstDesignPatterns.pdf
+
+#####Practice Problem
+```ssh
+Practice Carwash
+You are a carwash attendant with a bucket of soap and need to wash all the dirty cars while keeping 
+track of how much soap you have left. 
+Create a Vehicle class that has properties `size` and `isDirty`. 
+Create an Attendant class.
+Add a getSoapAmount method to `Attendant` that returns how much soap is left.
+Add a wash method to `Attendant` that takes a vehicle that is dirty, wash it, and decrease your
+soap amount based on vehicle size(10%).
+Change `isDirty` to clean if washed.
+```
+
+###Week 4
+
+####Articles
+- Apple promises $2 billion command center in Mesa
+  - http://www.azcentral.com/story/money/business/2015/02/02/apple-bring-command-center-mesa/22756845/
+- The Techies Who Are Hacking Education by Homeschooling Their Kids
+  - http://www.wired.com/2015/02/silicon-valley-home-schooling/
+- The One Emotion That Really Hurts Your Brain
+  - https://www.psychologytoday.com/blog/fulfillment-any-age/201407/the-one-emotion-really-hurts-your-brain
+
+####General
+- Free eBooks to learn a new programming language
+  - http://lifehacker.com/grab-24-free-ebooks-to-learn-a-new-programming-language-1683499328
+- Learn Which Programming Language to Choose With This Infographic (including which ones make more money)
+  - http://lifehacker.com/learn-which-programming-language-to-choose-with-this-in-1669612111
+- Test your regular expression
+  - https://www.regex101.com/
