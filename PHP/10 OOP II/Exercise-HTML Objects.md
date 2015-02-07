@@ -85,7 +85,9 @@ Then down in the HTML section use it like this:
 <p>You ought to check the awesome articles at <?php echo $a_tag->render(); ?></p>
 ```
 
-At any point during this exercise, if you find that you are putting repetitive functionality in your sub-classes I encourage you to stop and see if it would make sense to move that functionality up to the parent class. 
+### Notes:
+- At any point during this exercise, if you find that you are putting repetitive functionality in your sub-classes I encourage you to stop and see if it would make sense to move that functionality up to the parent class.
+- Make sure that you are using your classes in a test page and verifying that the correct HTML is being produced and that it looks correct in the browser.
 
 Ready to get at it?
 
@@ -106,6 +108,11 @@ At this point you will have probably noticed that there are some similarities be
 
 ## Challenge #4: Create subclasses of Input for different input types: radio, checkbox, password, email, etc...
 While all of these inputs are created with an "input" tag, some of them behave similarly and some of them don't. Create some InputTag subclasses to take into account these similarities and differences.
+
+## Challenge #5: Update the HtmlElement class to handle the class and id attributes
+
+## Challenge #6: Keep going...
+
 
 
 
