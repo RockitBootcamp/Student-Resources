@@ -117,8 +117,8 @@ WHERE id = 1
 
 Lets assume the above SQL statement was ran against this table:
 
-id|name|email|password|date_added
---|----|-----|--------|----------
+id | name | email | password | date_added
+---|------|-------|----------|----------
 1|brad|brad@aol.com|cssguy|2015-01-11
 2|daniel|daniel@msn.com|thegreathunter!|2015-01-19
 3|kris|kris@yahoo.com|ilikepizza|2015-01-21
