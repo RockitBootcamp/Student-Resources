@@ -127,6 +127,6 @@ This says "Select all information about users where the user table's id column i
 
 name | email
 -----|------
-brad |a@b.com
+brad |brad@aol.com
 
 The `user` table has many more columns and rows, but we're only asking for `name` and `email` column of the row that has an `id` of `1`
