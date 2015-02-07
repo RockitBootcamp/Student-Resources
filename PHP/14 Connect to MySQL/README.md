@@ -77,39 +77,51 @@ try {
 
 ### Executing SQL
 
-Executing an SQL Query is a two step process. First prepare a statement handler by passing an SQL statement into the `prepare` method of our link:
+For the next few examples, lets assume a database table that looks like this:
 
-```php
-$statement = $link->prepare('SELECT * FROM user');
-```
-
-Then execute the statement and assign the return value to a new variable (let's call it `$results` for our example):
-
-```php
-$results = $statement->execute();
-```
-
-`$results` is kind of like an array, but slightly more complicated. `$results` is actually an object which has a method called `fetch()`. The first time the `fetch` method is called, the `$results` will return the first row of results. The second time it's called, the second row results will be returned. You can call `fetch` as many times as you like, but when there are no more results to return, `fetch` will return `false`. 
-
-This makes it ideal to use in a while loop. Often times we won't know how many results we'll get back from our SQL statement. Let's see what happens when we write this code:
-
-```php
-while ($row = $results->fetch()) {
-	
-}
-```
-
-Remember how `while` loops work? They keep executing until the condition is `false`. That's perfect because `$results->fetch()` will return `false` after it has no more results to return to you. So before it runs out of results, it will assign our row of results to the `$row` variable. Here's the best part, the `$row` variable is a simple associative array of our row.
-
-Here's the whole thing in action. Let's imagine we have a user table with this data:
-
-user_id | name | Email
+user_id | name | email
 --------|------|------
 1|Brad|brad@aol.com
 2|Daniel|daniel@msn.com
 3|Kris|kris@yahoo.com
 
-Assuming we already have a `$link` established, let's query the database for all user's names and output them to the browser:
+Executing an SQL Query takes some steps. First prepare a statement handler by passing an SQL statement into the `prepare` method of our link:
+
+```php
+$statement = $link->prepare('SELECT * FROM user');
+```
+
+Then execute the statement
+
+```php
+$statement->execute();
+```
+
+Then fetch all of the data from the executed query and assign it to our `$results` variable.
+
+```php
+$results = $statement->fetchAll();
+```
+
+The `$results` variable at this point is an array of associative arrays. It's basically like this:
+
+```php
+$results = [
+	['id' => 1, name' => 'Brad', 'email' => 'brad@aol.com'],
+	['id' => 2, name' => 'Daniel', 'email' => 'daniel@msn.com'],
+	['id' => 3, name' => 'Kris', 'email' => 'kris@yahoo.com']
+]
+```
+
+We already know how to work with arrays right? So now we can loop over the array to get the contents with a `foreach` loop:
+
+```php
+foreach ($result as $row) {
+	echo $row['name'];	
+}
+```
+
+Here's the whole thing in action. Assuming we already have a `$link` established, let's query the database for all user's names and output them to the browser:
 
 ```php
 try {
@@ -118,19 +130,20 @@ try {
 	$statement = $link->prepare('SELECT * FROM user');
 
 	// Execute the statement
-	$results = $statement->execute();
+	$statement->execute();
 
 } catch (PDOException $e) {
 	die($e->getMessage());
 }
 
 // Loop over the results
-while ($row = $results->fetch()) {
-	echo $row['name'] . ', ';
+$results = $statement->fetchAll();
+foreach ($result as $row) {
+	echo $row['name'];	
 }
 ```
 
-> The output would be `Brad, Daniel, Kris`
+> The output would be `Brad, Daniel, Kris,`
 
 Notice that the `prepare` and `execute` code must also be within a try / catch because they could throw a `PDOException`. It doesn't have to be the same try / catch statement as the connection, as long as the `$link` variable is in our scope.
 

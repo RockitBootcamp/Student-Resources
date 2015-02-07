@@ -13,7 +13,7 @@ MySQL: 2.4   | Use `INSERT` syntax
 MySQL: 2.5   | Use `SELECT` syntax
 MySQL: 2.6   | Use `WHERE` syntax
 MySQL: 2.7   | Use `UPDATE` syntax
-MySQL: 2.7   | Use `DELETE` syntax
+MySQL: 2.8   | Use `DELETE` syntax
 
 ## Resources
 - __W3 Schools__ [Create MySQL Tables](http://www.w3schools.com/php/php_mysql_create_table.asp)
