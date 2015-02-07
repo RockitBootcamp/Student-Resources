@@ -121,7 +121,7 @@ id | name | email | password | date_added
 ---|------|-------|----------|----------
 1|brad|brad@aol.com|cssguy|2015-01-11
 2|daniel|daniel@msn.com|thegreathunter!|2015-01-19
-3|kris|kris@yahoo.com|ilikepizza|2015-01-21
+3|kris|kris@yahoo.com|14.1rocks|2015-01-21
 
 This says "Select all information about users where the user table's id column is 1". Note that the `name`, `email`, and `id` columns in this statement are all from the user table. The `WHERE` clause reduces the number of results we get back by saying we only want records that match the criteria given in the `WHERE` clause:
 
