@@ -255,7 +255,7 @@ try {
 	];
 	
 	// Execute the statement
-	$results = $statement->execute($sql_values);
+	$statement->execute($sql_values);
 
 } catch (PDOException $e) {
 	die($e->getMessage());
