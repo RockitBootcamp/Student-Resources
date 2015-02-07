@@ -79,8 +79,8 @@ try {
 
 For the next few examples, lets assume a database table that looks like this:
 
-user_id | name | email
---------|------|------
+id | name | email
+---|------|------
 1|Brad|brad@aol.com
 2|Daniel|daniel@msn.com
 3|Kris|kris@yahoo.com
