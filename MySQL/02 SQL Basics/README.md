@@ -103,3 +103,30 @@ Like many languages, SQL has reserved words. "Select", for instance, is one of t
 SELECT `count` FROM `select`
 ```
 
+This is a silly example but it illustrates our point. If you want to have a table called "select" and a column called "count" (which is also a reserved word), you would have to use back ticks or you'll confuse the SQL parser. Some companies might encourage always using back ticks no matter what, but many are okay with using them only if necessary. 
+
+### `WHERE`
+
+By default, `SELECT` wants to grab as much information as possible. If you do `SELECT * FROM USER`, you can expect to get every record from the user table even if there are millions. The `WHERE` clause allows us to reduce the amount of data we want back by asking for more specific data. For instance:
+
+```sql
+SELECT name, email
+FROM user
+WHERE id = 1
+```
+
+Lets assume the above SQL statement was ran against this table:
+
+id|name|email|password|date_added
+--|----|-----|--------|----------
+1|brad|brad@aol.com|cssguy|2015-01-11
+2|daniel|daniel@msn.com|thegreathunter!|2015-01-19
+3|kris|kris@yahoo.com|ilikepizza|2015-01-21
+
+This says "Select all information about users where the user table's id column is 1". Note that the `name`, `email`, and `id` columns in this statement are all from the user table. The `WHERE` clause reduces the number of results we get back by saying we only want records that match the criteria given in the `WHERE` clause:
+
+name | email
+-----|------
+brad |a@b.com
+
+The `user` table has many more columns and rows, but we're only asking for `name` and `email` column of the row that has an `id` of `1`
