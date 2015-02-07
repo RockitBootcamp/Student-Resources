@@ -97,7 +97,7 @@ Then execute the statement
 $statement->execute();
 ```
 
-Then fetch all of the data from the executed query and assign it to our `$results` variable.
+Then fetch all of the data from the executed query and assign it to a variable. For this example we'll just call it `$results`.
 
 ```php
 $results = $statement->fetchAll();
