@@ -123,10 +123,20 @@ id | name | email | password | date_added
 2|daniel|daniel@msn.com|thegreathunter!|2015-01-19
 3|kris|kris@yahoo.com|14.1rocks|2015-01-21
 
-This says "Select all information about users where the user table's id column is 1". Note that the `name`, `email`, and `id` columns in this statement are all from the user table. The `WHERE` clause reduces the number of results we get back by saying we only want records that match the criteria given in the `WHERE` clause:
+This says "Select all information about users where the user table's id column is 1". Note that the `name`, `email`, and `id` columns in this statement are all from the user table. The `WHERE` clause reduces the number of results we get back by saying we only want records that match the criteria given in the `WHERE` clause
+
+This is the "result" of the above SQL statement:
 
 name | email
 -----|------
 brad |brad@aol.com
 
-The `user` table has many more columns and rows, but we're only asking for `name` and `email` column of the row that has an `id` of `1`
+The `user` table has many more columns and rows, but we're only asking for `name` and `email` column of the row that has an `id` of `1`.
+
+The "result" looks like a table right? It's actually not a table rather a temporary result set. Think of it as an in-memory, temporary, representation of your SQL statement. So how do you use it? We'll talk about how to connect to the database in another guide, but just to quench your thirst for knowledge, imagine that we'll be able to convert this result set into an associative array. So imagine the array your given will be like this in PHP:
+
+```php
+echo $row['name']; // output's brad
+```
+
+> Where in this case, `$row` is the associative array that holds our SQL results
