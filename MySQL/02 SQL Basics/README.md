@@ -21,7 +21,6 @@ MySQL: 2.7   | Use `DELETE` syntax
 - __W3 Schools__ [Select Data](http://www.w3schools.com/php/php_mysql_select.asp)
 - __W3 Schools__ [Update Data](http://www.w3schools.com/php/php_mysql_update.asp)
 - __W3 Schools__ [Delete Data](http://www.w3schools.com/php/php_mysql_delete.asp)
-- [MySQL 101 - Retrieving data: SELECT and JOIN](http://blogs.sakienvirotech.com/index.php/random/2011/09/09/mysql-101-retrieving-data-select)
 
 ## Extra Study
 
@@ -95,3 +94,12 @@ SELECT
 	age
 FROM user;
 ```
+
+### Reserved words
+
+Like many languages, SQL has reserved words. "Select", for instance, is one of them. If you use a reserved word as a table name or column name, you might get into trouble. You can use reserved words as long as you put single back ticks around them:
+
+```sql
+SELECT `count` FROM `select`
+```
+
