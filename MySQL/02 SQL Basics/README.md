@@ -160,4 +160,4 @@ There are a few things going on here:
 1. Notice that in SQL, we only use one equal sign to do a comparison operator, which is different from the common `==` you would see in most programming languages.
 1. And lastly, notice that because 'brad' is a string of text, it must be in quotes.
 
-Also, did you notice that this SQL statement matches no records from our table? There are rows where `id` is bigger than `2`. And there are rows where `name` is `brad`. But there are no rows where both of these conditions are met at the same time. It is possible for your SQL statement to produce no results as in this case. Sometimes that's okay.
+Also, did you notice that this SQL statement matches no records from our table? There are rows where `id` is bigger than `2`, and there are rows where `name` is `brad`, but there are no rows where both of these conditions are met at the same time. It is possible for your SQL statement to produce no results as in this case. Sometimes that's okay.
