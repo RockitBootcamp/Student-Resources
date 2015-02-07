@@ -136,8 +136,28 @@ The `user` table has many more columns and rows, but we're only asking for `name
 The "result" looks like a table right? It's actually not a table but rather a temporary result set. Think of it as an in-memory, temporary, representation of your SQL statement. So how do you use it? We'll talk about how to connect to the database in another guide, but just to quench your thirst for knowledge, imagine that we'll be able to convert this result set into an associative array. So imagine the array your given will be like this in PHP:
 
 ```php
-echo $row['name']; // output's brad
+echo $row['name'];  // output's brad
 echo $row['email']; // output's brad@aol.com
 ```
 
 > Where in this case, `$row` is the associative array that holds our SQL results
+
+#### `WHERE ... AND ...`
+
+If we need to reduce the number of results we want based on two criteria, then we need to add `AND` to the `WHERE` clause:
+
+```sql
+SELECT name, email
+FROM user
+WHERE id > 2
+AND name = 'brad'
+```
+
+There are a few things going on here:
+
+1. Notice that we put the `AND` part on its own line. That's good for beautification
+1. Notice that we can use `>` operators similar to most programming languages.
+1. Notice that in SQL, we only use one equal sign to do a comparison operator, which is different from the common `==` you would see in most programming languages.
+1. And lastly, notice that because 'brad' is a string of text, it must be in quotes.
+
+Also, did you notice that this SQL statement matches no records from our table? There are no records where the `id` is bigger than `2` and on that same record the `name` is `brad`. It is possible for your SQL statement to produce no results. Sometimes that's okay.
