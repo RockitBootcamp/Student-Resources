@@ -12,8 +12,8 @@ PHP: 14.5    | Demonstrate prepared statements
              | &bull; By calling `bindValue()` for each value
 
 ## Resources
-- __PHP.net__ [MySQL Connections](http://php.net/manual/en/mysqli.quickstart.connections.php)
-- __PHP.net__ [MySQL Query](http://php.net/manual/en/mysqli.query.php)
+- [Why you should be using PDO](https://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059)
+- [PHP Database access, are you doing it correctly?](https://code.tutsplus.com/tutorials/php-database-access-are-you-doing-it-correctly--net-25338)
 
 ## Extra Study
 
