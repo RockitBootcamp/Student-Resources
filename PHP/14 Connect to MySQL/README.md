@@ -107,10 +107,10 @@ The `$results` variable at this point is an array of associative arrays. It's ba
 
 ```php
 $results = [
-	['id' => 1, name' => 'Brad', 'email' => 'brad@aol.com'],
-	['id' => 2, name' => 'Daniel', 'email' => 'daniel@msn.com'],
-	['id' => 3, name' => 'Kris', 'email' => 'kris@yahoo.com']
-]
+	['id' => 1, 'name' => 'Brad', 'email' => 'brad@aol.com'],
+	['id' => 2, 'name' => 'Daniel', 'email' => 'daniel@msn.com'],
+	['id' => 3, 'name' => 'Kris', 'email' => 'kris@yahoo.com']
+];
 ```
 
 We already know how to work with arrays right? So now we can loop over the array to get the contents with a `foreach` loop:
