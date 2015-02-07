@@ -147,9 +147,7 @@ foreach ($result as $row) {
 
 Notice that the `prepare` and `execute` code must also be within a try / catch because they could throw a `PDOException`. It doesn't have to be the same try / catch statement as the connection, as long as the `$link` variable is in our scope.
 
-The `while` loop will iterate exactly three times because our SQL statement found three results. In every iteration, the `$row` variable is filled with an associative array representing each row in our results. The first row that was returned was the record for "Brad". Because we selected everything in that row (with the `*` in SQL), we will have each column of the database as a key in our `$row` array.
-
-There's one thing we didn't tell you before because we didn't want to confuse you at that point. Normally you would have to tell each statement that you want to receive it's results in associative array format. That's tedious if you always want associative array data back. So with our connection, we'll need to do one more thing:
+There's one thing we didn't tell you before because we didn't want to confuse you at that point. Normally you would have to tell each statement that you want to `fetchAll()` associative array format. That's tedious if you always want associative array data back. So with our connection, we'll need to do one more thing:
 
 ```php
 try {
