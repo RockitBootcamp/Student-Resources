@@ -180,14 +180,11 @@ try {
 	$statement = $link->prepare('SELECT * FROM user WHERE user_id = ' . $_GET['user_id']);
 
 	// Execute the statement
-	$results = $statement->execute();
+	$statement->execute();
 
 } catch (PDOException $e) {
 	die($e->getMessage());
 }
-
-// Get the row
-$row = $results->fetch();
 ```
 
 Did you notice that instead of typing `5` we're dynamically creating our SQL statement from the URL's GET variables? This is actually a very cool concept if you think about it. We can make "profile" page for users and have one PHP page create the profile of any user simply by passing in the `user_id` into the URL.
@@ -206,14 +203,12 @@ try {
 	$statement->bindValue(':id', $_GET['user_id']);
 
 	// Execute the statement
-	$results = $statement->execute();
+	$statement->execute();
 
 } catch (PDOException $e) {
 	die($e->getMessage());
 }
 
-// Get the row
-$row = $results->fetch();
 ```
 
 Now we're safe. Adding `:id` to our SQL statement creates a "placeholder" which allows us to use `bindValue()` to safely bind the PHP variable to the SQL statement. If the GET variable for `user_id` were `5`, the ultimate SQL statement here would be:
@@ -235,10 +230,6 @@ $statement = $link->prepare('SELECT * FROM user WHERE name = :name AND email = :
 $statement->bindValue(':name', $_GET['name']);
 $statement->bindValue(':email', $_GET['email']);
 ```
-
-#### One Result
-
-On a side note, perhaps you noticed that `$row = $results->fetch()` was not in a while loop in our recent examples? Well, if you're anticipating only one result (because we only want to get user 5), then we don't need the loop. The loop was just there to ask `fetch` to give us more results after the first one.
 
 ### Prepared Statements with Arrays
 
