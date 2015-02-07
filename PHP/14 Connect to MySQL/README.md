@@ -249,7 +249,7 @@ try {
 	$sql_values = [
 		':id' => 4,
 		':name' => 'Brig',
-		':email' => 'email@rockit.com'
+		':email' => 'brig@rockit.com'
 	];
 	
 	// Execute the statement
