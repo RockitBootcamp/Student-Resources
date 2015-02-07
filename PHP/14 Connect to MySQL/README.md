@@ -139,7 +139,7 @@ try {
 // Loop over the results
 $results = $statement->fetchAll();
 foreach ($result as $row) {
-	echo $row['name'];	
+	echo $row['name'] . ', ';	
 }
 ```
 
