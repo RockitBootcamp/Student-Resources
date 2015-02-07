@@ -2,11 +2,14 @@
 
 Identifier   | Objectives
 -------------|------------
-PHP: 14.1    | Demonstrate connecting to a database using PDO
-PHP: 14.2    | Demonstrate catching PDO errors
+PHP: 14.1    | Explain connecting to a database using PDO
+PHP: 14.2    | Explain catching PDO errors
              | &bull; With adding `ERRMODE_EXCEPTION` to the connection
 PHP: 14.3    | Demonstrate executing an SQL query in PDO
-PHP: 14.4    | Demonstrate iterating over results returned from MySQL with PHP
+PHP: 14.4    | Demonstrate iterating over results returned from PDO with PHP
+PHP: 14.5    | Demonstrate prepared statements
+             | &bull; By passing an array into `execute()`
+             | &bull; By calling `bindValue()` for each value
 
 ## Resources
 - __PHP.net__ [MySQL Connections](http://php.net/manual/en/mysqli.quickstart.connections.php)
@@ -66,13 +69,13 @@ By default, PDO isn't very descriptive with it's errors. You can tell PDO to be 
 ```php
 try {
 	$link = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
-	$this->link->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$link->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 	die($e->getMessage());
 }
 ```
 
-### Query
+### Executing SQL
 
 Executing an SQL Query is a two step process. First prepare a statement handler by passing an SQL statement into the `prepare` method of our link:
 
@@ -109,17 +112,152 @@ user_id | name | Email
 Assuming we already have a `$link` established, let's query the database for all user's names and output them to the browser:
 
 ```php
-// Make a PDO statement
-$statement = $link->prepare('SELECT * FROM user');
+try {
 
-// Execute the statement
-$results = $statement->execute();
+	// Make a PDO statement
+	$statement = $link->prepare('SELECT * FROM user');
+
+	// Execute the statement
+	$results = $statement->execute();
+
+} catch (PDOException $e) {
+	die($e->getMessage());
+}
 
 // Loop over the results
 while ($row = $results->fetch()) {
-	echo $row['name'];
+	echo $row['name'] . ', ';
 }
 ```
 
-Note that the loop will iterate exactly three times because our SQL statement would return three results. Also note that with every iteration, the `$row` variable is filled with an associative array representing each row in our results. The first row that was returned was the record for "Brad". Because we selected everything in that row (with the `*` in SQL), we will have each column of the database as a key in our `$row` array.
+> The output would be `Brad, Daniel, Kris`
 
+Notice that the `prepare` and `execute` code must also be within a try / catch because they could throw a `PDOException`. It doesn't have to be the same try / catch statement as the connection, as long as the `$link` variable is in our scope.
+
+The `while` loop will iterate exactly three times because our SQL statement found three results. In every iteration, the `$row` variable is filled with an associative array representing each row in our results. The first row that was returned was the record for "Brad". Because we selected everything in that row (with the `*` in SQL), we will have each column of the database as a key in our `$row` array.
+
+There's one thing we didn't tell you before because we didn't want to confuse you at that point. Normally you would have to tell each statement that you want to receive it's results in associative array format. That's tedious if you always want associative array data back. So with our connection, we'll need to do one more thing:
+
+```php
+try {
+	$link = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
+	$link->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$link->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+	die($e->getMessage());
+}
+```
+
+### Prepared Statements
+
+In the above example, our SQL statement was pretty strait-forward. We were simply selecting all users from the `user` table. More common is to select very specific records, for instance:
+
+```sql
+SELECT *
+FROM user
+WHERE user_id = 5
+```
+
+This SQL statement specifically selects user 5. Okay, it says select all the users that match `user_id` of 5, but as you probably guessed, we'll be setting up our database so `user_id` is unique and only one user will have 5 as their `user_id`. So in actuality, this selects the one and only: user 5.
+
+Let's do this in PDO and make the statement more dynamic:
+
+```php
+try {
+
+	// Make a PDO statement
+	$statement = $link->prepare('SELECT * FROM user WHERE user_id = ' . $_GET['user_id']);
+
+	// Execute the statement
+	$results = $statement->execute();
+
+} catch (PDOException $e) {
+	die($e->getMessage());
+}
+
+// Get the row
+$row = $results->fetch();
+```
+
+Did you notice that instead of typing `5` we're dynamically creating our SQL statement from the URL's GET variables? This is actually a very cool concept if you think about it. We can make "profile" page for users and have one PHP page create the profile of any user simply by passing in the `user_id` into the URL.
+
+There is one caveat however. Dynamically building SQL statements in this way creates the perfect opportunity for hackers to mess with our database. We won't go into the details, but the code above creates an attack vector called an SQL Injection Attack. in other words, the hacker can type anything they want in the URL into the `user_id` GET variable and it will end up in our SQL statement. Again, without going into the details, just know that this is very very dangerous. What we need is a "prepared" statement. In other words, we need PDO to prepare the SQL statement and it's dynamic qualities for us in a safe way.
+
+Let's do this now in the code:
+
+```php
+try {
+
+	// Make a PDO statement
+	$statement = $link->prepare('SELECT * FROM user WHERE user_id = :id');
+
+	// Bind Parameters
+	$statement->bindValue(':id', $_GET['user_id']);
+
+	// Execute the statement
+	$results = $statement->execute();
+
+} catch (PDOException $e) {
+	die($e->getMessage());
+}
+
+// Get the row
+$row = $results->fetch();
+```
+
+Now we're safe. Adding `:id` to our SQL statement creates a "placeholder" which allows us to use `bindValue()` to safely bind the PHP variable to the SQL statement. If the GET variable for `user_id` were `5`, the ultimate SQL statement here would be:
+
+```sql
+SELECT *
+FROM user
+WHERE user_id = 5
+```
+
+Note that there is nothing special about the term `:id`. You can make any variable name you want as long as it starts with `:`. You can also bind as many variables as necessary. Let's do it again so you can see the same concept with different SQL:
+
+
+```php
+// Make a PDO statement
+$statement = $link->prepare('SELECT * FROM user WHERE name = :name AND email = :email');
+
+// Bind Parameters
+$statement->bindValue(':name', $_GET['name']);
+$statement->bindValue(':email', $_GET['email']);
+```
+
+#### One Result
+
+On a side note, perhaps you noticed that `$row = $results->fetch()` was not in a while loop in our recent examples? Well, if you're anticipating only one result (because we only want to get user 5), then we don't need the loop. The loop was just there to ask `fetch` to give us more results after the first one.
+
+#### Prepared Statements Easier
+
+Often times we'll have many variables to bind and using `bindValue` can be tedious. Let's assume we're making an insert statement like this:
+
+```sql
+INSERT INTO user (user_id, name, email) VALUES (4, 'Brig', 'brig@rockit.com')
+```
+
+This is the end-goal SQL statement we want. But in PHP we'll need to make it dynamically which means we'll need to bind parameters for the values. But this time let's use an associative array instead of using `bindValue()`:
+
+```php
+try {
+
+	// Make a PDO statement
+	$statement = $link->prepare('INSERT INTO user (user_id, name, email) VALUES (:id, :name, :email)');
+
+	// SQl Values
+	$sql_values = [
+		':id' => 4,
+		':name' => 'Brig',
+		':email' => 'email@rockit.com'
+	];
+	
+	// Execute the statement
+	$results = $statement->execute($sql_values);
+
+} catch (PDOException $e) {
+	die($e->getMessage());
+}
+```
+
+It turns out that you can pass an associative array into the `execute` method which will look for the keys to match the bound parameters of the SQL statements.
