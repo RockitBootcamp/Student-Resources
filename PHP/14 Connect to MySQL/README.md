@@ -148,7 +148,7 @@ try {
 }
 ```
 
-### Prepared Statements
+### Prepared Statements with `bindValue()`
 
 In the above example, our SQL statement was pretty strait-forward. We were simply selecting all users from the `user` table. More common is to select very specific records, for instance:
 
@@ -229,7 +229,7 @@ $statement->bindValue(':email', $_GET['email']);
 
 On a side note, perhaps you noticed that `$row = $results->fetch()` was not in a while loop in our recent examples? Well, if you're anticipating only one result (because we only want to get user 5), then we don't need the loop. The loop was just there to ask `fetch` to give us more results after the first one.
 
-#### Prepared Statements Easier
+### Prepared Statements with Arrays
 
 Often times we'll have many variables to bind and using `bindValue` can be tedious. Let's assume we're making an insert statement like this:
 
