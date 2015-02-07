@@ -39,13 +39,11 @@ In our example, we used `$link` but you might see other examples elsewhere that 
 
 ```php
 $link = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
-
 $db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
-
 $connection = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
 ```
 
-Just note that it doesn't matter technically what variable name you use. And the end, all these variables are the same thing since they were created with `new PDO()`.
+Just note that it doesn't matter technically what variable name you use. In the end, all these variables are the same thing since they were created with `new PDO()`.
 
 ### PDO Errors
 
@@ -107,3 +105,21 @@ user_id | name | Email
 1|Brad|brad@aol.com
 2|Daniel|daniel@msn.com
 3|Kris|kris@yahoo.com
+
+Assuming we already have a `$link` established, let's query the database for all user's names and output them to the browser:
+
+```php
+// Make a PDO statement
+$statement = $link->prepare('SELECT * FROM user');
+
+// Execute the statement
+$results = $statement->execute();
+
+// Loop over the results
+while ($row = $results->fetch()) {
+	echo $row['name'];
+}
+```
+
+Note that the loop will iterate exactly three times because our SQL statement would return three results. Also note that with every iteration, the `$row` variable is filled with an associative array representing each row in our results. The first row that was returned was the record for "Brad". Because we selected everything in that row (with the `*` in SQL), we will have each column of the database as a key in our `$row` array.
+
