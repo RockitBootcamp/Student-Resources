@@ -8,9 +8,9 @@ JS: 10.1     | Explain the purpose of making your own functions:
              | &bull; Making shorter chunks of code
 JS: 10.2     | Demonstrate proper function creation syntax
              | &bull; `function foo() {}` Function Declaration
-             | &bull; `var foo = new function() {}` Function Expression
+             | &bull; `var foo = function() {}` Function Expression
 JS: 10.3     | Explain and demonstrate the return statement
-             | &bull; No return means "void"
+             | &bull; If nothing is returned, then "undefined" will be returned
 JS: 10.4     | Explain function "hoisting" 
 
 ## Resources
