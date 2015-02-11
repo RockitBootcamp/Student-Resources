@@ -80,9 +80,6 @@ Theses are preprocessors that allow you to write in their advanced CSS syntax, t
 ### [Bootstrap CSS](http://getbootstrap.com/) and [Foundation CSS](http://foundation.zurb.com/)
 These are CSS libraries that provide a head start on creating complex CSS components. In some cases, they also provide some JavaScript to facilitate the behavior of their components. Generally these two tools are considered alternatives and are not meant to be used together. Bootstrap has a dependency on jQuery
 
-
-
-
 ## Misc
 
 ### [Balsamiq](http://balsamiq.com/)

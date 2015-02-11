@@ -3,7 +3,8 @@
 Identifier   | Objectives
 -------------|------------
 JS: 14.1     | Explain Delegated Events
-JS: 14.2     | Demonstrate using the `.on()` method with delegated events
+JS: 14.2     | Explain Event Bubbling
+JS: 14.3     | Demonstrate using the `.on()` method with delegated events
              | &bull; `$('body').on('click', 'button', foo);`
 
 ## Resources
