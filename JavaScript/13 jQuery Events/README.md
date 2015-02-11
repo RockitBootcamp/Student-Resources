@@ -25,4 +25,4 @@ JS: 13.3     | Explain the `$(this)` keyword in the context of an event callback
 
 ## Code Example
 
-- See a basic [task list](task-list) code example
+- See a basic [shopping cart](ShoppingCart.md) code example
