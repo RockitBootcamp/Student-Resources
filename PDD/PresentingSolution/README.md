@@ -1,7 +1,7 @@
-#Presenting a Solution / an idea
+#Presenting a Solution / an Idea
 
 ## Purpose
-Help students understand how to present an idea or a solution to a problem. And to prepare students for their final project readout.
+Help students understand how to present an idea or a solution to a problem and to prepare students for their final project readout.
 
 ### Agenda
 
@@ -13,7 +13,6 @@ Help students understand how to present an idea or a solution to a problem. And 
 - (45 min) Group Exercise
 - (15 min) Wrap up
 
-
 ## Note to the Teacher: 
 
 The student will present their final project at the end of the bootcamp. Presentation skills are importaint for sucess.
@@ -24,10 +23,9 @@ This lecture will cover:
 * Effective Presentation Skills
 * Effective Visulization
 
-
 ## Define the Problem
 
-Deliver your message in a way that will lead all recipients will come to one conclusion
+Deliver your message in a way that will lead all recipients to come to one conclusion
 
 - Exercise
 - Proposed Outline
@@ -44,12 +42,12 @@ You are given the following requirements:
 * The shape must have the color orange
 
 | Shape | Has Square | Has Triangle  | Has Orange |
-| ------| ---------- | ------------- | ---------- |
-| 1 | <input type="checkbox" checked> | | <input type="checkbox" checked>  |
-| 2 | <input type="checkbox" checked> |  <input type="checkbox" checked>  | <input type="checkbox" checked>  |
-| 3 | <input type="checkbox" checked> |  | 
-| 4 |  | <input type="checkbox" checked> |   |
-| 5 | <input type="checkbox" checked> | <input type="checkbox" checked>  |  |
+| ------| :----------: | :-------------: | :----------: |
+| 1 | &nbsp;&nbsp;√&nbsp;&nbsp; | | &nbsp;&nbsp;√&nbsp;&nbsp;  |
+| 2 | &nbsp;&nbsp;√&nbsp;&nbsp; |  &nbsp;&nbsp;√&nbsp;&nbsp;  | &nbsp;&nbsp;√&nbsp;&nbsp;  |
+| 3 | &nbsp;&nbsp;√&nbsp;&nbsp; |  | 
+| 4 |  | &nbsp;&nbsp;√&nbsp;&nbsp; |   |
+| 5 | &nbsp;&nbsp;√&nbsp;&nbsp; | &nbsp;&nbsp;√&nbsp;&nbsp; |  |
 
 ### Outline
 
@@ -60,7 +58,6 @@ You are given the following requirements:
 - **Metrics:** Define what makes each solution different. If you have a gut feeling that one solution is correct, try to describe the metric that makes it feel correct. Different types of metrics: Common, industry, company, etc
 - **Possible Solutions:** Brainstorm any solution. Do not discriminate at this stage
 - **Analysis:** Iterative process. Choose best candidates and attempt to measure each metric.
-
 
 **Examples**
 
@@ -88,7 +85,6 @@ Resources: Slides 34-41 [UGent-X-003-slideshow Slides 17-33](UGent-X-003-slidesh
 **Exersise**
 Critique a written document. Look for:
 - Structure
-- 
 
 ## Effective Presentations
 
@@ -102,7 +98,7 @@ Critique a written document. Look for:
 
 ### Presenting
 - Tell a story
-- Breath
+- Breathe
 - Drink
 - Dress nice
 - Record Yourself and watch it. (Ugh)
@@ -110,13 +106,10 @@ Critique a written document. Look for:
 - See [Speaking Hacks](http://www.speakinghacks.com/)
 - See [Rehersal Tips](Rehersal.txt)
 
-
 ### Resources
 - [Slide Template](TM&Th-3.2-template.pdf)
 - [Speaking Hacks](http://www.speakinghacks.com/)
 - [Slide Checklist](TM&Th-3.3-checklist.pdf)
-
-
 
 ## Effective Visualization
 
@@ -126,7 +119,6 @@ Critique a written document. Look for:
 - Telling a Story
 
 ### Types of Data
-
 
 - Quantitative. Things you can measure (1 2 3)
 - Ordered / Qualitative. Things that can be ordered (Low Med High)
@@ -138,8 +130,6 @@ See [Levels of Measurement](http://en.wikipedia.org/wiki/Level_of_measurement)
 Choosing a graph depends on:
 - Intended message (Comparison, Distribution, Correlation, Evolution)
 - Type of Data 
-
-
 
 ### Telling a Story
 
@@ -156,7 +146,6 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 ### d3 Demonstration and Discussion
 - [d3js.org](http://d3js.org/)
 - Hubway [http://hubwaydatachallenge.org/submission/56/](http://hubwaydatachallenge.org/submission/56/)
-
 
 ## Activity
 - Break into Teams of
