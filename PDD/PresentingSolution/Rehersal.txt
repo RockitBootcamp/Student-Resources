@@ -1,0 +1,221 @@
+GENERAL
+- Internet
+- Have Project Loaded
+
+
+11:20-11:25 Brad Workout buddy.
+
+	Purpose:
+		Find people to work out with.
+
+	? What is the problem you are solving.
+
+	.... 
+
+	- Rushed through features of selecting people.
+		- notification
+		- schedule
+		- Invite peole
+		- create a workout
+		- bail
+
+
+		- Error/Validation
+			Form fields
+			Finding Matches	
+
+	- Consider undo vs confirm (Bail feature)
+	- Tell a story....
+	- Make screen bigger
+	- Explain what the problem is first
+
+	- Umms
+
+David 11:34-11:40
+	
+	- be careful engaging the audience too soon in your presentation
+
+	- Remove Test Data... put in Psudo data
+		- Avoid garbage data ...
+		- put realistic data in your presentation.
+
+	! I got lost in your features.
+
+
+	- Screen is somewhat focusing..
+	- Make sure you are connected to Internet before starting presentation
+	- Don't go silent ... always talk
+	- Moved really fast through the map section when selecting a site...
+	- preload your scenario (Invite maria) (Don't undo something to set up a scenario.)
+
+	Consider
+		Date Picker
+
+		Create an event...
+
+	Open Questions
+		What is the point of the theme of event?
+			Suggested items
+
+	Avoid
+		You know what
+
+Jon 11:52-11:57
+	background .. 
+
+	- Pauses on explaining Spaced Repetition
+		Keeps track of which card to show you and when
+
+	- Password popup. Remove it ...
+
+	- Can't read text in Blue box
+
+	- Code text is way too small
+	- Why did you use LiveScript/ Styles
+
+	- Explain ... that there are already flash-card
+		Consider I created a flash card app...
+			but its way better. I'll show you why
+
+	- Avoid ... "When a user comes into a page..."
+		say.. 'Judy is sitting down with her daughter sally to review learning the alphabet'
+
+		Change "So you could come down here ..."
+		with "Now Judy needs to work on sounds ... so she will"
+
+		Change "As an owner of the project ... want to change a deck"
+		with "Judy has mastered alphabet"
+
+		Pre-load a reason to edit cards.
+
+		Have a reason to Create a new card
+	
+John 12:09
+	
+	- Have app ready to go as soon as you plug in.
+	- Be more concise on what your app does example
+	- MakeZoom in
+	- 'Will eventually give you a map'
+	- Explain what I'm seeing on the page.
+	- Start off saying ... this is somewhat of a short demo
+
+	- Explain what features you don't have yet and why
+
+	- Zoom in on code
+
+	- Explain Ajax when building a route
+
+	- Highlight using JavaScript
+		Explain Leg Concept...
+			1 major city away..
+
+		Ajax to Filter legs...
+
+	Open Questions
+		- Are the events organized / sorted by route?
+		- How many cities can you have?
+		- 
+
+Nathan 12:29 - 12:33
+	Zoom in On main page
+
+	Tell a story on why David may not like anchovies anymore
+
+	CHange users to be real users ... NoVeggies is there
+
+	Explain exactly how the recommendation works
+
+	Instead of "Say ... lets which "
+
+	Map feature is cool. Set it up.
+
+	Zoom in on Map
+
+	Good job speaking through an uh oh momentum
+
+	Somewhat confusing use flow.
+	Have a clear Goal.
+
+Mark 12:47- 53
+	- Be sure to have app ready
+	- Speak louder
+	- Bring Energy
+	- Be clear that you are showing Kahn academe
+	- Good job showing how terrible it is
+	- Zoom in on Page
+
+	- Consider continuous background music playing
+
+	Replace "Quest days left is ..."
+	With "Sally knows she need to attack more because school is almost over"
+
+	Speak to the progress bar
+
+	show what happens when you complete ten.
+
+	Good job showing what happens when you complete
+
+	Good job showing another user who has made progress... tie that into the story
+
+	Avoid Obviously 
+
+	25 is the right sound level
+
+Ryan 1:04- 1:08
+
+	- Have you project open and loaded as soon as you plug in
+
+	- Zoom in.
+
+	Tell the story on why you picked this..
+		My Dad is an inspector
+
+	Replace .. 'They can go in an view the info'
+	with "So now my dad goes in and ..."
+
+	Replace ... "Over here they an create a new report"
+	with "Today my dad just finish an inspection and needs to update the report for the client"
+
+	Talk through the uh oh movements
+
+	Show a sample Email with the Link
+
+	Good job showing the security feature with the code
+	Consider making the access code longer
+
+	Tell a story on why need to write a Comment.
+
+	Put in a real narrative 
+
+Russ 1:20-1:24
+	
+	Be sure to say your name.
+
+	No-one cares about registration...
+
+	Use a personal... tell a store..
+
+	Cool alerts  on phone ... consider
+
+	Change "user russ has ..."
+	To "I have ..."
+
+	Choose your vehicle to give you data you want to talk about ...
+		you should not say ... well this one doesn't have a lot  of data
+
+	Rushed through Features on Car ...
+
+	Change "You can view your logs "
+	to "My batery just died today but I think I just bought it... I wish I could go see when I last bought"
+
+	Mumbled / trailed off on some explaination..
+
+	Replace ... "You can replace your tires to "
+	TO "My buddyjust blew his tire"
+
+	Avoid 'Full Crud' ... instead use 
+
+	Talk about what you are most proud about
+	
+
+
