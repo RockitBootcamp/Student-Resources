@@ -82,10 +82,6 @@ Resources:  Slides 17-33 [UGent-X-003-slideshow](UGent-X-003-slideshow.pdf)
 **Demonstration and Discussion**
 Resources: Slides 34-41 [UGent-X-003-slideshow Slides 17-33](UGent-X-003-slideshow.pdf)
 
-**Exersise**
-Critique a written document. Look for:
-- Structure
-
 ## Effective Presentations
 
 - Slides
