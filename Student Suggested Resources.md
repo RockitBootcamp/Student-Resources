@@ -159,3 +159,16 @@ Change `isDirty` to clean if washed.
   - http://javascript-roadtrip.codeschool.com/
 - Apprenticeship Patterns (free eBook)
   - http://chimera.labs.oreilly.com/books/1234000001813/index.html
+
+###Week 5
+
+####General
+- PHP Tutorials: Progzoo
+  - http://www.progzoo.net/wiki/PHP:Tutorials
+
+####CSS
+- CSS Drive:Image to Colors Palette Generator
+  - http://www.cssdrive.com/imagepalette/
+- Brad's talk: The Age of CSS Animation
+  - https://github.com/bradwestfall/The-Age-of-CSS-Animation
+  - http://daneden.github.io/animate.css/
