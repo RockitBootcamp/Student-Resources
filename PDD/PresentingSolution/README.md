@@ -151,8 +151,15 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 - Break into Teams of
 - Effective Writting
 	- Analyze a Talk from [Commencement Speeches](http://apps.npr.org/commencement/) or [White House Remarks](http://www.whitehouse.gov/briefing-room/speeches-and-remarks)
+		- What is the structure
+		- Is there an intro
+		- Are there transitions?
+		- etc.
 	- Discuss what effective presenters demonstrated
 	- Design a Slide to Share with class
+		- Use the tips from this session
+		- Set the context, have an intro/conclusion
+		- Use all the best practices of presenting
 - Effective Presentations
 	- Analyze Ted Talk
 	- Discuss what effective presenters demonstrated
