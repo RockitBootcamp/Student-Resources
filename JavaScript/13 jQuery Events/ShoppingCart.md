@@ -17,15 +17,14 @@ You will have two sections
 
 ```html
 <!-- Inventory Section -->
-<ul>
-	<li>Cat <button>Add</button></li>
-	<li>Dog <button>Add</button></li>
-	<li>Bird <button>Add</button></li>
+<ul class="inventory">
+	<li><span>Cat</span><button>Add</button></li>
+	<li><span>Dog</span><button>Add</button></li>
+	<li><span>Bird</span><button>Add</button></li>
 </ul>
 
 <!-- Shopping Cart Section -->
-<ul>
-</ul>
+<ul class="cart"></ul>
 ```
 
 # Output
@@ -33,17 +32,17 @@ If you click Cat, Dog, Bird, Dog. You will have
 
 ```html
 <!-- Inventory Section -->
-<ul>
-	<li>Cat <button>Add</button></li>
-	<li>Dog <button>Add</button></li>
-	<li>Bird <button>Add</button></li>
+<ul class="inventory">
+	<li><span>Cat</span><button>Add</button></li>
+	<li><span>Dog</span><button>Add</button></li>
+	<li><span>Bird</span><button>Add</button></li>
 </ul>
 
 <!-- Shopping Cart Section -->
-<ul>
-    <li>Cat <button>Remove</button></li>
-	<li>Dog <button>Remove</button></li>
-	<li>Bird <button>Remove</button></li>
-	<li>Dog <button>Remove</button></li>
+<ul class="cart">
+    <li><span>Cat</span><button>Remove</button></li>
+	<li><span>Dog</span><button>Remove</button></li>
+	<li><span>Bird</span><button>Remove</button></li>
+	<li><span>Dog</span><button>Remove</button></li>
 </ul>
 ```
