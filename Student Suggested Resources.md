@@ -143,6 +143,10 @@ Change `isDirty` to clean if washed.
   - http://www.wired.com/2015/02/silicon-valley-home-schooling/
 - The One Emotion That Really Hurts Your Brain
   - https://www.psychologytoday.com/blog/fulfillment-any-age/201407/the-one-emotion-really-hurts-your-brain
+- We Know You're Always Late: what researchers have learned about tardiness and how you can arrive on time more
+  - http://www.wsj.com/articles/we-know-why-youre-always-late-1422900180
+- Re-reading is inefficient. Here are 8 tips for studying smarter
+  - http://www.vox.com/2014/6/24/5824192/study-smarter-learn-better-8-tips-from-memory-researchers
 
 ####General
 - Free eBooks to learn a new programming language
@@ -151,3 +155,7 @@ Change `isDirty` to clean if washed.
   - http://lifehacker.com/learn-which-programming-language-to-choose-with-this-in-1669612111
 - Test your regular expression
   - https://www.regex101.com/
+- First JS course free on Code School
+  - http://javascript-roadtrip.codeschool.com/
+- Apprenticeship Patterns (free eBook)
+  - http://chimera.labs.oreilly.com/books/1234000001813/index.html
