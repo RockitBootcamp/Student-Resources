@@ -176,6 +176,7 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 ## Conclusion
 - This is only the tip of the iceburg. There are a lot of resources out there
 - Assignment
+	- What would you do different to have had a better presentation?
 	- What area do you feel you are strong?
 	- What area do you feel you are weak?
 	- What information was most interesting?
