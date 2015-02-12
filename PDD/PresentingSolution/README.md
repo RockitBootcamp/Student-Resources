@@ -144,26 +144,29 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 - Hubway [http://hubwaydatachallenge.org/submission/56/](http://hubwaydatachallenge.org/submission/56/)
 
 ## Activity
-- Break into Teams of
-- Effective Writting
+>Keeping in mind the tips we just learned, we are now going to break into teams and analyze different types of presentations. Then you will give a presentation to the rest of the class on your findings.
+- Look for:
+	- What is the structure?
+	- Is there an intro?
+	- Are there transitions?
+	- etc.
+- Discuss what effective presenters demonstrated
+- Prepare a brief presentation to share with the class
+	- Use the tips and best practices learned from this session for your own presentation
+	- Set the context, have an intro/conclusion
+	- Use effective visualization
+
+- Break into teams and each team will be assigned a category to analyze.
+
+######Categories
+- Effective Writing
 	- Analyze a Talk from [Commencement Speeches](http://apps.npr.org/commencement/) or [White House Remarks](http://www.whitehouse.gov/briefing-room/speeches-and-remarks)
-		- What is the structure
-		- Is there an intro
-		- Are there transitions?
-		- etc.
-	- Discuss what effective presenters demonstrated
-	- Design a Slide to Share with class
-		- Use the tips from this session
-		- Set the context, have an intro/conclusion
-		- Use all the best practices of presenting
+
 - Effective Presentations
 	- Analyze Ted Talk
-	- Discuss what effective presenters demonstrated
-	- Design a Slide to Share with class
+
 - Effective Visualization
 	- Choose a data set from [http://www.data.gov/](http://www.data.gov/)
-	- Create a presentation
-	- Use effective Visualization
 
 ## Conclusion
 - This is only the tip of the iceburg. There are a lot of resources out there
