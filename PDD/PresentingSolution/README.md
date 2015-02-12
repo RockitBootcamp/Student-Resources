@@ -144,11 +144,13 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 - Hubway [http://hubwaydatachallenge.org/submission/56/](http://hubwaydatachallenge.org/submission/56/)
 
 ## Activity
->Keeping in mind the tips we just learned, we are now going to break into teams and analyze different types of presentations. Then you will give a presentation to the rest of the class on your findings.
+Keeping in mind the tips we just learned, we are now going to break into teams and analyze different types of presentations. Then you will give a presentation to the rest of the class on your findings.
 - Look for:
 	- What is the structure?
 	- Is there an intro?
 	- Are there transitions?
+	- Does the audience know why they should care?
+	- Does the audience need more?
 	- etc.
 - Discuss what effective presenters demonstrated
 - Prepare a brief presentation to share with the class
