@@ -1,7 +1,7 @@
 Select all the names of users who are students
 
 ```sql
-SELECT name
+SELECT first_name
 FROM user
 JOIN student USING (user_id)
 ```
@@ -28,28 +28,26 @@ Select all the users who are taking classes
 ```sql
 SELECT *
 FROM user
-JOIN student_course USING (user_id)
+JOIN user_course USING (user_id)
 ```
 
 Select the names that each student is taking
 
 ```sql
 SELECT
-  user.name AS user_name, 
+  user.first_name, 
   course.name AS course_name
 FROM user
-JOIN student_course USING (user_id)
+JOIN user_course USING (user_id)
 JOIN course USING (course_id)
 ```
 
 Select the names of each student taking programming
 
 ```sql
-SELECT
-  user.name AS user_name, 
-  course.name AS course_name
+SELECT user.first_name
 FROM user
-JOIN student_course USING (user_id)
+JOIN user_course USING (user_id)
 JOIN course USING (course_id)
 WHERE course_id = 2
 ```
