@@ -19,6 +19,14 @@ DB::execute($statement);
 $results = $statement->fetchAll();
 
 // Loop array to get each row
+$lis = '';
 foreach ($results as $row) {
-	print_r($row);
+	$lis .= '<li><a href="profile.php?user_id=' . $row['user_id'] . '">' . $row['first_name'] . '</a></li>';
 }
+
+?>
+
+
+<ul>
+	<?php echo $lis; ?>
+</ul>
