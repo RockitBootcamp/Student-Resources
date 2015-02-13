@@ -10,4 +10,4 @@ MySQL: 5.4   | Use `ON()` syntax
 
 ## Resources
 - [MySQL joins: ON vs. USING vs. Theta-style](http://code.openark.org/blog/mysql/mysql-joins-on-vs-using-vs-theta-style)
-- [MySQL joins: LEFT JOIN vs. JOIN vs. RIGHT JOIN](http://www.sitepoint.com/understanding-sql-joins-mysql-database/)
+- [MySQL joins: LEFT JOIN](http://www.mysqltutorial.org/mysql-left-join.aspx)
