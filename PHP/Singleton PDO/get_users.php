@@ -9,11 +9,8 @@ $sql = "
 	FROM user
 	";
 
-// Make a PDO statement
-$statement = DB::prepare($sql);
-
 // Execute
-DB::execute($statement);
+$statement = DB::execute($sql);
 
 // Get all the results of the statement into an array
 $results = $statement->fetchAll();

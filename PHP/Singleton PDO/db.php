@@ -23,6 +23,9 @@ class DB {
 	  Singleton
 	*****************************************/
 
+	/**
+	 * Init
+	 */
 	public static function init() {
 
 		// Singleton
@@ -40,41 +43,39 @@ class DB {
 	  Execute
 	*****************************************/
 	
-	public static function execute($statement, $sql_values = []) {
+	public static function execute($sql, $sql_values = []) {
 		try {
 			$link = self::init();
-			if (is_array($sql_values)) {
-				$statement->execute($sql_values);
-			} else {
-				$statement->execute();
-			}
+			
+			// Prepare SQL Statement
+			$statement = $link->prepare(trim($sql));
+
+			// Execute Statement
+			$statement->execute(self::cleanSqlValues($sql_values));
+
+			// Return Statement
 			return $statement;
+
 		} catch (PDOException $e) {
+			//echo $statement->debugDumpParams();
 			die($e->getMessage());
 		}
 	}
 
 	/****************************************
-	  Prepare
-	*****************************************/
-
-	public static function prepare($sql) {
-		try {
-			$link = self::init();
-			$statement = $link->prepare($sql);
-			return $statement;
-		} catch (PDOException $e) {
-			die($e->getMessage());
-		}
-	}
-
-	/****************************************
-	  Last Insert ID
+	  Utilities
 	*****************************************/
 
 	public static function lastInsertId() {
 		$link = self::init();
 		return $link->lastInsertId();
+	}
+
+	private static function cleanSQLValues($sql_values) {
+		array_walk($sql_values, function(&$v) {
+			$v = trim($v) == '' ? NULL : trim($v);
+		});
+		return $sql_values;
 	}
 
 }

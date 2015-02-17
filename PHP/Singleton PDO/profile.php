@@ -10,15 +10,12 @@ $sql = "
 	WHERE user_id = :user_id
 	";
 
-// Make a PDO statement
-$statement = DB::prepare($sql);
-
 $prepare_values = [
-	':user_id' => $_GET['user_id']
+	'user_id' => $_GET['user_id']
 ];
 
 // Execute
-DB::execute($statement, $prepare_values);
+$statement = DB::execute($sql, $prepare_values);
 
 // Get all the results of the statement into an array
 $results = $statement->fetchAll();
