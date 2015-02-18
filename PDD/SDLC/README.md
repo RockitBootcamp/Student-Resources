@@ -27,6 +27,7 @@ Consider:
 - Top-down/bottom-up decomposition
 - Prototyping (as needed)
 - Estimation & Planning
+- Feasibility
 
 ## Development
 Code to the requirements and include Unit Test
