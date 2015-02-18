@@ -42,6 +42,7 @@ Ideally a differnt team will test your code according to the requirement. They c
 - Integration Testing
 - Black Box / White Box testing
 - Automated Test Scripts
+- Stress Testing
 
 ## Deployment
 Once testing has been compelted, code is deployed into production environment.
