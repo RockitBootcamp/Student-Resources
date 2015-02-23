@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<style type="text/css">
+
+		/* SVG Styles */
+		
+		svg rect {
+			fill:#1f77b4;
+			fill-opacity: .33;
+			stroke: #1f77b4;
+		}
+		
+	
+	</style>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+		
+		// Data
+		var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
+                11, 12, 15, 20, 18, 17, 16, 18, 23, 25 ],
+            max = Math.max.apply( Math, dataset );
+
+        // Define Plot area
+		var margin = {top: 10, right: 30, bottom: 30, left: 30},
+		    width = window.innerWidth - margin.left - margin.right,
+		    height = window.innerHeight - margin.top - margin.bottom;
+
+		// Create svg element
+		var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("style", "margin-left:" + margin.left + "px;" +
+            				"margin-top:" + margin.top + "px;");
+
+        // Add items to SVG
+        svg.selectAll("rect")
+		   .data(dataset)
+		   .enter()
+		   .append("rect")
+		   .attr("x", function(d, i) {
+
+			    return i * width / (dataset.length);  
+			})
+		   .attr("y", function(d) {
+			    return height-(height * (d / max));
+			})
+		   .attr("width", (width / dataset.length) * .85 )
+		   .attr("height", function(d) {		   		
+			    return height * (d / max);
+			});
+		   
+
+
+	</script>
+
+	
+</body>
+</html>
