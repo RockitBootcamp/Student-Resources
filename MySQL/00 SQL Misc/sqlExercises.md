@@ -65,7 +65,7 @@ What Product has the Highest Unit Price?
 
 Exercise 14
 ---------
-Who' the boss?
+Who's the boss?
 
 Exercise 15
 ---------
@@ -101,33 +101,33 @@ FROM Suppliers s, Products p
 WHERE s.SupplierID = p.SupplierID 
 AND p.ProductID = 43;
 ```
-11. Westerns
+######11. Westerns
 ```sql
 SELECT RegionDescription 
 FROM Region r, Territories t 
 WHERE r.RegionID = t.RegionID 
 AND t.TerritoryDescription = "Phoenix";
 ```
-12. 722 Moss Bay Blvd. Kirkland, WA, 98033
+######12. 722 Moss Bay Blvd. Kirkland, WA, 98033
 ```sql
 SELECT Address, City, Region, PostalCode 
 FROM Employees 
 WHERE FirstName = "Janet";
 ```
-13. Cte de Blaye
+######13. Cte de Blaye
 ```sql
 SELECT ProductName, unitprice 
 FROM products 
 ORDER BY unitprice DESC 
 LIMIT 1;
 ```
-14. Andrew Fuller Vice President, Sales
+######14. Andrew Fuller Vice President, Sales
 ```sql
 SELECT Firstname, Lastname, Title 
 FROM Employees 
 WHERE ReportsTo is NULL;
 ```
-15. Margaret Peacock
+######15. Margaret Peacock
 ```sql
 SELECT 
     COUNT(o.EmployeeId) AS cnt, 
@@ -142,7 +142,7 @@ GROUP BY e.employeeid
 ORDER BY cnt DESC
 LIMIT 1;
 ``` 
-16. Margaret Peacock $250,187.45
+######16. Margaret Peacock $250,187.45
 ```sql
 SELECT     
   e.firstname, e.lastname,
@@ -168,5 +168,13 @@ WHERE OrderDate BETWEEN '1997-01-01' AND '1997-12-31'
 GROUP BY EmployeeID 
 ORDER BY subtotal DESC;
 ```
+e. Pavlova, Ltd. & Specialty Biscuits, Ltd. both sell 4 products
+```sql
+SELECT s.supplierid, companyname, count(productid) as numProd
+FROM suppliers s
+JOIN products p USING (supplierid)
+WHERE discontinued = 0
+GROUP BY companyname
+ORDER BY numProd;
+```
 
-  
