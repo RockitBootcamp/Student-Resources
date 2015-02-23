@@ -65,7 +65,7 @@ What Product has the Highest Unit Price?
 
 Exercise 14
 ---------
-Who' the boss?
+Who's the boss?
 
 Exercise 15
 ---------
@@ -168,5 +168,13 @@ WHERE OrderDate BETWEEN '1997-01-01' AND '1997-12-31'
 GROUP BY EmployeeID 
 ORDER BY subtotal DESC;
 ```
+e. Pavlova, Ltd. & Specialty Biscuits, Ltd. both sell 4 products
+```sql
+SELECT s.supplierid, companyname, count(productid) as numProd
+FROM suppliers s
+JOIN products p USING (supplierid)
+WHERE discontinued = 0
+GROUP BY companyname
+ORDER BY numProd;
+```
 
-  
