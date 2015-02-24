@@ -32,6 +32,9 @@ mcrypt.modes_dir => no value => no value
 - make laravel globally available
 - create test laravel project
 - test the test project
+
+```bash
+$ curl -sS https://getcomposer.org/installer | php
 $ sudo mv composer.phar /usr/local/bin/composer
 $ composer global require "laravel/installer=~1.1"
 # prepend '~/.composer/vendor/bin' to the $PATH shell variable
@@ -43,5 +46,4 @@ $ cd blog
 $ php artisan serve
 # should output this:
 Laravel development server started on http://localhost:8000
-
 ```
