@@ -1,143 +1,133 @@
-Gettings STarted with Laravel
+# Gettings Started with Laravel
 
-# What version of PHP are you running
+
+Install Composer
+
+```
+$ curl -sS https://getcomposer.org/installer | php
+$ mv composer.phar /usr/local/bin/composer
+```
+
+Install Laravel
+
+```
+# Download 
+$ composer global require "laravel/installer=~1.1"
+
+# Add Laravel to your paths
+$ vi ~/.bash_profile
+export PATH="/Users/brlamore/.composer/vendor/bin:$PATH"
+
+# Reload bash file
+$ source ~/.bash_profile
+```
+
+Create new project
+```
+$ cd ~/Sites/
+$ laravel new myProject
+```
+
+Navigate to http://localhost/myProject/server.php
+
+
+# Problems
+mcrypt
+
+## Use Brew
+This method will use the brew version of php. 
+
+### Point apache to homebrew php
+
+Download php with the apache flag to ensure the module is included
+```
+$brew uninstall php55
+$brew install php55 --with-fpm --with-apache
+
+```
+Check what module is loaded
+```
+brew info php55
+
+# Read comment
+# To enable PHP in Apache add the following to httpd.conf and restart Apache:
+#     LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
+```
+Point apache to brew version.
+
+```
+vi /etc/apache2/httpd.conf
+
+# Look for section loading php5_module and change to :
+
+LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
+```
+
+Install mcrypt
+```
+brew install mcrypt
+brew install php55-mcrypt
+```
+Check your info.php to see that mcrypt is installed
+<img src="mcrypt.png">
+
+
+# Tips
+
+### Verify Apach Config
+Check if Apache Config is correct
+```
+apachectl configtest
+```
+
+### Know what PHP version you have.
+The command line and Apache could be pointing to two different version.
+
+### Command Line
 ```
 which php
 
-ls /path/to/php
+# List all configuration information
+php -i
+
+
 ```
-check apache version
+### Check apache version
 ```
 vi /etc/apache2/httpd.conf
 
 ; LoadModule php5_module /path/to/php
 ```
 
-# Install Composer
-
-```
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-```
-
-# Downlaod Laravel
-Don't get 5.
-```
-composer global require "laravel/installer=~1.1"
-```
-
-## Add Laravel to your paths
-Add the following to your bash_profile file
-
-```
-vi ~/.bash_profile
-
-# added laravel to Path
-export PATH="/Users/brlamore/.composer/vendor/bin:$PATH"
-```
-Relaod bash file
-
-```
-source ~/.bash_profile
-```
-
-# Problems
-mcrypt
-
-## Try Brew first
-```
-brew install mcrypt php53-mcrypt
-```
-
-## Manual Install 
-
-**Install mcrypt for php on Mac OSX 10.10**
-
-Create working Directory for mcrypt
-```
-cd ~ ; mkdir mcrypt ; cd mcrypt
-cd ~/mcrypt
-```
-
-Download files
-```
-curl -sS http://php.net/get/php-5.5.14.tar.gz/from/this/mirror
-curl -sS http://downloads.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz?r=http%3A%2F%2Fcoolestguidesontheplanet.com%2Finstall-mcrypt-php-mac-osx-10-10-yosemite-development-server%2F&ts=1424719831&use_mirror=iweb
-```
-
-Unzip files
-```
-tar -zxvf libmcrypt-2.5.8.tar.gz
-tar -zxvf php-5.5.14.tar.gz
-
-rm *.gz
-```
-
-Configure mcrypt
-```
-cd libmcrypt-2.5.8
-./configure
-make
-sudo make install
-```
-
-Install Autoconf
-```
-cd ~/mcrypt
-curl -O http://ftp.gnu.org/gnu/autoconf/autoconf-latest.tar.gz
-tar xvfz autoconf-latest.tar.gz
-cd autoconf-2.69/
-./configure
-make
-sudo make install
-```
-
-## Compile mcrypt php Extension
-```
-cd ~/mcrypt/php-5.5.14/ext/mcrypt/
-/usr/bin/phpize
-
-./configure
-make 
-sudo make install
-```
-
-## Enabling mcrypt.so  php Extension
-```
-sudo vi /etc/php.ini
-
-# Add the following line to end of file
-extension=mcrypt.so
 
 
-sudo apachectl restart
+
+
+# Brig's setup
+Apple OSX 10.10.1
+```
+$ which php
+/usr/local/bin/php
+
+$ ll /usr/local/bin/php
+/usr/local/bin/php -> ../Cellar/php55/5.5.22/bin/php
+
+$ php --ini
+Configuration File (php.ini) Path: /usr/local/etc/php/5.5
+Loaded Configuration File:         /usr/local/etc/php/5.5/php.ini
+Scan for additional .ini files in: /usr/local/etc/php/5.5/conf.d
+Additional .ini files parsed:      /usr/local/etc/php/5.5/conf.d/ext-mcrypt.ini
+
+$ cat /etc/apache2/httpd.conf | grep php5_module
+LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
 ```
 
-#Extra
-### Point apache to homebrew php
-```
-$brew uninstall php55
-$brew install php55 --with-fpm --with-apache
-
-# Read comment
-# To enable PHP in Apache add the following to httpd.conf and restart Apache:
-#     LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
-
-vi /etc/apache2/httpd.conf
-
-```
-
-### Brew Install
-```
-
-```
 
 # references
-http://laravel.com/docs/4.2/quick
-http://coolestguidesontheplanet.com/install-mcrypt-php-mac-osx-10-10-yosemite-development-server/
-
-#Notes
-Installed in:
-/usr/local/Cellar/php55/5.5.19/lib/php/extensions/no-debug-non-zts-20121212/
-
-
+- http://laravel.com/docs/4.2/quick
+- http://coolestguidesontheplanet.com/install-mcrypt-php-mac-osx-10-10-yosemite-development-server/
+- [Mcrypt PHP extension required - Mac OS X Yosemite](http://laravel.io/forum/10-06-2014-mcrypt-php-extension-required-mac-os-x-yosemite)
+- [How to fix Mcrypt PHP extension](http://digitizor.com/2014/06/29/fix-mcrypt-php-extension-required-laravel/)
+- [How to use the PHP brew installed](http://stackoverflow.com/questions/20523183/how-to-use-the-php-that-brew-installed)
+- [Brew Install php-fpm and apache2 at same time](https://github.com/Homebrew/homebrew-php/pull/1060)
+- [Manual build of mcrypt](http://coolestguidesontheplanet.com/install-mcrypt-php-mac-osx-10-10-yosemite-development-server/)
