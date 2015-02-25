@@ -5,31 +5,38 @@ Install Composer
 
 ```
 $ curl -sS https://getcomposer.org/installer | php
+// move this to your bin folder
 $ mv composer.phar /usr/local/bin/composer
 ```
 
 Install Laravel
 
 ```
-# Download 
+// Download 
 $ composer global require "laravel/installer=~1.1"
 
-# Add Laravel to your paths
-$ vi ~/.bash_profile
-export PATH="/Users/brlamore/.composer/vendor/bin:$PATH"
+// Add Laravel to your paths
+$ vi ~/.bash_profile // or nano .bash_profile
+export PATH="~/.composer/vendor/bin:$PATH"
 
-# Reload bash file
-$ source ~/.bash_profile
+// Reload bash file
+$ . .bash_profile
+
+// Check to see if it was successful
+$ laravel
+
+// this will show usage, options, available commands, etc. if it was successful
 ```
 
 Create new project
 ```
 $ cd ~/Sites/
 $ laravel new myProject
+
+/* change directory into the new project then give the following command, which will give you a 
+server to navigate to for the project. For example http://localhost:8000 */
+$ php artisan serve
 ```
-
-Navigate to http://localhost/myProject/server.php
-
 
 # Problems
 mcrypt
