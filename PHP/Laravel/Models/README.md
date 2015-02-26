@@ -256,4 +256,19 @@ This collection (now called "bobs") will only hold models that have a `first_nam
 SELECT * FROM `user` WHERE `first_name` = 'bob';
 ```
 
+You can add as many conditions as you want:
+
+```php
+$items = Item::all(['invoice_id' => 10, 'active' => 1]);
+```
+
+This example will get all "items" that have an `invoice_id` of 10 - in other words, it will grab all items that belong to invoice:L 10. Further, it will only grab items that are active. This collection is similar to this SQL statement:
+
+```sql
+SELECT *
+FROM `item`
+WHERE `invoice_id` = 10
+AND `active` = 1;
+```
+
 Happy coding!
