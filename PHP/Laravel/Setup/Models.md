@@ -1,4 +1,4 @@
-# Models and Collection Class
+# Model and Collection Class
 
 ## Installation
 
@@ -6,7 +6,7 @@
 1. Place the `Model.php` file in the `app/Models` folder
 1. Place the `Collection.php` file in the `app/Models` folder
 
-## Models
+## Model Class
 
 Models are objects that represent your data in the database. More specifically, a model maps to a table. With models, you won't have to perform basic database operations on your table by writing SQL. Instead, the model will perform these operations for you. When you instantiate a model object, the object will represent exactly one row from the model's table.
 
@@ -128,7 +128,7 @@ $data = [
 $user->update($data);
 ```
 
-## Collections
+## Collection Class
 
 Models are great but they only operate on one record at a time. It's easy to get that record by calling the model:
 
