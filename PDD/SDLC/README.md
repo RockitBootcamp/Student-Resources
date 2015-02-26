@@ -1,4 +1,4 @@
-# SLDC
+# SDLC
 
 Objectives
 

@@ -12,7 +12,8 @@ PHP: 18.1    | Explain relationship between Views and Template
 
 ###Extra Study
 ####Routers
-- URL patterns, known as routes, let you map to specific files in a website by passing in parameters. First is where to navigate - which file or controller you want to go to, then your action - what you want to happen when you go to the file or controller. 
+URL patterns, known as routes, let you map to specific files in a website by passing in parameters. First is where to navigate - which file or controller you want to go to, then your action - what you want to happen when you go to the file or controller. 
+
 ```php
 Route::get('/', function()
 {
@@ -24,7 +25,9 @@ Route::post('foo/bar', function()
     return 'Hello World';
 });
 ```
-- We can use placeholders, known as URL parameters, as well by enclosing them in curly braces `{}`
+
+We can use placeholders, known as URL parameters, as well by enclosing them in curly braces `{}`
+
 ```php
 Route::get('user/{id}', function($id)
 {
@@ -36,9 +39,16 @@ Route::get('browse/{state}/{city}', function($state, $city)
   //some action here
 });
 ```
-- Regular expression route constraints 
+
+Regular expression route constraints 
+
 ```php
 Route::post('user/{id}', function($id){
     //some action
 });->where('id', '[0-9]+');
 ```
+
+In Laravel, your parameters could be firs the file you want to go to, then the second parameter will be the `Controller@methodToInvoke`. For example, below we are routing to the home page, going to the HomeController, and finally invoking the index method.
+
+    `Route::get('home', 'HomeController@index');`
+
