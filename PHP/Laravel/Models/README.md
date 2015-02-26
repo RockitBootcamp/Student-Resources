@@ -52,9 +52,11 @@ $id = Sql::insert('user', $data, ['datetime_added']);
 
 In the above example, we want the `datetime_added` column of our table to get MySQL's `NOW()` function applied to it. If we didn't pass the ignore array as the third argument, it would be like saying we wanted the string of "NOW()" to be inserted.
 
+> Note that in both examples above, we didn't have to pass an ID into `insert()` because we're assuming this table has an automatic incrementing ID.
+
 ### Update
 
-The update statements work just like the insert ones. Simply call `Sql::update()` as follows:
+The update statements work just like the insert one. Simply call `Sql::update()` as follows:
 
 ```php
 $data = [
