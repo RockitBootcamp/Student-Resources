@@ -1,4 +1,4 @@
-# Laravel Models
+# Laravel Models and Collections
 
 ## Installation
 
@@ -180,7 +180,7 @@ $user->password = 'sorryhillary';
 $user->save();
 ```
 
-Calling the `save()` method on an object that already exists will perform an `UPDATE`. We can also do an `UPDATE` by calling the model's `update()` method directly. The following code does the same update but by passing in an array into the model's `update()` method directly:
+If the model isn't empty, the `save()` method will perform an `UPDATE` instead of an `INSERT`. We can also do an `UPDATE` by calling the model's `update()` method directly. The following code does the same update but by passing in an array into the model's `update()` method directly:
 
 ```php
 $user = new User(1);
