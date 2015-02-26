@@ -222,7 +222,9 @@ This is where collections come in. A collection is simply a list of models. In o
 $users = User::all();
 ```
 
-This one line of code just did everything that our previous example did, but it did it with 1 SQL call instead of 51. The only other difference is the previous example makes `$users` as an array. This example, however, makes `$users` as an object. Notice that we are using the model class statically in this case.
+This one line of code just did everything that our previous example did, but it did it with 1 SQL call instead of 51. The only other difference is the previous example makes `$users` as an array. This example, however, makes `$users` as an object. 
+
+Also Notice that we are calling the `all()` method statically.
 
 If you wanted to access a specific user in our collection, you can do so by calling the `get()` method of the collection:
 
