@@ -105,7 +105,12 @@ To use this model, simply instantiate an object by passing the user's ID into th
 $user = new User(21);
 ```
 
-Doing this will automatically grab user 21's information and populate the model with it. You can access database fields as properties like this:
+Doing this will automatically grab user 21's information and populate the model with it.
+
+
+### Getting
+
+You can access model data as follows:
 
 ```php
 $user = new User(21);
@@ -115,11 +120,20 @@ echo $user->last_name;  // Outputs: Clinton
 
 > Assuming your user table has `first_name` and `last_name` fields
 
-Even though `$user` is an object, you can echo the `$user` variable to see the data of the model. This is probably only useful for debugging:
+If you want to get the entire model as an array, call `getData()`:
+
+```php
+$user = new User(21);
+print_r($user->getData());
+```
+
+Or as an alternative, you can simply treat the model as if it's a string:
 
 ```php
 echo $user;
 ```
+
+This will return a string in a similar format to `print_r()`
 
 ### Inserting
 

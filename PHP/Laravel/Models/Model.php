@@ -28,7 +28,7 @@ abstract class Model {
      */
     public function __construct($id = NULL) {   
         if (is_numeric($id)) {
-            $this->data = $this->getModel($id);
+            $this->data = $this->setDataFromDB($id);
             $this->id = $id;
         }
     }
@@ -36,7 +36,7 @@ abstract class Model {
    /**
     * Get Model from Database
     */
-    private function getModel($id) {
+    private function setDataFromDB($id) {
 
         $sql = '
             SELECT *
@@ -76,7 +76,7 @@ abstract class Model {
     /**
      * Set Property
      */
-    public function setAll($id, $data) {
+    public function setData($id, $data) {
         $this->id = $id;
         $this->data = $data;
     }
@@ -141,10 +141,19 @@ abstract class Model {
         }
     }
 
+    /**
+     * Get the Model's ID
+     */
     public function getId() {
         return $this->id;
     }
 
+    /**
+     * Get all of the model data
+     */
+    public function getData() {
+        return $this->data;
+    }
 
     /**
      * Magic To String
@@ -176,7 +185,7 @@ abstract class Model {
 
             // Create new Model
             $model = new static();
-            $model->setAll($row->{static::$key}, (array)$row);
+            $model->setData($row->{static::$key}, (array)$row);
            
             // Add Model to Collection
             $collection->add($model);
