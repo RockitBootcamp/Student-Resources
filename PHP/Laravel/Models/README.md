@@ -206,8 +206,7 @@ But what if you wanted several records? Or what if you wanted all the records fr
 Here's an examle. Let's say we wanted to get all the users in our system:
 
 ```php
-$sql = "SELECT * FROM user";
-$results = DB::select($sql);
+$results = DB::select("SELECT * FROM user");
 
 $users = [];
 foreach ($results AS $row) {
@@ -215,7 +214,7 @@ foreach ($results AS $row) {
 }
 ```
 
-If our goal was to get an array of users, this code technically works. But if we had 50 users in our system, this logic would do 51 SQL calls. 1 for getting all the users in the first place, and 50 more for each call to `new User()`.
+If our goal was to get an array of users, this code technically works. But if we had 50 users in our system, this logic would do 51 SQL calls. 1 for selecting all users, and 50 more for each call to `new User()`.
 
 This is where collections come in. A collection is simply a list of models. In our case, a collection will be an object that holds a list of models. Here's how you get a collection:
 
