@@ -86,7 +86,9 @@ class User extends Model {
 }
 ```
 
-Be sure to namespace your model to `App\Models`. Technically, this is a complete model. All you need to do is extend the `Model` class and provide properties for the table name and the primary key. If your table simply uses "id" as its primary key, then you won't need to make a `$key` property all all because "id" is the default value. This example assumes we have a primary key called "user_id".
+Be sure to namespace your model to `App\Models`.
+
+Technically, this is a complete model. All you need to do is extend the `Model` class and provide properties for the table name and the primary key. If your table simply uses "id" as its primary key, then you won't need to make a `$key` property all all because "id" is the default value. This example assumes we have a primary key called "user_id".
 
 Again, this is a complete model. But if you plan to add your own methods to enhance the model more, and you plan to use the Database or SQL classes in those methods, then be sure to `use` the database and SQl class:
 
@@ -95,7 +97,7 @@ use DB;
 use App\Library\Sql;
 ```
 
-### Instatiate
+### Instantiate
 
 To use this model, simply instantiate an object by passing the user's ID into the constructor:
 
