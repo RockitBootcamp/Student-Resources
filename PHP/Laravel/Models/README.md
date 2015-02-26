@@ -262,7 +262,7 @@ You can add as many conditions as you want:
 $items = Item::all(['invoice_id' => 10, 'active' => 1]);
 ```
 
-This example will get all "items" that have an `invoice_id` of 10 - in other words, it will grab all items that belong to invoice:L 10. Further, it will only grab items that are active. This collection is similar to this SQL statement:
+This example will get all "items" that have an `invoice_id` of 10 - in other words, it will grab all items that belong to invoice: 10 because `invoice_id` is a foreign key. Further, it will only grab items that are active. This collection is similar to this SQL statement:
 
 ```sql
 SELECT *
