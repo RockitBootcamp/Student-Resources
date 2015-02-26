@@ -133,14 +133,14 @@ Or as an alternative, you can simply treat the model as if it's a string:
 echo $user;
 ```
 
-This will return a string in a similar format to `print_r()`
+> This will return a string in a similar format to `print_r()`. This is probably only useful for debugging.
 
 ### Inserting
 
 While you could write your own insert logic on your own (using `Sql::insert()` from above), models make this super convenient. Start by making an empty model (one where you don't pass an ID into), and then set the properties of your model as follows:
 
 ```php
-$user = new User();
+$user = new User(); // Note it's an empty model since we didn't pass a number in
 
 $user->first_name  = 'William';
 $user->last_name   = 'Clinton';
