@@ -88,9 +88,9 @@ class User extends Model {
 
 Be sure to namespace your model to `App\Models`.
 
-Technically, this is a complete model. All you need to do is extend the `Model` class and provide properties for the table name and the primary key. If your table simply uses "id" as its primary key, then you won't need to make a `$key` property all all because "id" is the default value. This example assumes we have a primary key called "user_id".
+Technically, this is a complete model. All you need to do is extend the `Model` class and provide properties for the table name and the primary key. If your table simply uses "id" as its primary key, then you won't need to make a `$key` property at all because "id" is the default value for `$key`. This example assumes we have a primary key called "user_id".
 
-Again, this is a complete model. But if you plan to add your own methods to enhance the model more, and you plan to use the Database or SQL classes in those methods, then be sure to `use` the database and SQl class:
+Again, this is a complete model, but if you plan to add your own methods to enhance the model more, and you plan to use the Database or SQL classes in those methods, then be sure to `use` the database and SQl class:
 
 ```php
 use DB;
@@ -105,7 +105,7 @@ To use this model, simply instantiate an object by passing the user's ID into th
 $user = new User(21);
 ```
 
-Doing this will automatically grab user 21's information and populate the model with it. You can access database field as properties like this:
+Doing this will automatically grab user 21's information and populate the model with it. You can access database fields as properties like this:
 
 ```php
 $user = new User(21);
@@ -115,7 +115,7 @@ echo $user->last_name;  // Outputs: Clinton
 
 > Assuming your user table has `first_name` and `last_name` fields
 
-Even though the `$user` variable is an object, you can echo the `$user` variable to get the output of it's data. This is probably only useful for debugging:
+Even though `$user` is an object, you can echo the `$user` variable to see the data of the model. This is probably only useful for debugging:
 
 ```php
 echo $user;
