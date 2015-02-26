@@ -15,7 +15,7 @@ Edit your PDO configurations settings by going to `/config/database.php` and add
 
 The `Sql.php` class is a utility class that will help you write `INSERT` and `UPDATE` SQL statements. To use the class be sure to `use App\Library\Sql;` where you plan on calling the methods of `Sql`.
 
-### Insert Statements
+## Insert Statements
 
 The following code will perform an `INSERT` statement and will return to you the ID that was created:
 
@@ -50,7 +50,7 @@ In the above example, we want the `datetime_added` column of our table to get My
 
 > Note that in both examples above, we didn't have to pass an ID into `insert()` because we're assuming this table has an automatic incrementing ID.
 
-### Update Statements
+## Update Statements
 
 The update statements work just like the insert one. Simply call `Sql::update()` as follows:
 
