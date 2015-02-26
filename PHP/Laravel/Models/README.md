@@ -180,7 +180,7 @@ $user->password = 'sorryhillary';
 $user->save();
 ```
 
-Calling the `save()` method on an object that already exists will perform an update. And just as we could insert with `save()` or `insert()`, we can update with `save()` or `update()`. The following code does the same update but by passing in an array into the model's `update()` method directly:
+Calling the `save()` method on an object that already exists will perform an `UPDATE`. We can also do an `UPDATE` by calling the model's `update()` method directly. The following code does the same update but by passing in an array into the model's `update()` method directly:
 
 ```php
 $user = new User(1);
