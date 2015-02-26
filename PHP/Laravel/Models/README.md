@@ -7,7 +7,7 @@
 1. Place the `Collection.php` file in the `app/Models` folder
 1. Place the `Sql.php` file in the `app/Library` folder
 
-Edit your PDO configurations settings by going to `/config/database.php` and adding this line to the "connections / mysql" array:
+Edit your PDO configurations settings by going to `/config/database.php` and adding this line to the "connections => mysql" array:
 
 ```php
 'options' => [PDO::ATTR_EMULATE_PREPARES => TRUE]
@@ -17,7 +17,7 @@ Edit your PDO configurations settings by going to `/config/database.php` and add
 
 ## SQL Class
 
-The `Sql.php` class is a utility class that will help you write `INSERT` and `UPDATE` SQL statements. To use the class be sure to `use App\Library\Sql;`
+The `Sql.php` class is a utility class that will help you write `INSERT` and `UPDATE` SQL statements. To use the class be sure to `use App\Library\Sql;` where you plan on calling the methods of `Sql`.
 
 ### Insert
 
@@ -35,7 +35,7 @@ $data = [
 $id = Sql::insert('user', $data);
 ```
 
-Should you have fields that you don't want PDO to perform binding on, like a "datetime_added" field which uses MySQL's `NOW()` function, then pass a third argument into `insert()` which is an array of "ignore" keys
+Passing a third argument into `insert()` will let the insert statement know which fields to "ignore" for the purposes of binding parameters:
 
 ```php
 $data = [
@@ -49,6 +49,8 @@ $data = [
 // Insert the data into the "user" table
 $id = Sql::insert('user', $data, ['datetime_added']);
 ```
+
+In the above example, we want the `datetime_added` column of our table to get MySQL's `NOW()` function applied to it. If we didn't pass the ignore array as the third argument, it would be like saying we wanted the string of "NOW()" to be inserted.
 
 ### Update
 
