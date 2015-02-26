@@ -1,7 +1,7 @@
 # Laravel Setup
 
 ## Installation
-See our [guides]('../Installation')
+- [See guides](../Installation)
 
 ## SQL Class
 Install the `SQL` Class which helps you write `INSERT` and `UPDATE` statements
