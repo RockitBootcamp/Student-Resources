@@ -68,7 +68,7 @@ $data = [
 Sql::update('user', $data, "WHERE user_id = :user_id");
 ```
 
-Notice the third parameter to update is an SQL "WHERE" clause. Be sure to include the parameterized value, `:user_id` in this case, in the `$data`. Also note that the data is only updating the user's name and does not have to contain each field from the database, only the ones you want updated.
+Notice the third parameter to update is an SQL "WHERE" clause. Be sure to include the parameterized value (`:user_id` in this case) in the `$data`. Also note that the data is only updating the user's name and does not have to contain each field from the database, only the ones you want updated.
 
 
 ## Models
