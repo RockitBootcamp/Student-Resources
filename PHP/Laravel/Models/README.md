@@ -167,7 +167,7 @@ $data = [
 
 $user_id = $user->insert($data, ['datetime_added']);
 ```
-Technically, the `save()` method from above calls the `insert()` method internally so it doesn't matter which method you go with. Although only the `insert()` method lets you pass in the "ignore keys" array similar to calling `Sql:insert()`.
+Technically, the `save()` method from the previous example is just a wrapper method that calls `insert()`. You can choose either method `save()` or `insert()`, however only the `insert()` method lets you pass in the "ignore keys" array similar to calling `Sql:insert()`.
 
 ### Updating
 
