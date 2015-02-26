@@ -79,8 +79,6 @@ To make a model, create a class that extends the base `Model` class:
 
 ```php
 namespace App\Models;
-use DB;
-use App\Library\Sql;
 
 class User extends Model {
 	protected static $table = 'user';
@@ -88,9 +86,14 @@ class User extends Model {
 }
 ```
 
-Be sure to namespace your model to `App\Models`. Technically, this is a complete model, but if you plan to add your own methods to enhance the model and you plan to use the Database or SQL classes in those methods, then be sure to `use` the database and SQl class.
+Be sure to namespace your model to `App\Models`. Technically, this is a complete model. All you need to do is extend the `Model` class and provide properties for the table name and the primary key. If your table simply uses "id" as its primary key, then you won't need to make a `$key` property all all because "id" is the default value. This example assumes we have a primary key called "user_id".
 
-Extending the base model gives this `user` model a lot of power. All you need to do is define which `$table` and `$key` the model maps to. If your table simply uses `id` as its primary key, then you won't need to identify that property. But for the examples, let's assume your table's ID is `user_id`,
+Again, this is a complete model. But if you plan to add your own methods to enhance the model more, and you plan to use the Database or SQL classes in those methods, then be sure to `use` the database and SQl class:
+
+```php
+use DB;
+use App\Library\Sql;
+```
 
 ### Instatiate
 
