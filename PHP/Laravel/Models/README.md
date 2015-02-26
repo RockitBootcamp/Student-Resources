@@ -250,7 +250,7 @@ If you want to narrow down how many models are in your collection, you can do so
 $bobs = User::all(['first_name' => 'bob']);
 ```
 
-This would give you a collection which only holds models if the models have a first name of "bob". You can pass an array into the `all()` method whereby the keys are fields and the values are the database values. This actually produces a similar SQL statement to:
+This collection (now called "bobs") will only hold models that have a `first_name` of "bob". So as you can see, you can pass an array into the `all()` method whereby the keys are fields and the values are the database values. This actually produces a similar SQL statement to:
 
 ```sql
 SELECT * FROM `user` WHERE `first_name` = 'bob';
