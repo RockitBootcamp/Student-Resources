@@ -60,7 +60,7 @@ The update statements work just like the insert one. Simply call `Sql::update()`
 
 ```php
 $data = [
-		'user_id'      => 1
+		'user_id'      => 1,
 		'first_name'   => 'Bill'
 	];
 
@@ -73,7 +73,7 @@ Notice the third parameter to update is an SQL "WHERE" clause. Be sure to includ
 
 ## Models
 
-Models are objects that represent your data in the database. More specifically , a model class maps to one table and abstracts some of the database interactions of that table for you. When you instantiate a model object, the object will represent exactly one row from the model's table.
+Models are objects that represent your data in the database. More specifically, a model maps to a table. With models, you won't have to perform basic database operations on your table by writing SQL. Instead, the model will perform these operations for you. When you instantiate a model object, the object will represent exactly one row from the model's table.
 
 To make a model, create a class that extends the base `Model` class:
 
