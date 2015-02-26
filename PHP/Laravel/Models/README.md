@@ -171,7 +171,7 @@ Technically, the `save()` method from the previous example is just a wrapper met
 
 ### Updating
 
-Before when we inserted a new record by setting the properties and calling `save()`, we had an empty model. The `save()` method performs an `INSERT` when the model is empty. But in this case we have a model that represents user: 1
+Calling the `save()` method above performed an `INSERT` because the model was empty. Let's make a model that isn't empty (user: 1) and set the properties:
 
 ```php
 $user = new User(1);
