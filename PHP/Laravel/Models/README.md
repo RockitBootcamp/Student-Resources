@@ -224,7 +224,7 @@ $users = User::all();
 
 This one line of code just did everything that our previous example did, but it did it with 1 SQL call instead of 51. The only other difference is the previous example makes `$users` as an array. This example, however, makes `$users` as an object. 
 
-Also Notice that we are calling the `all()` method statically.
+Also notice that we are calling the `all()` method statically.
 
 If you wanted to access a specific user in our collection, you can do so by calling the `get()` method of the collection:
 
@@ -242,7 +242,7 @@ foreach ($users->getArray() as $user) {
 }
 ```
 
-This example will output each user's name.
+This example will output each user's name. Note that the `$user` object at this point is exactly the same thing that you would get from calling `new User()`;
 
 If you want to narrow down how many models are in your collection, you can do so as follows:
 
