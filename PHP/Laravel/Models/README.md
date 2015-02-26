@@ -180,7 +180,7 @@ $user->password = 'sorryhillary';
 $user->save();
 ```
 
-If the model isn't empty, the `save()` method will perform an `UPDATE` instead of an `INSERT`. We can also do an `UPDATE` by calling the model's `update()` method directly. The following code does the same update but by passing in an array into the model's `update()` method directly:
+If the model isn't empty, the `save()` method will perform an `UPDATE` instead of an `INSERT`. We can also do an `UPDATE` by calling the model's `update()` method directly. The following code does the same update but by calling `update()`:
 
 ```php
 $user = new User(1);
@@ -193,4 +193,66 @@ $data = [
 $user->update($data);
 ```
 
+## Collections
 
+Models are great but they only operate on one record at a time. It's easy to get that record by calling the model:
+
+```
+$user = new User(21);
+```
+
+But what if you wanted several records? Or what if you wanted all the records from a table? Does that mean you'll have to make individual calls to `new User()` for each one? Well you could, but that would be inefficient because each time you call `new User()` you're performing a database call.
+
+Here's an examle. Let's say we wanted to get all the users in our system:
+
+```php
+$sql = "SELECT * FROM user";
+$results = DB::select($sql);
+
+$users = [];
+foreach ($results AS $row) {
+	$users[] = new User($row['user_id']);
+}
+```
+
+If our goal was to get an array of users, this code technically works. But if we had 50 users in our system, this logic would do 51 SQL calls. 1 for getting all the users in the first place, and 50 more for each call to `new User()`.
+
+This is where collections come in. A collection is simply a list of models. In our case, a collection will be an object that holds a list of models. Here's how you get a collection:
+
+```php
+$users = User::all();
+```
+
+This one line of code just did everything that our previous example did, but it did it with one SQL call. The only other difference is the previous example makes `$users` as an array. This example, however, makes `$users` as an object. Notice that we are using the model class statically in this case.
+
+If you wanted to access a specific user in our collection, you can do so by calling the `get()` method of the collection:
+
+```php
+$users = User::all();
+echo $users->get(21)->first_name; // Outputs: William
+```
+
+Or if you want to loop over your collection you can call `getArray()` to get the array of models extracted out of the collection object:
+
+```php
+$users = User::all();
+foreach ($users->getArray() as $user) {
+	echo $user->first_name;
+}
+```
+
+This example will output each user's name.
+
+If you want to narrow down how many models are in your collection, you can do so as follows:
+
+```php
+$bobs = User::all(['first_name' => 'bob']);
+```
+
+This would give you a collection which only holds models if the models have a first name of "bob". You can pass an array into the `all()` method whereby the keys are fields and the values are the database values. This actually produces a similar SQL statement to:
+
+```sql
+SELECT * FROM `user` WHERE `first_name` = 'bob';
+```
+
+Happy coding!
