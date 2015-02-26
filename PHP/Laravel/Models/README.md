@@ -3,8 +3,9 @@
 ## Installation
 
 1. Create two new folders: `app/Models` and `app/Library`
-1. Place the `model.php` file in the `app/Models` folder
-1. Place the `sql.php` file in the `app/Library` folder
+1. Place the `Model.php` file in the `app/Models` folder
+1. Place the `Collection.php` file in the `app/Models` folder
+1. Place the `Sql.php` file in the `app/Library` folder
 
 Edit your PDO configurations settings by going to `/config/database/php` and adding this line to the "connections / mysql" array:
 
@@ -14,9 +15,9 @@ Edit your PDO configurations settings by going to `/config/database/php` and add
 
 > Without this option you can expect to get parameter binding issues especially for `UPDATE` statements
 
-## SQL.php
+## SQL Class
 
-The `SQl.php` class is a utility class that will help you write `INSERT` and `UPDATE` SQL statements. To use the class be sure to `use App\Library\Sql;`
+The `Sql.php` class is a utility class that will help you write `INSERT` and `UPDATE` SQL statements. To use the class be sure to `use App\Library\Sql;`
 
 ### Insert
 
