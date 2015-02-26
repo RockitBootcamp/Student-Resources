@@ -7,7 +7,7 @@
 1. Place the `Collection.php` file in the `app/Models` folder
 1. Place the `Sql.php` file in the `app/Library` folder
 
-Edit your PDO configurations settings by going to `/config/database/php` and adding this line to the "connections / mysql" array:
+Edit your PDO configurations settings by going to `/config/database.php` and adding this line to the "connections / mysql" array:
 
 ```php
 'options' => [PDO::ATTR_EMULATE_PREPARES => TRUE]
