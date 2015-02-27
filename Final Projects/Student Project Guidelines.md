@@ -30,21 +30,10 @@ Create wireframes for all of your pages. Show the interactions.
 
 Find a visual design online that you want to emulate for your project. [Dribbble](https://dribbble.com/tags/web) might be a good source for ideas. Build HTML files for your major pages and build the structure aspect of your design first. Follow the structure design with necessary aesthetics design.
 
-## Class ideas
-Currently the MVC code has no built-in tools/classes to handle the following needs. You will need to build your own classes to accomplish these needs:
+## Database Schema
 
-### Repeating Templates
-- A templating system that allows you to loop over data and built up HTML fragments for output
+Create a database schema in a spreadsheet program.
 
-### Login Helper
-- A class that manages your user's login state. Use sessions.
+## Start Code
 
-### Validator
-- A class that validates various types of data
-
-### Output Escaper
-- A class that handles output escaping including XSS protection
-
-### MySQL
-- Use prepared statements when calling database
-- Create a file to create you database schema and data in schema.sql
+Start the code-base on one computer and turn it into a Git repository. Put it on Github and add other group members as collaborators on the repo. Get the code working on all group members computers.
