@@ -4,25 +4,10 @@ use \App\Models\Customer;
 
 class CustomerController extends Controller {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders your application's "dashboard" for users that
-	| are authenticated. Of course, you are free to change or remove the
-	| controller as you wish. It is just here to get your app started!
-	|
-	*/
 
-	/**
-	 * Show the application dashboard to the user.
-	 *
-	 * @return Response
-	 */
 	public function all() {
-		$custs = Customer::getAll();
-		return view('all_customers', ['customers' => $custs]);
+		$custsomers = Customer::all();
+		return view('customers', ['customers' => $custsomers]);
 	}
 
 	public function get($id) {
