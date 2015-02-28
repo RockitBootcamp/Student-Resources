@@ -49,11 +49,11 @@ class UserController extends Controller {
 
 		// Validate the input
 		$validator = Validator::make(Request::all(), [
-	        'first_name' => 'required|max:40',
-	        'last_name' => 'required|max:40',
-	        'email' => 'required|email|max:100',
-	        'gender' => 'in:m,f|max:1'
-        ]);
+			'first_name' => 'required|max:40',
+			'last_name' => 'required|max:40',
+			'email' => 'required|email|max:100',
+			'gender' => 'in:m,f|max:1'
+		]);
 
 		// If Validation Failed
 		if ($validator->fails()) {
