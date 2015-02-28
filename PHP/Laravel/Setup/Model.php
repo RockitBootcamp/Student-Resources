@@ -122,7 +122,7 @@ abstract class Model {
 
         // Update
         Sql::update(static::$table, $data, Sql::where([static::$key => $this->id]));
-        return TRUE;
+        return $this->id;
 
     }
 
