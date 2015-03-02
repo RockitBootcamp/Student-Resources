@@ -1,4 +1,4 @@
-# Lesson 4: Basic Operators
+# Lesson 3: Basic Operators
 
 Identifier   | Objectives
 -------------|------------

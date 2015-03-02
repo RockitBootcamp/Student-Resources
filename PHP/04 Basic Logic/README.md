@@ -1,4 +1,4 @@
-# Lesson 3: Basic Logic
+# Lesson 4: Basic Logic
 
 Identifier   | Objectives
 -------------|------------
