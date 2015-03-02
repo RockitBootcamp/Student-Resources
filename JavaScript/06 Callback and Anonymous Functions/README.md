@@ -1,10 +1,10 @@
-# Lesson 11: Callback and Anonymous Functions
+# Lesson 6: Callback and Anonymous Functions
 
 Identifier   | Objectives
 -------------|------------
-JS: 11.1     | Explain Callback Functions
-JS: 11.2     | Explain Anonymous Functions
-JS: 11.3     | Demonstrate a callback function with
+JS: 6.1      | Explain Callback Functions
+JS: 6.2      | Explain Anonymous Functions
+JS: 6.3      | Demonstrate a callback function with
              | &bull; `setTimeout()`
              | &bull; `setInterval()`
 

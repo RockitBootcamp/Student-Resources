@@ -1,16 +1,16 @@
-# Lesson 7: Arrays
+# Lesson 12: Arrays
 
 Identifier   | Objectives
 -------------|------------
-JS: 7.1      | Demonstrate array creation syntax
+JS: 12.1     | Demonstrate array creation syntax
              | &bull; `var x = new Array('Joe', 'Smith');`
              | &bull; `var x = ['Joe', 'Smith'];`
-JS: 7.1      | Demonstrate pushing values to end of array
+JS: 12.1     | Demonstrate pushing values to end of array
              | &bull; `x.push('value');`
-JS: 7.1      | Explain Indexed Arrays
-JS: 7.1      | Demonstrate accessing values of arrays
+JS: 12.1     | Explain Indexed Arrays
+JS: 12.1     | Demonstrate accessing values of arrays
              | &bull; `var value = x[0];`
-JS: 7.1      | Use basic array methods and properties
+JS: 12.1     | Use basic array methods and properties
              | &bull; `.length`
              | &bull; `.indexOf()`
              | &bull; `.join()`

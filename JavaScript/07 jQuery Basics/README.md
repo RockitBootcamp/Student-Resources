@@ -1,14 +1,14 @@
-# Lesson 12: jQuery Basics
+# Lesson 7: jQuery Basics
 
 Identifier   | Objectives
 -------------|------------
-JS: 12.1     | Demonstrate using jQuery Syntax
+JS: 7.1      | Demonstrate using jQuery Syntax
              | &bull; `jQuery();`
              | &bull; `$();`
-JS: 12.2     | Demonstrate Method Calling and Chaining Syntax 
+JS: 7.2      | Demonstrate Method Calling and Chaining Syntax 
              | &bull; `$('div').remove();`
              | &bull; `$('div').append('foo').addClass('bar');`
-JS: 12.3     | Demonstrate common jQuery Methods:
+JS: 7.3      | Demonstrate common jQuery Methods:
              | &bull; `.append()`
              | &bull; `.appendTo()`
              | &bull; `.html()`
@@ -21,7 +21,7 @@ JS: 12.3     | Demonstrate common jQuery Methods:
              | &bull; `.parent()`
              | &bull; `.parents()`
              | &bull; `.find()`
-JS: 12.4     | Demonstrate Document Readiness with
+JS: 7.4      | Demonstrate Document Readiness with
              | &bull; `$(document).ready(function() { ... });`
              | &bull; `$(function() { ... });`
 

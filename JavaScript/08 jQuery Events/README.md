@@ -1,8 +1,8 @@
-# Lesson 13: jQuery Events
+# Lesson 8: jQuery Events
 
 Identifier   | Objectives
 -------------|------------
-JS: 13.1     | Explain how JavaScript/jQuery events work and the these common event types:
+JS: 8.1      | Explain how JavaScript/jQuery events work and the these common event types:
              | &bull; `click`
              | &bull; `mouseOver`
              | &bull; `keyDown`
@@ -10,10 +10,10 @@ JS: 13.1     | Explain how JavaScript/jQuery events work and the these common ev
              | &bull; `focus`
              | &bull; `blur`
              | &bull; `submit`
-JS: 13.2     | Demonstrate a jQuery events with `.on()` method and with event's specific method:
+JS: 8.2      | Demonstrate a jQuery events with `.on()` method and with event's specific method:
              | &bull; `$('button').on('click', foo);` (with `on` method)
              | &bull; `$('button).click(foo);` (with event method)
-JS: 13.3     | Explain the `$(this)` keyword in the context of an event callback function
+JS: 8.3      | Explain the `$(this)` keyword in the context of an event callback function
 
 ## Resources
 
