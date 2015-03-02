@@ -8,8 +8,9 @@
 Route::get('/users', 'UserController@all');
 
 // See User Profile
-Route::get('/user/profile/{id}', 'UserController@get');
-
+Route::get('/user/profile/{user_id}', 'UserController@get');
+	->where('user_id', '[\d]+');
+	
 // Get User Form (Insert and Update forms)
 Route::get('/user/form/{user_id?}', 'UserController@form')
 	->where('user_id', '[\d]+');
