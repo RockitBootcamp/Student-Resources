@@ -20,7 +20,7 @@
 
 ### Task5:	Create new Invoice
 		link:	/customer/{customerId}/newInvoice
-		route:	invoiceController:newInvoice($customerId)
+		route:	invoiceController:newInvoiceAction($customerId)
 		view:	redirect to /invoice/{invoiceId}
 
 ### Task 6	Add Item To Invoice
