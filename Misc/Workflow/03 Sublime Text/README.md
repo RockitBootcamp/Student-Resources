@@ -13,4 +13,4 @@ WF: 3.5      | Use basic keyboard shortcuts
 WF: 3.6      | Demonstrate how to set the syntax of the current tab
 
 ## Resources
-- See our [Sublime Text Guide](https://github.com/PhoenixRockit/Student-Resources/blob/master/Sublime%20Text%20Guide.md)
+- See our [Sublime Text Guide](https://github.com/RockitBootcamp/Student-Resources/blob/master/Sublime%20Text%20Guide.md)

@@ -20,7 +20,7 @@ There are different models used to develop software. The common steps in each mo
 
 ## Discovery
 The point of the Discovery phase is to **Decide what will be done**
-This is similar to the [Define the Problem](https://github.com/PhoenixRockit/Student-Resources/tree/master/PDD/PresentingSolution#define-the-problem) in Presenting an idea or solution.
+This is similar to the [Define the Problem](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/PresentingSolution#define-the-problem) in Presenting an idea or solution.
 
 Consider:
 - Gather Requirements
