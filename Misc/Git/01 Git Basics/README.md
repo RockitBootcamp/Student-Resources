@@ -19,18 +19,18 @@ Git: 1.5     | Explain `$ git status`
 
 ## Practice
 
-Git is a Version Control System (VCS) that allows you to keep a history of all modifications to a set of files. If a central server is set up (like github), several people can work on a project together in a coordinated way. 
+Git is a Version Control System (VCS) that allows you to keep a history of all modifications to the files of a project. Developers can also collaborate and share code among each other when a centralized Git server is established. GitHub is a website that provides this Git server as a service.
+
 Each time you commit your changes, Git takes a snapshot of what your files look like, it captures the state of your project, and stores a reference to it. If you have files that have not changed, Git simply stores a link to the previously stored file. If you have files that have changed, Git stores a new snapshot. This allows you to control the revisions and go back to any version necessary.
 
 ### First-time Git setup
 
 Install Git
 - Ubuntu users: `$ apt-get install git`
-- Mac users: try running git from the terminal, if you don't have it, it will prompt you to install
+- Mac users: try running `$ git --version` from the terminal, if you don't have git, the terminal will say so.
 
-You'll need to tell Git about who you are. If you don't do this step, Git will bug you all the time to do it.
+You'll need to tell Git about who you are so it can attribute your changes to your name. If you don't do this step, git will bug you.
 
-Type these two commands into bash with your information:
 ```sh
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
@@ -38,31 +38,31 @@ $ git config --global user.email johndoe@example.com
 
 ### Initialize a project
 
-`cd` to one of your projects in your `Sites` folder. The project should not be a git repo already. Make sure you are actually inside the project folder (at the web root). Start your new Git project with:
+To use git, navigate in terminal to a folder that you want to turn into a git repository. The folder should not be a git repo already. Make sure you are actually inside the project folder (at the web root) where you want to start a git repo. Start your new Git project with:
+
 ```sh
 $ git init
 ```
+
 You'll get a small message that states your Git project has been initiated. Running an `ls -la` will show you a new subdirectory named `.git`. This hidden folder contains all the information about your repository. Don't worry about it's contents at this point, but also don't delete it unless you intend to "un-version control" your project.
 
 ### Git Clone
 
-Cloning is a means of copying an existing Git repository from online (probably at GitHub). Cloning is in contrast to doing `git init`. Where `git init` starts a new repository on your computer (that you can later push to GitHub), `git clone` takes an established repo and makes a copy of it on your computer. You use either `init` OR `clone` to get started, but not both.
+Cloning is how we copy an existing Git repository from a remote location (probably GitHub) to our local machine. Cloning does not need to happen if you started a new git project with `git init`. While `git init` is how we create brand new repositories, `git clone` is how we "copy" existing repositories.
 
-To clone a project, `cd` to your `Sites` folder type `git clone` followed by the path to the online repository. Notice the `.git` extention:
-
-```sh
-$ git clone https://github.com/PhoenixRockit/15.1.git
-```
-
-Note that this will make a `15.1` folder wherever you were when you did the clone command. So if you wanted a folder called `15.1` in your `Sites`, the previous command is how you would do it.
-
-Lets say you made a folder already called 15.1 and your in that folder already. If you run that previous command, you'll end up creating another `15.1` within your `15.1` folder. To prevent this, we can can add a `.` dot at the end of our clone command:
+To clone a project, `cd` to your `Sites` folder type `git clone` followed by the path to the remote repository.
 
 ```sh
-$ git clone https://github.com/PhoenixRockit/15.1.git .
+$ git clone https://github.com/RockitBootcamp/Student-Resources.git
 ```
 
-Note the space before the dot. This dot says "We don't want to create a new 15.1 folder here, we want to clone all the contents of that repo right here".
+If we do this command from our `Sites` folder, it will create a folder called "Sites/Student-Resources". But what if we already had a Student Resources folder created? What if we want to clone the repository in the existing folder? In this case we will want to change directories to the Student Resources folder and run this command:
+
+```sh
+$ git clone https://github.com/RockitBootcamp/Student-Resources.git .
+```
+
+Note that the only difference is a dot at the end. This dot says "We don't want to create a new Student Resources folder here, we want to clone all the contents of the repo right here".
 
 ### Git Status
 
@@ -109,10 +109,10 @@ This commits the given change-set to local history. The message you put is helpf
 
 ### Git Push
 
-After committing your changes, you may want to push the change-set to the remote repository. Remote repositories have names and in the case of GitHub, the default name is "origin". Pusing changes to a remote cosists of using `git push` followed by the origin name, followed by the branch name (usually "master") 
+After committing your changes, you may want to push the change-set to the remote repository. Remote repositories have names and in the case of GitHub, the default name is "origin". Pushing changes to a remote consists of using `git push` followed by the origin name, followed by the branch name (usually "master") 
 
 ```sh
-$ git push orignin master
+$ git push origin master
 ```
 
 It is possible to have multiple remotes (with different names) so the command above is very specific about where to push. But in cases where you know you only have one remote, you can simply do:
@@ -121,10 +121,10 @@ It is possible to have multiple remotes (with different names) so the command ab
 $ git push
 ```
 
-This will create a new snapshot of your project in github and will allow any team members to have access to those changes. 
+This will create a new snapshot of your project in GitHub and will allow any team members to have access to those changes. 
 
 ### Git Pull
 
-The opposite of pusing code (from your computer to a remote) is to "pull" code (from the remote to your computer). You will use `git pull origin master` (or `get pull` if you only have one remote). This will be necessary when other team members have made a change to a project. 
+The opposite of pushing code (from your computer to a remote) is to "pull" code (from the remote to your computer). You will use `git pull origin master` (or simply `get pull` if you only have one remote). This will be necessary when other team members have made a change to a project. 
 
 To collaborate with other team members, you'll be using `git push` to move code to remotes, then your team can do `git pull` to get your code. Likewise they can push their code up and you can pull it to your computer
