@@ -1,4 +1,12 @@
 ##Resources Shared by Students
+[Week 1](#wk1)<br>
+[Week 2](#wk2)<br>
+[Week 3](#wk3)<br>
+[Week 4](#wk4)<br>
+[Week 5](#wk5)<br>
+[Weeks 6-12](#wk6)
+
+<a id="wk1"></a>
 ###Week 1
 ####General
 - Typing Practice for Programmers: https://typing.io/
@@ -69,6 +77,7 @@
 - PHP exercises, practice, and solution
   - http://www.w3resource.com/php-exercises/
 
+<a id="wk2"></a>
 ###Week 2
 
 ####General
@@ -93,6 +102,7 @@
 - Setting your Github config email to your Github profile to associate your commits with your accounts
   - https://help.github.com/articles/setting-your-email-in-git/ 
 
+<a id="wk3"></a>
 ###Week 3
 
 ####General
@@ -134,6 +144,7 @@ soap amount based on vehicle size(10%).
 Change `isDirty` to clean if washed.
 ```
 
+<a id="wk4"></a>
 ###Week 4
 
 ####Articles
@@ -160,11 +171,34 @@ Change `isDirty` to clean if washed.
 - Apprenticeship Patterns (free eBook)
   - http://chimera.labs.oreilly.com/books/1234000001813/index.html
 
+<a id="wk5"></a>
 ###Week 5
 
 ####General
-- PHP Tutorials: Progzoo
-  - http://www.progzoo.net/wiki/PHP:Tutorials
+- Code for America
+  - http://www.codeforamerica.org/
+
+####Articles
+- Julian Treasure: How to speak so that people want to listen
+  - https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen/transcript?language=en#t-29444
+- Before Public Speaking (8 talks)
+  - http://www.ted.com/playlists/226/before_public_speaking
+- Why Learning Code is So Damn Hard
+  - http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
+- Know Your Meme
+  - http://knowyourmeme.com/memes/mind-blown
+- Web design Takeaway: 40 CSS Buttons, Tutorials, and Code Snippets
+  - http://www.noupe.com/design/webdesign-takeaway-40-css-buttons-tutorials-and-code-snippets-88778.html
+- Second Coming: The First HTTP Update in 16 years, HTTP/2, Is Finished
+  - http://gizmodo.com/second-coming-the-first-http-update-in-16-years-http-1686479223
+- Binary Search Tree
+  - http://en.m.wikipedia.org/wiki/Binary_search_tree
+- Big O Notation
+  - http://en.m.wikipedia.org/wiki/Big_O_notation
+
+####TV News on Rockit
+- Go to coding school from The List Feb 11, 2015
+  - http://www.thelisttv.com/the-list/what-s-the-deal-/go-to-coding-school
 
 ####CSS
 - CSS Drive:Image to Colors Palette Generator
@@ -172,3 +206,38 @@ Change `isDirty` to clean if washed.
 - Brad's talk: The Age of CSS Animation
   - https://github.com/bradwestfall/The-Age-of-CSS-Animation
   - http://daneden.github.io/animate.css/
+
+####PHP
+- Brad's video: Installing phpMyAdmin
+  - https://www.youtube.com/watch?v=e80KsIxCrtA
+- PHP Tutorials: Progzoo
+  - http://www.progzoo.net/wiki/PHP:Tutorials
+- Laravel code kata
+  - https://laracasts.com/series/code-katas-in-php
+
+####Humor
+- Database Queries
+  - http://xkcd.com/1409/
+- CSS Puns & CSS Jokes
+  - http://saijogeorge.com/css-puns/
+- How does biology explain the low numbers of women in science?
+  - http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt?imm_mid=0adcff&cmp=em-strata-na-na-newsltr_20130807_elist
+- The Social Network Movie clip
+  - https://www.youtube.com/watch?v=VSKoVsHs_Ko
+- The Big Bang Theory clip
+  - https://www.youtube.com/watch?v=kddqINA1vOA
+- It's a Unix System
+  - https://www.youtube.com/watch?v=dFUlAQZB9Ng
+
+<a id="wk6"></a>
+###Weeks 6-12
+
+####General
+- Github Pages and Jekyll Beginner Video
+  - https://www.youtube.com/watch?v=nN6QuNqmAwk&feature=youtu.be
+- 9 free programming books that will make you a pro
+  - http://www.makeuseof.com/tag/9-free-programming-books-will-make-pro/
+
+####Articles
+- MVC for Noobs
+  - http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
