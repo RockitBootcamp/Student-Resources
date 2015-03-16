@@ -199,6 +199,10 @@ Change `isDirty` to clean if washed.
 ####TV News on Rockit
 - Go to coding school from The List Feb 11, 2015
   - http://www.thelisttv.com/the-list/what-s-the-deal-/go-to-coding-school
+- Rockit Bootcamp helps launch computer careers from ABC News March 10th
+  - http://www.azfamily.com/clip/11219443/rockit-boot-camp-helps-launch-computer-careers
+- Course aims to get students into $50k career
+  - http://www.abc15.com/news/region-southeast-valley/tempe/course-aims-to-get-students-into-50k-career
 
 ####CSS
 - CSS Drive:Image to Colors Palette Generator
@@ -237,7 +241,71 @@ Change `isDirty` to clean if washed.
   - https://www.youtube.com/watch?v=nN6QuNqmAwk&feature=youtu.be
 - 9 free programming books that will make you a pro
   - http://www.makeuseof.com/tag/9-free-programming-books-will-make-pro/
+- Brad Westfall's Reptile Forms
+  - https://github.com/bradwestfall/ReptileForms
+- Interactive Portfolio and Resume Websites to Inspire you
+  - http://www.onextrapixel.com/2014/01/20/interactive-portfolio-and-resume-websites-to-inspire-you/
+- Get Google Maps - Google Developers
+  - https://developers.google.com/maps/getmaps/
+- Windows 93 (using JavaScript and CSS to recreate and animate windows 93)
+  - http://www.windows93.net/
+- Book online: Understanding ECMAScript 6 (JavaScript)
+  - https://leanpub.com/understandinges6/read
+- Practice your skills: front-end inspiration
+  - http://tevko.github.io/practice/index.html
+
+####PHP
+- Laravel: Easy Auth
+  - https://laracasts.com/series/laravel-5-fundamentals/episodes/15
+
+####CSS
+- Pure CSS dropdown menu
+  - http://codepen.io/bradwestfall/pen/vEzJWe
+  - http://codepen.io/philhoyt/pen/ujHzd
 
 ####Articles
+#####General programming articles
 - MVC for Noobs
   - http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
+- Agile programming - For your family
+  - https://www.ted.com/talks/bruce_feiler_agile_programming_for_your_family?language=en#t-789055
+- 9 truths that computer programmers know that most people don't
+  - http://macleodsawyer.com/2015/03/06/nine-truths-computer-programmers-know-that-most-people-dont/
+- Top 10 2013
+  - https://www.owasp.org/index.php/Top_10_2013-Top_10
+- 10 Web Predictions for 2015
+  - http://www.sitepoint.com/10-web-predictions-2015/
+- Authentication with Laravel 5
+  - http://tutsnare.com/category/laravel/
+- 1 hour to teach programming in a fun way with CodinGame
+  - http://www.codingame.com/blog/en/2015/03/1-hour-to-teach-programming-with-codingame-in-fun-way.html
+- SASS Mixins vs Extends: The Data
+  - https://tech.bellycard.com/blog/sass-mixins-vs-extends-the-data/
+
+#####General articles
+- What is net neutrality and what does it mean for me?
+  - http://www.usatoday.com/story/tech/2015/02/24/net-neutrality-what-is-it-guide/23237737/
+- Without REAL ID driver's license, will TSA require passport if plane never leaves USA?
+  - http://www.computerworld.com/article/2475946/security0/without-real-id-driver-s-license--will-tsa-require-passport-if-plane-never-leaves-usa-.html
+
+#####Job related articles
+- Getting good: Integrating novice developers by Elise Worthy
+  - https://www.youtube.com/watch?v=LKfNfB1XdMc&feature=youtu.be
+- My personal formula for a winning resume by Laszlo Block (SVP, People Operations at Google)
+  - https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume?trk=mp-author-card
+- The few, the proudly employed, the coding boot camp graduates
+  - http://national.deseretnews.com/article/3636/the-few-the-proudly-employed-the-coding-boot-camp-graduates.html
+- 10 Steps to the Perfect Portfolio Website
+  - http://www.stumbleupon.com/su/1TmpQl/www.smashingmagazine.com/2009/02/26/10-steps-to-the-perfect-portfolio-website/?utm_source=StumbleUpon+Vistor+Share&utm_medium=VTB+STE-466&utm_campaign=Google+Plus+VTB+Share
+- 10 Happiest Jobs in America
+  - http://www.usatoday.com/story/money/personalfinance/2015/03/08/cheat-sheet-happiest-jobs/24509095/
+- How to Tell if You're a Jerk at Work
+  - http://www.wsj.com/articles/how-to-tell-if-youre-a-jerk-at-work-1424664623
+- What Do You Most Want When Hiring Recent College Graduates?
+  - https://www.linkedin.com/pulse/what-do-you-most-want-when-hiring-recent-college-jeff-selingo
+
+####Humor
+- How standards proliferate
+  - https://d262ilb51hltx0.cloudfront.net/max/800/1*9nMBMt-OugnruBr_M-WuEQ.png
+- 14 Charts That Only Make Sense If You're a Diehard Harry Potter Fan
+  - http://www.dose.com/lists/2915/14-Charts-That-Only-Make-Sense-If-You-re-A-Diehard-Harry-Potter-Fan?utm_source=Twitter&utm_medium=OMGFacts&utm_campaign=Cards
