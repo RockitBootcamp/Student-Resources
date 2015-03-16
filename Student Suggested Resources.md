@@ -253,6 +253,8 @@ Change `isDirty` to clean if washed.
   - https://leanpub.com/understandinges6/read
 - Practice your skills: front-end inspiration
   - http://tevko.github.io/practice/index.html
+- The Cavern of COBOL - The Something Awful Forums
+  - http://forums.somethingawful.com/forumdisplay.php?forumid=202
 
 ####PHP
 - Laravel: Easy Auth
@@ -303,6 +305,8 @@ Change `isDirty` to clean if washed.
   - http://www.wsj.com/articles/how-to-tell-if-youre-a-jerk-at-work-1424664623
 - What Do You Most Want When Hiring Recent College Graduates?
   - https://www.linkedin.com/pulse/what-do-you-most-want-when-hiring-recent-college-jeff-selingo
+- A 10-point plan for getting a new job in 90 days
+  - https://www.linkedin.com/pulse/hire-economics-10-point-plan-getting-new-job-90-days-lou-adler
 
 ####Humor
 - How standards proliferate
