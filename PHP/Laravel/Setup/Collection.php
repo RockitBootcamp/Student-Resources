@@ -36,6 +36,17 @@ class Collection {
 	}
 
 	/**
+	 * Transform into json
+	 */
+	public function toJson() {
+		$a = [];
+		foreach($this->models as $model) {
+			$a[] = $model->getData();
+		}
+		return json_encode($a);
+	}
+
+	/**
 	 * Magic To String
 	 */
 	public function __toString() {
