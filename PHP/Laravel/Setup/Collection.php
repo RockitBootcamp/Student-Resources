@@ -29,21 +29,21 @@ class Collection {
 	}
 
 	/**
-	 * Get Models as Array
+	 * Return an array of model objects
 	 */
 	public function getArray() {
 		return $this->models;
 	}
 
 	/**
-	 * Transform into json
+	 * Return an array of model arrays
 	 */
-	public function toJson() {
+	public function toArrayDeep() {
 		$a = [];
 		foreach($this->models as $model) {
 			$a[] = $model->getData();
 		}
-		return json_encode($a);
+		return $a;
 	}
 
 	/**
