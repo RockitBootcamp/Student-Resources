@@ -38,7 +38,7 @@ class Collection {
 	/**
 	 * Return an array of model arrays
 	 */
-	public function toArrayDeep() {
+	public function getArrayDeep() {
 		$a = [];
 		foreach($this->models as $model) {
 			$a[] = $model->getData();
@@ -50,7 +50,7 @@ class Collection {
 	 * Magic To String
 	 */
 	public function __toString() {
-	    return empty($this->models) ? 'Collection has no models' : $this->toArrayDeep();
+	    return empty($this->models) ? 'Collection has no models' : $this->getArrayDeep();
 	}
 
 
