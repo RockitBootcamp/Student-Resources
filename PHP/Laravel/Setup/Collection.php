@@ -50,7 +50,7 @@ class Collection {
 	 * Magic To String
 	 */
 	public function __toString() {
-	    return empty($this->models) ? 'Collection has no models' : $this->getArrayDeep();
+	    return empty($this->models) ? 'Collection has no models' : print_r($this->getArrayDeep(), true);
 	}
 
 
