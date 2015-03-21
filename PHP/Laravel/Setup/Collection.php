@@ -47,7 +47,8 @@ class Collection {
 	}
 
 	/**
-	 * Magic To String
+	 * Magic To String. This allows you to output the controller as if it's a string. Should
+	 * be used for debugging purposes only
 	 */
 	public function __toString() {
 	    return empty($this->models) ? 'Collection has no models' : print_r($this->getArrayDeep(), true);
