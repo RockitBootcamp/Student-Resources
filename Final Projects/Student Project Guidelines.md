@@ -19,7 +19,7 @@ In your first sprint you will need to do the following:
 - Choose a Visual Design
 - Page Flow Diagram
 - Wireframes
-- Initialie Project
+- Initialize Project
 
 ## Business Rules
 
