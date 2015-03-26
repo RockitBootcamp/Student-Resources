@@ -1,4 +1,4 @@
-# Lesson 6: CSS Resets
+# Lesson 6: Resets
 
 Identifier   | Objectives
 -------------|------------

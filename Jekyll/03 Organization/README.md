@@ -1,8 +1,8 @@
-# Lesson 2: Templates and Markdown
+# Lesson 3: Organization
 
 Identifier   | Objectives
 -------------|------------
-Jekyll: 2.1  | todo
+Jekyll: 3.1  | todo
 
 
 ## Resources
