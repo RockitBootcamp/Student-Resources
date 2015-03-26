@@ -108,6 +108,7 @@
 - [PHP Singleton Example](https://gist.github.com/bradwestfall/5310a4d221734a30f50b)
 
 ## APIs
+- [Google Maps](https://developers.google.com/maps/getmaps/)
 - [PHP WkHtmlToPdf](https://github.com/mikehaertl/phpwkhtmltopdf)
 
 ## People to follow (these are the people to be aware of in the relms of Front-End Development)
