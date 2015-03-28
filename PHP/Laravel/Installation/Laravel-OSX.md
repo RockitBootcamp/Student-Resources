@@ -1,9 +1,8 @@
 # Gettings Started with Laravel
 
-
 Install Composer
 
-```ruby
+```sh
 $ curl -sS https://getcomposer.org/installer | php
 # move this to your bin folder
 $ mv composer.phar /usr/local/bin/composer
@@ -11,7 +10,7 @@ $ mv composer.phar /usr/local/bin/composer
 
 Install Laravel
 
-```ruby
+```sh
 # Download 
 $ composer global require "laravel/installer=~1.1"
 
@@ -29,7 +28,7 @@ $ laravel
 ```
 
 Create new project
-```ruby
+```sh
 $ cd ~/Sites/
 $ laravel new myProject
 
