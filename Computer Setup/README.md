@@ -54,4 +54,4 @@ Create the PHP file `index.php` at `~/Sites/localhost/index.php` with the follow
 phpinfo();
 ```
 
-Visit [localhost](localhost) in the browser
+Visit "localhost" in the browser. See if PHP pulls up the info page.
