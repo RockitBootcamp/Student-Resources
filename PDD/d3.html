@@ -29,8 +29,15 @@
 
         // Define Plot area
 		var margin = {top: 10, right: 30, bottom: 30, left: 30},
-		    width = window.innerWidth - margin.left - margin.right,
+		    width = (window.innerWidth - margin.left - margin.right) / 2,
 		    height = window.innerHeight - margin.top - margin.bottom;
+
+		var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width / 2)
+            .attr("height", height)
+            .attr("style", "margin-left:" + margin.left + "px;" +
+            				"margin-top:" + margin.top + "px;");
 
 		// Create svg element
 		var svg = d3.select("body")
