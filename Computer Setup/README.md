@@ -22,8 +22,19 @@ You'll need to know basic Unix commands for these steps. Here is a little legend
 - `sudo`: Type this before other commands to have a higher level of permissions
 - `sudo apachectl restart`
 
-Choose the guide that corresponds to your computer:
+Setup Apache and Virtual Hosts for your computer
 
 - [OS X Yosemite](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
 - [OS X Mavericks](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
 - [Ubuntu 14.04](Ubuntu-14.04 Apache and VHosts.md)
+
+## Localhost
+
+Create a VirtualHost called "localhost"
+
+```sh
+<VirtualHost *:80>
+    DocumentRoot "/Users/bradwestfall/Sites/localhost"
+    ServerName localhost
+</VirtualHost>
+```

@@ -12,6 +12,12 @@
 
 Go to `System Preferences` on the Mac. See if there is a new icon for MySQL at the bottom. Click on it and see if MySQl is started. If it's not, then start it
 
+Edit your bash profile (at `~/.bash_profile`) to have the following path to MySQL:
+
+```sh
+export PATH="/usr/local/mysql/bin:$PATH"
+```
+
 In Terminal, type:
 
 ```sh
