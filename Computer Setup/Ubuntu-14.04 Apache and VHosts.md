@@ -65,9 +65,9 @@ Find the include rule for "sites-enabled". Comment it out and replace with a new
 # Find this
 IncludeOptional sites-enabled/*.conf
 
-# Make it look like this
-# IncludeOptional sites-enabled/*.conf
+# Make it look like this:
 
+# IncludeOptional sites-enabled/*.conf
 Include /home/[username]/Hosts/*.conf
 ```
 
