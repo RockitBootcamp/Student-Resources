@@ -78,7 +78,6 @@ class Sql {
 	  Utilities
 	*****************************************/
 
-
 	/**
 	 * Removes keys from $sql_values if they match values from $ignore
 	 */

@@ -1,9 +1,8 @@
 # Gettings Started with Laravel
 
-
 Install Composer
 
-```ruby
+```sh
 $ curl -sS https://getcomposer.org/installer | php
 # move this to your bin folder
 $ mv composer.phar /usr/local/bin/composer
@@ -11,7 +10,7 @@ $ mv composer.phar /usr/local/bin/composer
 
 Install Laravel
 
-```ruby
+```sh
 # Download 
 $ composer global require "laravel/installer=~1.1"
 
@@ -29,7 +28,7 @@ $ laravel
 ```
 
 Create new project
-```ruby
+```sh
 $ cd ~/Sites/
 $ laravel new myProject
 
@@ -48,8 +47,8 @@ This method will use the brew version of php.
 ### Point apache to homebrew php
 
 Download php with the apache flag to ensure the module is included
-```ruby
-$brew uninstall php55
+```sh
+$brew tap homebrew/php
 $brew install php55 --with-fpm --with-apache
 
 ```
@@ -72,8 +71,7 @@ LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
 ```
 
 Install mcrypt
-```ruby
-brew install mcrypt
+```sh
 brew install php55-mcrypt
 ```
 Check your info.php to see that mcrypt is installed

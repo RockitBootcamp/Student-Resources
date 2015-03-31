@@ -1,0 +1,12 @@
+# Lesson 3: Delegated Events
+
+Identifier   | Objectives
+-------------|------------
+jQuery: 3.1  | Explain Delegated Events
+jQuery: 3.2  | Explain Event Bubbling
+jQuery: 3.3  | Demonstrate using the `.on()` method with delegated events
+             | &bull; `$('body').on('click', 'button', foo);`
+
+## Resources
+
+- [Event Binding in jQuery](https://gist.github.com/bradwestfall/c87fb32047247eac899b)

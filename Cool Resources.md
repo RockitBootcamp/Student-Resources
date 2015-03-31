@@ -53,6 +53,9 @@
 - [Label and Name Input Property](https://developers.google.com/web/fundamentals/input/form/label-and-name-inputs)
 - [History of the Internet (Video)](https://www.youtube.com/watch?v=9hIQjrMHTv4)
 
+## Interview Questions
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
 ## User Interface (UI)
 - [Dribbble (for design ideas)](http://dribbble.com)
 - [Some Good UI tips](http://goodui.org/)
@@ -108,6 +111,7 @@
 - [PHP Singleton Example](https://gist.github.com/bradwestfall/5310a4d221734a30f50b)
 
 ## APIs
+- [Google Maps](https://developers.google.com/maps/getmaps/)
 - [PHP WkHtmlToPdf](https://github.com/mikehaertl/phpwkhtmltopdf)
 
 ## People to follow (these are the people to be aware of in the relms of Front-End Development)

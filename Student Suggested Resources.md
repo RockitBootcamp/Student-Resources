@@ -289,6 +289,8 @@ Change `isDirty` to clean if washed.
   - http://www.usatoday.com/story/tech/2015/02/24/net-neutrality-what-is-it-guide/23237737/
 - Without REAL ID driver's license, will TSA require passport if plane never leaves USA?
   - http://www.computerworld.com/article/2475946/security0/without-real-id-driver-s-license--will-tsa-require-passport-if-plane-never-leaves-usa-.html
+- Microsoft is killing off the Internet Explorer brand
+  - http://www.theverge.com/2015/3/17/8230631/microsoft-is-killing-off-the-internet-explorer-brand
 
 #####Job related articles
 - Getting good: Integrating novice developers by Elise Worthy
@@ -313,3 +315,12 @@ Change `isDirty` to clean if washed.
   - https://d262ilb51hltx0.cloudfront.net/max/800/1*9nMBMt-OugnruBr_M-WuEQ.png
 - 14 Charts That Only Make Sense If You're a Diehard Harry Potter Fan
   - http://www.dose.com/lists/2915/14-Charts-That-Only-Make-Sense-If-You-re-A-Diehard-Harry-Potter-Fan?utm_source=Twitter&utm_medium=OMGFacts&utm_campaign=Cards
+
+####Job Interview Guidance
+- The ultimate guide to job interview answers 2006
+  - https://drive.google.com/file/d/0B_mD2ozodXE6M0lYTXUyRU1TSU0/view
+- Top 50 Technical Interview Questions
+  - http://jobsearch.about.com/od/interviewquestionsanswers/a/top-50-it-interview-questions.htm
+- Latest JavaScript Interview Questions and Answers
+  - http://www.codeproject.com/Articles/620811/Latest-JavaScript-Interview-Questions-and-Answers
+- 
