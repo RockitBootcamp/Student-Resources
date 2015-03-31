@@ -37,17 +37,12 @@ php -v
 ```
 
 ## Restart Apache
+
 ```sh
-sudo service apache2 restart
+sudo apachectl restart
 ```
 
 ## Ensure everything is working
 
 Verify apache is running: 
 [http://localhost/](http://localhost/)
-
-Verify PHP is installed and running: 
-[http://localhost/phpinfo.php](http://localhost/phpinfo.php)
-
-
-
