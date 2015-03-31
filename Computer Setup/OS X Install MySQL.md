@@ -18,6 +18,8 @@ Edit your bash profile (at `~/.bash_profile`) to have the following path to MySQ
 export PATH="/usr/local/mysql/bin:$PATH"
 ```
 
+Save and exit.
+
 In Terminal, type:
 
 ```sh

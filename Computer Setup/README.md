@@ -20,7 +20,9 @@ You'll need to know basic Unix commands for these steps. Here is a little legend
 - `whoami`: See what your username is
 - `pwd`: "Print Working Directory" - see what folder you're in
 - `sudo`: Type this before other commands to have a higher level of permissions
-- `sudo apachectl restart`
+- `sudo apachectl restart`: Restart Apache
+- `ls`: List the files of the current directory
+- `ls -la`: List the files of the current directory including hidden files
 
 Setup Apache and Virtual Hosts for your computer
 
