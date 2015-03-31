@@ -30,13 +30,28 @@ Setup Apache and Virtual Hosts for your computer
 - [OS X Mavericks](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
 - [Ubuntu 14.04](Ubuntu-14.04 Apache and VHosts.md)
 
-## Localhost
+## localhost
 
 Create a VirtualHost called "localhost"
 
 ```sh
 <VirtualHost *:80>
-    DocumentRoot "/Users/bradwestfall/Sites/localhost"
-    ServerName localhost
+    DocumentRoot "/Users/[username]/Sites/localhost"
+    ServerName "localhost"
 </VirtualHost>
 ```
+
+Restart Apache
+
+```sh
+sudo apachectl restart
+```
+
+Create the PHP file `index.php` at `~/Sites/localhost/index.php` with the following contents:
+
+```php
+<?php
+phpinfo();
+```
+
+Visit [localhost](localhost) in the browser
