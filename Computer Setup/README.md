@@ -11,3 +11,13 @@ Students should have a recent version of Ubuntu (or similar Linux OS like Mint) 
 
 ### OS X
 - [Install MySQL](OS X Install MySQL.md)
+- [Install Homebrew](http://brew.sh/)
+
+## Apache and Virtual Host Setup
+
+You'll need to know basic Unix commands for these steps. Here is a little legend of common commands you'll need:
+
+- `whoami`: See what your username is
+- `pwd`: "Print Working Directory" - see what folder you're in
+
+

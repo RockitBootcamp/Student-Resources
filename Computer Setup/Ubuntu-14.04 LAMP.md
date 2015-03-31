@@ -21,7 +21,7 @@ apache2 -v
 ```sh
 sudo apt-get install mysql-server
 
-# Do not enter a password when prompted.
+# Do not enter a password when prompted. In other words we want our password to be blank.
 
 # Verify Install
 mysql -v
