@@ -47,11 +47,29 @@ Restart Apache
 sudo apachectl restart
 ```
 
-Create the PHP file `index.php` at `~/Sites/localhost/index.php` with the following contents:
+Create the PHP file `index.php` at `~/Sites/localhost/php/index.php` with the following contents:
 
 ```php
 <?php
 phpinfo();
+?>
 ```
 
-Visit "localhost" in the browser. See if PHP pulls up the info page.
+Visit "localhost/php" in the browser. See if PHP pulls up the info page.
+
+Create more Virtual Hosts for all your Milestones. Below is the an example of what your M1 VirtualHost should have:
+
+A Virtual Host file at `~/[username]/Hosts` named "m1.conf":
+
+```sh
+<VirtualHost *:80>
+    DocumentRoot "/Users/[username]/Sites/m1"
+    ServerName "dev.m1.com"
+</VirtualHost>
+```
+
+And a record in your "hosts" file at "/etc/hosts":
+
+```sh
+127.0.0.1   dev.m1.com
+```
