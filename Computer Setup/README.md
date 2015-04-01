@@ -57,7 +57,7 @@ phpinfo();
 
 Visit "localhost/php" in the browser. See if PHP pulls up the info page.
 
-> Note that we do not need to add a record in our hosts file at `/etc/hosts` because Apache will already have a record there for us.
+> Note that for localhost, we do not need to add a record in our hosts file at `/etc/hosts` because Apache will already have a record there for us.
 
 ## Additional VirtualHosts
 
@@ -78,7 +78,7 @@ Restart Apache
 sudo apachectl restart
 ```
 
-And a record in your "hosts" file at "/etc/hosts":
+Add a record in your "hosts" file at "/etc/hosts":
 
 ```sh
 127.0.0.1   dev.m1.com
