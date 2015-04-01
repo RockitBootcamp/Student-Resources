@@ -26,4 +26,4 @@ In Terminal, type:
 mysql -uroot
 ```
 
-This command says, "Login to MySQL with the user of root". By Default, you will have one user for the database with a username of `root` and no password.
+This command says, "Login to MySQL with the user of root". By default, you will have one user for the database with a username of `root` and no password.
