@@ -57,6 +57,8 @@ phpinfo();
 
 Visit "localhost/php" in the browser. See if PHP pulls up the info page.
 
+> Note that we do not need to add a record in our hosts file at `/etc/hosts` because Apache will already have a record there for us.
+
 ## Additional VirtualHosts
 
 Create more Virtual Hosts for all your Milestones. Below is the an example of what your M1 VirtualHost should have:
@@ -68,6 +70,12 @@ A Virtual Host file at `~/[username]/Hosts` named "m1.conf":
     DocumentRoot "/Users/[username]/Sites/m1"
     ServerName "dev.m1.com"
 </VirtualHost>
+```
+
+Restart Apache
+
+```sh
+sudo apachectl restart
 ```
 
 And a record in your "hosts" file at "/etc/hosts":
