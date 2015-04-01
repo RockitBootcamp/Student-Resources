@@ -57,6 +57,8 @@ phpinfo();
 
 Visit "localhost/php" in the browser. See if PHP pulls up the info page.
 
+## Additional VirtualHosts
+
 Create more Virtual Hosts for all your Milestones. Below is the an example of what your M1 VirtualHost should have:
 
 A Virtual Host file at `~/[username]/Hosts` named "m1.conf":
