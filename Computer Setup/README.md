@@ -83,3 +83,5 @@ Add a record in your "hosts" file at "/etc/hosts":
 ```sh
 127.0.0.1   dev.m1.com
 ```
+
+![Local Apache](local-apache.png)
