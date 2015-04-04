@@ -10,6 +10,7 @@
   - Paste a link to the Google Drive student section so they have the schedule
 - Create a Twitter account.
 - Create a LinkedIn account
+  - Link with other students and Rockit staff on LinkedIn
 
 ## High-level schedule
 - Milestones (weeks 1-7)
