@@ -11,9 +11,6 @@
 - Create a Twitter account.
 - Create a LinkedIn account
 
-
-
-
 ## High-level schedule
 - Milestones (weeks 1-7)
 - Group Projects (weeks 8-9)
@@ -22,7 +19,7 @@
 
 ## Daily Schedule
 
-- Class starts at 9 and ends at 5
+- Class starts at 9am and ends at 5pm
 - The room is officially unlocked at 8am but if you ask the security guard they will open it up early for you
 - Don't be late to class
 - Our best students have historically always showed up early and stayed late
@@ -47,18 +44,19 @@
   - Turning in a project for the milestone
 - Lessons can be redone as many times as it takes for you to grasp the material
 - Students can request more difficult material if they wish
-- Homework is rarely turned in. There are no grades in the bootcamp so homework is never graded. If you are assigned homework or extra learning material. Make sure you learn it and you only need to follow up with teachers if there were parts you didn't understand or needed clairification on.
+- Homework is rarely turned in. There are no grades in the bootcamp so homework is never graded. If you are assigned homework or extra learning material. Make sure you learn it and you only need to follow up with teachers if there were parts you didn't understand or needed clarification on.
 
 ## Class Materials
 
 - The schedule and some "power-point" style presentations are at [Google Drive](https://drive.google.com/a/azpixels.com/#folders/0Bx5x0ObRW281Q1lEbnJoOFBoUW8)
 - Most class materials are at GitHub in the [Student Resources Repository](https://github.com/RockitBootcamp/Student-Resources)
-  - Each milestone has approxamently 14-18 lessons and discovering which lessons of Student Resources belong to which milestone is documented in your class-specific repo
+  - Each milestone has approximately 14-18 lessons and discovering which lessons of Student Resources belong to which milestone is documented in your class-specific repo
   - Each lesson has a list of objectives which you are responsible for learning
   - The objectives also double-serve as a study guide for any tests and interviews
-  - All lessons have links to outside resources that will supplament the in-class lesson
+  - All lessons have links to outside resources that will supplement the in-class lesson
   - Many lessons have "Extra Study" or homework assignments at the bottom of the lesson
-  
+  - There is a "Glossary of terms" available in the Student Resources
+  - There is a file called "Cool Resources" which links to all kinds of interesting blogs and learning material
 
   
   
