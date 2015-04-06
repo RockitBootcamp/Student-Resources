@@ -34,7 +34,7 @@ The file should resemble:
  - On Mac, type: `sudo apachectl restart`
  - On Ubuntu, type: `sudo service apache2 reload`
 
-3) Edit your "Hosts" file, not to be confused with Virutal Hosts. Edit the hosts file at `/etc/hosts`. Add a DNS record to point our fake domain name to the local IP address which is always `127.0.0.1`
+3) Edit your "hosts" file, not to be confused with Virutal Hosts. Edit the hosts file at `/etc/hosts`. Add a DNS record to point our fake domain name to the local IP address which is always `127.0.0.1`
 
 ```
 127.0.0.1    mac.[projectname].com
