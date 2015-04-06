@@ -11,7 +11,9 @@ WF: 1.4      | Demonstrate restarting apache
 
 ## Resources
 - __Video__ [Apache and VirtualHost setup](http://youtu.be/5hkyWkxFVLs)
-- [Brad's Gist](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
+- [OS X Yosemite](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
+- [OS X Mavericks](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
+- [Ubuntu 14.04](Ubuntu-14.04 Apache and VHosts.md)
 
 ## Steps to make a Virtual Host
 
