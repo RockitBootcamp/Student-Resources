@@ -11,7 +11,7 @@ WF: 1.4      | Demonstrate restarting apache
 
 ## Resources
 - __Video__ [Apache and VirtualHost setup](http://youtu.be/5hkyWkxFVLs)
-[Brad's Gist](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
+- [Brad's Gist](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
 
 ## Steps to make a Virtual Host
 
