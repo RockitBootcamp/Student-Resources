@@ -17,7 +17,7 @@ WF: 1.4      | Demonstrate restarting apache
 
 ## Steps to make a Virtual Host
 
-1. Create a new VirtualHost file. These are located at `/Users/[username]/Hosts`. It's easiest to go here in Finder (on Mac) or similar window program and copy one that already exists to make a new one. The name of the file should be your project name then with `.conf` as the extension.
+1) Create a new VirtualHost file. These are located at `/Users/[username]/Hosts`. It's easiest to go here in Finder (on Mac) or similar window program and copy one that already exists to make a new one. The name of the file should be your project name then with `.conf` as the extension.
 
 The file should resemble:
 
@@ -30,11 +30,11 @@ The file should resemble:
 
 > Note that the value for `ServerName` resembles what you'll be typing in the URL. The `DocumentRoot` value is where you want Apache to go when the URL is typed.
 
-2. Restart Apache. Editing or adding a VirtualHost file will require an Apache restart
+2) Restart Apache. Editing or adding a VirtualHost file will require an Apache restart
  - On Mac, type: `sudo apachectl restart`
  - On Ubuntu, type: `sudo service apache2 reload`
 
-3. Edit your "Hosts" file, not to be confused with Virutal Hosts. Edit the hosts file at `/etc/hosts`. Add a DNS record to point our fake domain name to the local IP address which is always `127.0.0.1`
+3) Edit your "Hosts" file, not to be confused with Virutal Hosts. Edit the hosts file at `/etc/hosts`. Add a DNS record to point our fake domain name to the local IP address which is always `127.0.0.1`
 
 ```
 127.0.0.1    mac.[projectname].com
@@ -42,7 +42,7 @@ The file should resemble:
 
 > Editing this file does not require an Apache restart
 
-4. Last but not least, make sure you actually make a folder in your sites folder: `/Users/[username]/Sites/[projectname]`, probably with an index file or something to look at in the browser.
+4) Last but not least, make sure you actually make a folder in your sites folder: `/Users/[username]/Sites/[projectname]`, probably with an index file or something to look at in the browser.
 
 
 
