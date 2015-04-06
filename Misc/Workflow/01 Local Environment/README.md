@@ -6,8 +6,7 @@ WF: 1.1      | Explain Apache's role in HTTP requests
 WF: 1.2      | Demonstrate the creation of a VirtualHost file
 WF: 1.3      | Explain the role of the hosts file at `/etc/hosts`
 WF: 1.4      | Demonstrate restarting apache
-             | &bull; `$ sudo apachectl restart` for OS X
-             | &bull; `$ sudo service apache2 reload` for Linux
+             | &bull; `$ sudo apachectl restart` 
 
 ## Resources
 - __Video__ [Apache and VirtualHost setup](http://youtu.be/5hkyWkxFVLs)
@@ -31,8 +30,7 @@ The file should resemble:
 > Note that the value for `ServerName` resembles what you'll be typing in the URL. The `DocumentRoot` value is where you want Apache to go when the URL is typed.
 
 2) Restart Apache. Editing or adding a VirtualHost file will require an Apache restart
- - On Mac, type: `sudo apachectl restart`
- - On Ubuntu, type: `sudo service apache2 reload`
+ - type: `sudo apachectl restart`
 
 3) Edit your "hosts" file, not to be confused with Virutal Hosts. Edit the hosts file at `/etc/hosts`. Add a DNS record to point our fake domain name to the local IP address which is always `127.0.0.1`
 
