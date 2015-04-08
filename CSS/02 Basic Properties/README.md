@@ -64,7 +64,7 @@ Colors can also be written with their color name words:
 
 ```css
 div {
-    color: blue:
+    color: blue;
     background-color: magenta;
 }
 ```
