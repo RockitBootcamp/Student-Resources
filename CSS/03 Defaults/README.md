@@ -24,3 +24,4 @@ CSS 3.6      | Explain the default margin of the `<body>` tag
 ## Resources
 - __W3 Schools__ [HTML Blocks](http://www.w3schools.com/html/html_blocks.asp)
 - [HTML / CSS Part 1](https://www.youtube.com/watch?v=Nej7B5M-vOM)
+- [CSS Display: Inline-Block](https://www.youtube.com/watch?v=S2yeSpE9EZs)
