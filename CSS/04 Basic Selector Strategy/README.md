@@ -10,6 +10,7 @@ CSS 4.4      | Demonstrate use of pseudo classes: `:first-child` and `:last-chil
 
 ## Resources
 - __CSS Tricks__ [Semantic Class Names](http://css-tricks.com/semantic-class-names/)
+- [Specificity Calculator](http://specificity.keegan.st/)
 
 ## Practice
 
