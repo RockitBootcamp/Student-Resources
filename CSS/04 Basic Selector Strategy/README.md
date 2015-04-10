@@ -12,6 +12,16 @@ CSS 4.4      | Demonstrate use of pseudo classes: `:first-child` and `:last-chil
 - __CSS Tricks__ [Semantic Class Names](http://css-tricks.com/semantic-class-names/)
 - [Specificity Calculator](http://specificity.keegan.st/)
 
+## Extra Study
+
+Additional tips to Demonstrate good judgment
+- Don't make selectors too specific by adding ids
+- Don't qualify by tag names
+- Don't use class names that describe aesthetics and layout
+	- don't create a class of "yellow" or "left"; these could lose their meaning when updates are made
+- Do describe the content
+	- a class of "user" or "user admin" has more longevity
+
 ## Practice
 
 Examine the following HTML. See if you can select specific parts:
