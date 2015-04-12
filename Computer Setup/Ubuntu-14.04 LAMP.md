@@ -30,7 +30,7 @@ mysql -v
 ## Install PHP
 
 ```sh
-apt-get install php5-common libapache2-mod-php5 php5-cli php5-mysql
+apt-get install php5 php5-mysql
 
 # Verify Install
 php -v
