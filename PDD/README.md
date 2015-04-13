@@ -4,12 +4,33 @@ The objectives of the Rockit Bootcamp Professional & Personal Development Curric
 
 ## Objectives
 
--	Integrate Bootcamp program with the professional world of work-	Engage students with employers to better appreciate the professional environment they will be working in and to start building business/industry contacts
--	Support students in finding a job as an entry-level web-developer-	Develop the non-technical skills demanded by employers:	-	Communication Skills		-	Writing		-	Problem Solving		-	Troubleshooting	-	Organizational Skills		-	Detail-Oriented		-	Creativity		-	Quality Assurance and Control	-	Research		-	Project Management		-	Planning		-	Meeting Deadlines		-	Multi-Tasking		-	Team Work		-	Self-Starter		-	Time Management	| Week | Session  |
+-	Integrate Bootcamp program with the professional world of work
+-	Engage students with employers to better appreciate the professional environment they will be working in and to start building business/industry contacts
+-	Support students in finding a job as an entry-level web-developer
+-	Develop the non-technical skills demanded by employers:
+	-	Communication Skills	
+	-	Writing	
+	-	Problem Solving	
+	-	Troubleshooting
+	-	Organizational Skills	
+	-	Detail-Oriented	
+	-	Creativity	
+	-	Quality Assurance and Control
+	-	Research	
+	-	Project Management	
+	-	Planning	
+	-	Meeting Deadlines	
+	-	Multi-Tasking	
+	-	Team Work	
+	-	Self-Starter	
+	-	Time Management	
+
+| Week | Session  |
 |---|---|
 |1 |  Introduction and Self Awarness | 
-|2 | Organization, time-management & meeting deadlines | 
-|3 | Presenting an idea or a solution | 
+|2 | <a href="https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/WorkingInACompany#working-in-a-company-as-a-web-developer">Working in an Organization and Communication</a> |
+|3 | Organization, time-management & meeting deadlines | 
+|4 | Presenting an idea or a solution | 
 |5 | Teamwork & collaboration | 
 |6 | Software development project methodology | 
 |7-9 | Reflective report 1: Group project | 
