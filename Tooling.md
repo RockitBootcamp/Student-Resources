@@ -5,6 +5,7 @@
 ### [Google Analytics](http://www.google.com/analytics/)
 Google Analytics tracks various visitor statistics about your site. It's one of the most commonly used third-party tool on the web with almost every website using it. Google Analytics will provide you a snippet of JavaScript which you paste at the bottom of your HTML. Then you can log into your Google Analytics account to see the data.
 
+
 ### [Google Fonts](https://www.google.com/fonts)
 Go to Google Fonts and choose the various fonts you want to use. Then proceed to choose the font weights you'll need. Google will give you the CSS link to include the fonts onto your page.
 

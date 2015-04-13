@@ -6,21 +6,21 @@ Objectives
 - Explain Agile
 - Explain Scrum
 - Explain Kanban
-- Explain Common SDLC tasks (Discover, Develop, Test, Deploy, Maintain)
+- Explain Common SDLC tasks (Discovery, Development, Testing, Deployment, Maintenance)
 
 
 # SDLC Overview
-There are different models used to develop software. The common steps in each model is:
+There are different models used to develop software. The common steps in each model are:
 
 - Discovery
 - Developemnt
 - Testing
 - Deploying
-- Maintainance
+- Maintenance
 
 ## Discovery
 The point of the Discovery phase is to **Decide what will be done**
-This is similar to the [Define the Problem](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/PresentingSolution#define-the-problem) in Presenting an idea or solution.
+This is similar to the [*Define the Problem*](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/PresentingSolution#define-the-problem) in Presenting an idea or solution.
 
 Consider:
 - Gather Requirements
@@ -31,13 +31,12 @@ Consider:
 
 ## Development
 Code to the requirements and include Unit Test
-- coordinate all hardware, software, & IT resources
+- Coordinate all hardware, software, & IT resources
 - Initial Version, just roll it out
 - Upgrades require more diligence 
 
-
 ## Testing
-Ideally a differnt team will test your code according to the requirement. They can use different testing methods:
+Ideally a differnt team will test your code according to the requirements. They can use different testing methods:
 - Functional Testing
 - Integration Testing
 - Black Box / White Box testing
@@ -45,7 +44,7 @@ Ideally a differnt team will test your code according to the requirement. They c
 - Stress Testing
 
 ## Deployment
-Once testing has been compelted, code is deployed into production environment.
+Once testing has been completed, the code is deployed into the production environment.
 - Deployment Windows
 - Zero Down Time
 - Rolling Deployments
@@ -72,7 +71,7 @@ Another team may be responsible to maintain your code. You should consider:
 
 
 # Agile
-Is not a methodology, its a way of thinking
+Is not a methodology, it's a way of thinking
 - individuals and interactions over process and tools
 - working software over comprehensive documentation
 - customer collaboration over contract negotiation
@@ -113,7 +112,7 @@ Key Terms
 - Do you have any roadblocks
 
 ## Sprint Planning
-- Clearify Acceptance Requirements
+- Clarify Acceptance Requirements
 - Size backlog items
 - Add backlog items to the sprint
 - Breakdown tasks

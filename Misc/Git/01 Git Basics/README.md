@@ -29,11 +29,11 @@ Install Git
 - Ubuntu users: `$ apt-get install git`
 - Mac users: try running `$ git --version` from the terminal, if you don't have git, the terminal will say so.
 
-You'll need to tell Git about who you are so it can attribute your changes to your name. If you don't do this step, git will bug you.
+Tell Git about who you are so it can attribute your changes to your name. If you don't do this step, git will bug you. Be sure to use your email associated with GitHub
 
 ```sh
 $ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.email "johndoe@example.com"
 ```
 
 ### Initialize a project
