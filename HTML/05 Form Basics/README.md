@@ -48,7 +48,7 @@ Some main points:
 
 - The `action` attribute is the filename of the server-side script (such as a PHP file) that the form submits to. In this case the action is `process.php`, but it could be any server-side programming language
 - The `method` attribute is the HTTP method we wish to use (typically `POST` or `GET`)
- - Note that `GET` is the default method of forms, so if you want a form to use `GET`, you can ommit the method attribute alltogether
+ - Note that `GET` is the default method of forms, so if you want a form to use `GET`, you can omit the method attribute altogether
 - Input fields (such as first and last name in this case) must have a `name` attribute to properly submit to the server-side script 
 
 ### Checkboxes
@@ -97,7 +97,7 @@ To make a dropdown menu, use the `<select>` tag:
 </form>
 ```
 
-Select fields are similar to text fields but they don't let the user type whatever they want. There is a premade list of choices (or options). Note that the `<select>` field only lets the user choose one option (by default) and it bears the `name` attribute for the field, not the options. Then when an option is chosen, the option's text is the value that get's submitted in the form. If this form were submitted with Arizona selected, the URL would end up being: `process.php?state=Arizona`. 
+Select fields are similar to text fields but they don't let the user type whatever they want. There is a pre-made list of choices (or options). Note that the `<select>` field only lets the user choose one option (by default) and it bears the `name` attribute for the field, not the options. Then when an option is chosen, the option's text is the value that get's submitted in the form. If this form were submitted with Arizona selected, the URL would end up being: `process.php?state=Arizona`. 
 
 But what if we wanted to show the user the full names of the states, while submitting something different over HTTP?
 
@@ -126,7 +126,7 @@ Something we're missing from the forms above is a submit button. Let's redo the 
 </form>
 ```
 
-Note that ordinarily, buttons don't do anything. Unlink links, buttons have nothing similar to an `href` attribute which takes the button somehwere which clicked. There are two primary ways buttons can get their behaviors. The first is to program the button's behavior with JavaScript (which is not the topic of this lesson), and the second way is to have the button nested in a form. By having a button in a form like this will automatically establish the button as a submit button.
+Note that ordinarily, buttons don't do anything. Unlink links, buttons have nothing similar to an `href` attribute which takes the button somewhere which clicked. There are two primary ways buttons can get their behaviors. The first is to program the button's behavior with JavaScript (which is not the topic of this lesson), and the second way is to have the button nested in a form. By having a button in a form like this will automatically establish the button as a submit button.
 
 Although buttons can have types too, just like input fields:
 
