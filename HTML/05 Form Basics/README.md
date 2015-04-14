@@ -12,7 +12,6 @@ HTML: 5.2    | Demonstrate use of `<input>` the element and its HTML4 types:
              | &bull; `<input type="password">`
              | &bull; `<input type="button">`
              | &bull; `<input type="hidden">`
-             | &bull; `<input type="input">`
 HTML: 5.3    | Demonstrate how to use the `radio` input field type...
              | &bull; With the `name` attribute to group radio buttons
 HTML: 5.4    | Demonstrate how to use `checkbox` input field type
