@@ -83,7 +83,7 @@ So, the result is a sentence that reads: At the end of the loop a=50 and b=25.
 $array = [1, 2, 3, 4];
 
 foreach ($array as $value){
-  execute some code;
+  // execute some code;
 }
 
 //or it can be written with the $key and $value as follows:
@@ -96,7 +96,7 @@ $array = [
 ];
 
 foreach ($array as $key => $value){
-  execute some code;
+  // execute some code;
 }
 ```
 
