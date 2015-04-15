@@ -199,7 +199,7 @@ foreach($products as $key => $product){
 }
 ```
 
-** Step 3: Insert the options in a `<select>` tag in the HTML **
+**Step 3: Insert the options in a `<select>` tag in the HTML**
 
 ```html
 <!DOCTYPE html>
@@ -218,7 +218,7 @@ Pick a product:
 </html>
 ```
 
-** Step 4: Submit the form somewhere **
+**Step 4: Submit the form somewhere**
 
 Add an action attribute to the form:
 
@@ -226,7 +226,7 @@ Add an action attribute to the form:
 <form action="process.php">
 ```
 
-** Step 5: Create the page that receives the form submission: **
+**Step 5: Create the page that receives the form submission:**
 
 This file is a separage file (process.php):
 
