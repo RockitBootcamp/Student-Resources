@@ -123,3 +123,19 @@ $text = "Welcome $name, you are not signed in";
 ```
 
 With single quotes, we can only embed the `$name` variable by using concatenation. But with double quotes, we can put the variable directly in the string without breaking up the string and doing concatenation. Sometimes it can be more difficult to see your variables when variable interpolation is used. This might be a good reason to not use it, but it's up to you.
+
+### Type Casting
+We've learned about the different data types (integers, strings, booleans, etc.). Type casting is when a data type is input as one type, but executed as another. For example, if we have the following:
+`$x = 3 + '8'`, 3 is an integer and 8 is a string. However, if we were to output `$x`, the result would be 11. This is because PHP implicitly type casts the string of '8' to be an integer. Another example would be if we have the following:
+```php
+$a = 8 
+$b = 3
+$c = $a / $b
+```
+`$a` and `$b` are integers, therefore, you would expect `$c` to also be an integer. However, PHP will convert the vaule to a float where the output will be "2.6666666666667". If you want this to be an integer, then you would explicitly cast $c as an integer as follows:
+```php
+$a = 8 
+$b = 3
+$c = (int)($a/$b)
+```
+To recap, Implicit Type casting is when PHP automatically converts values from one type to another, and Explicit Type casting is when you specify what type you want the value to be. 
