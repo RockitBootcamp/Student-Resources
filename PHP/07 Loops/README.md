@@ -106,11 +106,13 @@ The syntax of the `foreach` includes the name of your array ($array), then after
 
 #### Example 1:
 
+Output each animal with "I would like to have a " preceeding the animal name:
+
 ```php
 $animals = ['dog', 'cat', 'fish', 'horse', 'bird'];
 
 foreach ($animals as $animal){
-  echo "I would like to have a $animal.", "<br>";
+  echo "I would like to have a $animal.<br>";
 }
 ```
 
@@ -126,51 +128,56 @@ I would like to have a bird.
 
 #### Example 2:
 
+Describe a team's attributes using an associative array. Output each of the team's attributes:
+
 ```php
 $team = [
 	'name' => 'The Suns',
-	'num_player' => 7,
+	'players' => 12,
 	'primary_color' => 'orange',
 	'record' => '5-20',
 	'last_championship' => 'never'
 ];
 
 foreach($team as $property => $value) {
-	echo "idx: $property, value: $value<br>";
+	echo "$property: $value<br>";
 }
 ```
 
 The above result will be: 
 
 ```html
-idx: name, value: The Suns
-idx: num_player, value: 7
-idx: primary_color, value: orange
-idx: record, value: 5-20
-idx: last_championship, value: never
+name, value: The Suns
+players: 12
+primary_color: orange
+record: 5-20
+last_championship: never
 ```
 
 #### Example 3:
-create a dropdown that allows you to select from a list of states
+
+Create a dropdown that allows you to choose from a list of states
 
 ```php
 <?php
+
 $states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut'];
 $states_opts = '';
 
 foreach($states as $state) {
     $state_opts .= "<option>$state</option>\n";
 }
+
 ?>
 
- <select name="" id="">
+<select name="states">
     <?php echo $state_opts; ?>
- </select>
+</select>
  ```
  
 #### Example 4:
 
-Create a drop down with a list of products and a "buy it now" button, and set the option to the value of the last item selected.
+Create a drop down with a list of products and a "buy it now" button. Note that in this example we'll also use a random SKU for each product and we'll use that SKU as the array's key:
 
 **Step 1: Create your products list**
 
@@ -183,7 +190,7 @@ $products = [
 ];
 ```
 
-** Step 2: create options **
+**Step 2: Create options**
 
 ```php
 $opts = '';
@@ -192,22 +199,17 @@ foreach($products as $key => $product){
 }
 ```
 
-** Step 3: add the html and put options in a select tag & test it **
-
-** Step 4: finish the form (action is blank because we're submitting back to ourselves, method is GET. We will get the values from the GET array) **
+** Step 3: Insert the options in a `<select>` tag in the HTML **
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>php loops</title>
-</head>
+<head></head>
 <body>
 
 Pick a product:
 <form action="">
-   <select name="product_id" id="">
+   <select name="product_id">
 	 <?php echo $opts; ?>
    </select>
    <button>Buy it NOW</button>
@@ -216,84 +218,23 @@ Pick a product:
 </html>
 ```
 
-** Step 5: handle the form submission by: **
+** Step 4: Submit the form somewhere **
 
-5a: check to see if anything (product_id) is there. This will go right below your products list and above your code from step 2.
+Add an action attribute to the form:
 
-```php
-if(isset($_GET['product_id'])){
-
-}
+```
+<form action="process.php">
 ```
 
-5b: set the product_id to a variable with an empty string, then set it to the input we get within the if-statement.
+** Step 5: Create the page that receives the form submission: **
+
+This file is a separage file (process.php):
 
 ```php
-$product_id = '';
+<?php
 
-if(isset($_GET['product_id'])){
-   $product_id = $_GET['product_id'];
-}
-```
-
-5c: create a message that also outputs the product name selected.
-
-```php
 if(isset($_GET['product_id'])){
    $product_id = $_GET['product_id'];
-   $msg = "You bought a {$products[$product_id]}";
+   echo "You bought a {$products[$product_id]}";
 }
 ```
-
-5d: put the message within html (below or above the form tags)
-
-```php
-<?php echo $msg ?>
-```
-
-Finally, the code put all together should look like this:
-
-```php
-<?php 
-$products = [
-    '7897wej2' => 'desk',
-    '2342314asdf' => 'chair',
-    '23314sdf' => 'boat',
-    '734253eah' => 'car'
-];
-
-$product_id = '';
-
-if(isset($_GET['product_id'])){
-	$product_id = $_GET['product_id'];
-	$msg = "You bought a {$products[$product_id]}";
-}
-
-$opts = '';
-foreach($products as $key => $product){
-	$opts .= "<option value=\"$key\">$product</option>";
-}
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>php ex4</title>
-</head>
-<body>
-
-Pick a product:
-<form action="">
-	<select name="product_id" id="">
-		<?php echo $opts ?>
-	</select>
-	<button>Buy it NOW!</button>
-</form>
-	<br>
-	<?php echo $msg ?>
-</body>
-</html>
-```
-
-
