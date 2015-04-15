@@ -15,7 +15,8 @@ PHP: 1.5     | Use PHP Comments
 PHP: 1.6     | Demonstrate modularization with...
              | &bull; `include` and `include_once`
              | &bull; `require` and `require_once`
-
+PHP: 1.7     | Explain `die()` and `exit()`
+             
 ## Resources
 - __W3 Schools__ [PHP Syntax](http://www.w3schools.com/php/php_syntax.asp) 
 - __W3 Schools__ [PHP Variables](http://www.w3schools.com/php/php_variables.asp) 
