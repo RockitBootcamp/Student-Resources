@@ -26,10 +26,22 @@ alias grep='grep --color' # colorize output
 alias sites='cd ~/Sites'  # change to the Sites directory
 ```
 
-## grep
-The 'grep' command allows you to search through files or through the standard output of any other unix commands. To search for the word class in the file MyClass.php:
+## grep #1
+The 'grep' command allows you to search through files or through the standard output of any other unix commands. To search for the word 'class' in the file MyClass.php:
 ```bash
 $ grep class MyClass.php
 ```
+The -i flag will do a case-insensitive search. So, to find 'class' or 'Class':
+```bash
+$ grep -i class MyClass.php
+# or to search in all php files
+$ grep -i class *.php
+```
+
+The -r flag will do a recursive search in all subdirectories:
+```bash
+$ grep -r class *
+```
+
 
 
