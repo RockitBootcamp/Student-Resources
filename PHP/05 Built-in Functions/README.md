@@ -10,6 +10,7 @@ PHP: 5.2     | Demonstrate using function calls as arguments
              | &bull; `$x = foo(bar());`
 PHP: 5.3     | Use basic PHP string functions
              | &bull; `strlen()`
+             | &bull; `is_numeric()`
              | &bull; `ucwords()`
              | &bull; `ucfirst()`
              | &bull; `substr()`
