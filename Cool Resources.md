@@ -95,6 +95,7 @@
 - [JavaScript Performance](http://www.w3schools.com/js/js_performance.asp)
 - [Interview with Paul Irish](https://www.youtube.com/watch?v=JhWGSD_TY2Y#t=1410)
 - [Inspiration for Dialog Events](http://tympanus.net/codrops/2014/12/08/inspiration-dialog-effects/)
+- [JSON Hijacking](http://haacked.com/archive/2009/06/25/json-hijacking.aspx/)
 
 ## Computer Science
 - [What every programmer should know about floating points](http://blog.reverberate.org/2014/09/what-every-computer-programmer-should.html)
