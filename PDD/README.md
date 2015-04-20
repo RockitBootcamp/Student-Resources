@@ -32,7 +32,7 @@ The objectives of the Rockit Bootcamp Professional & Personal Development Curric
 |3 | Organization, time-management & meeting deadlines | 
 |4 | [Presenting an idea or a solution](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/PresentingSolution) | 
 |5 | Teamwork & collaboration | 
-|6 | Software development project methodology | 
+|6 | [Software development project methodology ](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/SDLC)| 
 |7-9 | Reflective report 1: Group project | 
 |10-12 | Reflective report 2: Individual project | 
 |7 | A day in the life of a developer | 
