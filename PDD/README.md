@@ -30,7 +30,7 @@ The objectives of the Rockit Bootcamp Professional & Personal Development Curric
 |1 |  Introduction and Self Awarness | 
 |2 | <a href="https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/WorkingInACompany#working-in-a-company-as-a-web-developer">Working in an Organization and Communication</a> |
 |3 | Organization, time-management & meeting deadlines | 
-|4 | Presenting an idea or a solution | 
+|4 | [Presenting an idea or a solution](https://github.com/RockitBootcamp/Student-Resources/tree/master/PDD/PresentingSolution) | 
 |5 | Teamwork & collaboration | 
 |6 | Software development project methodology | 
 |7-9 | Reflective report 1: Group project | 
