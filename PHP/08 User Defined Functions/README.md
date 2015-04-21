@@ -8,7 +8,7 @@ PHP: 8.1     | Explain the purpose of making your own functions:
              | &bull; Making shorter chunks of code
 PHP: 8.2     | Demonstrate proper function declaration 
 PHP: 8.3     | Explain and demonstrate the return statement
-             | &bull; No return means "void"
+             | &bull; NULL is returned if there isn't an explicit return statement
 
 ## Exercises
 - Create a function that display the current time
