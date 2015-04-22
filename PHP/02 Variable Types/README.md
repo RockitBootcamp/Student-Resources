@@ -25,7 +25,6 @@ PHP: 2.5     | Explain Type Casting
 Create variables of different types:
 
 ```php
-
 $a = 5;        // Integer
 $b = '5';      // String
 $c = 5.2;      // Float
@@ -33,7 +32,6 @@ $d = false;    // Boolean
 $e = 'false';  // String
 $f = Null;     // Null
 $g = 'Null';   // String
-
 ```
 
 PHP has operators that allow us to do more with variables. For instance, the `+` addition operator can be used to do math:
@@ -78,9 +76,9 @@ echo $combined; // Outputs: HelloWorld
 Notice that the `.` dot is used to concatenate the two string variables. The result is assigned to the `$combined` variable before it is echoed. But did you notice that the output for "HelloWorld" has no space? Let's change the code a bit to add the space:
 
 ```php
-var $text1 = 'Hello';
-var $text2 = 'World';
-var $combined = $text1 . ' ' . $text2;
+$text1 = 'Hello';
+$text2 = 'World';
+$combined = $text1 . ' ' . $text2;
 echo $combined; // Outputs: Hello World
 ```
 
@@ -89,16 +87,16 @@ In this case we're building the `combined` string by using variables and an extr
 Let's do it again, but a different way:
 
 ```php
-var $text1 = 'Hello'
-var $combined = $text1 . ' ' . 'World';
+$text1 = 'Hello'
+$combined = $text1 . ' ' . 'World';
 echo $combined; // Outputs: Hello World
 ```
 
 This one doesn't use a variable for "World," but it works the same. But it's a little strange to have the string with the space be separate from the last string with "World". Let's do it again:
 
 ```php
-var $text1 = 'Hello'
-var $combined = $text1 . ' World';
+$text1 = 'Hello'
+$combined = $text1 . ' World';
 echo $combined; // Outputs: Hello World
 ```
 
@@ -109,7 +107,7 @@ The main point of showing these examples is to show how expressive your code can
 
 You may remember from the previous lesson when we discussed the difference between using single and double quotes for making strings. For the most part, it doesn't matter which you choose to use. Your choice just determines which type of quotes you need to escape.
 
-Creating strings in double quotes has some special features that single quotes don't have. For instance we can do "Variable Interpolation" with double quoted strings. Varible interpolation allows us to embed variables in a string without using concatenation. Let's look at an example:
+Creating strings in double quotes has some special features that single quotes don't have. For instance we can do "Variable Interpolation" with double quoted strings. Variable interpolation allows us to embed variables in a string without using concatenation. Let's look at an example:
 
 ```php
 $name = 'Dave';
@@ -119,7 +117,6 @@ $text = 'Welcome ' . $name . ', you are not signed in';
 
 // With variable interpolation
 $text = "Welcome $name, you are not signed in";
-
 ```
 
 With single quotes, we can only embed the `$name` variable by using concatenation. But with double quotes, we can put the variable directly in the string without breaking up the string and doing concatenation. Sometimes it can be more difficult to see your variables when variable interpolation is used. This might be a good reason to not use it, but it's up to you.
@@ -127,15 +124,19 @@ With single quotes, we can only embed the `$name` variable by using concatenatio
 ### Type Casting
 We've learned about the different data types (integers, strings, booleans, etc.). Type casting is when a data type is input as one type, but executed as another. For example, if we have the following:
 `$x = 3 + '8'`, 3 is an integer and 8 is a string. However, if we were to output `$x`, the result would be 11. This is because PHP implicitly type casts the string of '8' to be an integer. Another example would be if we have the following:
+
 ```php
 $a = 8 
 $b = 3
 $c = $a / $b
 ```
-`$a` and `$b` are integers, therefore, you would expect `$c` to also be an integer. However, PHP will convert the vaule to a float where the output will be "2.6666666666667". If you want this to be an integer, then you would explicitly cast $c as an integer as follows:
+
+`$a` and `$b` are integers, therefore, you would expect `$c` to also be an integer. However, PHP will convert the value to a float where the output will be "2.6666666666667". If you want this to be an integer, then you would explicitly cast $c as an integer as follows:
+
 ```php
 $a = 8 
 $b = 3
 $c = (int)($a/$b)
 ```
+
 To recap, Implicit Type casting is when PHP automatically converts values from one type to another, and Explicit Type casting is when you specify what type you want the value to be. 

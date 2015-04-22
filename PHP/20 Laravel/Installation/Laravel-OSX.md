@@ -1,6 +1,5 @@
 # Gettings Started with Laravel
 
-
 Install Composer
 
 ```ruby
