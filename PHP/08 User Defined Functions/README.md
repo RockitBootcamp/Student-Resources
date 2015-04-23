@@ -22,7 +22,7 @@ PHP: 8.3     | Explain and demonstrate the return statement
 
 // Exercise 5: Write a function that concatinates a first and last name
 
-// BONUS Exercise 6: Write a function that checks that a sentance has at least 20 characters, and the first 2 characters are numberic
+// BONUS Exercise 6: Write a function that checks that a sentance has at least 20 characters, and the first 2 characters are numeric
 // "41.67% of people add decimal places to make their statistics look more credible" TRUE
 // "Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible" FALSE
 // "42 owls sing songs" FALSE
