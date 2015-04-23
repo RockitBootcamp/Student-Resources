@@ -11,7 +11,6 @@ CSS: 7.2     | Demonstrate the following pseudo selectors:
              | &bull; `:nth-child()`
              | &bull; `:not()`
              | &bull; `:focus`
-             | &bull; `:blur`
 CSS: 7.3     | Demonstrate pseudo element syntax
              | &bull; `::before`
              | &bull; `::after`

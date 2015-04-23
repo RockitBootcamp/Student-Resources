@@ -50,5 +50,7 @@ Route::post('user/{id}', function($id){
 
 In Laravel, your parameters could be firs the file you want to go to, then the second parameter will be the `Controller@methodToInvoke`. For example, below we are routing to the home page, going to the HomeController, and finally invoking the index method.
 
-    `Route::get('home', 'HomeController@index');`
+```php
+Route::get('home', 'HomeController@index');
+````
 
