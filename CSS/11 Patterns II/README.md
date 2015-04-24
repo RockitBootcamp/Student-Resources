@@ -1,4 +1,4 @@
-# Lesson 11: Patterns I
+# Lesson 11: Patterns II
 
 Identifier   | Objectives
 -------------|------------
