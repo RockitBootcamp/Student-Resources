@@ -15,6 +15,9 @@ PHP: 8.3     | Explain and demonstrate the return statement
 - __W3 Schools__ [User Defined Functions](http://www.w3schools.com/php/php_functions.asp)
 - __PHP For Kids__ [User Defined Functions](http://www.phpforkids.com/php/php-functions-user-defined.php)
 
+## Exercises
+- [The Dairy Farm Exercise](dairy-farm.md)
+
 
 ## Extra Study
 
@@ -270,7 +273,6 @@ function checkSentence($sentence) {
         return false;
     } 
 }
-
 
 checkSentence("41.67% of people add decimal places to make their statistics look more credible"); // true
 checkSentence("Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible"); // false
