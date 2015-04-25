@@ -10,7 +10,6 @@ class Cow {
     public function __construct($name) {
         $this->name = $name;
     }
-
 }
 
 $cows = [];
@@ -29,7 +28,6 @@ class Cow {
     public function __construct($name) {
         $this->name = $name;
     }
-
 }
 
 $cowNames = ['Sara', 'Betsy', 'Paula', 'Sue'];
