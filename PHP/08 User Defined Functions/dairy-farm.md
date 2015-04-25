@@ -84,9 +84,9 @@ function goToChurch() {
 goToChurch();
 ```
 
-Ok great, now we went to church on Sunday. Oh wait :/  This is embarrassing, let's fix this:
+Ok great, now we went to church on Sunday. Oh wait :\  This is embarrassing, let's fix this:
 
-```php{15}
+```php
 function getDressed() {
     echo 'Get dressed <br>';
 }
@@ -111,3 +111,79 @@ goToChurch();
 ```
 
 Ok, we're dressed for church :)
+
+## Main Points
+
+As silly as this exercise is so far, we hope you've learned something. We've been practicing modularity - the process of breaking steps into functions. In programming there is a principal called [The Single Responsibility Principal](http://en.wikipedia.org/wiki/Single_responsibility_principle) which describes that objects (and functions) should have one responsibility. Notice that had we not had the `getDressed()` function isolated on its own, we would have needed to repeat logical steps in the two places that needed that logic. Creating it as a separate function allows us to reuse functionality without repeating ourselves.
+
+## More Cows
+
+Let's make the problem a little more difficult by adding even more cows. What if we had a group of cows we needed to milk. How do we do "groups" or "lists" in programming? We do them with arrays:
+
+```php
+function getDressed() {
+    echo 'Get dressed <br>';
+}
+
+function getBucket() {
+    echo 'Get a bucket <br>';
+}
+
+function milkCow($name) {
+    getDressed();
+    getBucket();
+    echo 'Milk cow: ' . $name . ' <br>';
+}
+
+$cows = ['Sally', 'Betsy', 'Bell'];
+
+foreach ($cows as $cow) {
+    milkCow($cow);
+}
+```
+
+Take a moment to study the code. We now have an array of cow names and we're looping through each one to milk all three cows. Notice how we changed the `milkCow()` function to receive an argument for the name of the cow? The code now outputs:
+
+```sh
+Get dressed
+Get a bucket
+Milk cow: Sally
+Get dressed
+Get a bucket
+Milk cow: Betsy
+Get dressed
+Get a bucket
+Milk cow: Bell
+```
+
+So it's cleaver that we're using an array and a loop to milk multiple cows, but if you really look at the output, something seems strange. Why do we have to get dressed and get a bucket multiple times? Let's change our code a bit:
+
+```php
+function getDressed() {
+    echo 'Get dressed <br>';
+}
+
+function getBucket() {
+    echo 'Get a bucket <br>';
+}
+
+function milkCow($name) {
+    echo 'Milk cow: ' . $name . ' <br>';
+}
+
+function milkCows($cowNames) {
+    getDressed();
+    getBucket();
+    
+    foreach ($cowNames as $cow) {
+        milkCow($cow);
+    }
+}
+
+$cows = ['Sally', 'Betsy', 'Bell'];
+milkCows($cows);
+```
+
+Ok, now this is better! This time we're passing the whole array of cow names to a function called `milkCows()`. Notice it's plural. This function knows that we only have to get dressed and get a bucket once. Then it loops over each cow name and calls off to the milk cow function.
+
+It's such a happy farm!
