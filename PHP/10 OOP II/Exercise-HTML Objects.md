@@ -10,7 +10,8 @@
 - Challenge #6: Keep going...
 
 ## Introduction
-In this exercise you will create a set of classes to represent HTML for tags. As we have seen it can be pretty ugly to mix HTML and PHP code. Whether we do it in the PHP section or in the HTML section it is still **ugly**. To help allieviate this ugliness we can create a set of classes that represent the HTML elements. Let's look at how such a set of classes might be used. In the PHP section we could create an initialize tag object like this:
+
+In this exercise you will create a set of classes to represent HTML for tags. As we have seen it can be pretty ugly to mix HTML and PHP code. Whether we do it in the PHP section or in the HTML section it is still **ugly**. To help alleviate this ugliness we can create a set of classes that represent the HTML elements. Let's look at how such a set of classes might be used. In the PHP section we could create an initialize tag object like this:
 
 ```php
 <?php
@@ -34,7 +35,7 @@ This would make for much cleaner code, no?
 I will provide a basic HtmlElement class that you can use as a base class and then we will start simply and build up in this order:
 - create a class for input tags
 - create a class for select and option tags
-- update the base class to accomodate the class attribute
+- update the base class to accommodate the class attribute
 - create classes for more tags
 
 Here is a simple starting point for a base class:
