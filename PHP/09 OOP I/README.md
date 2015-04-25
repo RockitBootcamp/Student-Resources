@@ -5,7 +5,7 @@ Identifier   | Objectives
 PHP: 9.1     | Demonstrate making a class:
              | &bull; Enclosing class structure
              | &bull; Defining methods
-             | &bull; Defining attributes
+             | &bull; Defining properties
 PHP: 9.2     | Demonstrate making a constructor
 PHP: 9.3     | Demonstrate instantiating a class with the `new` keyword
 PHP: 9.4     | Demonstrate use of the `this` keyword
@@ -17,7 +17,7 @@ PHP: 9.6     | Use of visibility keywords:
 ## Resources
 - [Object Oriented Thinking](http://www.universocomputacao.com/object-oriented-thinking/)
 - [Object Oriented for Beginners](http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762) 
-- __PHP.net__ [OOP Basics](http://php.net/manual/en/language.oop5.basic.php)
+- [OOP Basics](http://php.net/manual/en/language.oop5.basic.php)
 
 ## Exercises
 
