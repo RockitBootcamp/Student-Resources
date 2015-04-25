@@ -157,19 +157,19 @@ For the example, we actually get "bac" for our output. Notice that when the func
 
 ### Nested Function Calls
 
-It's important to know that the return value a function gives is in fact a value. Take this code for example:
+When a function returns a value, like in the case of the `add()` function, the function call can be treated just like a value:
 
 ```php
 $answer = add(3, 4);
 ```
 
-The `$answer` variable gets it's value from the function right? So this code is exactly the same as:
+The `$answer` variable gets its value from the function just as if we had assigned a normal value:
 
 ```php
 $answer = 7;
 ```
 
-This is important to understand when we're nesting functions. You may have learned that PHP has a built-in function called `strlen()` which takes a string as it's argument and returns the length of characters. So let's nest some function calls:
+This is important to understand when we're nesting function calls. You may have learned that PHP has a built-in function called `strlen()` which takes a string as its argument and returns the length of characters. So let's nest some function calls:
 
 ```php
 function add($n1, $n2) {
@@ -179,9 +179,9 @@ function add($n1, $n2) {
 echo add(strlen('hello'), 6); // Outputs 11
 ```
 
-In this case, we're taking the return value of `strlen('hello')` (which is 5) and passing it in as the first argument. That `5` gets assigned to `$n1` and after that it's business as usual.
+Our `add()` function still takes exactly two arguments as it did before. But in this case we're taking the return value of `strlen('hello')` (which is 5) and passing it in as the first argument. That `5` gets assigned to `$n1` on the inside of the function. Said another way, `strlen('hello')` evaluates to the value `5`, so writing the code as we did is the same as doing `add(5, 6)`.
 
-Let's take a look at another example. Let's say we have some code that checks to see if the GET variable "age" is set and if it's a number?
+Using the value from one function call and immediately passing it in as an argument to another function call is actually quite common in programming. But be careful, sometimes if not used correctly we can end up with a result we didn't expect. For instance, let's say we have some code that checks to see if the GET variable "age" is set and if it's a number:
 
 ```php
 if (isset($_GET['age']) && is_numeric($_GET['age'])) {
@@ -197,62 +197,80 @@ if (is_numeric(isset($_GET['age']))) {
 }
 ```
 
-In this case we wouldn't get a PHP error, but our logic isn't exactly sound. When functions are nested, the code executes them from the inside-out. So the first thing to happen here is the `isset($_GET['age']` function call. What does that return? It turns out `isset()` returns a boolean of `true` or `false`. So then it's like we're trying to call `is_numeric(true)`. So in this case `is_numeric()` isn't really checking the value of "age" like we wanted.
+This wouldn't cause a PHP error or notice, but our logic isn't exactly correct. When functions are nested, the code executes them from the inside-out. So the first thing to happen here is the `isset($_GET['age']` function call. What does that function return? It turns out `isset()` returns a boolean of `true` or `false`. So then it's like we're trying to call `is_numeric(true)`. Therefore, `is_numeric()` isn't really checking the value of "age" like we wanted.
 
 Sometimes it just doesn't make sense to nest functions. But let's look at another case when it does:
 
 ```php
-$checkFor = 'Rob';
+$prefix = 'Rob';
 $name = $_GET['name'];
 
-if (substr($name, 0, 3) == $checkFor) {
+if (substr($name, 0, 3) == $prefix) {
     echo 'The name starts with "Rob"';
 }
 ```
 
-This code just checks to see if the first 3 characters of the GET variable are "Rob". But notice that the number 3 is hard-coded. We chose 3 because that's how many characters "Rob" is. But what if we were to change the `$checkFor` variable to be a different name that's not 3 characters? In that case 3 might not work. Let's make it better:
+This code just checks to see if the first 3 characters of the GET variable are "Rob". But notice that the number 3 is hard-coded. We chose 3 because that's how many characters "Rob" is. But what if we were to change the `$prefix` variable to be different? In that case 3 might not work. Let's do something better than hard-coding the number 3:
 
 ```php
-$checkFor = 'Rob';
+$prefix = 'Rob';
 $name = $_GET['name'];
 
-if (substr($name, 0, strlen($checkFor)) == $checkFor) {
+if (substr($name, 0, strlen($prefix)) == $prefix) {
     echo 'The name starts with "Rob"';
 }
 ```
 
-Now we're not relying on the hard-coded 3. Instead we're cleverly figuring out the length of what the length of `$checkFor` is. Did you notice that this is nested functions? Did you notice that we're taking the value from `strlen()` and passing it in as the last argument of `substr()`?
+Now we're not relying on the hard-coded 3. Instead we're cleverly figuring out the length of `$prefix` is to pass into the `substr()` function.
 
 
+## Practice
 
-<hr>
+Write functions that perform the following tasks:
 
-todo next with this document
+- Write a function that adds three numbers
+- Write a function that adds four numbers
+- Write a function that concatenates a first and last name
+- Write a function that checks that a sentence has at least 20 characters, and the first 2 characters are numeric. Try passing these strings into your function to see what you'll get
+ - "41.67% of people add decimal places to make their statistics look more credible" TRUE
+ - "Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible" FALSE
+ - "42 owls sing songs" FALSE
+ - "two owls sing songs" FALSE
 
-- functions can call functions, the caller waits for return of control
-- nested functions
-- singularity principal 
+## Practice Solutions
 
-
-<hr>
-
-
-## Exercises
+Write a function that adds three numbers:
 
 ```php
-// Exercise 1: Write a function that adds two numbers
+function addThree($a, $b, $c) {
+    return $a + $b + $c;
+}
+```
 
-// Exercise 2: Write a function that adds three numbers
+Write a function that adds four numbers:
 
-// Exercise 3: Write a function that adds 4 numbers
+```php
+function addThree($a, $b, $c, $d) {
+    return $a + $b + $c + $d;
+}
+```
 
-// Exercise 4: Write a function that returns the absolute value of a number
+Write a function that concatenates a first and last name
 
-// Exercise 5: Write a function that concatinates a first and last name
+```php
+function fullName($first, $last) {
+    return $first . ' ' . $last;
+}
+```
 
-// BONUS Exercise 6: Write a function that checks that a sentance has at least 20 characters, and the first 2 characters are numeric
-// "41.67% of people add decimal places to make their statistics look more credible" TRUE
-// "Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible" FALSE
-// "42 owls sing songs" FALSE
-// "two owls sing songs" FALSE
+Write a function that checks that a sentence has at least 20 characters, and the first 2 characters are numeric
+
+```php
+function checkSentence($sentence) {
+    if (strlen($sentence) >= 20 && is_numeric(substr($sentence, 0, 2))) {
+        return true;
+    } else {
+        return false;
+    } 
+}
 ```
