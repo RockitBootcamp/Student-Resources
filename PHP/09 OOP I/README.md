@@ -41,6 +41,10 @@ class User {
     }
 
 }
+
+// Instantiate Two User Objects
+$person1 = new User('Dave');
+$person2 = new User('Jessica');
 ```
 
 ## Exercises
