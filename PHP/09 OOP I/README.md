@@ -32,3 +32,4 @@ PHP: 9.6     | Use of visibility keywords:
 
 - [Zookeeper](practice_zookeeper.md)
 - [Wargame](practice_wargame.md)
+- [5000 Cows](5000cows.md)
