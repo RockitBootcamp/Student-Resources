@@ -1,4 +1,4 @@
-# Lesson 11: Patterns I
+# Lesson 11: Patterns II
 
 Identifier   | Objectives
 -------------|------------
@@ -11,7 +11,6 @@ CSS: 11.3    | Demonstrate lightbox patterns
 CSS: 11.4    | Explain Tiles with...
              | &bull; Inline-Block
              | &bull; Floats
-             | &bull; Absolute Positioning
 
 ## Resources
 - n/a
