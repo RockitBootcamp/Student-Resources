@@ -17,7 +17,7 @@ PHP: 9.6     | Use of visibility keywords:
 ## Resources
 - [Object Oriented Thinking](http://www.universocomputacao.com/object-oriented-thinking/)
 - [Object Oriented for Beginners](http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762) 
-- __PHP.net__ [PHP Basics](http://php.net/manual/en/language.oop5.basic.php)
+- __PHP.net__ [OOP Basics](http://php.net/manual/en/language.oop5.basic.php)
 
 ## Exercises
 
