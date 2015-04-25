@@ -28,7 +28,7 @@ PHP: 9.6     | Use of visibility keywords:
  - Add a constructor to `Vehicle` that adds a `$mpg` property to vehicle.
  - Add a `drive($distance)` method to the `Vehicle` class. Where distance is the number of miles driven. Reduce the the fuel by distance / mpg. (fuel = fuel - distance / mpg)
 
-## Details Exercises
+## Elaborate Exercises
 
 - [Zookeeper](practice_zookeeper.md)
 - [Wargame](practice_wargame.md)
