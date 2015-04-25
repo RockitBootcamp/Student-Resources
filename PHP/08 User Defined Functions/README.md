@@ -231,11 +231,8 @@ Write functions that perform the following tasks:
 - Write a function that adds three numbers
 - Write a function that adds four numbers
 - Write a function that concatenates a first and last name
-- Write a function that checks that a sentence has at least 20 characters, and the first 2 characters are numeric. Try passing these strings into your function to see what you'll get
- - "41.67% of people add decimal places to make their statistics look more credible" TRUE
- - "Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible" FALSE
- - "42 owls sing songs" FALSE
- - "two owls sing songs" FALSE
+- Write a function that checks that a sentence has at least 20 characters, and the first 2 characters are numeric.
+
 
 ## Practice Solutions
 
@@ -273,4 +270,10 @@ function checkSentence($sentence) {
         return false;
     } 
 }
+
+
+checkSentence("41.67% of people add decimal places to make their statistics look more credible"); // true
+checkSentence("Forty-one point sixty-seven per cent of people add decimal places to make their statistics look more credible"); // false
+checkSentence("42 owls sing songs"); // false
+checkSentence("two owls sing songs"); // false
 ```
