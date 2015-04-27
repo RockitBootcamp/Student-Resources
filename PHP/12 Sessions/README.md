@@ -1,11 +1,11 @@
-# Lesson 13: Sessions
+# Lesson 12: Sessions
 
 Identifier   | Objectives
 -------------|------------
-PHP: 13.1    | Explain how session variables work with cookies
-PHP: 13.2    | Explain the Session ID (SID)
-PHP: 13.3    | Demonstrate `session_start()` and `$_SESSION`
-PHP: 13.4    | Demonstrate persistent data between pages
+PHP: 12.1    | Explain how session variables work with cookies
+PHP: 12.2    | Explain the Session ID (SID)
+PHP: 12.3    | Demonstrate `session_start()` and `$_SESSION`
+PHP: 12.4    | Demonstrate persistent data between pages
              | &bull; Including use cases for logins
 
 ## Resources

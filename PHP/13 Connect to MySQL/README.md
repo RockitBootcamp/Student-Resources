@@ -1,8 +1,8 @@
-# Lesson 14: Connect to MySQL
+# Lesson 13: Connect to MySQL
 
 Identifier   | Objectives
 -------------|------------
-PHP: 14.1    | Todo
+PHP: 13.1    | Todo
 
 ## Resources
 - n/a
