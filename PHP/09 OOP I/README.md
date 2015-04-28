@@ -52,9 +52,9 @@ $person2 = new User('Jessica');
 - Create an `Animal` class with `$legs` and `$color` properties. Instantiate two different animals
 - Create a `Furniture` class with `$seatCount`. Instantiate two different pieces of furniture.
 - Create a `Computer` class with `$memorySize`, `$cpuCount`, `$diskSize`. Instantiate two different computers.
-- Create a `Vehicle` class with `$fuelAmount` as a property and `$honk()` as a method. When `honk()` is called respond with `"Honk honk I have {fuelAmount} left"`
+- Create a `Vehicle` class with `$fuelAmount` as a property and `honk()` as a method. When `honk()` is called respond with `"Honk honk I have {fuelAmount} left"`
  - Add a constructor to `Vehicle` that adds a `$mpg` property to vehicle.
- - Add a `drive($distance)` method to the `Vehicle` class. Where distance is the number of miles driven. Reduce the the fuel by distance / mpg. (fuel = fuel - distance / mpg)
+ - Add a `drive($distance)` method to the `Vehicle` class. Where distance is the number of miles driven. Reduce the fuel by distance / mpg. (fuel = fuel - distance / mpg)
 
 ## Elaborate Exercises
 
