@@ -1,12 +1,12 @@
-# Lesson 15: OOP III
+# Lesson 14: OOP III
 
 Identifier   | Objectives
 -------------|------------
-PHP: 15.1    | Explain Static Members
-PHP: 15.2    | Call static members from outside class
+PHP: 14.1    | Explain Static Members
+PHP: 14.2    | Call static members from outside class
              | &bull; `ClassName::foo();`
              | &bull; `ClassName::$bar;`
-PHP: 15.3    | Call static members from inside classes
+PHP: 14.3    | Call static members from inside classes
              | &bull; `self::foo()`
              | &bull; `self::$bar;`
 

@@ -1,9 +1,9 @@
-# Lesson 19: MVC II
+# Lesson 17: MVC II
 
 Identifier   | Objectives
 -------------|------------
-PHP: 19.1    | Explain Models
-PHP: 19.1    | Explain MVC
+PHP: 17.1    | Explain Models
+PHP: 17.1    | Explain MVC
 
 ## Resources
 - n/a

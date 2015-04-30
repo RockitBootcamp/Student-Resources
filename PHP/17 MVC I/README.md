@@ -1,11 +1,11 @@
-# Lesson 18: MVC I
+# Lesson 17: MVC I
 
 Identifier   | Objectives
 -------------|------------
-PHP: 18.1    | Explain Routers
-PHP: 18.1    | Describe a Controller
-PHP: 18.1    | Explain Views
-PHP: 18.1    | Explain relationship between Views and Template
+PHP: 17.1    | Explain Routers
+PHP: 17.1    | Describe a Controller
+PHP: 17.1    | Explain Views
+PHP: 17.1    | Explain relationship between Views and Template
 
 ## Resources
 [Laravel Routing](http://laravel.com/docs/4.2/routing)
