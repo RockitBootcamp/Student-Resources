@@ -9,3 +9,4 @@
     - When the user clicks `Submit` post the form back to elevator.php.
     - print_r $_POST variable
 3. Create an if statement to only print the $_POST variable only when the user performs a POST request
+4. Print the personFloor variable on a postback
