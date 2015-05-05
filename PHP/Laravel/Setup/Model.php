@@ -167,6 +167,9 @@ abstract class Model {
       Collection
     *****************************************/
 
+    /**
+     * Collect All
+     */
     public static function all($where_clause = []) {
 
         // Create an SQL "WHERE" clause
@@ -178,6 +181,16 @@ abstract class Model {
 
         // Get Results
         $results = DB::select($sql, $where_clause);
+
+        // Return a collection
+        return self::makeCollection($results);
+        
+    }
+
+    /**
+     * Collection Factory
+     */
+    protected static function makeCollection($results) {
 
         // Make Collection
         $collection = new Collection();
@@ -193,7 +206,7 @@ abstract class Model {
         }
 
         return $collection;
-        
+
     }
 
 }
