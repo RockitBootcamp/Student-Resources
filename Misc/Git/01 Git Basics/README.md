@@ -12,7 +12,7 @@ Git: 1.5     | Demonstrate how to commit staged files into the repo
              | &bull; `$ git commit -m '[your message]'`
 Git: 1.6     | Demonstrate how to `$ git push` and `$ get pull`
 Git: 1.7     | Explain `$ git status`
-Git: 2.8     | Demonstrate removing files from a local git repo
+Git: 1.8     | Demonstrate removing files from a local git repo
              | &bull; `$ git rm [filename]`
              | &bull; `$ git add -A`
 
