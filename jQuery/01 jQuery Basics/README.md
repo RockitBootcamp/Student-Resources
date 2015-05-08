@@ -30,3 +30,4 @@ jQuery: 1.4  | Demonstrate Document Readiness with
 - __W3 Schools__ [Syntax](http://www.w3schools.com/jquery/jquery_syntax.asp)
 - __W3 Schools__ [Chaining](http://www.w3schools.com/jquery/jquery_chaining.asp)
 - __jQuery.com__ [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
+- [.on()](https://api.jquery.com/on/)
