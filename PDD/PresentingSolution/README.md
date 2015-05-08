@@ -143,6 +143,9 @@ See [TM&Th-4.0-summary.pdf](TM&Th-4.0-summary.pdf)
 - [d3js.org](http://d3js.org/)
 - Hubway [http://hubwaydatachallenge.org/submission/56/](http://hubwaydatachallenge.org/submission/56/)
 
+### Visualization vs Statistical Properties
+- Four Datasets that have similar statistical properties but different visulization [http://en.wikipedia.org/wiki/Anscombe's_quartet](http://en.wikipedia.org/wiki/Anscombe's_quartet)
+
 ## Activity
 Keeping in mind the tips we just learned, we are now going to break into teams and analyze different types of presentations. Then you will give a presentation to the rest of the class on your findings.
 - Look for:

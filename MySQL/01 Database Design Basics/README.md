@@ -7,7 +7,7 @@ MySQL: 1.1   | Explain table structure:
              | &bull; columns (fields)
              | &bull; primary-keys
              | &bull; Every table must have a column that has a unique value for every row
-MySQL: 1.2   | Explain/Illustrate ERD diagrams
+MySQL: 1.2   | Explain/Illustrate ER diagrams
 MySQL: 1.3   | Explain common data-types:
              | &bull; `int`
              | &bull; `varchar`

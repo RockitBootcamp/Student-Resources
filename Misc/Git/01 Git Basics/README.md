@@ -5,13 +5,16 @@ Git: 1.1     | Demonstrate how to initialize a new (local) git project
              | &bull; `$ git init`
 Git: 1.2     | Demonstrate how to clone an existing project from GitHub
              | &bull; `$ git clone [path]`
-Git: 1.2     | Explain "staging" for a commit
-Git: 1.3     | Demonstrate how to add files to the stage
+Git: 1.3     | Explain "staging" for a commit
+Git: 1.4     | Demonstrate how to add files to the stage
              | &bull; `$ git add [path]`
-Git: 1.3     | Demonstrate how to commit staged files into the repo
+Git: 1.5     | Demonstrate how to commit staged files into the repo
              | &bull; `$ git commit -m '[your message]'`
-Git: 1.4     | Demonstrate how to `$ git push` and `$ get pull`
-Git: 1.5     | Explain `$ git status`
+Git: 1.6     | Demonstrate how to `$ git push` and `$ get pull`
+Git: 1.7     | Explain `$ git status`
+Git: 1.8     | Demonstrate removing files from a local git repo
+             | &bull; `$ git rm [filename]`
+             | &bull; `$ git add -A`
 
 ## Resources
 - __Video__ [Git Basics Episode 1](http://git-scm.com/video/what-is-version-control)

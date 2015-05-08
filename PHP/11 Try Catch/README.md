@@ -42,3 +42,11 @@ try {
 	echo $e->getMessage();
 }
 ```
+
+## Exercises
+
+1. Write a function to check if number is positive. Throw an exception if number is negative
+2. Write a function to lowercase a string lower($s). Throw an exception if the $s is not a string
+3. Write a function to validate Age. Throw an exception if not between (0-108)
+4. Write a function to validate a password. Throw an exception if not at least length 8
+   
