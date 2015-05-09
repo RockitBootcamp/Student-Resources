@@ -5,9 +5,9 @@ These exercises follow the [jQuery Basics Lesson](https://github.com/RockitBootc
 Use the accompanying index.html to practice these exercises
 
 1. In the document ready function of jQuery, console.log "hello".
-1. console.log the html of the `div.poem` element.
-1. console.log the text of the `div.poem` element.
-1. console.log the val of the `input.title` element.
+1. console.log the html of the `p.poem` element.
+1. console.log the text of the `p.poem` element.
+1. console.log the val of the `select.title` element.
 1. console.log the val of the `input.fn` element.
 1. console.log the val of the `input.age` element.
 1. console.log the val of the `input.sex` element.
@@ -15,7 +15,7 @@ Use the accompanying index.html to practice these exercises
 2. Append your name to the `div.name` element.
 3. Append "isn't it" to the end of `li.saying`.
 4. Use AppendTo method to append "<i>er</i>" to each greeting.
-4. Use AppendTo method to append "<b>pie</b>" to the `div.food` element.
+4. Use AppendTo method to append "<b>pie</b>" to the `p.food` element.
 4. Use AppendTo method to append "<i>er</i>" to each greeting.
 
 
