@@ -20,9 +20,10 @@ Use the accompanying index.html to practice these exercises
 
 
 ## Resoures
-[append](http://api.jquery.com/append/)
-[appendto](http://api.jquery.com/appendto/)
-[attr](http://api.jquery.com/attr/)
-[text](http://api.jquery.com/text/)
-[val](http://api.jquery.com/val/)
-[html](http://api.jquery.com/html/)
+
+- [append](http://api.jquery.com/append/)
+- [appendto](http://api.jquery.com/appendto/)
+- [attr](http://api.jquery.com/attr/)
+- [text](http://api.jquery.com/text/)
+- [val](http://api.jquery.com/val/)
+- [html](http://api.jquery.com/html/)
