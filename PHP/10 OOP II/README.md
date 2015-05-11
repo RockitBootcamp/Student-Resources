@@ -215,8 +215,8 @@ class ParentFoo {
 class ChildFoo extends ParentFoo {
     
     public function doIt() {
-        parent::doIt();
         echo 'Child ';
+        parent::doIt();
     }
 
 }
