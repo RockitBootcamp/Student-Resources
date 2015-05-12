@@ -52,6 +52,10 @@ $brew uninstall php55
 $brew install php55 --with-fpm --with-apache
 
 ```
+If you get "Error: No such keg:..." or "Error: No available formula php55", it will follow with a list of paths. type the following:
+```ruby
+brew install homebrew/php/php55 --with-fpm --with-apache
+```
 Check what module is loaded
 ```ruby
 brew info php55
