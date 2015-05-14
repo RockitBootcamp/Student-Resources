@@ -42,6 +42,7 @@ Ideally a different team will test your code according to the requirements. They
 - Black Box / White Box testing
 - Automated Test Scripts
 - Stress Testing
+- Regression Testing
 - User Acceptance Testing
 
 ## Deployment
