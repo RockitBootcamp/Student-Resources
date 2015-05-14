@@ -36,12 +36,13 @@ Code to the requirements and include Unit Test
 - Upgrades require more diligence 
 
 ## Testing
-Ideally a differnt team will test your code according to the requirements. They can use different testing methods:
+Ideally a different team will test your code according to the requirements. They can use different testing methods:
 - Functional Testing
 - Integration Testing
 - Black Box / White Box testing
 - Automated Test Scripts
 - Stress Testing
+- User Acceptance Testing
 
 ## Deployment
 Once testing has been completed, the code is deployed into the production environment.
