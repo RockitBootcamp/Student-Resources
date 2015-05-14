@@ -59,6 +59,8 @@ Another team may be responsible to maintain your code. You should consider:
 - Server Monitoring
 - Site Monitoring
 - Failure Reporting
+- Tech Writer
+- Training Dept
 
 # Waterfall
 <img src="waterfall.jpg" alt="Shapes">
