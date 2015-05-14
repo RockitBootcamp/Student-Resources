@@ -13,7 +13,7 @@ Objectives
 There are different models used to develop software. The common steps in each model are:
 
 - Discovery
-- Developemnt
+- Development
 - Testing
 - Deploying
 - Maintenance
@@ -88,27 +88,28 @@ Is not a methodology, it's a way of thinking
 Is a methodology which is agile
 
 Key Terms
-- Backlog Item 
-	- Acceptance Criteria
-	- Size
-	- Tasks
-- Backlog
+- Backlog: Everything that is needed for the product (Features, Wish list, etc)
+- Backlog Item : An item on the backlog (New Feature, Bug, Research Task, etc)
+	- Acceptance Criteria 
+	- Size (S, M, L | 1 , 2, 3, 5, 8, ...)
+	- Tasks (Backlogs are broken down to tasks. DevTasks, QATasks, OpsTasks, etc) (No larger than 4hrs)
+- Sprint Backlog (Backlog items for this sprint)
 	- TODO
 	- Doing
 	- In QA
 	- Done vs Done/Done
-- Sprint
+- Sprint (2-4 weeks)
 - Roles
-	- Scrum Master
-	- Chicken / Pig
-	- Product Owner
-	- Architect
-	- Developer
-	- Manager
+	- Scrum Master: Ensures team follows the rules of scrum
+	- Chicken / Pig : Those who are commited vs those who are not
+	- Product Owner: Responsible for Creating Feature Backlogs and defining the acceptance criteria
+	- Architect: Responsible for all technical decisions
+	- Developer: Responsible to code/implementation
+	- Manager: Responsible for hr things
 - Meetings
-	- Sprint Planning
+	- Sprint Planning: Clarify acceptance criteria, backlog size, team capacity(Vacations)
 	- Daily Stand up
-	- Retrospective
+	- Retrospective: What went well, what didn't etc.
 
 ## Daily Standup
 - What did you work on yesterday
