@@ -17,4 +17,5 @@ JS: 8.3      | Use basic JavaScript string functions
 
 ## Resources
 
+- __Mozilla__ [Built in Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 - __W3 Schools__ [String Functions](http://www.w3schools.com/jsref/jsref_obj_string.asp)
