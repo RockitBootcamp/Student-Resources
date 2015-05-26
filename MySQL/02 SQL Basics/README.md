@@ -22,6 +22,40 @@ MySQL: 2.8   | Use `DELETE` syntax
 - __W3 Schools__ [Update Data](http://www.w3schools.com/php/php_mysql_update.asp)
 - __W3 Schools__ [Delete Data](http://www.w3schools.com/php/php_mysql_delete.asp)
 
+## Examples
+
+### SELECT
+
+`SELECT` statements are how you retrieve records from a database. A simple select statement might look like
+
+```sql
+SELECT * FROM my_table
+```
+
+### INSERT
+
+An `INSERT` statement allows you to create new rows in a table. Here's an example of a simple `INSERT`
+
+```sql
+INSERT INTO my_table (first_name, last_name) VALUES ('Bruce', 'Wayne')
+```
+
+### UPDATE
+
+An `UPDATE` statement allows you to modify fields in a record, as seen below.
+
+```sql
+UPDATE my_table SET first_name = "John" WHERE last_name = "Wayne"
+```
+
+### DELETE
+
+`DELETE` statements allow you to remove a row from a table.
+
+```sql
+DELETE FROM my_table WHERE last_name = "Wayne"
+```
+
 ## Extra Study
 
 SQL stands for Structured Query Language. SQL is generally used to query, or "ask" the database a question and to get a response. For instance, you can query the database for "Give me all the users in the database". Written as SQL this would look like:
