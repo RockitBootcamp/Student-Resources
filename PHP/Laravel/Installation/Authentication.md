@@ -30,7 +30,8 @@ The (my)sql for the table is:
 ```sql
 create table user (
     id int auto_increment primary key,
-    name varchar(255),
+    first_name varchar(255),
+    last_name varchar(255),    
     email varchar(255),
     password varchar(255),    
     remember_token varchar(255),
