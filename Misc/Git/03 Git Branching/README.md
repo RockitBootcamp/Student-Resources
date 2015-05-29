@@ -10,3 +10,4 @@ Git: 3.4     | Demonstrate branch merging
 
 ## Resources
 - [General Guide - Branching](http://rogerdudler.github.io/git-guide/)
+- [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
