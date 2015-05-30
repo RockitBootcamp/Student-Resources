@@ -2,16 +2,94 @@
 
 Identifier   | Objectives
 -------------|------------
-JS: 14.1     | Demonstrate the `require()` function
-             | &bull; Know where modules must exist in...
-JS: 14.2     | todo
-JS: 14.3     | todo
-JS: 14.4     | todo
-JS: 14.5     | todo
-JS: 14.6     | todo
-JS: 14.7     | todo
-
+JS: 14.1     | Demonstrate defining a module
+JS: 14.2     | Demonstrate using the `require()` function
+JS: 14.3     | Explain the difference between packages and modules
+             | &bull; Explain where packages exist
 
 ## Resources
 
-- n/a
+- [Modules Reference](https://nodejs.org/api/modules.html)
+
+## Extra Study
+
+> **What is a module?**
+
+A module is a part of an application or a library that provides a distinct set of features or functionality. Generally, modules should be as small as possible–meaning that they should only include the minimum functionality to achieve a particular goal.
+
+For example, a "dropdown" module would contain functionality for creating dropdown components and controlling the dropdown behavior. The module would **not** contain any code related to interacting with other page components such as form elements.
+
+### Defining a module
+
+With CommonJS style modules, special Objects are provided for exporting the module's functions.
+
+#### `exports`
+
+This Object is used to export functions from your module individually
+
+```js
+exports.multiply = function multiply() {
+  
+};
+
+exports.divide = function divide() {
+  
+};
+```
+
+This method exports your module as an Object with the defined functions. If you inspected it, it would look like
+
+```js
+{
+  multiply: function multiply() {},
+  divide: function divide() {}
+}
+```
+
+#### `module.exports`
+
+This Object allows you to directly assign the module's root. The following would be equivalent to the previous method:
+
+```js
+module.exports = {
+  multiply: function multiply() {},
+  divide: function divide() {}
+};
+```
+
+You can also export a function directly using `module.exports`:
+
+```js
+module.exports = function multiply() {
+  
+};
+```
+
+### Requiring a module
+
+To use a module, simply assign the return value of `require()` to a variable. 
+
+> Note that the file extension is optional. Additionally, if the path is a directory `require()` will attempt to load `index.js` from the directory by default.
+
+```js
+var maths = require('./maths');
+
+console.log(maths.multiply(3, 4)); // => 12
+```
+
+An example module that exports a function directly with `module.exports`:
+
+```js
+var multiply = require('./multiply');
+
+console.log(multiply(2, 3)); // => 6
+```
+
+### Requiring a package
+
+When a value is given that isn't a path to a file, `require()` assumes it's a package name and will attempt to load it from the `node_modules` directory.
+
+```js
+var _ = require('lodash');
+var $ = require('jquery');
+```
