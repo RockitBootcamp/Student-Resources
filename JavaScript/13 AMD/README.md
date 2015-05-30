@@ -4,8 +4,8 @@ Identifier   | Objectives
 -------------|------------
 JS: 13.1     | Demonstrate defining a module
 JS: 13.2     | Demonstrate using `require()` function
+JS: 13.3     | Demonstrate RequireJS configuration
 JS: 13.4     | Explain using jQuery with AMD
-JS: 13.5     | todo
 
 
 ## Resources
@@ -24,7 +24,7 @@ For example, a "dropdown" module would contain functionality for creating dropdo
 
 ### File and folder structure
 
-When using AMD, best practice dictates that a code should be separated into individual files per module. This helps keep your code organized and separated.
+When using AMD, best practice dictates that code should be separated into individual files per module. This helps keep your code organized and separated.
 
 ### Defining a module
 
@@ -38,11 +38,11 @@ define(function () {
 
 The name of the module is automatically determined based on the filename in which it is defined. So for example, if this file is in `js/modules/dropdown.js` in your project, the module will be internally referenced as "dropdown".
 
-The code inside the module definition will handed off to any part of your application that requires it in using the `require()` function. Your module definition **must** `return` whatever you want to export.
+The code inside the module definition will be handed off to any part of your application that requires it in using the `require()` function. Your module definition **must** `return` whatever you want to export.
 
 A module that returns nothing is meaningless and not useful.
 
-Here's an example multiplication module:
+Here's an example multiplication module (multiply.js):
 
 ```js
 define(function () {
@@ -60,7 +60,7 @@ define(function () {
 
 In order to use an AMD module somewhere in your application, you'll need to require it in.
 
-Using the multiplication we defined above, here's an example of how to require it:
+Using the multiplication module we defined above, here's an example of how to require it:
 
 ```js
 requirejs(['multiply'], function(multiply) {
@@ -70,9 +70,9 @@ requirejs(['multiply'], function(multiply) {
 
 By breaking the signature down into its parts, we can understand what is going on.
 
-The first parameter `['multiply']` is an Array that describes which **dependencies** you need. "Dependency" is just a way of saying "the code here needs this module to function". In other words, in the function above, any code within it needs the multiply module.
+The first argument `['multiply']` is an Array that describes which **dependencies** you need. "Dependency" is just a way of saying "the code here needs this module to function". In other words, in the function above, any code within it needs the multiply module.
 
-The second parameter `function(multiply) {...}` is your callback function. This function will be called once all of the dependencies are finished loading. You can see here the first parameter is named after the first dependency listed.
+The second argument `function(multiply) {...}` is your callback function. This function will be called once all of the dependencies are finished loading. You can see here the first parameter is named after the first dependency listed.
 
 So putting that all together, we can see how we can now access the multiplication module:
 
@@ -83,3 +83,53 @@ requirejs(['multiply'], function(multiply) {
 });
 ```
 
+> Module **definitions** can also include dependencies by passing a dependency array as the first argument: `define(['bar'], function (bar) {...});`
+
+### Configuring RequireJS
+
+RequireJS has many configuration options available for customizing its behavior. Among the many options, you can set a default path prefix ("baseUrl") and define shims.
+
+Using a default path (or "baseUrl") is the most common config used. It will allow you to use more terse naming when specifying dependencies.
+
+```js
+// Without "baseUrl" config
+requirejs(['modules/models/user', 'modules/views/users'], function (UserModel, usersview) {
+
+});
+
+// With "baseUrl" config
+requirejs(['models/user', 'views/users'], function (UserModel, UsersView) {
+
+});
+```
+
+The following is an example of how to configure the "baseUrl". This configuration should be placed in your main (entry-point) script file, before any module loading happens.
+
+```js
+requirejs.config({
+  baseUrl: 'modules'
+});
+```
+
+Shims are useful for older libraries that do not follow an AMD or CommonJS module style (i.e. they do not export something to be used with `require()`). Consider the following library (foo.js):
+
+```js
+var Foo = function () {...}
+```
+
+The variable `Foo` would end up in the global namespace, so it can't be exported like a module. A shim can work around this:
+
+```js
+requirejs.config({
+  shim: {
+    foo: {
+      deps: ['beep', 'boop'],
+      exports: 'Foo'
+    }
+  }
+});
+```
+
+RequireJS will load Foo's dependencies, then load Foo, then get the global `Foo` variable and export that to any module that depends on Foo.
+
+Refer to RequireJS's documentation for more information about these and other config options.
