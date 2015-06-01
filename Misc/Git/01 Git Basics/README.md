@@ -35,8 +35,8 @@ Install Git
 Tell Git about who you are so it can attribute your changes to your name. If you don't do this step, git will bug you. Be sure to use your email associated with GitHub
 
 ```sh
-$ git config --global user.name "John Doe"
-$ git config --global user.email "johndoe@example.com"
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
 ```
 
 ### Initialize a project
@@ -56,13 +56,13 @@ Cloning is how we copy an existing Git repository from a remote location (probab
 To clone a project, `cd` to your `Sites` folder type `git clone` followed by the path to the remote repository.
 
 ```sh
-$ git clone https://github.com/RockitBootcamp/Student-Resources.git
+git clone https://github.com/RockitBootcamp/Student-Resources.git
 ```
 
 If we do this command from our `Sites` folder, it will create a folder called "Sites/Student-Resources". But what if we already had a Student Resources folder created? What if we want to clone the repository in the existing folder? In this case we will want to change directories to the Student Resources folder and run this command:
 
 ```sh
-$ git clone https://github.com/RockitBootcamp/Student-Resources.git .
+git clone https://github.com/RockitBootcamp/Student-Resources.git .
 ```
 
 Note that the only difference is a dot at the end. This dot says "We don't want to create a new Student Resources folder here, we want to clone all the contents of the repo right here".
@@ -72,7 +72,7 @@ Note that the only difference is a dot at the end. This dot says "We don't want 
 To determine what state your files are in, you can use the git status command. 
 
 ```
-$ git status
+git status
 ```
 
 This will show you any changes to files within the repository including edits, new files, and deleted files that haven't been staged. 
@@ -83,7 +83,7 @@ If you have no changes, you will see a message that your branch is up-to-date an
 
 To see what has changed, you can run the following command:
 ```
-$ git diff
+git diff
 ```
 
 #### Git Add
@@ -91,13 +91,13 @@ $ git diff
 Each time you make a change, add, or delete files in your local repo, you'll need to commit the changes to the repo. The first stage in the commit process is to `git add` the files to the "stage". Only staged files can be committed. Files can be added to the stage on an individual basis as follows:
 
 ```sh
-$ git add filename
+git add filename
 ```
 
 Or, add all the files that are changed:
 
 ```sh
-$ git add .
+git add .
 ```
 
 ### Git Commit
@@ -105,7 +105,7 @@ $ git add .
 After adding or "staging" your change-set, you will want to commit those changes. Do this by typing: 
 
 ```
-$ git commit -m "add message here describing the changes."
+git commit -m "add message here describing the changes."
 ```
 
 This commits the given change-set to local history. The message you put is helpful, especially if there is a version you want to go back to prior to a specific change that was committed. It is also helpful when working with a team so the other team members know what was changed. 
@@ -115,13 +115,13 @@ This commits the given change-set to local history. The message you put is helpf
 After committing your changes, you may want to push the change-set to the remote repository. Remote repositories have names and in the case of GitHub, the default name is "origin". Pushing changes to a remote consists of using `git push` followed by the origin name, followed by the branch name (usually "master") 
 
 ```sh
-$ git push origin master
+git push origin master
 ```
 
 It is possible to have multiple remotes (with different names) so the command above is very specific about where to push. But in cases where you know you only have one remote, you can simply do:
 
 ```sh
-$ git push
+git push
 ```
 
 This will create a new snapshot of your project in GitHub and will allow any team members to have access to those changes. 
