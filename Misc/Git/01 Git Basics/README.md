@@ -2,19 +2,19 @@
 Identifier   | Objectives
 -------------|------------
 Git: 1.1     | Demonstrate how to initialize a new (local) git project
-             | &bull; `$ git init`
+             | &bull; `git init`
 Git: 1.2     | Demonstrate how to clone an existing project from GitHub
-             | &bull; `$ git clone [path]`
+             | &bull; `git clone [path]`
 Git: 1.3     | Explain "staging" for a commit
 Git: 1.4     | Demonstrate how to add files to the stage
-             | &bull; `$ git add [path]`
+             | &bull; `git add [path]`
 Git: 1.5     | Demonstrate how to commit staged files into the repo
-             | &bull; `$ git commit -m '[your message]'`
-Git: 1.6     | Demonstrate how to `$ git push` and `$ get pull`
-Git: 1.7     | Explain `$ git status`
+             | &bull; `git commit -m '[your message]'`
+Git: 1.6     | Demonstrate how to `git push` and `get pull`
+Git: 1.7     | Explain `git status`
 Git: 1.8     | Demonstrate removing files from a local git repo
-             | &bull; `$ git rm [filename]`
-             | &bull; `$ git add -A`
+             | &bull; `git rm [filename]`
+             | &bull; `git add -A`
 
 ## Resources
 - __Video__ [Git Basics Episode 1](http://git-scm.com/video/what-is-version-control)
@@ -29,8 +29,8 @@ Each time you commit your changes, Git takes a snapshot of what your files look 
 ### First-time Git setup
 
 Install Git
-- Ubuntu users: `$ apt-get install git`
-- Mac users: try running `$ git --version` from the terminal, if you don't have git, the terminal will say so.
+- Ubuntu users: `apt-get install git`
+- Mac users: try running `git --version` from the terminal, if you don't have git, the terminal will say so.
 
 Tell Git about who you are so it can attribute your changes to your name. If you don't do this step, git will bug you. Be sure to use your email associated with GitHub
 
@@ -44,7 +44,7 @@ git config --global user.email "johndoe@example.com"
 To use git, navigate in terminal to a folder that you want to turn into a git repository. The folder should not be a git repo already. Make sure you are actually inside the project folder (at the web root) where you want to start a git repo. Start your new Git project with:
 
 ```sh
-$ git init
+git init
 ```
 
 You'll get a small message that states your Git project has been initiated. Running an `ls -la` will show you a new subdirectory named `.git`. This hidden folder contains all the information about your repository. Don't worry about it's contents at this point, but also don't delete it unless you intend to "un-version control" your project.
