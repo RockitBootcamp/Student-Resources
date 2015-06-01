@@ -59,13 +59,7 @@ To clone a project, `cd` to your `Sites` folder type `git clone` followed by the
 git clone https://github.com/RockitBootcamp/Student-Resources.git
 ```
 
-If we do this command from our `Sites` folder, it will create a folder called "Sites/Student-Resources". But what if we already had a Student Resources folder created? What if we want to clone the repository in the existing folder? In this case we will want to change directories to the Student Resources folder and run this command:
-
-```sh
-git clone https://github.com/RockitBootcamp/Student-Resources.git
-```
-
-Note that the only difference is a dot at the end. This dot says "We don't want to create a new Student Resources folder here, we want to clone all the contents of the repo right here".
+If we do this command from our `Sites` folder, it will create a folder called "Student-Resources" (by default the folder name will match the repository name).
 
 ### Git Status
 
