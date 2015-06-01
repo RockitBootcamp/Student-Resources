@@ -4,16 +4,16 @@ Identifier   | Objectives
 Git: 1.1     | Demonstrate how to initialize a new (local) git project
              | &bull; `git init`
 Git: 1.2     | Demonstrate how to clone an existing project from GitHub
-             | &bull; `git clone [path]`
+             | &bull; `git clone`
 Git: 1.3     | Explain "staging" for a commit
 Git: 1.4     | Demonstrate how to add files to the stage
-             | &bull; `git add [path]`
+             | &bull; `git add`
 Git: 1.5     | Demonstrate how to commit staged files into the repo
-             | &bull; `git commit -m '[your message]'`
+             | &bull; `git commit`
 Git: 1.6     | Demonstrate how to `git push` and `get pull`
 Git: 1.7     | Explain `git status`
 Git: 1.8     | Demonstrate removing files from a local git repo
-             | &bull; `git rm [filename]`
+             | &bull; `git rm`
              | &bull; `git add -A`
 
 ## Resources
@@ -47,7 +47,7 @@ To use git, navigate in terminal to a folder that you want to turn into a git re
 git init
 ```
 
-You'll get a small message that states your Git project has been initiated. Running an `ls -la` will show you a new subdirectory named `.git`. This hidden folder contains all the information about your repository. Don't worry about it's contents at this point, but also don't delete it unless you intend to "un-version control" your project.
+You'll get a small message that states your Git project has been initiated. Running an `ls -a` will show you a new subdirectory named `.git`. This hidden folder contains all the information about your repository. Don't worry about it's contents at this point, but also don't delete it unless you intend to "un-version control" your project.
 
 ### Git Clone
 
@@ -62,7 +62,7 @@ git clone https://github.com/RockitBootcamp/Student-Resources.git
 If we do this command from our `Sites` folder, it will create a folder called "Sites/Student-Resources". But what if we already had a Student Resources folder created? What if we want to clone the repository in the existing folder? In this case we will want to change directories to the Student Resources folder and run this command:
 
 ```sh
-git clone https://github.com/RockitBootcamp/Student-Resources.git .
+git clone https://github.com/RockitBootcamp/Student-Resources.git
 ```
 
 Note that the only difference is a dot at the end. This dot says "We don't want to create a new Student Resources folder here, we want to clone all the contents of the repo right here".
@@ -71,7 +71,7 @@ Note that the only difference is a dot at the end. This dot says "We don't want 
 
 To determine what state your files are in, you can use the git status command. 
 
-```
+```sh
 git status
 ```
 
@@ -82,7 +82,8 @@ If you have no changes, you will see a message that your branch is up-to-date an
 ### Git Diff
 
 To see what has changed, you can run the following command:
-```
+
+```sh
 git diff
 ```
 
@@ -91,24 +92,22 @@ git diff
 Each time you make a change, add, or delete files in your local repo, you'll need to commit the changes to the repo. The first stage in the commit process is to `git add` the files to the "stage". Only staged files can be committed. Files can be added to the stage on an individual basis as follows:
 
 ```sh
-git add filename
+git add <filename/directory>
 ```
 
-Or, add all the files that are changed:
-
-```sh
-git add .
-```
+If you give the name of a directory, *all* files therein will be staged for commit, including untracked files.
 
 ### Git Commit
 
 After adding or "staging" your change-set, you will want to commit those changes. Do this by typing: 
 
-```
-git commit -m "add message here describing the changes."
+```sh
+git commit
 ```
 
-This commits the given change-set to local history. The message you put is helpful, especially if there is a version you want to go back to prior to a specific change that was committed. It is also helpful when working with a team so the other team members know what was changed. 
+This opens your default editor and allows you to enter a commit message, then commits the given change-set to local history. The message you put is helpful, especially if there is a version you want to go back to prior to a specific change that was committed. It is also helpful when working with a team so the other team members know what was changed.
+
+> The default editor can be changed with the `git config --global core.editor <command>` configuration.
 
 ### Git Push
 
@@ -124,10 +123,10 @@ It is possible to have multiple remotes (with different names) so the command ab
 git push
 ```
 
-This will create a new snapshot of your project in GitHub and will allow any team members to have access to those changes. 
+This will update the remote server (GitHub in this case) to your latest commit and will allow any team members to pull those changes.
 
 ### Git Pull
 
-The opposite of pushing code (from your computer to a remote) is to "pull" code (from the remote to your computer). You will use `git pull origin master` (or simply `get pull` if you only have one remote). This will be necessary when other team members have made a change to a project. 
+The opposite of pushing code (you → remote) is to "pull" code (you ← remote). You will use `git pull origin master` (or simply `get pull` if you only have one remote). This will be necessary when other team members have made a change to a project. 
 
-To collaborate with other team members, you'll be using `git push` to move code to remotes, then your team can do `git pull` to get your code. Likewise they can push their code up and you can pull it to your computer
+To collaborate with other team members, you'll be using `git push` to update remotes, then your team can do `git pull` to update their local copy. Likewise they can push their code up and you can pull it to your computer.
