@@ -19,11 +19,11 @@ A module is a part of an application or a library that provides a distinct set o
 
 For example, a "dropdown" module would contain functionality for creating dropdown components and controlling the dropdown behavior. The module would **not** contain any code related to interacting with other page components such as form elements.
 
-### Defining a module
+### 14.1 Defining a module
 
 With CommonJS style modules, special Objects are provided for exporting the module's functions.
 
-#### `exports`
+#### 14.1.1 `exports`
 
 This Object is used to export functions from your module individually
 
@@ -46,7 +46,7 @@ This method exports your module as an Object with the defined functions. If you 
 }
 ```
 
-#### `module.exports`
+#### 14.1.2 `module.exports`
 
 This Object allows you to directly assign the module's root. The following would be equivalent to the previous method:
 
@@ -65,7 +65,7 @@ module.exports = function multiply() {
 };
 ```
 
-### Requiring a module
+### 14.2 Requiring a module
 
 To use a module, simply assign the return value of `require()` to a variable. 
 
@@ -85,7 +85,7 @@ var multiply = require('./multiply');
 console.log(multiply(2, 3)); // => 6
 ```
 
-### Requiring a package
+### 14.3 Requiring a package
 
 When a value is given that isn't a path to a file, `require()` assumes it's a package name and will attempt to load it from the `node_modules` directory.
 
