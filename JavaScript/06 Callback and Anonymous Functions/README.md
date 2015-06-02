@@ -2,7 +2,7 @@
 
 Identifier   | Objectives
 -------------|------------
-JS: 6.1      | Explain Callback Functions
+JS: 6.1      | Explain Functions as Callbacks
 JS: 6.2      | Explain Anonymous Functions
 JS: 6.3      | Demonstrate a callback function with
              | &bull; `setTimeout()`
@@ -16,45 +16,44 @@ JS: 6.3      | Demonstrate a callback function with
 
 ## Extra Study
 
-### Callback Functions
+### Functions as Callbacks (i.e. Continuation Passing Style)
+
+A callback function is a function that is passed into another function to be called later as a means of control flow. This is also known as *Continuation Passing Style*, because in order to continue the operation control is being passed to the callback function (often with some values).
 
 Keep in mind that anything that can be assigned to a variable, can be passed into a function. In JavaScript we can assign functions to variables like this:
 
 ```js
 // This is a function expression
 var getName = function() {
-    return 'Brad';
+  return 'Brad';
 }
 ```
 
 Since `getName` is a variable, we can pass it into other functions like this:
 
 ```js
-var greetings = function(n) {
-    console.log(n());
+var greetings = function(callback) {
+  // get some values to pass to callback
+  callback(myValues);
 }
 
 greetings(getName);
 ```
 
-The last line of code where we call `greetings()` is where we are passing the variable `getName`. Notice we are not calling `getName()` because calling (or invoking) means we're using parenthesis. So it's not like we're calling getName and having the value which is returned passed into `greetings()`. We're actually passing the reference to the function itself. 
+The last line of code where we call `greetings()` is where we are passing the variable `getName`. Notice we are not calling `getName()` because using parenthesis means we're calling (invoking) the function. So we're not trying to get the return value of `getName`, we're actually passing the reference to the function itself.
 
-Then the `greentings` function assignes that argument to the `n` variable. Now we choose when we want to invoke the `n()` which is essentially the same as invoking `getName()`. In this case, `n` is a callback function. A callback function is when a function is passed into another function, to be called later.
+Then the `greetings` function receives that argument as the `callback` parameter. Now we choose when we want to invoke `callback()` which is essentially the same as invoking `getName()`. In this case, `callback` is a callback function. 
 
 ### Anonymous Functions
 
-Annonymous functions are functions that get passed into another function (as an argument), but without using variable names. Here is the same code as above but without the `getName` variable:
+Annonymous functions are functions that have no name. Here is the same code as above but without the `getName` parameter:
 
 ```js
 var greetings = function(n) {
-    console.log(n());
+  console.log(n());
 }
 
 greetings(function() {
-    return 'Brad';
+  return 'Brad';
 });
 ```
-
-
-
-
