@@ -14,7 +14,7 @@ JS: 6.3      | Demonstrate a callback function with
 - __W3 Schools__ [setTimeout()](http://www.w3schools.com/jsref/met_win_settimeout.asp)
 - __W3 Schools__ [setInterval()](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
-## Extra Study
+## Pre Study
 
 ### Functions as Callbacks (i.e. Continuation Passing Style)
 

@@ -19,7 +19,7 @@ HTML: 3.4    | Explain multiple class attribute syntax
 
 - __W3 Schools__ [HTML Attributes](http://www.w3schools.com/html/html_attributes.asp)
 
-## Extra Study
+## Pre Study
 
 Attributes must be separated from each other and from the tag name by space:
 

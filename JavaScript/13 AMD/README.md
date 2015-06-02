@@ -14,7 +14,7 @@ JS: 13.4     | Explain using jQuery with AMD
 - [Using RequireJS with jQuery](http://requirejs.org/docs/jquery.html)
 - [RequireJS `define`](http://requirejs.org/docs/api.html#define)
 
-## Extra Study
+## Pre Study
 
 > **What is a module?**
 

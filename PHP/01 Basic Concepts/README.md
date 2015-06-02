@@ -23,7 +23,7 @@ PHP: 1.7     | Explain `die()` and `exit()`
 - __W3 Schools__ [PHP Echo and Print](http://www.w3schools.com/php/php_echo_print.asp) 
 - __W3 Schools__ [Inlcude vs Include Once](http://www.wallpaperama.com/forums/difference-between-include-vs-include-once-in-php-t6883.html)
 
-## Extra Study
+## Pre Study
 
 What makes a PHP file? Simply create a file with a `.php` extension is technically all it takes. However, in order to execute PHP code within the file, you'll also need to designate an area of the file with opening and closing tags as follows:
 

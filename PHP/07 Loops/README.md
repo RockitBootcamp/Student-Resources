@@ -11,7 +11,7 @@ PHP: 7.4     | Demonstrate `break` and `continue` statements
 - __W3 Schools__ [While Loops](http://www.w3schools.com/php/php_looping.asp)
 - __W3 Schools__ [For and Foreach](http://www.w3schools.com/php/php_looping_for.asp)
 
-## Extra Study
+## Pre Study
 
 ### While Loops
 

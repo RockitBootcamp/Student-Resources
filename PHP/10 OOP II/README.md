@@ -14,7 +14,7 @@ PHP: 10.4    | Use of visibility keyword:
 ## Resources
 - __Video__ [Object Oriented Programming (OOP) for Beginners](https://www.youtube.com/watch?v=w3XUG6oyINI)
 
-## Extra Study
+## Pre Study
 
 In programming we strive to minify our efforts to write code. We don't repeat ourselves if possible and we make abstractions where we can. Object Oriented Programming allows us to group functionality into classes, but sometimes we might need the same functionality across similar classes. This is where Inheritance comes in.
 

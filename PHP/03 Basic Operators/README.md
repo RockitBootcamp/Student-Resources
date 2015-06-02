@@ -23,7 +23,7 @@ PHP: 4.4     | Demonstrate Increment / Decrement Operators
 ## Resources
 - __W3 Schools__ [PHP Operators](http://www.w3schools.com/php/php_operators.asp)
 
-## Extra Study
+## Pre Study
 
 Increment and Decrement operators are very useful and common in programming. Let's look at some code:
 

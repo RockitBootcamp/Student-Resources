@@ -12,7 +12,7 @@ CSS 4.4      | Demonstrate use of pseudo classes: `:first-child` and `:last-chil
 - __CSS Tricks__ [Semantic Class Names](http://css-tricks.com/semantic-class-names/)
 - [Specificity Calculator](http://specificity.keegan.st/)
 
-## Extra Study
+## Pre Study
 
 Additional tips to Demonstrate good judgment
 - Don't make selectors too specific by adding ids

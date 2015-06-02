@@ -19,7 +19,7 @@ JS: 3.3      | Demonstrate Increment / Decrement Operators
 - __W3 Schools__ [Operators](http://www.w3schools.com/jsref/jsref_operators.asp)
 
 
-## Extra Study
+## Pre Study
 
 Increment and Decrement operators are very useful and common in programming. Let's look at some code:
 

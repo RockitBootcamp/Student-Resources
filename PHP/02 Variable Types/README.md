@@ -20,7 +20,7 @@ PHP: 2.5     | Explain Type Casting
 ## Resources
 - __W3 Schools__ [PHP Data Types](http://www.w3schools.com/php/php_datatypes.asp)
 
-## Extra Study
+## Pre Study
 
 Create variables of different types:
 

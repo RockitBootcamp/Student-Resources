@@ -11,7 +11,7 @@ JS: 14.3     | Explain the difference between packages and modules
 
 - [Modules Reference](https://nodejs.org/api/modules.html)
 
-## Extra Study
+## Pre Study
 
 > **What is a module?**
 

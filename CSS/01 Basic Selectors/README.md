@@ -15,7 +15,7 @@ CSS 1.5      | Demonstrate Child selectors
 - __CSS Tricks__ [Little CSS stuff newcomers get confused about](http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/ )
 - [CSS Desgin](http://teacherjohn.com/ucscextension/cssdesign/ex02.html)
 
-## Extra Study
+## Pre Study
 
 Complex selectors are generally broken down into tags, classes, and IDs. Let's look at a few:
 

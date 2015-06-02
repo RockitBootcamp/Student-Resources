@@ -21,7 +21,7 @@ PHP: 3.3     | Demonstrate use of comparison operators
 - __W3 Schools__ [PHP If and If Else](http://www.w3schools.com/php/php_if_else.asp)
 
 
-## Extra Study
+## Pre Study
 
 Programming languages have "Control Structures". A control structure is a way for the developer to control the flow of their program. If-Statements are basic control structures that allow us to make decisions, which is sometimes called logic.
 

@@ -33,7 +33,7 @@ HTML: 5.8    | Demonstrate the `placeholder` attribute
 - __W3 Schools__ [HTML Forms](http://www.w3schools.com/html/html_forms.asp)
 - __W3 Schools__ [Input Types](http://www.w3schools.com/html/html_form_input_types.asp)
 
-## Extra Study
+## Pre Study
 
 Here is the proper syntax for a form with two fields inside:
 

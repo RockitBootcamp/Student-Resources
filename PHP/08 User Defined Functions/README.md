@@ -19,7 +19,7 @@ PHP: 8.3     | Explain and demonstrate the return statement
 - [The Dairy Farm Exercise](dairy-farm.md)
 
 
-## Extra Study
+## Pre Study
 
 Functions are a way for us to bundle reusable logic together. One analogy is thinking of functions like a recipe. Consider this code:
 

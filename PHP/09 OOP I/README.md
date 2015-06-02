@@ -19,7 +19,7 @@ PHP: 9.6     | Use of visibility keywords:
 - [Object Oriented for Beginners](http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762) 
 - [OOP Basics](http://php.net/manual/en/language.oop5.basic.php)
 
-## Extra Study
+## Pre Study
 
 Here is a basic `User` class with a constructor and "getters and setters"
 

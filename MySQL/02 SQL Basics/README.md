@@ -56,7 +56,7 @@ UPDATE my_table SET first_name = "John" WHERE last_name = "Wayne"
 DELETE FROM my_table WHERE last_name = "Wayne"
 ```
 
-## Extra Study
+## Pre Study
 
 SQL stands for Structured Query Language. SQL is generally used to query, or "ask" the database a question and to get a response. For instance, you can query the database for "Give me all the users in the database". Written as SQL this would look like:
 

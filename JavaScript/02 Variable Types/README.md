@@ -25,7 +25,7 @@ JS: 2.6      |Demonstrate definition of local and global variables
 - [Variables and Primitive Data Types](https://gist.github.com/bradwestfall/002312c3628eac9cc215)
 - __W3 Schools__ [Data Types](http://www.w3schools.com/js/js_datatypes.asp)
 
-## Extra Study
+## Pre Study
 
 Create variables of different types:
 

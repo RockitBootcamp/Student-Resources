@@ -9,7 +9,7 @@ Git: 4.3     | Explain the significance of the `CNAME` file on the web root
 ## Resources
 [Video - GitHub Pages and Jekyll by Brad](https://www.youtube.com/watch?v=nN6QuNqmAwk)
 
-## Extra Study
+## Pre Study
 
 By default, creating branches on your local repo wont result in the branch being pushed to GitHub. You'll need to add your branch to the "remote" (which is GitHub) like this:
 
