@@ -25,7 +25,7 @@ JS: 14.4     | Demonstrate alternative ways to use AJAX in jQuery:
 
 ### AJAX
 
-AJAX stands for Asynchronous JavaScript And XML. It's actually an outdated term, but still in common use, so it's good to know. The updated acronym is XHR (XML HTTP Request). 
+AJAX stands for *Asynchronous JavaScript And XML*. It's actually an outdated term, but still in common use, so it's good to know. The updated acronym is XHR (XML HTTP Request). 
 
 ### JSON
 
