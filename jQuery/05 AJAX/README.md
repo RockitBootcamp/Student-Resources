@@ -27,6 +27,8 @@ JS: 14.4     | Demonstrate alternative ways to use AJAX in jQuery:
 
 AJAX stands for *Asynchronous JavaScript And XML*. It's actually an outdated term, but still in common use, so it's good to know. The updated acronym is XHR (XML HTTP Request). 
 
+AJAX, or XHR, is used to interact with a server from the client without needing to load a new page. This is how Single-Page Applications are made possible. Some basic example interactions would be: getting user data, creating new content, updating content, and so on.
+
 ### JSON
 
 JSON stands for JavaScript Object Notation. It's used to share data between machines (i.e. client and servers). An example of JSON:
