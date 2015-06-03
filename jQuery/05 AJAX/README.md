@@ -16,6 +16,7 @@ JS: 14.4     | Demonstrate alternative ways to use AJAX in jQuery:
 
 ## Resources
 
+- [JSON Specification](http://www.json.org/)
 - __jQuery.com__ [Ajax](http://learn.jquery.com/ajax/)
 - __W3 Schools__ [ajax()](http://www.w3schools.com/jquery/ajax_ajax.asp)
 - __W3 Schools__ [AJAX Methods](http://www.w3schools.com/jquery/jquery_ref_ajax.asp)
