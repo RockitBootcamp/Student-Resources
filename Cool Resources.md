@@ -115,7 +115,7 @@
 - [Google Maps](https://developers.google.com/maps/getmaps/)
 - [PHP WkHtmlToPdf](https://github.com/mikehaertl/phpwkhtmltopdf)
 
-## People to follow (these are the people to be aware of in the relms of Front-End Development)
+## People to follow (these are the people to be aware of in the front-end development world)
 - Addy Osmani (Google)
 - Paul Irish (Google)
 - Christian Heilmann (Mozilla)
