@@ -1,4 +1,4 @@
-# Lesson 3: Basic Operators
+# Lesson 3: Basic Operators and Expressions
 
 Identifier   | Objectives
 -------------|------------
@@ -10,50 +10,77 @@ JS: 3.1      | Demonstrate Arithmetic Operators
 JS: 3.2      | Demonstrate String Operators
              | &bull; `+` Concatenation
 JS: 3.3      | Demonstrate Increment / Decrement Operators
-             | &bull; `+=`
-             | &bull; `-=`
-             | &bull; `*=`
+             | &bull; Prefix/postfix increment `++`
+             | &bull; Prefix/postfix decrement `--`
 
 ## Resources
 
-- __W3 Schools__ [Operators](http://www.w3schools.com/jsref/jsref_operators.asp)
-
+- [Operators][operators]
 
 ## Pre Study
 
-Increment and Decrement operators are very useful and common in programming. Let's look at some code:
+Increment and decrement operators are very useful and common in programming. Let's look at an example:
 
 ```js
 var x = 5;
-x = x + 3;
+x = x + 1;
 ```
 
-This code adds `3` to the existing value of `x`. It's like saying, "Take what x was (5) and add 3 to it". However, it's so common to need to add numbers to existing values that we have a shortcut:
+The expression `x + 1` adds `1` to the current value of `x`. However, if you will be doing this often, there are operators that can simplify the expression:
 
 ```js
 var x = 5;
-x += 3;
+++x;
 ```
 
-This code, with the `+=` operator says the same thing - take what `x` was and add `3` to it. While this works for any number we want to add, let's look at adding `1`:
+This is called a **prefix** operator, because it preceeds the variable name. A **postfix** operator would follow the variable name. Let's take a look at the difference.
 
 ```js
 var x = 5;
-x += 1;
+var y = x++;
+x === y; // => false
 ```
 
-Now `x` is equal to 6. But it's so much more common to add `1` to existing values that we have a better shortcut:
+In the example we used a postfix increment operator to increment the value. We probably expected both `x` and `y` to equal `6`. So why did the expression `x === y` return `false`?
+
+The answer is that when working with prefix/postfix operators, they will either perform the operation first, or return the value first. Prefix operators perform the operation first, *then* return the value. So let's try that again using the prefix operator instead.
 
 ```js
 var x = 5;
-x++;
+var y = ++x;
+x === y; // => true
 ```
 
-Notice there's no space between `x` and `++`. This operator allows us to increment the variable by one. It also works the same for `--`:
+This time both values were `6`, because when we assigned a value to `y`, the increment operation had already been performed. Let's have another look at that postfix.
 
 ```js
 var x = 5;
-x--; // x is 4
+x++; // => 5
+x; // => 6
+```
+
+This is equivalent to the following:
+
+```js
+var x = 5;
+x = 5;
+x = 6;
+```
+
+If we used a prefix, it would be equivalent to:
+
+```js
+var x = 5;
+x = 6;
+x = 6;
+```
+
+The same applies for the decrement operator (`--`) when used as a prefix or postfix:
+
+```js
+var x = 5;
+x--; // => 5
+x; // => 4
 ```
 
 ### String Concatenation
@@ -62,16 +89,14 @@ While string concatenation was covered in a previous lesson, we'll now cover a n
 
 ```js
 welcome = 'Welcome ';
-welcome = welcome + 'Dave';
-console.log(welcome); // Outputs: Welcome Dave
+welcome = welcome + 'Dave'; // => "Welcome Dave"
 ```
 
-This is the long way of doing it. This is like saying "Make the welcome variable what it was, plus some more characters added to it";
-
-The shortcut goes as follows:
+An alternative to this is to use the `+=` assignment operator. Just like the `+` operator, it will give preference to strings by coercing the operand if the variable's value is a string, otherwise it will add numbers:
 
 ```js
-welcome = 'Welcome ';
-welcome += 'Dave';
-console.log(welcome); // Outputs: Welcome Dave
+var welcome = 'Welcome ';
+welcome += 'Dave'; // => "Welcome Dave"
 ```
+
+[operators]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators "Expressions and Operators"
