@@ -18,9 +18,12 @@ CSS: 6.4     | Explain Normalize.css
 CSS should be organized by the role in plays in your project. There are many philosophies and patterns to good CSS organization. As a beginner, start thinking of all CSS as falling into one of these four roles:
 
 - Reset (Normalize)
+- Helpers
 - Defaults
 - Layout
 - Components
+
+> Note that this is also the correct order that the CSS should be in your project
 
 When you create your CSS file, you might want to separate these roles with big comment blocks:
 
@@ -33,7 +36,7 @@ When you create your CSS file, you might want to separate these roles with big c
 
 
 /****************************************
-  Layout
+  Helpers
 *****************************************/
 
 ... etc.
