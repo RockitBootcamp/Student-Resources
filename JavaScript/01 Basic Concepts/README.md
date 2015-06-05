@@ -13,6 +13,9 @@ JS: 1.5      | Demonstrate use of console.log();
 JS: 1.6      | Use JavaScript Comments
              | &bull; One-line
              | &bull; Multi-line
+JS: 1.7      | Explain the importance of consistency
+             | &bull; Style guides
+             | &bull; Following convention
 
 ## Resources
 
@@ -21,6 +24,7 @@ JS: 1.6      | Use JavaScript Comments
 - [String type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type)
 - [Developer Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console)
 - [Comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Comments)
+- [Popular style convention][popular convention]
 
 ## Pre Study
 
@@ -174,6 +178,18 @@ Multi-line comments are any text *wrapped* by `/*` and `*/`. They can also appea
 /* I don't know why anyone would do this, though */ var foo = 'bar';
 ```
 
+### Style guides and convention
+
+Style guides are documents that describe the conventions that should be followed, usually instituted by a company or project owner, in order to maintain code consistency. Consistency is incredibly important for developers who work together in a collaborative environment such as a team or as a contributor to an open source project. The reason it's important is to maintain the highest level of readability in the code base. If the style (conventions used) is inconsistent, it becomes difficult and tiresome to read the source. Inconsistencies can also lead to missing important potential problems with the code, because too much of your attention is focused on interpreting a style that keeps changing from line to line or from one file to another. Likewise, very consistent code makes it easy to point out potential problems because they can often be easily spotted due to it creating an inconsistency in the coding style.
+
+Style consistency should be maintained across the entire project or organization, even if other developers aren't working on the same file as you. It's also a very good idea to follow [popular conventions][popular convention] even when you are working alone, because a popular coding style will attract like-minded developers. So if you follow the popular conventions, you maximize the likelyhood that a potential contributor will be comfortable with the coding style you use.
+
+Some organizations even strictly enforce style rules, either through code reviews or automatic checkers (known as linters), and often both.
+
+If you follow popular conventions and adhere to specific style rules (e.g. a style guide), your code will be beautiful, and potential employers will notice this. If you are inconsistent and don't follow popular conventions, your code will be a mess, and you'll look like a lazy slob—employers will notice this also.
+
+[Standard JavaScript][standard] aspires to become the *defacto* style guide for JavaScript.
+
 ## Exercises
 
 For practice, try the following exercises in your editor:
@@ -187,3 +203,6 @@ For practice, try the following exercises in your editor:
 - Write a statement that would log the "foo" variable
 - Write a single line comment
 - Write a multi-line comment
+
+[popular convention]: http://sideeffect.kr/popularconvention/#javascript
+[standard]: https://github.com/feross/standard "Standard JavaScript"
