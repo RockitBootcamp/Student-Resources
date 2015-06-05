@@ -3,7 +3,7 @@
 Identifier   | Objectives
 -------------|------------
 Sass: 3.1    | Explain basic Sass Organization
-             | &bull; The "main" Sass file only does `@include`s
+             | &bull; The "main" Sass file only does `@include`'s
              | &bull; Organize variables into a separate file
              | &bull; Organize Mixins and Helpers into separate files
 Sass: 3.2    | Explain the problems with "deep nesting"
