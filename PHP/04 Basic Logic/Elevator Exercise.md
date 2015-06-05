@@ -1,4 +1,4 @@
-## Elevator exercise: Week 1
+# Elevator Exercise
 
 This project uses nested `if` statements. Using what you've learned about `if` and `if else`, create a project that will determine if the elevator will stop for the person waiting. Create a php program that will output a specific message based on the direction the elevator is going, the direction the person is going, the floor the person is on, and the floor the elevator is on. 
 
