@@ -11,6 +11,7 @@ CSS: 6.4     | Explain Normalize.css
 - [What is a CSS Reset](http://www.cssreset.com/what-is-a-css-reset/)
 - [Erik Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/index.html)
 - __GitHub__ [Normalize.css](https://github.com/necolas/normalize.css/)
+- [Normalize.css on CDN](https://cdnjs.com/libraries/normalize)
 
 ## Good CSS Organization
 
