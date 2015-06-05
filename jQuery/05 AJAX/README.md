@@ -74,12 +74,15 @@ $.ajax({
 });
 ```
 
-Remember that by default requests are GET. If you want to make a POST request, for instance, you would need to pass in the `method` property in your options object.
+Remember that by default requests are GET. If you want to make a POST request, for instance, you would need to pass in the `method` property in your options object. Also, for a POST request, you will typically be sending some data as well. For that you'll need to add the `data` property as well.
 
 ```js
 $.ajax({
   url: '/foo',
-  method: 'POST'
+  method: 'POST',
+  data: {
+    bar: 'bar'
+  }
 }).then(function () {
 
 });
