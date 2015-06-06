@@ -15,6 +15,10 @@ CSS: 8.3     | Explain float clearing approaches
 ## Resources
 - __Video__ [Getting along with Floats](https://www.youtube.com/watch?v=4gE1mThzhSw)
 
+## Presentation
+
+- [View Presentation](https://docs.google.com/presentation/d/1GfJshIdk7usiEw0dP9wELhAEHPbgbzqkGcRbgTAmf_k/edit#slide=id.p)
+
 ## Practice
 
 ### Media Object
