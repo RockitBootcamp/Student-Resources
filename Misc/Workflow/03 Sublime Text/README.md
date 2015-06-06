@@ -35,7 +35,6 @@ Install Package Control: https://packagecontrol.io/installation
 Nice packages to know about
 
 - AdvancedNewFile
-- CSS3_Syntax
 - Emmit
 - Sass
 - Snippet Maker
