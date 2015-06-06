@@ -21,23 +21,21 @@ CSS 2.4      | Use `border` property
 
 ### Hex Colors
 
-Colors on the web are historically represented in hexadecimal format (aka "hex" format). The hexadecimal system was not originally designed for expressing colors, but rather is a counting system based on 16 characters. This means we count 0-9 and then A-F. The letter "A" is technically 10, and "B" is 11. It's okay if you don't fully understand how to count in hex. The point is, colors on computers are often expressed in hex format as 6 characters.
+Colors on the web are historically represented in hexadecimal format (aka "hex" format). The hexadecimal system was not originally designed for expressing colors, but rather is a counting system based on 16 characters. This means we count 0-9 and then A-F. The letter "A" is technically 10, and "B" is 11. 
 
-Let's example this color:
+Let's see example an example:
 
 ```
 #FF0000
 ```
 
-Note that the pound sign is just saying we are about to write in hex format. The purpose of having six characters is to utilize the first two for how much Red is in our color, the second pair is how much Green is in our color, and the third pair is how much Blue is in our color. In our case above, we have full red, which is the `FF` and no green and no blue.
-
-Most colors are not as easy to predict though. Take a look at this one:
+Note that the pound sign is just saying we are about to write in hex format. The purpose of having six characters is to utilize the first two for how much Red is in our color, the second pair is how much Green is in our color, and the third pair is how much Blue is in our color. In our case above, we have full red, which is the `FF` and no green and no blue. With 256 possible values of red, 256 or green, and 256 of blue, there are roughly 16 million possible colors that can be expressed with a six character color hex code. While the one above is easy to predict because we know `FF` means full red,most colors are not as easy to predict. Take a look at this one:
 
 ```
 #FA76BB
 ```
 
-`FA` is our amount of red, `76` is our amount of green, and 'BB' is our amount of blue. With this combination, who knows what color it produces. Just know that if it's six characters of 0-9 and A-F, then it is valid hex and it is a valid color.
+`FA` is our amount of red, `76` is our amount of green, and `BB` is our amount of blue. With this combination, who knows what color it produces. Just know that if it's six characters of 0-9 and A-F, then it is valid hex and it is a valid color.
 
 Take note that `#000000` is Black and `#FFFFFF` is white. 
 
