@@ -17,3 +17,7 @@ CSS: 5.5     | Demonstrate Collapsing Margins
 - [Understanding Border, Margin, and Padding](http://www.templatemonster.com/help/css-understanding-border-margin-and-padding-properties.html)
 - __Video__ [Box Model, Display Block / Inline, Collapsing Margins](https://www.youtube.com/watch?v=Nej7B5M-vOM)
 - __Video__ [CSS3 Box-Sizing](https://www.youtube.com/watch?v=8KtoC9MpoZ0)
+
+## Presentation
+
+- [View Presentation](https://docs.google.com/presentation/d/1kZ51qg0DTM75Z_ST0nqZQ-w8dd-io8qpOBaISpgsPZU/edit#slide=id.p)
