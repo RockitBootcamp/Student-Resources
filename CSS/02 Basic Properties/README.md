@@ -17,6 +17,10 @@ CSS 2.4      | Use `border` property
 - __W3 Schools__ [CSS Backgrounds](http://www.w3schools.com/css/css_background.asp) 
 - __W3 Schools__ [CSS Border](http://www.w3schools.com/css/css_border.asp)
 
+## Presentation
+
+- [View Presentation](https://docs.google.com/presentation/d/10tB4ZoyVibNV9IWq2LwEEOgUnO4lO8bDFRojlwtAI4s/edit#slide=id.p)
+
 ## Pre Study
 
 ### Hex Colors
