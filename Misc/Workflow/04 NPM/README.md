@@ -3,8 +3,8 @@
 Identifier   | Objectives
 -------------|------------
 WF: 4.1      | Install Node (which comes with NPM)
-WF: 4.2      | Use `npm init` to create a "package.json" file
-WF: 4.3      | Explain the role of "package.json"
+WF: 4.2      | Use `npm init` to create a `package.json` file
+WF: 4.3      | Explain the role of `package.json`
 WF: 4.4      | Use `npm install --save [package name]` to install a package
 WF: 4.5      | Explain the purpose of adding `node_modules` to `.gitignore`
 WF: 4.6      | Demonstrate how to install and update packages listed in "package.json"
