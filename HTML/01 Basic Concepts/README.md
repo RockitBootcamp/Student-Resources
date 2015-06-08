@@ -38,6 +38,3 @@ HTML: 1.6    | Describe how whitespace works in HTML
 - __W3 Schools__ [Intro to HTML](http://www.w3schools.com/html/html_intro.asp)
 - __W3 Schools__ [HTML Basics](http://www.w3schools.com/html/html_basic.asp)
 - __W3 Schools__ [HTML Elements](http://www.w3schools.com/html/html_elements.asp)
-
-## Pre Study
-
