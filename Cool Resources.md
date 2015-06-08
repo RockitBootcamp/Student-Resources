@@ -1,6 +1,7 @@
 # Essential Must-Know Cool Things
 
 ## Well Known Tutorial Resources
+
 - __PHP's Official Documentation__ [PHP.net](http://php.net/)
 - __W3C's Tutorial Site__ [W3 Schools](http://www.w3schools.com/)
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
@@ -12,6 +13,7 @@
 - [24Ways](http://24ways.org/)
 
 ## Week 1 Material
+
 - [Become a programmer (Video)](https://www.youtube.com/watch?v=nKIu9yen5nc)
 - [Web Content (Video)](https://www.youtube.com/watch?v=6gmP4nk0EOE)
 - [Apache on Mac](http://jason.pureconcepts.net/2012/10/install-apache-php-mysql-mac-os-x/)
@@ -27,21 +29,25 @@
 - [Explain CSS Selectors as I write them](http://gallery.theopalgroup.com/selectoracle/)
 
 ## Cool Beginner Articles
+
 - [Multiple CSS Backgrounds](http://www.css3.info/preview/multiple-backgrounds/)
 - [Introduction to jQuery](http://ejohn.org/apps/workshop/intro/)
 - [JavaScript Basics](http://jqfundamentals.com/chapter/javascript-basics)
 - [jQuery: Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 
 ## Git and GitHub
+
 - [GitHub's Official Tutorial](https://try.github.io/levels/1/challenges/1)
 - [Git Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
 - [Git for grown ups](http://24ways.org/2013/git-for-grownups/)
 
 ## Beginning JavaScript
+
 - [Common Mistakes](http://www.w3schools.com/js/js_mistakes.asp)
 - [Best Practices](http://www.w3schools.com/js/js_best_practices.asp)
 
 ## Good to know
+
 - [Naming things is hard](http://24ways.org/2014/naming-things/)
 - [Top 10 Mistakes Web Developers Make](http://www.toptal.com/web/top-10-mistakes-that-web-developers-make)
 - [5 ways to not shoot yourself in the foot with CSS](https://medium.com/@jxnblk/5-ways-to-not-shoot-yourself-in-the-foot-with-css-8d3c84c94364)
@@ -54,9 +60,11 @@
 - [History of the Internet (Video)](https://www.youtube.com/watch?v=9hIQjrMHTv4)
 
 ## Interview Questions
+
 - [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
 ## User Interface (UI)
+
 - [Dribbble (for design ideas)](http://dribbble.com)
 - [Some Good UI tips](http://goodui.org/)
 - ["Full Screen Sections" with CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
@@ -66,6 +74,7 @@
 - [7 Rules for creating gorgeous UI Part II](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
 
 ## Just Cool Things
+
 - [Live Reload](http://www.ryanthaut.com/guides/sublime-text-3-markdown-and-live-reload/)
 - [Google's new "noCAPTCHA"](https://www.youtube.com/watch?v=jwslDn3ImM0)
 - [FavIcon Generator](http://tools.dynamicdrive.com/favicon/)
@@ -74,6 +83,7 @@
 - [Google Hangouts](http://www.google.com/+/learnmore/hangouts/)
 
 ## Advanced CSS Tools
+
 - [CSS clip-path maker](http://bennettfeely.com/clippy/)
 - [Animate.css](http://daneden.github.io/animate.css/)
 - [Scroll Magic](http://janpaepke.github.io/ScrollMagic/)
@@ -84,6 +94,7 @@
 - ["Flow Up Labels"](http://www.enfos.com/FlowupLabels.js/demo/)
 
 ## Advanced Articles & Videos
+
 - [The CSS that you know nothing about](https://medium.com/@mjtweaver/the-css-that-you-dont-know-about-d5945cea1c94)
 - [CSS Blend Modes - The Next Big Thing](https://medium.com/@bennettfeely/css-blend-modes-could-be-the-next-big-thing-in-web-design-6b51bf53743a)
 - [Adobe - CSS Blend Modes](http://webplatform.adobe.com/blend-modes/)
@@ -98,10 +109,12 @@
 - [JSON Hijacking](http://haacked.com/archive/2009/06/25/json-hijacking.aspx/)
 
 ## Computer Science
+
 - [What every programmer should know about floating points](http://blog.reverberate.org/2014/09/what-every-computer-programmer-should.html)
 - [JavaScript Events, Heap, and Stack](http://vimeo.com/96425312)
 
 ## Brad's Gists
+
 - [OS X Yosemite Apache Environment Setup](https://gist.github.com/bradwestfall/c3e44d5c1e4a74ad852e)
 - [OS X Mavericks Apache Environment Setup](https://gist.github.com/bradwestfall/df915300c0d5022e5cb2)
 - [Ubuntu Apache Environment Setup](https://gist.github.com/bradwestfall/b478157ce6d507802133)
@@ -112,22 +125,49 @@
 - [PHP Singleton Example](https://gist.github.com/bradwestfall/5310a4d221734a30f50b)
 
 ## APIs
+
 - [Google Maps](https://developers.google.com/maps/getmaps/)
 - [PHP WkHtmlToPdf](https://github.com/mikehaertl/phpwkhtmltopdf)
 
 ## People to follow (these are the people to be aware of in the front-end development world)
-- Addy Osmani (Google)
-- Paul Irish (Google)
-- Christian Heilmann (Mozilla)
-- Ilya Grigorik (Google)
-- Alex Russell (Google)
-- Chris Coyier (CSS Tricks)
-- Nicholas C. Zakas
-- Nicolas Gallagher (Twitter)
-- David Walsh (Mozilla)
-- Nicole Sullivan
-- Ben Alman
-- Eric Bidelman (Google)
-- Rob Dodson﻿ (Google)
-- Mark Otto (GitHub)
-- Hugo Giraudel
+
+- Addy Osmani (Google) 
+[[Google+](https://plus.google.com/u/0/+AddyOsmani/posts)] 
+[[Twitter](http://www.twitter.com/addyosmani)]
+- Paul Irish (Google) 
+[[Google+](https://plus.google.com/u/0/+PaulIrish/posts)] 
+[[Twitter](http://twitter.com/paul_irish)]
+- Christian Heilmann (Mozilla) 
+[[Google+](https://plus.google.com/u/0/+ChristianHeilmann/posts)]
+- Ilya Grigorik (Google) 
+[[Google+](https://plus.google.com/u/0/+IlyaGrigorik/posts)] 
+[[Twitter](http://twitter.com/igrigorik)]
+- Alex Russell (Google) 
+[[Google+](https://plus.google.com/u/0/+AlexRussell/posts)] 
+- Chris Coyier (CSS Tricks) 
+[[Google+](https://plus.google.com/u/0/+ChrisCoyier/posts)] 
+[[Twitter](http://twitter.com/chriscoyier)]
+- Nicholas C. Zakas 
+[[Google+](https://plus.google.com/u/0/116766524979258968594/posts)] 
+- Nicolas Gallagher (Twitter) 
+- David Walsh (Mozilla) 
+[[Google+](https://plus.google.com/+DavidWalsh/posts)] 
+[[Twitter](http://twitter.com/davidwalshblog)]
+- Nicole Sullivan 
+[[Google+](https://plus.google.com/113832007768508299762/posts)] 
+- Ben Alman 
+[[Google+](https://plus.google.com/+BenAlman/posts)] 
+- Eric Bidelman (Google) 
+[[Google+](https://plus.google.com/+EricBidelman/posts)] 
+[[Twitter](http://twitter.com/ebidel)]
+- Rob Dodson﻿ (Google) 
+[[Google+](https://plus.google.com/+RobDodson/posts)] 
+[[Twitter](http://twitter.com/rob_dodson)]
+- Mark Otto (GitHub) 
+[[Google+](https://plus.google.com/103531026603787055384/posts)] 
+- Hugo Giraudel 
+[[Google+](https://plus.google.com/101697878480386449961/posts)] 
+[[Twitter](http://twitter.com/hugogiraudel)]
+- Sindre Sorhus 
+[[Google+](https://plus.google.com/+sindresorhus/posts)] 
+[[Twitter](http://twitter.com/sindresorhus)]
