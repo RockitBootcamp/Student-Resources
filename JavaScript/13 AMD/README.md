@@ -10,9 +10,9 @@ JS: 13.4     | Explain using jQuery with AMD
 
 ## Resources
 
-- [RequireJS API Docs](http://requirejs.org/docs/api.html)
-- [Using RequireJS with jQuery](http://requirejs.org/docs/jquery.html)
-- [RequireJS `define`](http://requirejs.org/docs/api.html#define)
+- [RequireJS API Docs][requirejs docs]
+- [Using RequireJS with jQuery][requirejs jquery]
+- [RequireJS `define`][requirejs define]
 
 ## Pre Study
 
@@ -93,11 +93,11 @@ Using a default path (or "baseUrl") is the most common config used. It will allo
 
 ```js
 // Without "baseUrl" config
-requirejs(['modules/models/user', 'modules/views/users'], function (UserModel, usersview) {
+requirejs(['js/modules/models/user', 'js/modules/views/users'], function (UserModel, usersview) {
 
 });
 
-// With "baseUrl" config
+// With "baseUrl" config set to "js/modules"
 requirejs(['models/user', 'views/users'], function (UserModel, UsersView) {
 
 });
@@ -107,7 +107,7 @@ The following is an example of how to configure the "baseUrl". This configuratio
 
 ```js
 requirejs.config({
-  baseUrl: 'modules'
+  baseUrl: 'js/modules'
 });
 ```
 
@@ -132,4 +132,8 @@ requirejs.config({
 
 RequireJS will load Foo's dependencies, then load Foo, then get the global `Foo` variable and export that to any module that depends on Foo.
 
-Refer to RequireJS's documentation for more information about these and other config options.
+Refer to the [RequireJS documentation][requirejs docs] for more information about these and other config options.
+
+[requirejs docs]: http://requirejs.org/docs/api.html "RequireJS API Documentation"
+[requirejs jquery]: http://requirejs.org/docs/jquery.html
+[requirejs define]: http://requirejs.org/docs/api.html#define
