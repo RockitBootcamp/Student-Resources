@@ -99,7 +99,7 @@ $.ajax({
 });
 ```
 
-#### `$.get()`
+#### `$.get()` and `$.post()`
 
 This method is a more simplified shortcut for making a GET request. There is also a `$.post()` method. They are symantically the same, so the following information applies to both.
 
@@ -109,7 +109,7 @@ $.get('/foo').then(function (data) {
 });
 ```
 
-And again, the `.done()`, `.always()`, and `fail()` methods are also available, just like `$.ajax()`.
+And again, the `.done()`, `.always()`, and `fail()` methods are also available, just like with `$.ajax()`.
 
 ```js
 $.get('/foo').fail(function () {
