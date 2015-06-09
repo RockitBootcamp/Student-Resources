@@ -20,6 +20,10 @@ Git: 1.8     | Demonstrate removing files from a local git repo
 - __Video__ [Git Basics Episode 1](http://git-scm.com/video/what-is-version-control)
 - __Video__ [Git Basics Episode 2](http://git-scm.com/video/what-is-git)
 
+## Presentation
+
+- [View Presentation](https://docs.google.com/presentation/d/1zwj2KV0dzwhF0Q-G1QgkYsB-KR08-HVAqrnSXZRxFzc/edit)
+
 ## Practice
 
 Git is a Version Control System (VCS) that allows you to keep a history of all modifications to the files of a project. Developers can also collaborate and share code among each other when a centralized Git server is established. GitHub is a website that provides this Git server as a service.
