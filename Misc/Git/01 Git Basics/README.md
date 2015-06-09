@@ -43,6 +43,12 @@ git config --global user.name "John Doe"
 git config --global user.email "johndoe@example.com"
 ```
 
+Additionaly you will want to configure git to use your preferred text editor. This line will setup `nano` to be the default
+
+```sh
+git config --global core.editor nano
+```
+
 ### Initialize a project
 
 To use git, navigate in terminal to a folder that you want to turn into a git repository. The folder should not be a git repo already. Make sure you are actually inside the project folder (at the web root) where you want to start a git repo. Start your new Git project with:
