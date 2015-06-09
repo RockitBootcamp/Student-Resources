@@ -32,7 +32,7 @@ For a really great video series on how to use Sublime Text, watch [Perfect Workf
 
 Install Package Control: https://packagecontrol.io/installation
 
-Nice packages to know about
+Nice packages to know about:
 
 - AdvancedNewFile
 - Emmit
