@@ -36,6 +36,7 @@ Executable is either native machine-code or byte-code for a virtual machine and 
 Must be compiled for different machine architectures and operating systems (VMs excepted) | Can be run on any machine which has an interpreter or runtime for the language
 Type systems tend toward stonger and static | Type systems tend toward more flexible and dynamic
 Compilation and builds can slow down the development cycle | Contributes to a faster development cycle for developers
+Languages: C/C++, Java/C#, Erlang, Objective-C | Languages: Php, Ruby, Python, javascript, bash
 
 
 
@@ -106,7 +107,6 @@ Garbage collection is a system that keeps track of all the heap variables and re
 - Ruby
 - javascript
 - Python
-- 
 
 ### Object Oriented
 - C++
