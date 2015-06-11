@@ -21,16 +21,15 @@ for(i=0; i < 10; i++) {
 
 
 ## Compiled / Interpreted
-- Compiled
-  - Program is read, checked for errors, and compiled to an __executable__ first, then executed
-  - Executable is either native machine-code or byte-code for a virtual machine and is fast
-  - Must be compiled for different machine architectures and operating systems (VMs excepted)
-  
-- Intrepreted
-  - Program is read, checked for errors, and interpreted each time the program is run
-  - Interpreted langauages are generally slower than compiled languages
-  - Allows more flexibility in terms of typing and memory management
-  - User must have the language's interpreter or runtime installed on their computer
+Programs are executed in one of two ways. They are either turned (compiled) into a program that runs directly on the computer's OS or they are "ran" or "interpreted" by a program (the interpreter) that knows how to execute programs written in a given language. There are pros and cons to each...
+
+Compiled | Interpreted
+--- | ---
+Program is read, checked for errors, and compiled to an __executable__ first, then executed | Program is read, checked for errors, and interpreted each time the program is run
+Executable is either native machine-code or byte-code for a virtual machine and is fast |  Interpreted langauages are generally slower than compiled languages
+Must be compiled for different machine architectures and operating systems (VMs excepted) | Can be run on any machine which has an interpreter or runtime for the language
+Type systems tend toward stonger and static | Type systems tend toward more flexible and dynamic
+Compilation and builds can slow down the development cycle | Contributes to a faster development cycle for developers
 
 ## Type Systems
 1. what is a "type system"?
