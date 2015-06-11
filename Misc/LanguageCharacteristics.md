@@ -12,12 +12,18 @@ for(i=0; i < 10; i++) {
 
 
 ```
+This snippet could be any of : javascript, c/c++, java, c#, ruby, and a host of others. It would be legal PHP or Perl if you blinged it up with some dollar signs...
+
 
 
 ## Core Language Differences:
 - compiled / interpreted
 - type system
 - memory model & management
+- paradigm
+
+
+
 
 
 ## Compiled / Interpreted
@@ -31,6 +37,8 @@ Must be compiled for different machine architectures and operating systems (VMs 
 Type systems tend toward stonger and static | Type systems tend toward more flexible and dynamic
 Compilation and builds can slow down the development cycle | Contributes to a faster development cycle for developers
 
+
+
 ## Type Systems
 1. what is a "type system"?
 1. key dimensions
@@ -39,6 +47,9 @@ Compilation and builds can slow down the development cycle | Contributes to a fa
   - mutability
   - duck-typing?
   
+
+
+
 ## Memory Model and Memory Management
 Most programming languages work with a memory model that is composed of a "stack" and a "heap". << Explain Stack Here >>>
 Variables that are allocated on the stack don't need to be managed, they are easy and efficient!. Variables that are
@@ -46,6 +57,9 @@ allocated in the heap, however, require more work to manage. There are generally
 manually or with some kind of garbage collection. "Manually" is __very manual__ in this case and doing it wrong causes
 nasty bugs.
 
+
+
+### Manual Memory Management
 Manual memory management requires a considerable extra amount of work for developers and opens up whole classes of
 bugs that can't happen in languages with garbage collection. But if the program is any of these:
 - must be really fast and/or really small
@@ -56,16 +70,25 @@ bugs that can't happen in languages with garbage collection. But if the program 
 
 these languages provide the fast low-level control that is needed. A language with manual memory management allows
 for fast direct access to memory, i/o systems & other hardware. This is ideal for operating systems and their
-components, programming language tools, compilers, & interpreters, and software that pushes the memory, network, & 
+components, programming language tools, compilers, & interpreters, and software that pushes the memory, i/o, & 
 cpu limits of its hardware.
 
-### Languages with Manual Memory Management
-- C/C++
-- Objective-C
-- Go
-Tend to be us
+With manual memory management the developer must see to it that for all heap variables:
+- all memory is be released/deleted as soon as it is no longer needed
+- memory is NOT accessed after it has been released
+- element/field accesses are within the allocated bounds
 
-### Languages with Garbage Collection
+#### Languages with Manual Memory Management
+- C/C++
+- Objective-C (it is hybrid: manual and automatic)
+- Go
+
+
+
+### Garbage Collection
+Garbage collection is a system that keeps track of all the heap variables and releases their memory when they are no longer used. This is a big deal! This means that for most cases, you don't have to even think about memory usage or management. It does come at a cost though, the overhead of the GC running can make programs slower to start, slower to run and even trigger short freezes in cases of very high cpu utilization.
+
+#### Languages with Garbage Collection
 - PHP
 - javascript
 - Java/C#
@@ -73,4 +96,32 @@ Tend to be us
 - Python
 - on and on ...
 
+
+
+## Paradigm: Procedural / Functional / Object-Oriented
+### Procedural
+- C/C++
+- Java/C#
+- Php
+- Ruby
+- javascript
+- Python
+- 
+
+### Object Oriented
+- C++
+- Php
+- Java/C#
+- Ruby
+- Python
+- javascript
+
+### Functional
+- Javascript
+- Php
+- Ruby
+- Python
+- Erlang
+- Lisp/Scheme
+- Haskell
   
