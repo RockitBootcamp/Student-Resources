@@ -38,15 +38,13 @@ var foo = function() {
 
 The two ways of writing functions are not interchangeable though. While they work the same in a lot of ways, the high level differences are as follows:
 
-- Only function declarations can be "hoisted"
-- Only function expressions can be passed around as arguments into other functions.
+- Only Function Declarations can be "hoisted"
+- Only Function Expressions can be passed around as arguments into other functions.
 
-At the beginner level, it's not the most important thing to memorize the differences. And since "hoisting" is not as necessary in JavaScript while being able to pass a function as an argument into other functions is very necessary, we tend to use function expressions more often.
-
-The following documentation will use function expressions exclusively
+At the beginner level, it's not the most important thing to memorize the differences. And since "hoisting" is not as common in JavaScript while being able to pass a function as an argument into other functions is very common, we tend to use Function Expressions more often.
 
 
-## Functions Explained
+### How functions work
 
 Functions are a way for us to bundle reusable logic together. One analogy is thinking of functions like a recipe. Consider this code:
 
@@ -77,15 +75,15 @@ There are a few key points to know here:
 
 First: The parameters `n1` and `n2` are variables that get created each time the function is called. In other words, the first time we call the function, the functions will make `n1 = 3` and `n2 = 6`. How does the function know which argument value to assign to which parameter? It's all based on the order that the arguments are stated. The first argument gets assigned to the first parameter etc...
 
-![Diagram1](./diagram1.svg)
+![Diagram1](diagram1.svg)
 
 Second: When a function is called, it's parameters become variables for use inside the function. We don't need to declare these variables this way: `var n1 = 3` because the fact that it is a parameter and we passed in an argument does that for us.
 
-![Diagram1](./diagram2.svg)
+![Diagram1](diagram2.svg)
 
 Third: Variables created within functions, such as `n1` and `n2` in this case, are not available on the outside of the function. Let's imagine we tried to `console.log` the `n1` variable that was created within the function later on. The `n1` variable from in the function isn't accessible from the outside. Thus we would get `undefined`:
 
-![Diagram3](./diagram3.svg)
+![Diagram3](diagram3.svg)
 
 Let's do something slightly different now:
 
