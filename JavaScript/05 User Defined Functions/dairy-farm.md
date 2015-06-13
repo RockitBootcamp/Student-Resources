@@ -1,5 +1,7 @@
 ## The Dairy Farm Exercise
 
+> Teachers: this one takes at least 45 minutes to do right!
+
 Create a series of function calls that organize farmer John's day. Since it's a dairy farm, he's going to be milking some cows. Each step in John's day will require a function call. Each function call should perform an `echo` to to indicate the step was completed. Start off my calling the `milkCow()` function:
 
 ```js
