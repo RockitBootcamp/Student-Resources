@@ -1,7 +1,7 @@
-# Lesson 15: JSHint
+# Lesson 16: JSHint
 
 Identifier   | Objectives
 -------------|------------
-JS: 15.1     | Demonstrate...
+JS: 16.1     | Demonstrate...
 
 ## Resources

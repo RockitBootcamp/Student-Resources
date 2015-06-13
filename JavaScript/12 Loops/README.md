@@ -1,11 +1,11 @@
-# Lesson 11: Loops
+# Lesson 12: Loops
 
 Identifier   | Objectives
 -------------|------------
-JS: 11.1     | Demonstrate `while` loop
-JS: 11.2     | Demonstrate `for` loop
-JS: 11.3     | Demonstrate `for-in` loop
-JS: 11.4     | Demonstrate `break` and `continue` statements
+JS: 12.1     | Demonstrate `while` loop
+JS: 12.2     | Demonstrate `for` loop
+JS: 12.3     | Demonstrate `for-in` loop
+JS: 12.4     | Demonstrate `break` and `continue` statements
 
 ## Resources
 

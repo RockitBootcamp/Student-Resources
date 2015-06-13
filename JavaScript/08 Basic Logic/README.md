@@ -1,15 +1,15 @@
-# Lesson 7: Basic Logic
+# Lesson 8: Basic Logic
 
 Identifier   | Objectives
 -------------|------------
-JS: 7.1      | Demonstrate `if` statements
+JS: 8.1      | Demonstrate `if` statements
              | &bull; `if` statement
              | &bull; `else` statement
              | &bull; `else if` statement
-JS: 7.2      | Demonstrate use of logical operators
+JS: 8.2      | Demonstrate use of logical operators
              | &bull; `&&` logical And operator
              | &bull; `||` logical OR operator
-JS: 7.3      |Demonstrate use of comparison operators
+JS: 8.3      |Demonstrate use of comparison operators
              | &bull; `===` Equality operator
              | &bull; `!==` Not equal operator
              | &bull; `<>` Not equal operator

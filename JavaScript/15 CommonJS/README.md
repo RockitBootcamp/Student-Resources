@@ -1,10 +1,10 @@
-# Lesson 14: CommonJS (with Browserify)
+# Lesson 15: CommonJS (with Browserify)
 
 Identifier   | Objectives
 -------------|------------
-JS: 14.1     | Demonstrate defining a module
-JS: 14.2     | Demonstrate using the `require()` function
-JS: 14.3     | Explain the difference between packages and modules
+JS: 15.1     | Demonstrate defining a module
+JS: 15.2     | Demonstrate using the `require()` function
+JS: 15.3     | Explain the difference between packages and modules
              | &bull; Explain where packages exist
 
 ## Resources
