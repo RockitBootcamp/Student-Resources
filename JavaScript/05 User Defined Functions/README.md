@@ -77,15 +77,15 @@ There are a few key points to know here:
 
 First: The parameters `n1` and `n2` are variables that get created each time the function is called. In other words, the first time we call the function, the functions will make `n1 = 3` and `n2 = 6`. How does the function know which argument value to assign to which parameter? It's all based on the order that the arguments are stated. The first argument gets assigned to the first parameter etc...
 
-![Diagram1](diagram1.svg)
+![Diagram1](./diagram1.svg)
 
 Second: When a function is called, it's parameters become variables for use inside the function. We don't need to declare these variables this way: `var n1 = 3` because the fact that it is a parameter and we passed in an argument does that for us.
 
-![Diagram1](diagram2.svg)
+![Diagram1](./diagram2.svg)
 
 Third: Variables created within functions, such as `n1` and `n2` in this case, are not available on the outside of the function. Let's imagine we tried to `console.log` the `n1` variable that was created within the function later on. The `n1` variable from in the function isn't accessible from the outside. Thus we would get `undefined`:
 
-![Diagram3](diagram3.svg)
+![Diagram3](./diagram3.svg)
 
 Let's do something slightly different now:
 
