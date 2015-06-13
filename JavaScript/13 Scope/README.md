@@ -1,12 +1,12 @@
-# Lesson 14: Scope
+# Lesson 13: Scope
 
 Identifier   | Objectives
 -------------|------------
-JS: 14.1     | Explain lexical scope and closures
-JS: 14.2     | Explain how scope relates to functions
-JS: 14.3     | Explain the `this` variable and how it relates to scope
-JS: 14.4     | Demonstrate how to alias `this` to an alternative variable for nested functions
-JS: 14.5     | Demonstrate IIFE (Immediately-Invoking Function Expressions)
+JS: 13.1     | Explain lexical scope and closures
+JS: 13.2     | Explain how scope relates to functions
+JS: 13.3     | Explain the `this` variable and how it relates to scope
+JS: 13.4     | Demonstrate how to alias `this` to an alternative variable for nested functions
+JS: 13.5     | Demonstrate IIFE (Immediately-Invoking Function Expressions)
              | &bull; How does it help solve scope issues
              | &bull; How can it be used to safely guard the jQuery variable: `$`
              | &bull; How can it be used to safely guard `document` and `undefined`

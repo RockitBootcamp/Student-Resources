@@ -1,11 +1,11 @@
-# Lesson 13: AMD (with RequireJS)
+# Lesson 14: AMD (with RequireJS)
 
 Identifier   | Objectives
 -------------|------------
-JS: 13.1     | Demonstrate defining a module
-JS: 13.2     | Demonstrate using `require()` function
-JS: 13.3     | Demonstrate RequireJS configuration
-JS: 13.4     | Explain using jQuery with AMD
+JS: 14.1     | Demonstrate defining a module
+JS: 14.2     | Demonstrate using `require()` function
+JS: 14.3     | Demonstrate RequireJS configuration
+JS: 14.4     | Explain using jQuery with AMD
 
 
 ## Resources
