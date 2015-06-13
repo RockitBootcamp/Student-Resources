@@ -1,4 +1,4 @@
-# Lesson 5: Object Literals
+# Lesson 5: Object Literals I
 
 Identifier   | Objectives
 -------------|------------
