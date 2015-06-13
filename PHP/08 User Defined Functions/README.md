@@ -18,7 +18,6 @@ PHP: 8.3     | Explain and demonstrate the return statement
 ## Exercises
 - [The Dairy Farm Exercise](dairy-farm.md)
 
-
 ## Pre Study
 
 Functions are a way for us to bundle reusable logic together. One analogy is thinking of functions like a recipe. Consider this code:
@@ -250,7 +249,7 @@ function addThree($a, $b, $c) {
 Write a function that adds four numbers:
 
 ```php
-function addThree($a, $b, $c, $d) {
+function addFour($a, $b, $c, $d) {
     return $a + $b + $c + $d;
 }
 ```
