@@ -18,7 +18,7 @@ JS: 5.4      | Explain function "hoisting"
 - __W3 Schools__ [Function Definitions](http://www.w3schools.com/js/js_function_definition.asp)
 
 ## Exercises
-- [The Dairy Farm Exercise](dairy-farm.md)
+- [The Dairy Farm Exercise: 45+ minutes meant to be done in class and ran by an instructor](dairy-farm.md)
 
 ## Pre Study
 
