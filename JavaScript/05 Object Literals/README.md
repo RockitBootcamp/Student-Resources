@@ -1,17 +1,17 @@
-# Lesson 4: Object Literals
+# Lesson 5: Object Literals
 
 Identifier   | Objectives
 -------------|------------
-JS: 4.1      | Demonstrate Object Literal Creation Syntax
+JS: 5.1      | Demonstrate Object Literal Creation Syntax
              | &bull; `var x = {};` Empty Object
              | &bull; `var x = {'firstName': 'Joe', 'lastName': 'Smith'};`
-JS: 4.2      | Demonstrate adding new members to objects
+JS: 5.2      | Demonstrate adding new members to objects
              | &bull; `x.age = 50;` Dot Syntax
              | &bull; `x['age'] = 50;` Square Bracket Syntax
-JS: 4.3      | Demonstrate accessing values of object
+JS: 5.3      | Demonstrate accessing values of object
              | &bull; `var value = x.age` Dot Syntax
              | &bull; `var value = x['age'];` Square Bracket Syntax
-JS: 4.4      | Explain JSON 
+JS: 5.4      | Explain JSON 
 
 ## Resources
 
@@ -19,3 +19,6 @@ JS: 4.4      | Explain JSON
 - [Object Literals](http://www.dyn-web.com/tutorials/object-literal/)
 - [Basics of Object Oriented JavaScript](http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
 - [JSON](http://htmldog.com/guides/javascript/intermediate/json/)
+
+## Pre Study
+
