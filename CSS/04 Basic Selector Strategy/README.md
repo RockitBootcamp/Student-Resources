@@ -16,7 +16,7 @@ CSS 4.4      | Demonstrate use of pseudo classes: `:first-child` and `:last-chil
 
 Additional tips to Demonstrate good judgment
 - Don't make selectors too specific by adding ids
-- Don't qualify by tag names
+- Don't qualify by tag names unless we have to
 - Don't use class names that describe aesthetics and layout
 	- don't create a class of "yellow" or "left"; these could lose their meaning when updates are made
 - Do describe the content
