@@ -11,14 +11,11 @@ JS: 4.2      | Demonstrate proper function creation syntax
              | &bull; `var foo = function() {}` Function Expression
 JS: 4.3      | Explain and demonstrate the return statement
              | &bull; If nothing is returned, then "undefined" will be returned
-JS: 4.4      | Explain function "hoisting" 
+JS: 4.4      | Explain function "hoisting"
 
 ## Resources
 
 - __W3 Schools__ [Function Definitions](http://www.w3schools.com/js/js_function_definition.asp)
-
-## Exercises
-- [The Dairy Farm Exercise: 45+ minutes meant to be done in class and ran by an instructor](dairy-farm.md)
 
 ## Pre Study
 
@@ -27,12 +24,12 @@ JavaScript has two fundamental ways to create functions: "Function Declarations"
 ```js
 // Function Declaration
 function foo() {
-    // Function code goes here
+  // code goes here
 }
 
 // Function Expression
 var foo = function() {
-    // Function code goes here
+  // code goes here
 }
 ```
 
@@ -50,8 +47,8 @@ Functions are a way for us to bundle reusable logic together. One analogy is thi
 
 ```js
 var add = function(n1, n2) {
-    var sum = n1 + n2;
-    console.log(sum);
+  var sum = n1 + n2;
+  console.log(sum);
 };
 ```
 
@@ -61,8 +58,8 @@ The code above is does nothing on it's own. It must be "called" first like this:
 
 ```js
 var add = function(n1, n2) {
-    var sum = n1 + n2;
-    console.log(sum);
+  var sum = n1 + n2;
+  console.log(sum);
 };
 
 add(3, 6); // outputs 9
@@ -89,8 +86,8 @@ Let's do something slightly different now:
 
 ```js
 var add = function(n1, n2) {
-    console.log(x); // undefined
-    console.log(n1 + n2); // outputs 9
+  console.log(x); // undefined
+  console.log(n1 + n2); // outputs 9
 };
 
 var x = 3;
@@ -103,13 +100,13 @@ Notice in this case we're passing in variables as arguments instead of literal v
 
 ### Scope
 
-As stated before, variables created within a function's scope are not available in their parent scope (In this case the parent scope is the global scope). 
+As stated before, variables created within a function's scope are not available in their parent scope (In this case the parent scope is the global scope).
 
 In the code below, we've called the function `foo` which declares a variable `x` inside itself. So the `x` variable cannot be used from the global scope as this example shows:
 
 ```js
 var foo = function() {
-    var x = 7;
+  var x = 7;
 };
 
 foo();
@@ -124,13 +121,13 @@ However the opposite is true of variables created in the parent scope:
 var x = 3;
 
 var foo = function() {
-    console.log(x); // outputs 3
+  console.log(x); // outputs 3
 };
 
-foo(); 
+foo();
 ```
 
-This is a subject called [Lexical Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope) which for JavaScript means that a function will have access to variables from outside the function (in certain cases)
+This is a subject called [Lexical Scope][scope] which for JavaScript means that a function will have access to variables from outside the function (in certain cases)
 
 Let's test your knowledge further. What do you think the next code will output?
 
@@ -138,7 +135,7 @@ Let's test your knowledge further. What do you think the next code will output?
 var x = 4;
 
 var foo = function(x) {
-    console.log(x);
+  console.log(x);
 };
 
 foo(5);
@@ -153,8 +150,8 @@ So far we've been creating output within the functions. This is okay for demonst
 
 ```js
 var add = function(n1, n2) {
-    var sum = n1 + n2;
-    return sum;
+  var sum = n1 + n2;
+  return sum;
 }
 
 add(3, 6); // outputs nothing
@@ -166,8 +163,8 @@ This time the function is returning a value. Notice I said value? The `sum` vari
 
 ```js
 var add = function(n1, n2) {
-    sum = n1 + n2;
-    return sum;
+  sum = n1 + n2;
+  return sum;
 }
 
 var answer = add(3, 6);
@@ -183,12 +180,12 @@ In JavaScript, functions will return `undefined` if no specific return value is 
 
 ```js
 var add = function(n1, n2) {
-    var sum = n1 + n2;
-    return sum;
+  var sum = n1 + n2;
+  return sum;
 }
 
 var subtract = function(n1, n2) {
-    var sum = n1 - n2;
+  var sum = n1 - n2;
 }
 
 console.log( add(1, 2) ); // Outputs 3
@@ -202,7 +199,7 @@ Even though the `subtract` function doesn't return anything, it still made it's 
 
 Sometimes functions return things and sometimes they don't. When they don't return things such as:
 
-```js 
+```js
 someFunction();
 ```
 
@@ -210,13 +207,13 @@ Then we can call the function as this code shows without a worry of what it retu
 
 ```js
 var a = someFunctionWithAReturn();
-``
+```
 
 Then we need to "catch" or "accept" the returned value in some way. The code above accepts it by assigning it to the `a` variable. Or we could do this:
 
 ```js
-console.log( someFunctionWithAReturn() );
-``
+console.log(someFunctionWithAReturn());
+```
 
 Now we're calling `console.log()` which wants a value passed in and we're passing the value that gets returned from `someFunctionWithAReturn()`;
 
@@ -227,7 +224,7 @@ Another very important thing to know about functions is how the caller must wait
 
 ```js
 var foo = function() {
-    console.log('a');
+  console.log('a');
 }
 
 console.log('b');
@@ -275,7 +272,7 @@ var sum = add(answer, 3); // sum is 8
 
 This is good but it requires us to make an `answer` variable that we might not need. Let's condense the code to use less lines:
 
-```
+```js
 var add = function(n1, n2) {
     return n1 + n2;
 };
@@ -309,7 +306,7 @@ Write a function that adds three numbers:
 
 ```js
 var addThree = function(a, b, c) {
-    return a + b + c;
+  return a + b + c;
 }
 ```
 
@@ -317,7 +314,7 @@ Write a function that adds four numbers:
 
 ```js
 var addFour = function(a, b, c, d) {
-    return a + b + c + d;
+  return a + b + c + d;
 }
 ```
 
@@ -325,6 +322,12 @@ Write a function that concatenates a first and last name
 
 ```js
 var fullName = function(first, last) {
-    return first + ' ' + last;
+  return first + ' ' + last;
 }
 ```
+
+## Exercises
+
+- [The Dairy Farm Exercise: 45+ minutes meant to be done in class and ran by an instructor](dairy-farm.md)
+
+[scope]: https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope
