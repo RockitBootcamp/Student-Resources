@@ -6,7 +6,7 @@ Create a series of function calls that organize farmer John's day. Since it's a 
 
 ```js
 var milkCow = function() {
-    console.log('Milk the cow');
+  console.log('Milk the cow');
 }
 
 milkCow();
@@ -16,12 +16,12 @@ So far so good right? We'll I guess you like milking cows without buckets. We fo
 
 ```js
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function() {
-    getBucket();
-    console.log('Milk the cow');
+  getBucket();
+  console.log('Milk the cow');
 }
 
 milkCow();
@@ -33,17 +33,17 @@ Are we good now? We'll I suppose so if we like to milk cows in the nude! We forg
 
 ```js
 var getDressed = function() {
-    console.log('Get dressed');
+  console.log('Get dressed');
 }
 
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function() {
-    getDressed();
-    getBucket();
-    console.log('Milk the cow');
+  getDressed();
+  getBucket();
+  console.log('Milk the cow');
 }
 
 milkCow();
@@ -51,7 +51,7 @@ milkCow();
 
 Ok, now if we run this code we'll get:
 
-```sh
+```
 Get dressed
 Get a bucket
 Milk the cow
@@ -63,21 +63,21 @@ Now let's plan for Sunday. What do we do on Sundays? Well we go to church and we
 
 ```js
 var getDressed = function() {
-    console.log('Get dressed');
+  console.log('Get dressed');
 }
 
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function() {
-    getDressed();
-    getBucket();
-    console.log('Milk the cow');
+  getDressed();
+  getBucket();
+  console.log('Milk the cow');
 }
 
 function goToChurch() {
-    console.log('Amen!');
+  console.log('Amen!');
 }
 
 //milkCow();
@@ -88,22 +88,22 @@ Ok great, now we went to church on Sunday. Oh wait :\  This is embarrassing, let
 
 ```js
 var getDressed = function() {
-    console.log('Get dressed');
+  console.log('Get dressed');
 }
 
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function() {
-    getDressed();
-    getBucket();
-    console.log('Milk the cow');
+  getDressed();
+  getBucket();
+  console.log('Milk the cow');
 }
 
 function goToChurch() {
-    getDressed();
-    console.log('Amen!');
+  getDressed();
+  console.log('Amen!');
 }
 
 //milkCow();
@@ -124,29 +124,29 @@ Let's make the problem a little more difficult by adding even more cows. What if
 
 ```js
 var getDressed = function() {
-    console.log('Get dressed');
+  console.log('Get dressed');
 }
 
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function($name) {
-    getDressed();
-    getBucket();
-    console.log('Milk cow: ' . $name . '');
+  getDressed();
+  getBucket();
+  console.log('Milk cow: ' . $name . '');
 }
 
 var cows = ['Sally', 'Betsy', 'Bell'];
 
 for (i in cows) {
-    milkCow(cows[i]);
+  milkCow(cows[i]);
 }
 ```
 
 Take a moment to study the code. We now have an array of cow names and we're looping through each one to milk all three cows. Notice how we changed the `milkCow()` function to receive an argument for the name of the cow? The code now outputs:
 
-```sh
+```
 Get dressed
 Get a bucket
 Milk cow: Sally
@@ -162,24 +162,22 @@ So it's cleaver that we're using an array and a loop to milk multiple cows, but 
 
 ```js
 var getDressed = function() {
-    console.log('Get dressed');
+  console.log('Get dressed');
 }
 
 var getBucket = function() {
-    console.log('Get a bucket');
+  console.log('Get a bucket');
 }
 
 var milkCow = function(name) {
-    console.log('Milk cow: ' + name);
+  console.log('Milk cow: ' + name);
 }
 
 var milkCows = function(cowNames) {
-    getDressed();
-    getBucket();
-    
-    for(i in cowNames) {
-        milkCow(cowNames[i]);
-    }
+  getDressed();
+  getBucket();
+
+  cowNames.forEach(milkCow);
 }
 
 var cows = ['Sally', 'Betsy', 'Bell'];
