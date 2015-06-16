@@ -233,7 +233,7 @@ var d = false + '7';
 var e = Number(true) + 7;
 ```
 
-**Come up with your own combinations and see if you get the value you were expecting!**
+**Come up with your own combinations and see if you get the value you were expecting!** Why did each result end up being what it was?
 
 
 [data types]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures "JavaScript data types and data structures"
