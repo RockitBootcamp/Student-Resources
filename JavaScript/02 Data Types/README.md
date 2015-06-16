@@ -171,7 +171,7 @@ Notice that if we use variables to assign `a` instead of literal values, type co
 ```js
 var x = '5';
 var y = 8;
-var a = x + y; // => "58"
+var z = x + y; // => "58"
 ```
 
 This is because operators work on *values*, not references.
@@ -183,7 +183,7 @@ A common example of explicit type coercion is coercing strings into numbers, mos
 ```js
 var x = '5';
 var y = 8;
-var a = parseInt(x, 10) + y;
+var z = parseInt(x, 10) + y;
 ```
 
 > Note: The second argument in `parseInt()` instructs it to use *decimal* conversion.
@@ -193,14 +193,15 @@ Now because we've parsed the value of `x` into a number before we do the math, t
 More examples:
 
 ```js
-var a = String('1'); // => 1
-var d = Boolean(1); // => true
-var d = Boolean(0); // => false
+var a = String(1); // => "1"
+var b = Boolean(1); // => true
+var c = Boolean(0); // => false
+var d = Number(true); // => 1
 ```
 
 ## Exercises
 
-Create variables with differently typed values:
+#### Create variables with differently typed values
 
 ```js
 var a = 5;
@@ -214,7 +215,26 @@ var h = 'one' + 2;
 var i = +'42';
 ```
 
-What is the type of each value?
+What is the type of each value? Use `typeof` to check your answers:
+
+```js
+console.log(typeof a);
+console.log(typeof b);
+// ...
+```
+
+#### Try your hand at coercing values
+
+```js
+var a = 5 + '7';
+var b = 5 + +'7';
+var c = '' + 5 + 7;
+var d = false + '7';
+var e = Number(true) + 7;
+```
+
+**Come up with your own combinations and see if you get the value you were expecting!**
+
 
 [data types]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures "JavaScript data types and data structures"
 [string type]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type "string type"
