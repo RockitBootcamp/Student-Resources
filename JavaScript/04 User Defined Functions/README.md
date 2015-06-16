@@ -15,11 +15,13 @@ JS: 4.4      | Explain function "hoisting"
 
 ## Resources
 
-- __W3 Schools__ [Function Definitions](http://www.w3schools.com/js/js_function_definition.asp)
+- [Functions][functions]
+- [Lexical Scope and Hoisting][scope]
+- [Lexical Scope vs. Dynamic Scope][lexicaldynamic]
 
 ## Pre Study
 
-JavaScript has two fundamental ways to create functions: "Function Declarations" and "Function Expressions. Here is an example of how the two syntaxes work:
+Every function in JavaScript is a [Function object][functionobj]. JavaScript has two fundamental ways to create functions: "Function Declarations" and "Function Expressions".
 
 ```js
 // Function Declaration
@@ -35,50 +37,45 @@ var foo = function() {
 
 The two ways of writing functions are not interchangeable though. While they work the same in a lot of ways, the high level differences are as follows:
 
-- Only Function Declarations can be "hoisted"
-- Only Function Expressions can be passed around as arguments into other functions.
-
-At the beginner level, it's not the most important thing to memorize the differences. And since "hoisting" is not as common in JavaScript while being able to pass a function as an argument into other functions is very common, we tend to use Function Expressions more often.
-
+- Function declarations are *hoisted* to the top of their scope
+- Function expressions hoist their name to the top of the scope, but not their assignment
 
 ### How functions work
 
 Functions are a way for us to bundle reusable logic together. One analogy is thinking of functions like a recipe. Consider this code:
 
 ```js
-var add = function(n1, n2) {
-  var sum = n1 + n2;
-  console.log(sum);
+var add = function (n1, n2) {
+  console.log(n1 + n2);
 };
 ```
 
-This is a "recipe" for adding two numbers together. One very important thing to know is that functions **don't** execute on their own, they need to be called. Sort of like how a recipe is just a set of instructions that sits in a book. The recipe needs to be acted upon in order to be realized.
+This is a "recipe" for adding two numbers together. One very important thing to know is that functions **won't** be executed until they are called. Sort of like how a recipe is just a set of instructions that sits in a book. The recipe needs to be acted upon in order to be realized.
 
-The code above is does nothing on it's own. It must be "called" first like this:
+To call a function, you "reference" it's name plus parenthesis `()`:
 
 ```js
-var add = function(n1, n2) {
-  var sum = n1 + n2;
-  console.log(sum);
-};
-
-add(3, 6); // outputs 9
-add(1, 2); // outputs 3
+add();
 ```
 
-Now we're calling the function twice. Each time we call the function, we're passing __arguments__ into the function such as `(3, 6)` and `(1, 2)`. When we pass these values in, separated by comma, these values get assigned to the `n1` and `n2` variables, called parameters.
+When calling functions you can also pass *arguments* into the function. When we pass these values in, separated by comma, these values get assigned to the `n1` and `n2` variables, called parameters.
+
+- **Arguments** are values passed into a function
+- **Parameters** are named indexes on the function signature
+
+A parameter refers to an argument that was passed in, in a specific order. In the `add` function, `n1` is a **parameter** that refers to the *first argument* the function received.
 
 There are a few key points to know here:
 
-First: The parameters `n1` and `n2` are variables that get created each time the function is called. In other words, the first time we call the function, the functions will make `n1 = 3` and `n2 = 6`. How does the function know which argument value to assign to which parameter? It's all based on the order that the arguments are stated. The first argument gets assigned to the first parameter etc...
+1. The parameters `n1` and `n2` are variables that get created each time the function is called. In other words, the first time we call the function, the interpreter will assign `n1 = 3` and `n2 = 6`. How does the function know which argument value to assign to which parameter? It's all based on the order that the arguments are stated. The first argument gets assigned to the first parameter etc...
 
-![Diagram1](diagram1.png)
+  ![Diagram1](diagram1.png)
 
-Second: When a function is called, it's parameters become variables for use inside the function. We don't need to declare these variables this way: `var n1 = 3` because the fact that it is a parameter and we passed in an argument does that for us.
+1. Second: When a function is called, it's parameters become variables for use inside the function. We don't need to declare these variables this way: `var n1 = 3` because the fact that it is a parameter and we passed in an argument does that for us.
 
-![Diagram1](diagram2.png)
+  ![Diagram1](diagram2.png)
 
-Third: Variables created within functions, such as `n1` and `n2` in this case, are not available on the outside of the function. Let's imagine we tried to `console.log` the `n1` variable that was created within the function later on. The `n1` variable from in the function isn't accessible from the outside. Thus we would get `undefined`:
+3. Variables created within functions, such as `n1` and `n2` in this case, are not available on the outside of the function. Let's imagine we tried to `console.log` the `n1` variable that was created within the function later on. The `n1` variable from in the function isn't accessible from the outside. Thus we would get `undefined`:
 
 ![Diagram3](diagram3.png)
 
@@ -330,4 +327,7 @@ var fullName = function(first, last) {
 
 - [The Dairy Farm Exercise: 45+ minutes meant to be done in class and ran by an instructor](dairy-farm.md)
 
-[scope]: https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope
+[functions]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+[scope]: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
+[functionobj]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+[lexicaldynamic]: https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope
