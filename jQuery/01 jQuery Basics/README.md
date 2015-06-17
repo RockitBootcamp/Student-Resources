@@ -13,6 +13,7 @@ jQuery: 1.3  | Demonstrate common jQuery Methods:
              | &bull; `.appendTo()`
              | &bull; `.html()`
              | &bull; `.text()`
+             | &bull; `.css()`
              | &bull; `.val()`
              | &bull; `.attr()`
              | &bull; `.remove()`
