@@ -19,9 +19,6 @@ jQuery: 1.3  | Demonstrate common jQuery Methods:
              | &bull; `.remove()`
              | &bull; `.addClass()`
              | &bull; `.removeClass()`
-             | &bull; `.parent()`
-             | &bull; `.parents()`
-             | &bull; `.find()`
 jQuery: 1.4  | Demonstrate Document Readiness with
              | &bull; `$(document).ready(function() {});`
              | &bull; `$(function() {});`
