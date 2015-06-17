@@ -13,7 +13,9 @@ CSS: 6.4     | Explain Normalize.css
 - __GitHub__ [Normalize.css](https://github.com/necolas/normalize.css/)
 - [Normalize.css on CDN](https://cdnjs.com/libraries/normalize)
 
-## Good CSS Organization
+## Pre-Study
+
+### Good CSS Organization
 
 CSS should be organized by the role in plays in your project. There are many philosophies and patterns to good CSS organization. As a beginner, start thinking of all CSS as falling into one of these four roles:
 
@@ -42,7 +44,7 @@ When you create your CSS file, you might want to separate these roles with big c
 ... etc.
 ```
 
-## Inherited Styles
+### Inherited Styles
 
 In the olden days, CSS developers made resets that looked like this:
 
