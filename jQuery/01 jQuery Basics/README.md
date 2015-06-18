@@ -32,6 +32,6 @@ jQuery: 1.4  | Demonstrate Document Readiness with
 
 ## Exercises
 
-Go to the [exercises.md](exercises.md) file and complete the listed exercises. An [answer key](answers.js) is provided for you to check your work when you are done. 
+Go to the [Exercises.md](Exercises.md) file and complete the listed exercises. An [answer key](answers.js) is provided for you to check your work when you are done. 
 
 It's a good idea to practice these exercises regularly, until they feel like second nature.
