@@ -8,13 +8,13 @@ Use the accompanying index.html to practice these exercises
 1. console.log the val of the `select.title` element.
 1. console.log the val of the `input.fn` element.
 1. console.log the val of the `input.age` element.
-1. console.log the val of the `input.sex` element.
-1. console.log the attribute of the `input.sex` element.
+1. console.log the val of the `input.gender` element.
+1. console.log the attribute of the `input.gender` element.
 1. Append your name to the `div.name` element.
 1. Append "isn't it" to the end of `li.saying`.
-1. Use AppendTo method to append "<i>er</i>" to each greeting.
-1. Use AppendTo method to append "<b>pie</b>" to the `p.food` element.
-1. Use AppendTo method to append "<i>er</i>" to each greeting.
+1. Use `appendTo` method to append `<i>er</i>` to each greeting.
+1. Use `appendTo` method to append `<b>pie</b>` to the `p.food` element.
+1. Use `appendTo` method to append `<i>er</i>` to each greeting.
 
 ## Resoures
 
