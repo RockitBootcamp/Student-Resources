@@ -26,12 +26,14 @@ jQuery: 2.3  | Explain the `$(this)` keyword in the context of an event callback
 
 ## Exercises
 Setup.
+
 - Create a page with a few div with text inside
 - Add a couple of spans mixed in
 - Add a few textbox elements
 - Add a submit button
 
 **Challenge**
+
 1. When you click a div ... console.log 'Hi'
 2. When you click a div ... console.log The text of the div
 3. When you move over a span console.log the text of the span
@@ -42,10 +44,12 @@ Setup.
 8. When you click the submit button console.log "Submitted"
 
 **Medium**
+
 1. When the textbox gains focus, add a fancy class (This style should make it look fancy)
 2. When you type in the textbox ... don't allow the letter 'e'
 
 **Crazy**
+
 - Create a hungry hungry hippos game. In this case, the mouse is the ball, and hippos randomly move around.
   - Your goal is to avoid the hippos and make it to the cave. (When you do a hippo is destroyed)
   - Destroy all hippos and move up a level (More hippos that move a little faster)
