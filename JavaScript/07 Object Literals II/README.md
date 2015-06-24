@@ -27,7 +27,7 @@ In programming, objects contain data and functionality. So far we've only made o
 ```js
 var person = {
   firstName: "Bruce",
-  lastName: "Wayne,
+  lastName: "Wayne",
   getFullName: function() {
 
   }
@@ -43,7 +43,7 @@ So why put methods inside objects? The purpose is to provide functionality to ou
 ```js
 var person = {
   firstName: "Bruce",
-  lastName: "Wayne,
+  lastName: "Wayne",
   getFullName: function() {
     return this.firstName + ' ' + this.lastName;
   }
