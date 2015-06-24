@@ -13,13 +13,15 @@ JS: 7.3      | Use `this` to access parts of an object
 
 ## Pre Study
 
+### Methods and `this`
+
 In previous lectures, we learned how to make objects like this person object:
 
 ```js
 var person = {
   firstName: "Bruce",
   lastName: "Wayne
-}
+};
 ```
 
 In programming, objects contain data and functionality. So far we've only made objects that contain data. But to add functionality, we need to add functions:
@@ -31,7 +33,7 @@ var person = {
   getFullName: function() {
 
   }
-}
+};
 ```
 
 Just as we can assign functions to variables, we can assign functions to the keys of our object. Also, when a function exists inside an object as it does in the example, we refer to it as being a "method".
@@ -47,7 +49,7 @@ var person = {
   getFullName: function() {
     return this.firstName + ' ' + this.lastName;
   }
-}
+};
 
 console.log( person.getFullName() ); // Outputs: Bruce Wayne
 ```
@@ -64,7 +66,7 @@ var person = {
   getName: function() {
     console.log(this.name)
   }
-}
+};
 
 console.log( person.name ); // Outputs: Dave
 person.getName();           // Outputs: Dave
@@ -72,5 +74,45 @@ person.getName();           // Outputs: Dave
 
 We have two lines of code that will ultimately output "Dave". The first should be review. If we want to access the `name` property, we can access it by mentioning the object name first, then a dot, then the property. So far so good? If not, go back and review how basic object literals work from the previous lecture.
 
-Now look at the last line of code: `person.getName()`. This line calls our method. Inside the method (which is inside our object), notice that we don't access the object's name by typing `person.name`. Instead we type `this.name`. The term `this` is used inside the object to refer to the object. But outside the object we have to use the object's name, which is "person"
+Now look at the last line of code: `person.getName()`. This line calls our method. Inside the method (which is inside our object), notice that we don't access the object's name by typing `person.name`. Instead we type `this.name`. The term `this` is used inside the object to refer to the object. But outside the object we have to use the object's name, which is "person".
+
+### Nested Objects
+
+Objects, which have keys can hold primitive values (numbers, booleans, strings, etc), they can hold functions which we call methods, and they can also hold other objects. When an object holds other objects, we might say that this is "nested objects". Consider these two objects:
+
+```js
+var hat = {
+  color: "Blue",
+  brand: "Starter",
+  type: "Baseball Cap"
+};
+
+var person = {
+  name: "Dave"
+};
+```
+
+They seem unrelated right? Well that's because the way we wrote them they are unrelated - they're two separate objects. But what if we were to say that Dave actually owns the hat. Then perhaps we could have written the code like this:
+
+```js
+var person = {
+  name: "Dave",
+  hat: {
+    color: "Blue",
+    brand: "Starter",
+    type: "Baseball Cap"
+  }
+};
+```
+
+Now we can clearly see that a person who has a name and a hat. Their hat has properties unto itself. Now consider how we would access the various properties of the nested object:
+
+```js
+person.name;       // This is "Dave"
+person.hat.color;  // This is "Blue"
+person.hat.brand;  // This is "Starter"
+```
+
+Notice that when accessing the sub-object `hat`, we go through the `person` object first and use dot-syntax to dig down into the parts we want.
+
 
