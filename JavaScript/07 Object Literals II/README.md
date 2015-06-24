@@ -124,7 +124,7 @@ animal.type;
 car.start();
 ```
 
-Can you tell the difference? Which one is a method and which one is a property? Just keep in mind that if you see parentesis, it's a method:
+Can you tell the difference? Which one is a method and which one is a property? Just keep in mind that if you see parenthesis, it's a method:
 
 ```js
 animal.type;  // Property
