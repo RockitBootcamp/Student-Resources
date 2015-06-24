@@ -70,7 +70,7 @@ console.log( person.name ); // Outputs: Dave
 person.getName();           // Outputs: Dave
 ```
 
-We have two lines of code that will ultimatly output "Dave". The first should be review. If we want to access the `name` property, we can access it by mentioning the object name first, then a dot, then the property. So far so good? If not, go back and review how basic object literals work from the previous lecture.
+We have two lines of code that will ultimately output "Dave". The first should be review. If we want to access the `name` property, we can access it by mentioning the object name first, then a dot, then the property. So far so good? If not, go back and review how basic object literals work from the previous lecture.
 
 Now look at the last line of code: `person.getName()`. This line calls our method. Inside the method (which is inside our object), notice that we don't access the object's name by typing `person.name`. Instead we type `this.name`. The term `this` is used inside the object to refer to the object. But outside the object we have to use the object's name, which is "person"
 
