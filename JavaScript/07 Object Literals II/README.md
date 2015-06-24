@@ -115,4 +115,20 @@ person.hat.brand;  // This is "Starter"
 
 Notice that when accessing the sub-object `hat`, we go through the `person` object first and use dot-syntax to dig down into the parts we want.
 
+### Test your knowledge
+
+Let's call some properties and methods and see if you can tell the difference:
+
+```js
+animal.type;
+car.start();
+```
+
+Can you tell the difference? Which one is a method and which one is a property? Just keep in mind that if you see parentesis, it's a method:
+
+```js
+animal.type;  // Property
+car.start();  // Method
+```
+
 
