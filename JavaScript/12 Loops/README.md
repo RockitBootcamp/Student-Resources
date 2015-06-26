@@ -55,7 +55,7 @@ While-loops are generally good for looping to an unknown value. It's difficult a
 
 ### For Loops
 
-For-loops allow you to execute a block of code a specified number of times. The first expression initializes the value at the beginning of the loop. The second expression tests the condition each time around the loop, and finally the modification (third) expression is executed at the end of each iteration.
+For-loops allow you to execute a block of code a specified number of times. The first expression initializes the value at the beginning of the loop. The second expression sets the limit for how many times the loop should iterate. The third expression "steps" the incrementor `i` in this case by one value for each iteration. In other words, `i` gets bigger by one digit with each iteration:
 
 ```js
 for (i = 0; i <= 10; i++) {
@@ -63,9 +63,9 @@ for (i = 0; i <= 10; i++) {
 }
 ```
 
-The above loop initialized the value of `i` to 0. The loop will iterate (loop) as long as `i` is smaller than 10. Also `i` will increase by `1` (`i++`) with each iteration of the loop.
+The above loop initialized the value of `i` to 0. The loop will iterate as long as `i` is smaller than 10. Then `i` will increase by `1` (`i++`) with each iteration of the loop.
 
-Each type of loop has a purpose. For-Loops are generally good for looping to an exact number. Since arrays have a finite number of values they hold, the for-loop has traditionally been used to loop through the values of an array. Let's see an example: 
+Each type of loop has a purpose. For-Loops are generally good for looping to an exact number (as determined by the middle expression). Since arrays have a finite number of values they hold, the for-loop has traditionally been used to loop through the values of an array. Let's see an example: 
 
 
 ```js
@@ -76,7 +76,9 @@ for (i = 0; i < items.length; i++) {
 }
 ```
 
-Notice that this array does the same thing as the while-loop example. Only with the while-loop, we had to control the iterations by inventing our own variable to count with - so we used `i`. In the for-loop however, the mechanism for counting `i` form 0 to the length of the array is built into the mechanics of the for-loop.
+Note that `items.length` is equal to `10` so this array is the same as stating `for (i = 0; i < 10; i++)`.
+
+Notice that this for-loop has the same end-result as the while-loop example. Only with the while-loop, we had to control the iterations by inventing our own variable to count with. In the for-loop however, the mechanism for counting `i` form 0 to the length of the array is built into the mechanics of the for-loop.
 
 ### Review
 
