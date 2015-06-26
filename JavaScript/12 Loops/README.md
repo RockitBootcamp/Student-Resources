@@ -113,9 +113,9 @@ for (var i in list){
 
 Since `i` represents each index of the array, we can access the values by stating `list[i]`.
 
-### For-Each Loops
+### forEach Loops
 
-The previous loops are very traditional and most programming languages will have a while-loop, a for-loop, and something that closely resembles JavaScript's for-in loop. However, JavaScript (as of version 5) has a new type of loop which is a bit more exotic called the for-each loop. The reason why it's more exotic is because it's the only one in the group that has a callback function:
+The previous loops are very traditional and most programming languages will have a while-loop, a for-loop, and something that closely resembles JavaScript's for-in loop. However, JavaScript (as of version 5) has a new type of loop which is a bit more exotic called the `forEach` loop. The reason why it's more exotic is because it's the only one in the group that has a callback function:
 
 ```js
 var animals = ['puppies', 'kittens', 'ducklings'];
@@ -137,7 +137,9 @@ animals.forEach(function(animal) {
 });
 ```
 
-Without the `i` variable. Just because the loop is going to pass us that second variable doesn't mean we have to accept it. In each of these two examples, the code output:
+The code above is missing the `i` variable. The `forEach` will pass you the index as the second argument, but that doesn't mean we have to make use of it. If you're not making use of it, there's no reason to include it in the callback function.
+
+In each of these two examples, the code output:
 
 ```
 puppies
