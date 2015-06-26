@@ -41,7 +41,15 @@ while (i < items.length) {
 
 With this while-loop, `items.length` is equal to 5. So our condition says to loop while `i` is less than 5. Then since `i` started at 0 and the loop increments `i` with each iteration, this while loop is basically a fancy way of counting from 0 to 4.
 
-The end result is the output of each animal name in the array.
+The end result outputs:
+
+```
+dog
+cat
+fish
+horse
+bird
+```
 
 While-loops are generally good for looping to an unknown value. It's difficult at the beginner level to understand what circumstances would create an unknown amount of loop iterations. So the above loop just looks at the array to determine how many times it should loop.
 
@@ -135,7 +143,7 @@ animals.forEach(function(animal) {
 
 Without the `i` variable. Just because the loop is going to pass us that second variable doesn't mean we have to accept it. In each of these two examples, the code output:
 
-```sh
+```
 puppies
 kittens
 ducklings
