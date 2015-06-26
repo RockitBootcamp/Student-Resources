@@ -9,7 +9,7 @@ JS: 1.2      | Explain how JavaScript loads in serial
 JS: 1.3      | Demonstrate use of the Assignment Operator `=`
 JS: 1.4      | Demonstrate use of strings
              | &bull; Enclosed in double or single quotes
-JS: 1.5      | Demonstrate use of console.log();
+JS: 1.5      | Demonstrate use of `console.log();`
 JS: 1.6      | Use JavaScript Comments
              | &bull; One-line
              | &bull; Multi-line
