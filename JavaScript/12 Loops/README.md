@@ -58,7 +58,7 @@ While-loops are generally good for looping to an unknown value. It's difficult a
 For-loops allow you to execute a block of code a specified number of times. The first expression initializes the value at the beginning of the loop. The second expression sets the limit for how many times the loop should iterate. The third expression "steps" the incrementor `i` in this case by one value for each iteration. In other words, `i` gets bigger by one digit with each iteration:
 
 ```js
-for (i = 0; i <= 10; i++) {
+for (var i = 0; i <= 10; i++) {
     console.log(i);
 }
 ```
@@ -71,12 +71,12 @@ Each type of loop has a purpose. For-Loops are generally good for looping to an 
 ```js
 var items = ['dog', 'cat', 'fish', 'horse', 'bird'];
 
-for (i = 0; i < items.length; i++) {
+for (var i = 0; i < items.length; i++) {
   console.log(items[i]);
 }
 ```
 
-Note that `items.length` is equal to `10` so this array is the same as stating `for (i = 0; i < 10; i++)`.
+Note that `items.length` is equal to `10` so this array is the same as stating `for (var i = 0; i < 10; i++)`.
 
 Notice that this for-loop has the same end-result as the while-loop example. Only with the while-loop, we had to control the iterations by inventing our own variable to count with. In the for-loop however, the mechanism for counting `i` form 0 to the length of the array is built into the mechanics of the for-loop.
 
@@ -94,7 +94,7 @@ The for-in loop works as follows:
 ```js
 var list = [5, 6, 7, 8];
 
-for (i in list){
+for (var i in list){
     console.log(i);
 }
 ```
@@ -106,7 +106,7 @@ So how do we output the values?
 ```js
 var list = [5, 6, 7, 8];
 
-for (i in list){
+for (var i in list){
     console.log(list[i]);
 }
 ```
