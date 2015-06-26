@@ -20,7 +20,7 @@ PHP: 7.4     | Demonstrate `break` and `continue` statements
 ```php
 $i = 0;
 while ($i <= 10){
-  echo $i++, "<br>";
+  echo $i++ . "<br>";
 }
 ```
 
@@ -31,7 +31,7 @@ $items = ['dog', 'cat', 'fish', 'horse', 'bird'];
 $i = 0;
 
 while ($i < count($items)){
-  echo $a = $items[$i], "<br>";
+  echo $items[$i] . "<br>";
   $i++;
 }
 ```
@@ -106,7 +106,7 @@ The syntax of the `foreach` includes the name of your array ($array), then after
 
 #### Example 1:
 
-Output each animal with "I would like to have a " preceeding the animal name:
+Output each animal with "I would like to have a " preceding the animal name:
 
 ```php
 $animals = ['dog', 'cat', 'fish', 'horse', 'bird'];
