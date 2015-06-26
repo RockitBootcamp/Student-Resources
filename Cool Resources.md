@@ -1,16 +1,29 @@
 # Essential Must-Know Cool Things
 
-## Well Known Tutorial Resources
+## Reference, Tutorial & Resources sites
 
-- __PHP's Official Documentation__ [PHP.net](http://php.net/)
-- __W3C's Tutorial Site__ [W3 Schools](http://www.w3schools.com/)
+### General
+
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
 - [Stack Overflow](http://stackoverflow.com)
-- [CSS Tricks](http://css-tricks.com/)
 - [Sitepoint](http://sitepoint.com)
-- [Smashing Magazine](http://smashingmagazine.com)
 - [TutsPlus](http://code.tutsplus.com)
+- [W3 Schools](http://www.w3schools.com/) ([W3 Fools](http://w3fools.com))
+
+### JavaScript
+
+- [Eloquent JavaScript](http://eloquentjavascript.net/)
+- [JS for Cats](http://jsforcats.com/)
+
+### CSS
+
+- [CSS Tricks](http://css-tricks.com/)
+- [Smashing Magazine](http://smashingmagazine.com)
 - [24Ways](http://24ways.org/)
+
+### PHP
+
+- [PHP.net](http://php.net/)
 
 ## Week 1 Material
 
@@ -131,43 +144,74 @@
 
 ## People to follow (these are the people to be aware of in the front-end development world)
 
-- Addy Osmani (Google) 
-[[Google+](https://plus.google.com/u/0/+AddyOsmani/posts)] 
-[[Twitter](http://www.twitter.com/addyosmani)]
-- Paul Irish (Google) 
-[[Google+](https://plus.google.com/u/0/+PaulIrish/posts)] 
-[[Twitter](http://twitter.com/paul_irish)]
-- Christian Heilmann (Mozilla) 
-[[Google+](https://plus.google.com/u/0/+ChristianHeilmann/posts)]
-- Ilya Grigorik (Google) 
-[[Google+](https://plus.google.com/u/0/+IlyaGrigorik/posts)] 
-[[Twitter](http://twitter.com/igrigorik)]
-- Alex Russell (Google) 
-[[Google+](https://plus.google.com/u/0/+AlexRussell/posts)] 
-- Chris Coyier (CSS Tricks) 
-[[Google+](https://plus.google.com/u/0/+ChrisCoyier/posts)] 
-[[Twitter](http://twitter.com/chriscoyier)]
-- Nicholas C. Zakas 
-[[Google+](https://plus.google.com/u/0/116766524979258968594/posts)] 
-- Nicolas Gallagher (Twitter) 
-- David Walsh (Mozilla) 
-[[Google+](https://plus.google.com/+DavidWalsh/posts)] 
-[[Twitter](http://twitter.com/davidwalshblog)]
-- Nicole Sullivan 
-[[Google+](https://plus.google.com/113832007768508299762/posts)] 
-- Ben Alman 
-[[Google+](https://plus.google.com/+BenAlman/posts)] 
-- Eric Bidelman (Google) 
-[[Google+](https://plus.google.com/+EricBidelman/posts)] 
-[[Twitter](http://twitter.com/ebidel)]
-- Rob Dodson﻿ (Google) 
-[[Google+](https://plus.google.com/+RobDodson/posts)] 
-[[Twitter](http://twitter.com/rob_dodson)]
-- Mark Otto (GitHub) 
-[[Google+](https://plus.google.com/103531026603787055384/posts)] 
-- Hugo Giraudel 
-[[Google+](https://plus.google.com/101697878480386449961/posts)] 
-[[Twitter](http://twitter.com/hugogiraudel)]
-- Sindre Sorhus 
-[[Google+](https://plus.google.com/+sindresorhus/posts)] 
-[[Twitter](http://twitter.com/sindresorhus)]
+- **Brendan Eich** - Created JavaScript
+  - [Twitter](https://twitter.com/BrendanEich)
+- **Addy Osmani** (Google) App architecture expert, Chrome dev tools champion
+  - [[Google+](https://plus.google.com/u/0/+AddyOsmani/posts)]
+  - [[Twitter](http://www.twitter.com/addyosmani)]
+- **Paul Irish** (Google) Developer evangelist, Chrome dev tools champion
+  - [[Google+](https://plus.google.com/u/0/+PaulIrish/posts)]
+  - [[Twitter](http://twitter.com/paul_irish)]
+- **Christian Heilmann** (Mozilla)
+  - [[Google+](https://plus.google.com/u/0/+ChristianHeilmann/posts)]
+- **Ilya Grigorik** (Google)
+  - [[Google+](https://plus.google.com/u/0/+IlyaGrigorik/posts)]
+  - [[Twitter](http://twitter.com/igrigorik)]
+- **Alex Russell** (Google)
+  - [[Google+](https://plus.google.com/u/0/+AlexRussell/posts)]
+- **Chris Coyier** (CSS Tricks)
+  - [[Google+](https://plus.google.com/u/0/+ChrisCoyier/posts)]
+  - [[Twitter](http://twitter.com/chriscoyier)]
+- **Nicholas C. Zakas** - Author, speaker
+  - [[Google+](https://plus.google.com/u/0/116766524979258968594/posts)]
+  - [Twitter](https://twitter.com/slicknet)
+- **Nicolas Gallagher** (Twitter)
+- **David Walsh** (Mozilla)
+  - [[Google+](https://plus.google.com/+DavidWalsh/posts)]
+  - [[Twitter](http://twitter.com/davidwalshblog)]
+- **Nicole Sullivan**
+  - [[Google+](https://plus.google.com/113832007768508299762/posts)]
+- **Ben Alman**
+  - [[Google+](https://plus.google.com/+BenAlman/posts)]
+- **Eric Bidelman** (Google)
+  - [[Google+](https://plus.google.com/+EricBidelman/posts)]
+  - [[Twitter](http://twitter.com/ebidel)]
+- **Rob Dodson**﻿ (Google)
+  - [[Google+](https://plus.google.com/+RobDodson/posts)]
+  - [[Twitter](http://twitter.com/rob_dodson)]
+- **Mark Otto** (GitHub)
+  - [[Google+](https://plus.google.com/103531026603787055384/posts)]
+- **Hugo Giraudel**
+  - [[Google+](https://plus.google.com/101697878480386449961/posts)]
+  - [[Twitter](http://twitter.com/hugogiraudel)]
+- **Sindre Sorhus**
+  - [[Google+](https://plus.google.com/+sindresorhus/posts)]
+  - [[Twitter](http://twitter.com/sindresorhus)]
+- **Angus Croll** - Author, "If Hemingway Wrote JavaScript"
+  - [Twitter](https://twitter.com/angustweets)
+- **Axel Rauschmayer** - ES Next evangelist, author
+  - [Twitter](https://twitter.com/rauschma)
+- **David Herman** - Author, "Effective JavaScript"
+  - [Twitter](https://twitter.com/littlecalculist)
+- **David Nolen** - Great functional programming content
+  - [Twitter](https://twitter.com/swannodette)
+- **Eric Elliott** - JavaScript architect, instructor.
+  - [Twitter](https://twitter.com/_ericelliott)
+- **Jafar Husain** - Great talks on RxJS, ES next, etc...
+  - [Twitter](https://twitter.com/jhusain)
+- **James Halliday** - aka Substack - author of Node modules you probably use.
+  - [Twitter](https://twitter.com/substack)
+- **James Long** (Mozilla) CSP, functional programming advocate
+  - [Twitter](https://twitter.com/jlongster)
+- **Jordan Harband** - Keeping us ahead of the JS curve
+  - [Twitter](https://twitter.com/ljharb)
+- **Kyle Simpson** - Author, JS Instructor, open web evangelist
+  - [Twitter](https://twitter.com/getify)
+- **Marijn Haverbeke** - Author, "Eloquent JavaScript"
+  - [Twitter](https://twitter.com/marijnjh)
+- **Nick Morgan** - Author, "JavaScript for Kids"
+  - [Twitter](https://twitter.com/skilldrick)
+- **Reginald Braithwaite** - Author, "JavaScript Allongé", speaker, PagerDuty
+  - [Twitter](https://twitter.com/raganwald)
+- **Nicolas Bevacqua** - Author "JavaScript Application Design", Speaker, Open-Source Evangelist
+  - [Twitter](https://twitter.com/nzgb)
