@@ -125,7 +125,7 @@ animals.forEach(function(animal, i) {
 });
 ```
 
-Take note that `animals` and `animal` are two difference variables. `animals` is our array that we're looping over. Then our callback function defines two new variables `animal` and `i`. Just as in all callback functions, the names of the variables is completely up to us, just know that this callback function for `forEach` will pass you the array's value first and the index second. So naturally it names sense to call the first variable `animal` and the second `i`.
+Take note that `animals` and `animal` are two difference variables in our example. `animals` is our array that we're looping over. Then our callback function defines two new variables `animal` and `i`. Just as in all callback functions, the names of the variables is completely up to us, just know that this callback function for `forEach` will pass you the array's value first and the index second. So naturally it names sense to call the first variable `animal` and the second `i`.
 
 Since we're not using the index variable in the example above, we can write the code like this:
 
