@@ -51,17 +51,11 @@ horse
 bird
 ```
 
-While-loops are generally good for looping to an unknown value. It's difficult at the beginner level to understand what circumstances would create an unknown amount of loop iterations. So the above loop just looks at the array to determine how many times it should loop.
+While-loops are generally good for looping to an unknown value. It's difficult at the beginner level to understand what circumstances would create an unknown amount of loop iterations. So that's why we've chosen to have the while-loop iterate over an array just to show you the mechanics of how it works.
 
 ### For Loops
 
-- `for` loops allow you to execute a block of code a specified number of times.
-- The syntax in a `for` loop includes three expressions separated by semicolons.
-  - First expression is the initialization
-  - Second expression is the condition
-  - Third expression is the increment or modification
-
-The first expression initializes the value at the beginning of the loop. The second expression tests the condition each time around the loop, and finally the modification (third) expression is executed at the end of each iteration.
+For-loops allow you to execute a block of code a specified number of times. The first expression initializes the value at the beginning of the loop. The second expression tests the condition each time around the loop, and finally the modification (third) expression is executed at the end of each iteration.
 
 ```js
 for (i = 0; i <= 10; i++) {
