@@ -171,9 +171,9 @@ while (true) {
 }
 ```
 
-It would seem that it is an infinite loop because the while-loop suggests it will always loop as long as `true` is equal to `true` - which means forever. However, notice that the loop increments `i` with each iteration. Then we have an if-statement which will see if `i` is equal to `1000` and if it is, the loop will `break` which means it will exit the loop. This example isn't meaningful in accomplishing very much - it just proves that if we need to, we can `break` out of a loop.
+It would seem that it is an infinite loop because the `while` loop suggests it will always loop as long as `true` is equal to `true` - which means forever. However, notice that the loop increments `i` with each iteration. Then we have an `if` statement which will see if `i` is equal to `1000` and if it is, the loop will `break` which means it will exit the loop. This example isn't meaningful in accomplishing very much - it just proves that if we need to, we can `break` out of a loop.
 
-`continue` is similar but it means to "continue into the next iteration". Let's see an example:
+`continue` is similar but it means to "break *this* iteration and *continue* to the next iteration". Let's see an example:
 
 ```js
 for (var i = 1; i < 6; i++) {
@@ -184,7 +184,7 @@ for (var i = 1; i < 6; i++) {
 }
 ```
 
-The above for-loop counts from 1 to 5 (remember `i < 6` means loop until `i` is smaller than 6 which means loop to 5). The `console.log` will output 1, 2, 4, and 5. So what about 3? Well the if-statement says that if `i` is equal to 3, then continue to the next iteration. So when `i` is 3 the `console.log` doesn't get a chance to execute. What if we had used a break instead?
+The above `for` loop counts from 1 to 5 (remember `i < 6` means loop until `i` is smaller than 6 which means loop to 5). The `console.log` will output 1, 2, 4, and 5. So what about 3? Well the `if` statement says that if `i` is equal to 3, then *continue* to the next iteration. So when `i` is 3 the `console.log` doesn't get a chance to execute. What if we had used a break instead?
 
 ```js
 for (var i = 1; i < 6; i++) {
