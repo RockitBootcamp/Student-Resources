@@ -9,7 +9,7 @@ JS: 15.4     | Demonstrate use of `template()` function
 
 ## Exercises
 - Challenge 1 (Add a link)
-  - Create a new Template as a string <li><a href=???>???</li>
+  - Create a new Template as a string <li>&lt;a href=???>???</li>
   - Create a object with an href and title
   - evaluate and execute the template and Add to the body.
 - Challenge 1 (Add a link with JQuery)
