@@ -6,6 +6,8 @@ JS: 15.1     | Demonstrate Handlebars Template Syntax
 JS: 15.2     | Demonstrate use of `<script>` tag to house template markup
 JS: 15.3     | Demonstrate `Handlebars.compile()` method
 JS: 15.4     | Demonstrate use of function returned by `Handlebars.compile()`
+JS: 15.5     | Demonstrate use of Handelbars Escaping
+JS: 15.6     | Demonstrate use of Handelbars Escaping
 
 ## Exercises
 - Challenge 1 (Add a link)
