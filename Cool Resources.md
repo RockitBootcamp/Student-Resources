@@ -104,7 +104,10 @@
 - [Animated Background Gradient Generator](http://www.gradient-animator.com/)
 - [Animated Headlines](http://codyhouse.co/gem/css-animated-headlines/)
 - [CSS-only Parallax](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
-- ["Flow Up Labels"](http://www.enfos.com/FlowupLabels.js/demo/)
+- [Flow Up Labels](http://www.enfos.com/FlowupLabels.js/demo/)
+
+## CSS Opinions
+- [Defending Presentational Class Names](http://tympanus.net/codrops/2013/01/22/defending-presentational-class-names/)
 
 ## Advanced Articles & Videos
 
