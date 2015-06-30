@@ -100,7 +100,7 @@
 - [CSS clip-path maker](http://bennettfeely.com/clippy/)
 - [Animate.css](http://daneden.github.io/animate.css/)
 - [Scroll Magic](http://janpaepke.github.io/ScrollMagic/)
-- [Reveal Animatinos when you scroll](http://mynameismatthieu.com/WOW/)
+- [Reveal Animations when you scroll](http://mynameismatthieu.com/WOW/)
 - [Animated Background Gradient Generator](http://www.gradient-animator.com/)
 - [Animated Headlines](http://codyhouse.co/gem/css-animated-headlines/)
 - [CSS-only Parallax](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
@@ -108,6 +108,7 @@
 
 ## CSS Opinions
 - [Defending Presentational Class Names](http://tympanus.net/codrops/2013/01/22/defending-presentational-class-names/)
+- [A take on OOCSS](http://appendto.com/2014/04/oocss/)
 
 ## Advanced Articles & Videos
 
