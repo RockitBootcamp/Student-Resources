@@ -38,6 +38,6 @@ If you do not have node installed, continue with the installation instructions f
 
 ### Linux (Ubuntu)
 
-1. Run `sudo apt-get install node npm` from terminal
+1. Run `sudo apt-get install nodejs npm` from terminal
 
 [brewsh]: https://brew.sh
