@@ -11,9 +11,9 @@ Web: 4.2     | Demonstrate Metacharacters
              | &bull; `+` 1 or more of previous expression
              | &bull; `?` 0 or 1 of previous expression
 Web: 4.3     | Demonstrate character sets
-             | &bull; `/[A-Z]/`
-             | &bull; `/[a-z]/`
-             | &bull; `/[0-9]/`
+             | &bull; `[A-Z]`
+             | &bull; `[a-z]`
+             | &bull; `[0-9]`
 Web: 4.4     | Demonstrate character classes
              | &bull; `\w` Word Character
              | &bull; `\s` Whitespace Character    
@@ -21,6 +21,6 @@ Web: 4.4     | Demonstrate character classes
 
 ## Resources
 - [10 Common Regular Expressions](https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149)
-- [Regular Expression Tester](https://www.regex101.com/)
+- [RegEx101](https://www.regex101.com/) - Regular Expressions helper
 - [Regular Expression Cheat Sheet](bit.ly/1BffjFC)
 - __PHP.net__ [Preg Match](http://php.net/manual/en/function.preg-match.php)
