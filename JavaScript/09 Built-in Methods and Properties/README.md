@@ -218,8 +218,35 @@ Date.now() // => 1435720193244
 
 This is useful for timestamps because they can be stored with a small number of bytes and can be easily converted to a Date object.
 
+### JSON
+
+The `JSON` object provides 2 key methods. See the MDN documentation for a [complete reference][json].
+
+#### parse
+
+The `parse` method converts a JSON string into a regular Object.
+
+```js
+JSON.parse('{ "name": "Kevin" }') // => { name: "Kevin" }
+```
+
+> **Note:** If the string to be parse is not correctly formatted JSON, an error will be thrown
+
+#### stringify
+
+The `stringify` method converts a regular Object into a JSON string.
+
+```js
+var user = {
+  name: 'Kevin'
+}
+
+JSON.stringify(user) // => '{ "name": "Kevin" }'
+```
+
 [global]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 [string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 [number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 [math]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 [date]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+[json]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
