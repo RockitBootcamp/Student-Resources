@@ -35,10 +35,24 @@ var foo = function() {
 }
 ```
 
-The two ways of writing functions are not interchangeable though. While they work the same in a lot of ways, the high level differences are as follows:
+Regardless if you write it as a declaration or an expression, the part of a function that describes it is known as a **function signature**. The *signature* includes the keyword `function` and (optionally for expressions, required for declarations) a name, plus any named parameters enclosed in parenthesis. Consider the following function.
+
+```js
+function doSomething(thing, todo) {
+  // some code
+}
+```
+
+The *signature* of the above function is `function doSomething(thing, todo)`.
+
+The number of parameters a function expects is known as **arity**. The above function has an *arity* of 2, or in other words, it expects 2 arguments.
+
+The two ways of writing functions are not interchangeable though. While they work the same in a lot of ways, the key differences are as follows:
 
 - Function declarations are *hoisted* to the top of their scope
-- Function expressions hoist their name to the top of the scope, but not their assignment
+- Function expressions *hoist* their name to the top of the scope, but not their assignment
+
+> Hoisting can be a difficult concept to understand. The important thing to remember is to just make sure you never try to call a function ahead of its definition. By following this rule you will save yourself a lot of headache!
 
 ### How functions work
 
@@ -50,9 +64,9 @@ var add = function (n1, n2) {
 };
 ```
 
-This is a "recipe" for adding two numbers together. One very important thing to know is that functions **won't** be executed until they are called. Sort of like how a recipe is just a set of instructions that sits in a book. The recipe needs to be acted upon in order to be realized.
+This is a "recipe" for adding two numbers together. One very important thing to know is that functions **won't** be executed until they are *called*. Sort of like how a recipe is just a set of instructions that sits in a book. The recipe needs to be acted upon in order to be realized.
 
-To call a function, you "reference" it's name plus parenthesis `()`:
+To *call* a function, you "reference" it's name plus parenthesis `()`:
 
 ```js
 add();
