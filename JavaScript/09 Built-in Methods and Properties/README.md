@@ -99,5 +99,23 @@ Removes the whitespace from both ends of a string.
 
 > This is also useful for removing newlines (`\n`)
 
+### Number
+
+Check out the documentation on MDN for a [complete reference][number]. Here are a few of the more useful/common properties and methods you should know about.
+
+#### toFixed
+
+Rounds the number to the specified decimal place and returns the result as a **String**.
+
+> It's necessary to return the value as a string because numbers cannot have trailing zeros after the decimal point if not followed by any other digits, e.g. `42.00000`
+
+```js
+var num = 1
+
+num1.toFixed(5) // => "1.00000"
+Math.PI.toFixed(2) // => "3.14"
+```
+
 [global]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 [string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+[number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
