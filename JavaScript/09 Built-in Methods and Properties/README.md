@@ -47,7 +47,7 @@ The `concat` method will bind two (or more) strings together as a new string.
 
 #### indexOf
 
-Returns the index of the first occurrence of the specified value.
+The `indexOf` method returns the index of the first occurrence of the specified value.
 
 ```js
 'Hello world'.indexOf('world') // => 6
@@ -55,7 +55,7 @@ Returns the index of the first occurrence of the specified value.
 
 #### match
 
-Returns the matches described by a Regular Expression.
+The `match` method returns the matches described by a Regular Expression.
 
 ```js
 'Hello world'.match(/(e?ld?)/) // => [ 'el', 'l', 'ld' ]
@@ -63,7 +63,7 @@ Returns the matches described by a Regular Expression.
 
 #### replace
 
-Returns a new string with some or all of matches of a pattern replaced by the given replacement.
+The `replace` method returns a new string with some or all of matches of a pattern replaced by the given replacement.
 
 ```js
 'Hello world'.replace(/lo/, 'icopter') // => "Helicopter world"
@@ -71,7 +71,7 @@ Returns a new string with some or all of matches of a pattern replaced by the gi
 
 #### slice
 
-Returns a section of a string.
+The `slice` method returns a section of a string.
 
 ```js
 'Hello world'.slice(4) // => "o world"
@@ -82,7 +82,7 @@ Returns a section of a string.
 
 #### toLowerCase / toUpperCase
 
-Converts a string to either all caps or all lower-case.
+The `toLowerCase` or `toUpperCase` methods convert a string to either all caps or all lower-case.
 
 ```js
 'OMG'.toLowerCase() // => "omg"
@@ -91,7 +91,7 @@ Converts a string to either all caps or all lower-case.
 
 #### trim
 
-Removes the whitespace from both ends of a string.
+The `trim` method removes the whitespace from both ends of a string.
 
 ```js
 ' o hai '.trim() // => 'o hai'
@@ -105,7 +105,7 @@ Check out the documentation on MDN for a [complete reference][number]. Here are 
 
 #### toFixed
 
-Rounds the number to the specified decimal place and returns the result as a **String**.
+The `toFixed` method rounds the number to the specified decimal place and returns the result as a **String**.
 
 > It's necessary to return the value as a string because numbers cannot have trailing zeros after the decimal point if not followed by any other digits, e.g. `42.00000`
 
