@@ -21,7 +21,7 @@ JS: 4.4      | Explain function "hoisting"
 
 ## Pre Study
 
-Every function in JavaScript is a [Function object][functionobj]. JavaScript has two fundamental ways to create functions: "Function Declarations" and "Function Expressions".
+Every function in JavaScript is a [Function object][functionobj]. JavaScript has two fundamental ways to create functions: "Function Declarations" and "Function Expressions". Functions are a way of encapsulating code so that you can reuse it multiple times. With the exception of *callbacks*, functions generally should `return` a value. It's also a good practice to avoid *[side-effects][side-effects]* in your functions.
 
 ```js
 // Function Declaration
@@ -331,3 +331,4 @@ var fullName = function(first, last) {
 [scope]: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
 [functionobj]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 [lexicaldynamic]: https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope
+[side-effects]: https://en.wikipedia.org/wiki/Side_effect_(computer_science)
