@@ -15,5 +15,5 @@ Wordpress: 1.4  | Create blog posts
 
 - [Intro to Blogging](https://codex.wordpress.org/Introduction_to_Blogging)
 - [What is Wordpress](https://codex.wordpress.org/WordPress)
-- [Learn Wordpress](https://learn.wordpress.com/get-started/)
+- [Learn Wordpress](https://learn.wordpress.com/)
 - [Getting Started with Wordpress](https://codex.wordpress.org/Getting_Started_with_WordPress)
