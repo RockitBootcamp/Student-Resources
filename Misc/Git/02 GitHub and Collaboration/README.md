@@ -11,7 +11,9 @@ Git: 2.6     | Demonstrate merging pull-requests on GitHub
 
 ## Resources
 
+- [Getting your project on GitHub](https://guides.github.com/introduction/getting-your-project-on-github/)
 - [Guide to Forking](https://guides.github.com/activities/forking/index.html)
+- [Pull Requests (video)](https://youtu.be/d5wpJ5VimSU)
 
 ## Pre Work
 
