@@ -154,7 +154,7 @@ foo(5);
 
 The output will be `5`. While functions have lexical scope and "can" access variables from outside the function - in this case we're passing in an argument `5` into the function which gets assigned to the parameter `x`. If a function has to choose between using it's internal variables vs the ones from the outside, it will choose the internal ones. However the value of `x` outside of the function has not been changed.
 
-The same holds for the following scenario.
+The same holds true for the following scenario.
 
 ```js
 var x = 4;
