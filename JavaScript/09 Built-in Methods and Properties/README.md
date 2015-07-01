@@ -178,7 +178,48 @@ Math.random() * 2 // a random number between 0 and 2, e.g. 1.9085579885169864
 Math.random() * 10 // a random number from 0-9 (with decimals), e.g. 2.5148108252324164
 ```
 
+### Date
+
+The `Date` object provides useful properties and methods for mathematical operations and can also be used as a *constructor* to generate a Date object. Check out the documentation on MDN for a [complete reference][date]. Here are a few of the more useful/common properties and methods you should know about.
+
+#### Current date as a string
+
+Calling `Date` as a function returns the current date as a string.
+
+```js
+Date() // => "Tue Jun 30 2015 20:01:24 GMT-0700 (MST)"
+```
+
+#### Used as a constructor
+
+Calling `Date` as a constructor returns an *object* representing a date.
+
+```js
+new Date() // => Tue Jun 30 2015 20:01:24 GMT-0700 (MST)
+// Yes, that's an object
+
+// You can also provide a date string (ISO 8601 compliant formatted)
+new Date('1979-03-24T00:00:01') // => Fri Mar 24 1979 17:00:00 GMT-0700 (MST)
+
+// Or pass separate arguments
+new Date(1979, 2, 24) // => Fri Mar 24 1979 17:00:00 GMT-0700 (MST)
+// That's not a typo! The month parameter is zero-based
+```
+
+The returned Date object will have methods such as `getDate`, `getHours`, `getSeconds`, etc. Refer to the [documentation][date] for more details.
+
+#### now
+
+The `now` method returns the number of milliseconds since Jan 1, 1970 00:00:00 (Unix Epoch).
+
+```js
+Date.now() // => 1435720193244
+```
+
+This is useful for timestamps because they can be stored with a small number of bytes and can be easily converted to a Date object.
+
 [global]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 [string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 [number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 [math]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+[date]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
