@@ -116,6 +116,69 @@ num1.toFixed(5) // => "1.00000"
 Math.PI.toFixed(2) // => "3.14"
 ```
 
+### Math
+
+The `Math` object provides useful properties and methods for mathematical operations. Check out the documentation on MDN for a [complete reference][math]. Here are a few of the more useful/common properties and methods you should know about.
+
+#### PI
+
+The `PI` property provides the value of PI.
+
+```js
+Math.PI // => 3.141592653589793
+```
+
+#### abs
+
+The `abs` method returns the absolute value of a number.
+
+```js
+Math.abs(-42) // => 42
+```
+
+#### ceil
+
+The `ceil` method returns the lowest integer greater or equal to the given value.
+
+```js
+Math.ceil(41.0001) // => 42
+```
+
+#### floor
+
+The `floor` method return the lowest integer less than or equal to the given value.
+
+```js
+Math.floor(42.9999999) // => 42
+```
+
+#### round
+
+The `round` method rounds the given value to the nearest integer.
+
+```js
+Math.round(42.0001) // => 42
+Math.round(42.9999999) // => 43
+```
+
+#### random
+
+The `random` method generates a pseudo-random number between 0 and 1.
+
+> **Note:** Math.random() does not provide cryptographically secure random numbers. Do not use them for anything related to security.
+
+```js
+Math.random() // => 0.7521957787685096
+```
+
+To generate larger numbers, simply multiply the result.
+
+```js
+Math.random() * 2 // a random number between 0 and 2, e.g. 1.9085579885169864
+Math.random() * 10 // a random number from 0-9 (with decimals), e.g. 2.5148108252324164
+```
+
 [global]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 [string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 [number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+[math]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
