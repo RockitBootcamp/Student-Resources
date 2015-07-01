@@ -1,4 +1,4 @@
-# Lesson 2: GitHub and Collaboration
+# GitHub and Collaboration
 
 Identifier   | Objectives
 -------------|------------
