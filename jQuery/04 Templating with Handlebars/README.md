@@ -2,31 +2,36 @@
 
 Identifier   | Objectives
 -------------|------------
-JS: 15.1     | Demonstrate Handlebars Template Syntax
+JS: 15.1     | Demonstrate Handlebars syntax
 JS: 15.2     | Demonstrate use of `<script>` tag to house template markup
 JS: 15.3     | Demonstrate `Handlebars.compile()` method
 JS: 15.4     | Demonstrate use of function returned by `Handlebars.compile()`
-JS: 15.5     | Demonstrate use of Handelbars Escaping
-JS: 15.6     | Demonstrate use of Handelbars Escaping
-
-## Exercises
-- Challenge 1 (Add a link)
-  - Create a new Template as a string <li>&lt;a href=???>???</li>
-  - Create a object with an href and title
-  - evaluate and execute the template and Add to the body.
-- Challenge 2 (Add a link with JQuery)
-  - Create a new Template with Script tag
-  - Use JQuery to get template string
-  - Complie Template from string
-  - Create a object with an href and title
-  - evaluate and execute the template and Add to the body.
-- Challenge 3 (Add three links to an ul)
-  - Use the previous template
-  - Create an array of objects (Each should have an href and title attribute)
-  - Loop over the items
-  - evaluate and execute the template and Add to the body.
-
+JS: 15.5     | Demonstrate use of Handlebars escaping
 
 ## Resources
 
 - [handlebars](http://handlebarsjs.com)
+
+## Pre Study
+
+Handlebars is a templating engine (if you haven't guessed), in fact one of many. The reason templating libraries keep springing up (for just about every programming language, especially those that deal with HTML) is because building complex strings is *difficult* and time-consuming, it's also not a very good separation of concerns. So libraries like Handlebars trade some of that complexity for convenience. By separating the *structure* from the *content* (and flow-control), the developer can focus on one thing at a time, and helps maintain that good *separation of concern*.
+
+## Exercises
+
+- Challenge 1: **Create an anchor with a template string**
+  - Create a new Template as a string `"<li><a href=???>???</li>"`
+  - Create an anchor with an href and text
+  - Execute the template and add it to the body
+
+- Challenge 2: **Create an anchor with a template from a script element**
+  - Create a new template with Script element
+  - Use jQuery to get template string
+  - Compile template from string
+  - Create an object with an href and text
+  - Execute the template and add it to the body
+
+- Challenge 3: **Add three links to a `<ul>`**
+  - Modify the previous template
+  - Loop over the items using Handlebars
+  - Create an array of objects (each should have an href and text property)
+  - Execute the template and add it to the body
