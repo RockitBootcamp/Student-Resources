@@ -1,4 +1,4 @@
-# Lesson 7: Object Literals II
+# Lesson 7: Objects II
 
 Identifier   | Objectives
 -------------|------------
