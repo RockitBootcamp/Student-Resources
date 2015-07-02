@@ -10,7 +10,11 @@ CSS: 13.3    | Explain "mobile-first" approach
 CSS: 13.4    | Explain the difference between "responsive design" and a "mobile website"
 
 ## Exercises
-- Take the White House Website. Jamaicanize and media query it
+- Take the White House Website. Jamaicanize and design for mobile first
+- Add media queries for first break point
+
+**Bonus**
+- Add media queries for second break point
 
 
 ## Resources
