@@ -90,7 +90,7 @@ $.ajax({
 });
 ```
 
-With the code above, jQuery will try to make an AJAX request to the `/users` path on the current domain. By itself, this code won't actually produce any results, because we aren't doing anything with the potential response. For that, we need to chain `.then()` or `.done()` and usually also `.fail()` to handle errors. Each of these methods takes a callback function.
+With the code above, jQuery will try to make an AJAX request to the `/users` path on the current domain. By itself, this code won't actually produce any results, because we aren't doing anything with the potential response. *We actually threw away the response.* In order to process the response, we need to chain `.then()` or `.done()` and usually also `.fail()` to handle errors. Each of these methods takes a callback function.
 
 ```js
 $.ajax({
