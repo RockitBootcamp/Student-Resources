@@ -9,5 +9,9 @@ CSS: 13.2    | Explain the two approaches organizing the placement of your media
 CSS: 13.3    | Explain "mobile-first" approach
 CSS: 13.4    | Explain the difference between "responsive design" and a "mobile website"
 
+## Exercises
+- Take the White House Website. Jamaicanize and media query it
+
+
 ## Resources
 - n/a
