@@ -29,8 +29,8 @@ Arrays are Objects that represent ordered lists, what is known as an *indexed co
 An **Array Literal** is written as
 
 ```js
-[] // => empty Array Literal
-[1, 2, 3] // => Array with a "list" of numbers 1-3
+var myArray = [] // => empty Array Literal
+var myArray = [1, 2, 3] // => Array with a "list" of numbers 1-3
 ```
 
 Arrays have several useful methods which you will use frequently, including *push*, *pop*, *shift*, *unshift*, *map*, *sort*, and many more.
