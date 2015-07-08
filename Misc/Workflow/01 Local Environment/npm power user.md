@@ -94,7 +94,7 @@ hotel add 'json-server db.json -p $PORT'
 
 ## [ngrok][ngrok]
 
-`ngrok` allows you to share a local server temporarily on the public web. To put it simply, it created a public (randomized) web URL which points to your localhost:port where your local server is running. Then anyone you send the URL to can access your local server for as long as you keep `ngrok` running. This is great for team collaboration. You can use it to share a web server (e.g. your project) or a `json-server`, for instance.
+`ngrok` allows you to share a local server temporarily on the public web. To put it simply, it creates a public (randomized) web URL which points to your localhost:port where your local server is running. Then anyone you send the URL to can access your local server for as long as you keep `ngrok` running. This is great for team collaboration. You can use it to share a web server (e.g. your project) or a `json-server`, for instance.
 
 To use [ngrok][ngrok], install it globally with npm:
 
@@ -130,7 +130,7 @@ Be sure to read the [n documentation][n] to see more examples.
 
 ## [Yeoman][yo]
 
-![]()
+![](http://yeoman.io/assets/img/yeoman-02.eed5.png)
 
 `yo` ([Yeoman][yeoman]) is a framework for scaffolding new projects. Yeoman is the orchestrator and you install any of literally hundreds of different scaffolds (known as generators) available from the Yeoman community. Then you scaffold a new project by running `yo <scaffold-name>`. Yeoman was created by some of the biggest names in the industry, including Sindre Sorhus, Addy Osmani, Paul Irish, and many more (so you know it's good).
 
