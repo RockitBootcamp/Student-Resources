@@ -51,7 +51,7 @@ Now you can start/stop that server from the hotel UI (http://localhost:2000) whe
 
 ## [json-server][json-server]
 
-`json-server` is a tool for creating a JSON-based RESTful API in seconds, all you need is a JSON file! This is great for [rapid prototyping]() or for when you want to focus on front-end development while another team member is still working on the real back-end API. We use this in the Twitter V2 project (and possibly others in the future) so we can focus on learning how to interact with APIs (using AJAX) without having to first build a full back-end service.
+`json-server` is a tool for creating a JSON-based RESTful API in seconds, all you need is a JSON file! This is great for [rapid prototyping](http://www.smashingmagazine.com/2010/06/16/design-better-faster-with-rapid-prototyping/) or for when you want to focus on front-end development while another team member is still working on the real back-end API. We use this in the Twitter V2 project (and possibly others in the future) so we can focus on learning how to interact with APIs (using AJAX) without having to first build a full back-end service.
 
 To use [json-server][json-server], install it globally with npm:
 
