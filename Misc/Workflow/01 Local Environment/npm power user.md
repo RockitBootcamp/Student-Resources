@@ -1,6 +1,6 @@
 # Workflow for npm power-users
 
-If you're already pretty familiar with npm, you may be ready to take the next step to being a power-user. This guide will show give you some tips for npm packages you can install to make the most of your development environment.
+If you're already pretty familiar with npm, you may be ready to take the next step to being a power-user. This guide will give you some tips for npm packages you can install to make the most of your development environment.
 
 ## [http-server][http-server]
 
