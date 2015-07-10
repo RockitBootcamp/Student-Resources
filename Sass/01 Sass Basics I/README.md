@@ -14,4 +14,4 @@ Sass: 1.5    | Use Nesting
 
 
 ## Resources
-- n/a
+- [Sass Basics](http://sass-lang.com/guide)
