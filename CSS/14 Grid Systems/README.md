@@ -7,4 +7,4 @@ CSS: 14.2    | Explain how columns and rows work with most grid systems
 CSS: 14.3    | Demonstrate making a basic layout with a grid system
 
 ## Resources
-- n/a
+- [Understanding Grid Systems](http://www.sitepoint.com/understanding-css-grid-systems/)
