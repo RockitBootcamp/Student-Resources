@@ -156,8 +156,6 @@
 - **Paul Irish** (Google) Developer evangelist, Chrome dev tools champion
   - [[Google+](https://plus.google.com/u/0/+PaulIrish/posts)]
   - [[Twitter](http://twitter.com/paul_irish)]
-- **Christian Heilmann** (Mozilla)
-  - [[Google+](https://plus.google.com/u/0/+ChristianHeilmann/posts)]
 - **Ilya Grigorik** (Google)
   - [[Google+](https://plus.google.com/u/0/+IlyaGrigorik/posts)]
   - [[Twitter](http://twitter.com/igrigorik)]
