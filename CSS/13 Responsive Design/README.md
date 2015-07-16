@@ -18,4 +18,4 @@ CSS: 13.4    | Explain the difference between "responsive design" and a "mobile 
 
 
 ## Resources
-- n/a
+- Example Websitesites [mediaqueri.es](http://mediaqueri.es/)
