@@ -95,7 +95,7 @@ With the code above, jQuery will try to make an AJAX request to the `/users` pat
 ```js
 $.ajax({
   url: '/users'
-}).then(function (data) {
+}).done(function (data) {
   // if the request is successful, the `data` parameter will contain the results
 });
 ```
@@ -109,7 +109,7 @@ $.ajax({
   data: {
     bar: 'bar'
   }
-}).then(function () {
+}).done(function () {
 
 });
 ```
@@ -130,7 +130,7 @@ $.ajax({
 This method is a more simplified shortcut for making a GET request. There is also a `$.post()` method. They are symantically the same, so the following information applies to both.
 
 ```js
-$.get('/users').then(function (data) {
+$.get('/users').done(function (data) {
   // do something with `data
 });
 ```
@@ -143,7 +143,7 @@ $.get('/users').fail(function () {
 });
 ```
 
-Typically you want at least `then` and `fail` to handle success and failure conditions.
+Typically you want at least `done` and `fail` to handle success and failure conditions.
 
 The deprecated syntax for `$.get()` and `$.post()` is to pass success and failure callbacks are arguments.
 
@@ -162,7 +162,7 @@ $.get('/users', function success(data) {
 This method is just a shorthand for `$.ajax({ dataType: 'json' })`. It works the same as `$.ajax()` and the other shorthand methods, with the same chainable methods.
 
 ```js
-$.getJSON('/users').then(function (data) {
+$.getJSON('/users').done(function (data) {
   // do something with `data`
 });
 ```
@@ -173,7 +173,7 @@ The code above is equivalent to:
 $.ajax({
   url: '/users',
   dataType: 'json',
-}).then(function (data) {
+}).done(function (data) {
   // do something with `data`
 });
 ```
