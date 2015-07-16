@@ -4,7 +4,7 @@ Identifier     | Objectives
 ---------------|------------
 Backbone: 2.1  | Explain the general purpose of a model
 Backbone: 2.2  | Demonstrate creating a model "class"
-               | &bull; `var Person = Backbone.Model.extend({name: 'Dave'});`
+               | &bull; `var Person = Backbone.Model.extend({ name: 'Dave' });`
 Backbone: 2.3  | Demonstrate creating a model "instance"
                | &bull; `var person = new Person();`
 Backbone: 2.4  | Use the `defaults` property
@@ -30,7 +30,7 @@ var user = {
 }
 ```
 
-In Backbone you would store this information in a Model. The benefit is that you would be able to specify default values or validate the values of each property, etc. Here's how you would create a new Model.
+In Backbone you would store this information in a **Model**. The benefit is that you would be able to specify default values or validate the values of each property, etc. Here's how you would create a new Model.
 
 ```js
 var User = Backbone.Model.extend()
@@ -44,6 +44,8 @@ var batman = new User({ name: 'Bruce Wayne' })
 
 Now we have a new user object, which we call an **instance**, complete with all the built-in helpers from Backbone, plus any validation and other extras we may have added (in this case none).
 
+### Default values
+
 In some circumstances we may want to have some defaults for each time a new user is instantiated. To do that, let's rewrite our User model.
 
 ```js
@@ -55,6 +57,8 @@ var User = Backbone.Model.extend({
   }
 })
 ```
+
+### Getting and setting values
 
 To access the properties of this new user object, we need to use the `get` method.
 
@@ -70,4 +74,23 @@ When you need to update the values of properties, you'll need to use the `set` m
 console.log(batman.set('age', 38))
 ```
 
-[Try it out](http://jsbin.com/gohexohace/edit?js,console)
+### Initialization
+
+Whenever a new instance is created, we can also define some actions we want to take every time. We can do this by adding an `initialize` method when we create a Model. Let's add an `initialize` method to our user model to log whenever a new model instance is created.
+
+```js
+var User = Backbone.Model.extend({
+  defaults: {
+    firstName: '',
+    lastName: '',
+    age: 18
+  },
+  initialize: function () {
+    console.log('New user created!' )
+  }
+})
+```
+
+## Exercises
+
+[Try it out](http://jsbin.com/gohexohace/edit?js,console) by creating your own users and adding your own default values. You can also provide more properties than there are defaults.
