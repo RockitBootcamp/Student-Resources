@@ -10,7 +10,7 @@ Backbone: 2.3  | Demonstrate creating a model "instance"
 Backbone: 2.4  | Use the `defaults` property
 Backbone: 2.5  | Use the `get` and `set` method
 Backbone: 2.6  | Use the `initialize` method
-Backbone: 2.7  | Use the `fetch` method
+Backbone: 2.7  | Use the `fetch` method and the `urlRoot` property to populate your model with real data from the server
 
 ## Resources
 
