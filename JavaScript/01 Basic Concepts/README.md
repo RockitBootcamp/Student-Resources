@@ -28,6 +28,10 @@ JS: 1.7      | Explain the importance of consistency
 
 ## Pre Study
 
+JavaScript is currently the most popular, most used, and most ubiquitous programming language in the world. It's also one of the easiest languages to learn, but difficult to master. JavaScript is extremely flexible, or in other words it's capable of just about anything, and there are as many ways of doing something as there are JS programmers. However, many useful conventions have gained popularity over the years since JavaScript's invention. These conventions help beginners learn the language and veterans master it.
+
+JavaScript is a dynamically-checked language, which means that it doesn't matter what *data type* a variable contains. JavaScript will check what type is there every time the variable is read by the interpreter and act accordingly based on what *data type* the current value is. It also means that a variable can be reassigned a new value of any *data type* regardless of the original value's *data type*. In contrast, in statically-typed languages a variable must be *cast* as a specific type and it can only ever contain values of that specific type. The dynamic type checking is part of what makes JavaScript so flexible.
+
 ### `<script>`
 
 Script elements are HTML markup that describe a JavaScript script file or inline-code that should be loaded for the containing resource (i.e. web page).
@@ -72,9 +76,51 @@ Following is an example of a script tag loaded from an external source:
 
 Scripts are parsed (and subsequently interpreted) *in the order they appear in the markup*. For this reason, libraries should almost always come before any application code (the code written specifically for your application).
 
+### Expressions
+
+Expressions are any statement that produces a value. There are two types of expressions, those that assign a value and those that contain a value. The simplest expression can be an access (or reference) to a variable.
+
+```js
+// assume we have a variable named "beep"
+
+// naming a variable, or referencing it, is considered an expression
+beep
+```
+
+More examples of expressions:
+
+```js
+// everything here is an expression
+someFunction()
+someVariable
+5 + 2
+7 / 3
+'a string'
+var something = 'yep this is an expression too'
+```
+
+Compound expressions are ones that can be described as having multiple expressions together.
+
+```js
+// Compound expression
+4 + 9 / 2 - 1
+// => 7.5
+```
+
+You can change the *order of operations* in a compound expression by using the **grouping operator** `( )`. Grouped expressions will be resolved before any remaining expressions.
+
+Expressions can be written anywhere and everywhere a value could also be written. They can be assigned to variables, supplied as arguments to functions, etc.
+
+```js
+(4 + 9) / 2 - 1
+// => 5.5
+```
+
+It works the same way as with arithmetic and algebra. In fact, programming languages in general have a lot in common with algebra and even lambda calculus. Sounds scary, but don't fret, we won't go that deep in this course. ;)
+
 ### The Assignment Operator
 
-The assignment operator, or `=`, is used to **assign** a value to a variable. Variables can be declared without an assignment and assigned a value at a later time.
+The assignment operator `=` is used to **assign** a value to a variable. Variables can be declared without an assignment and assigned a value at a later time.
 
 ```js
 // This variable is declared, but no value has been assigned
@@ -82,16 +128,18 @@ var foo;
 
 console.log(foo); // => undefined
 
-// We can define foo at any time
+// We can assign a value to foo at any time
 foo = 'bar';
 
 console.log(foo); // => "bar"
 
 // We can also assign a value immediately when declaring
 var beep = 'boop';
+
+console.log(beep); // => "boop"
 ```
 
-Variables can be assigned the result of *any* or expression that produces a value.
+Variables can be assigned the result of *any* function or expression that produces a value.
 
 ```js
 function boop() {
@@ -156,7 +204,7 @@ Comments come in two flavors, single-line and multi-line. Most developers use *s
 var notAComment = 'This is not commented out';
 
 /* This is a mult-line comment
-I can include as many lines as I want until the "end comment" 
+I can include as many lines as I want until the "end comment"
 even "code"!
 function wontExecute() {
   console.log('Nothing happened!');
@@ -180,7 +228,7 @@ Multi-line comments are any text *wrapped* by `/*` and `*/`. They can also appea
 
 ### Style guides and convention
 
-Style guides are documents that describe the conventions that should be followed, usually instituted by a company or project owner, in order to maintain code consistency. 
+Style guides are documents that describe the conventions that should be followed, usually instituted by a company or project owner, in order to maintain code consistency.
 
 Style consistency is incredibly important for developers who work together in a collaborative environment such as a team or as a contributor to an open source project. The reason it's important is to maintain the highest level of readability in the code base. If the style (conventions used) is inconsistent, it becomes difficult and tiresome to read the source. Inconsistencies can also lead to missing important potential problems with the code, because too much of your attention is focused on interpreting a style that keeps changing from line to line or from one file to another. Likewise, very consistent code makes it easy to point out potential problems because they can often be easily spotted due to it creating an inconsistency in the coding style.
 
