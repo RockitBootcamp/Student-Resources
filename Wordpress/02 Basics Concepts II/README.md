@@ -8,7 +8,6 @@ Wordpress: 2.2  | Describe Administration Screens
                 | &bull; Posts
                 | &bull; Media
                 | &bull; Links
-                | &bull; Dashboard
                 | &bull; Pages
                 | &bull; Appearance
                 | &bull; Users
