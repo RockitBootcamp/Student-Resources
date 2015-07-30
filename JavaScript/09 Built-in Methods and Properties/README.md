@@ -17,6 +17,7 @@ JS: 9.2      | Use basic JavaScript string properties and methods
 ## Resources
 
 - [Built in Functions][global]
+- [Array Methods](../11 Arrays)
 
 ## Pre Study
 
