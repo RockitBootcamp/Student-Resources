@@ -197,6 +197,68 @@ for (var i = 1; i < 6; i++) {
 
 Now the output will be 1, 2. This time the code says "When we get to 3, exit the loop".
 
+
+## Exercise
+
+Use the following variable to complete the tasks below.
+
+```js
+var animals = ['puppy', 'kitten', 'penguin', 'muskrat', 'hippo', 'baboon']
+
+var moreAnimals = [
+  {
+    type: 'canine',
+    legs: 4,
+    eyes: 2,
+    teeth: 'sharp'
+  },
+  {
+    type: 'cat',
+    legs: 4,
+    eyes: 2,
+    teeth: 'sharp'
+  },
+  {
+    type: 'bird',
+    legs: 2,
+    eyes: 2,
+    teeth: 'none',
+    wings: true
+  },
+  {
+    type: 'rodent',
+    legs: 4,
+    eyes: 2,
+    teeth: 'pointy'
+  },
+  {
+    type: 'large mammal',
+    legs: 4,
+    eyes: 2,
+    teeth: 'blunt'
+  },
+  {
+    type: 'ape',
+    legs: 2,
+    eyes: 2,
+    teeth: 'sharp and blunt'
+  }
+]
+
+1. Print out each animal from `animals`
+  1. Use a `while` loop
+  1. Use a `for` loop
+  1. Use a `forEach` on the array
+1. Print out each animals type from `moreAnimals`
+  1. Use a `while` loop
+  1. Use a `for` loop
+  1. Use a `forEach` on the array
+1. Print out only animals that have more than 2 legs from `moreAnimals`
+  1. Use a `while` loop
+  1. Use a `for` loop
+  1. Use a `forEach` on the array
+```
+
 [while]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 [for]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 [forin]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
