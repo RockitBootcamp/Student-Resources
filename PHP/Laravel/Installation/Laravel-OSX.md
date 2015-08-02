@@ -47,11 +47,18 @@ This method will use the brew version of php.
 ### Point apache to homebrew php
 
 Download php with the apache flag to ensure the module is included
-```ruby
-$brew uninstall php55
-$brew install php55 --with-fpm --with-apache
 
+```sh
+$ brew update
+$ brew install php55 --with-fpm --with-apache
 ```
+
+Uninstall `php55` if it was already installed without the extra options then try again:
+
+```sh
+$ brew uninstall php55
+```
+
 If you get "Error: No such keg:..." or "Error: No available formula php55", it will follow with a list of paths. type the following:
 ```ruby
 brew install homebrew/php/php55 --with-fpm --with-apache
