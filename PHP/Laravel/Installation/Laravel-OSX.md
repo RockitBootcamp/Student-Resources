@@ -2,7 +2,7 @@
 
 Install Composer
 
-```ruby
+```sh
 $ curl -sS https://getcomposer.org/installer | php
 # move this to your bin folder
 $ mv composer.phar /usr/local/bin/composer
@@ -10,7 +10,7 @@ $ mv composer.phar /usr/local/bin/composer
 
 Install Laravel
 
-```ruby
+```sh
 # Download 
 $ composer global require "laravel/installer=~1.1"
 
@@ -28,7 +28,7 @@ $ laravel
 ```
 
 Create new project
-```ruby
+```sh
 $ cd ~/Sites/
 $ laravel new myProject
 
@@ -39,41 +39,47 @@ $ php artisan serve
 ```
 
 # Problems
-mcrypt
+
+You will probably need to install mcrypt if you don't already have it installed. Here are the steps...
 
 ## Use Brew
+
 This method will use the brew version of php. 
 
-### Point apache to homebrew php
+### Install a new version of PHP via homebrew
 
-Download php with the apache flag to ensure the module is included
+Download PHP 5.5 with the apache flag to ensure the module is included
 
 ```sh
 $ brew update
 $ brew install php55 --with-fpm --with-apache
 ```
 
-Uninstall `php55` if it was already installed without the extra options then try again:
+Uninstall `php55` if it was already installed without the extra options then try the previous steps again
 
 ```sh
 $ brew uninstall php55
 ```
 
 If you get "Error: No such keg:..." or "Error: No available formula php55", it will follow with a list of paths. type the following:
-```ruby
-brew install homebrew/php/php55 --with-fpm --with-apache
+
+```sh
+$ brew install homebrew/php/php55 --with-fpm --with-apache
 ```
+
 Check what module is loaded
-```ruby
+
+```sh
 brew info php55
 
 # Read comment
 # To enable PHP in Apache add the following to httpd.conf and restart Apache:
 #     LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
 ```
+
 Point apache to brew version.
 
-```ruby
+```sh
 vi /etc/apache2/httpd.conf
 
 # Look for section loading php5_module and change to :
@@ -82,10 +88,12 @@ LoadModule php5_module    /usr/local/opt/php55/libexec/apache2/libphp5.so
 ```
 
 Install mcrypt
-```ruby
+
+```sh
 brew install mcrypt
 brew install php55-mcrypt
 ```
+
 Check your info.php to see that mcrypt is installed
 <img src="mcrypt.png">
 
@@ -93,6 +101,7 @@ Check your info.php to see that mcrypt is installed
 # Tips
 
 ### Verify Apach Config
+
 Check if Apache Config is correct
 ```ruby
 apachectl configtest
@@ -102,7 +111,8 @@ apachectl configtest
 The command line and Apache could be pointing to two different version.
 
 ### Command Line
-```ruby
+
+```sh
 which php
 
 # List all configuration information
