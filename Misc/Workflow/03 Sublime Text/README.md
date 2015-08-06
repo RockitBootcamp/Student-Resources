@@ -46,6 +46,8 @@ Nice packages to know about:
 - [Sublime Linux](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html)
 - [Sublime Linux (alternative)](https://gist.github.com/Belgand/2856947)
 
+![Cheat Sheet](http://speckycdn.sdm.netdna-cdn.com/wp-content/uploads/2015/07/sublime-text-3-cheat-sheet-wallpaper-large.jpg)
+
 ## Settings worth considering
 
 You may want to install the following settings depending on your personal preferences. Note that this is not meant to be a full replacement for your existing settings, but rather a list of things for you to pick and choose from. Remember that setting changes should only be made to your User Settings and not your Default Settings.
