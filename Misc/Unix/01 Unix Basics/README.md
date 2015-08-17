@@ -29,3 +29,4 @@ Unix: 1.7    | Explain meaning and usage of the sudo command
 
 ## Resources
 - [Unix / Linux 101](http://youtu.be/yTJyTQkRgjU)
+- [Unix / Linux Command Reference](https://ubuntudanmark.dk/filer/fwunixref.pdf)
