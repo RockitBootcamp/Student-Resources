@@ -3,6 +3,7 @@
 Identifier   | Objectives
 -------------|------------
 Unix: 1.1    | Demonstrate how to navigate the filesystem in Unix using:
+             | &bull; `man`
              | &bull; `cd`
              | &bull; `ls [options]` 
              | &bull; `clear`
