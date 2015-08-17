@@ -145,3 +145,6 @@ This rule is only for the "no space" situations. These two selectors have spaces
 ```
 
 ...because the firs says `.bar` must be inside of `.foo`, and the next selector says the opposite.
+
+## Exercise
+[CSS - Choose the Selector](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/CSS%20Choose%20the%20Selector)
