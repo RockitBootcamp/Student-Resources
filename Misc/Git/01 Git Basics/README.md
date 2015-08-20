@@ -22,7 +22,7 @@ Git: 1.8     | Demonstrate removing files from a local git repo
 
 ## Presentation
 
-- [View Presentation](https://docs.google.com/presentation/d/1zwj2KV0dzwhF0Q-G1QgkYsB-KR08-HVAqrnSXZRxFzc/edit)
+- [View Presentation](https://docs.google.com/presentation/d/13JBF6q2nvoivKQ0UdOGUxw1rqQASUFsLPxiH_pSDOTk/edit)
 
 ## Practice
 
