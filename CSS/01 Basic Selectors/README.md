@@ -60,7 +60,7 @@ Let's use this HTML as an example:
 /* Selects all five anchors in the div (basically any anchor in div) */
 div a {}
 
-/* Selects the logo and the welcome anchors */
+/* Selects the logo and the welcome anchors because those are the only two anchors that are direct children of the div */
 div > a {}
 ```
 
