@@ -36,11 +36,11 @@ An important thing to know is that selectors can make any combination of tags, c
 p a span {}
 ```
 
-This can be read "Select any `span` element __that is a descendant of__ an `a` element __that is a descendant of__ a `p` element". Actually there is a cool project that will explain selectors to you. Type `p a span {}` in the [Direct Input field of this page](http://tux.theopalgroup.com/cgi-bin/css3explainer/selectoracle.py) and get the selector explained to you.
+This can be read "Select any `span` element __that is a descendant of__ an `a` element __that is a descendant of__ a `p` element". Actually there is a cool project that will explain selectors to you. Type 'p a span {}' in the [Direct Input field of this page](http://tux.theopalgroup.com/cgi-bin/css3explainer/selectoracle.py) and get the selector explained to you.
 
 ### Descendant vs Child
 
-The `>` "child selector" is like the descendant one except it only selects the direct children of a parent element.
+CSS Selectors have "operands" which are characters that change the meaning of the selector. The `>` is an "operand" which means "child selector" is like the descendant one except it only selects the direct children of a parent element.
 
 Let's use this HTML:
 
