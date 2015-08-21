@@ -40,9 +40,9 @@ This can be read "Select any `span` element __that is a descendant of__ an `a` e
 
 ### Descendant vs Child
 
-CSS Selectors have "operands" which are characters that change the meaning of the selector. The `>` is an "operand" which means "child selector" is like the descendant one except it only selects the direct children of a parent element.
+CSS Selectors have "operands" which are characters that change the meaning of the selector. The `>` is an "operand" which means "child selector". It's just like the descendant selector except it only selects the direct children of a parent element.
 
-Let's use this HTML:
+Let's use this HTML as an example:
 
 ```html
 <div>
