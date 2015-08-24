@@ -3,8 +3,9 @@
 Identifier   | Objectives
 -------------|------------
 CSS: 8.1     | Explain Flexbox Syntax
-
-
+CSS: 8.2     | n/a
+CSS: 8.3     | n/a
+CSS: 8.4     | n/a
 
 
 ## Resources
@@ -18,7 +19,7 @@ CSS: 8.1     | Explain Flexbox Syntax
 
 Study the following media object.
 
-![Media Object](float.png)
+![Media Object](media.png)
 
 HTML:
 ```html
