@@ -36,13 +36,13 @@ An important thing to know is that selectors can make any combination of tags, c
 p a span {}
 ```
 
-This can be read "Select any `span` element __that is a descendant of__ an `a` element __that is a descendant of__ a `p` element". Actually there is a cool project that will explain selectors to you. Type "p a span {}" in the [Direct Input field of this page](http://tux.theopalgroup.com/cgi-bin/css3explainer/selectoracle.py) and get the selector explained to you.
+This can be read "Select any `span` element __that is a descendant of__ an `a` element __that is a descendant of__ a `p` element". Actually there is a cool project that will explain selectors to you. Type 'p a span {}' in the [Direct Input field of this page](http://tux.theopalgroup.com/cgi-bin/css3explainer/selectoracle.py) and get the selector explained to you.
 
 ### Descendant vs Child
 
-The `>` "child selector" is like the descendant one except it only selects the direct children of a parent element.
+CSS Selectors have "operands" which are characters that change the meaning of the selector. The `>` is an "operand" which means "child selector". It's just like the descendant selector except it only selects the direct children of a parent element.
 
-Let's use this HTML:
+Let's use this HTML as an example:
 
 ```html
 <div>
@@ -60,7 +60,7 @@ Let's use this HTML:
 /* Selects all five anchors in the div (basically any anchor in div) */
 div a {}
 
-/* Selects the logo and the welcome anchors */
+/* Selects the logo and the welcome anchors because those are the only two anchors that are direct children of the div */
 div > a {}
 ```
 
@@ -144,7 +144,7 @@ This rule is only for the "no space" situations. These two selectors have spaces
 .bar .foo {}
 ```
 
-...because the firs says `.bar` must be inside of `.foo`, and the next selector says the opposite.
+...because the first is saying `.bar` must be inside of `.foo`, and the next selector says the opposite.
 
 ## Exercise
 [CSS - Choose the Selector](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/CSS%20Choose%20the%20Selector)
