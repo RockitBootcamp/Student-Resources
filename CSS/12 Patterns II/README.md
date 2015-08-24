@@ -10,6 +10,7 @@ CSS: 11.2    | Demonstrate Tabs with...
 CSS: 11.3    | Demonstrate lightbox patterns
 CSS: 11.4    | Explain Tiles with...
              | &bull; Inline-Block
+             | &bull; Flexbox
              | &bull; Floats
 
 ## Resources
