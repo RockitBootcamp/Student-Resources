@@ -2,10 +2,9 @@
 
 Identifier   | Objectives
 -------------|------------
-CSS: 8.1     | Explain Flexbox Syntax
-CSS: 8.2     | n/a
-CSS: 8.3     | n/a
-CSS: 8.4     | n/a
+CSS: 8.1     | Explain Flex Containers
+CSS: 8.2     | Explain Flex Items (Children)
+CSS: 8.3     | &bull; with `flex-grow`
 
 
 ## Resources
