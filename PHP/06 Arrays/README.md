@@ -35,6 +35,9 @@ PHP: 6.6     | Use basic PHP array functions
 - 7 Check if the key exists for 'c' for ["a"=>"1", "b"=>2, "c"=> 3]
 - 8 Use push and pop to manage an array of colors
 
+**Bonus**
+Remove any special characters from the poem If by Kipling before exploding into an array (i.e ' , - )
+
 ## Resources
 - __W3 Schools__ [PHP Arrays](http://www.w3schools.com/php/php_arrays.asp) 
 - __PHPKnowHow__ [PHP Arrays](http://www.phpknowhow.com/basics/arrays/)
