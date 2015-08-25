@@ -15,7 +15,7 @@ PHP: 5.3     | Use basic PHP string functions
              | &bull; `ucwords()`
              | &bull; `ucfirst()`
              | &bull; `substr()`
-             | $bull; `str_replace()`
+             | &bull; `str_replace()`
 
 ## Function Exercises
 
