@@ -21,6 +21,7 @@ PHP: 6.6     | Use basic PHP array functions
              | &bull; `print_r()`
              | &bull; `array_push()`
              | &bull; `array_pop()`
+             | &bull; `array_map()`
              | &bull; `array_key_exists()`
              | &bull; `implode()`
              | &bull; `explode()`
