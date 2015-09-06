@@ -1,0 +1,3 @@
+# Exercises using the $users array
+
+coming soon...
