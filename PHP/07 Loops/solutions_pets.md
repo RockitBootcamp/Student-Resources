@@ -1,11 +1,6 @@
-## Exercises w/ $colors
- coming soon...
- 
-## Exercises w/ $users
- coming soon...
- 
- 
-## Exercises w/ $pet
+
+# Exercises w/ $pet
+
 ### #1: Create ul that has each key/value pair as an li
 The PHP code:
 ```php
