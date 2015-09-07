@@ -48,6 +48,3 @@ foreach($pet as $key=>$value) {
 ```
 
 The HTML code is the same as for #2
-
-## Exercises w/ strings
- coming soon...
