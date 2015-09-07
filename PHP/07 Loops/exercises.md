@@ -111,5 +111,3 @@ Feel free to use any of the other standard PHP functions **except** the one you 
 5. reimplement the strpos() function
 
 
-
-## More to come...
