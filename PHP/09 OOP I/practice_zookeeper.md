@@ -33,12 +33,12 @@ class Zookeeper {
 
 	// Feed
 	public function feed($animal) {
-		if ($animal->foodType = 'carnivore') {
+		if ($animal->foodType == 'carnivore') {
 			$this->meat -= 2;
-		} else if ($animal->foodType = 'herbivore') {
+		} else if ($animal->foodType == 'herbivore') {
 			$this->meat--;
 			$this->veggies--;
-		} else if ($animal->foodType = 'omnivore') {
+		} else if ($animal->foodType == 'omnivore') {
 			$this->veggies -= 2;
 		} else {
 			die('Invalid Animal Type');
