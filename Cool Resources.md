@@ -61,6 +61,7 @@
 
 ## Good to know
 
+- [Why Hiring is so Hard in Tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017) - What the tech industry is doing wrong interviewing developers and how you can stand out.
 - [Naming things is hard](http://24ways.org/2014/naming-things/)
 - [Top 10 Mistakes Web Developers Make](http://www.toptal.com/web/top-10-mistakes-that-web-developers-make)
 - [5 ways to not shoot yourself in the foot with CSS](https://medium.com/@jxnblk/5-ways-to-not-shoot-yourself-in-the-foot-with-css-8d3c84c94364)
