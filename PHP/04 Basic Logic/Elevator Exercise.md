@@ -28,5 +28,5 @@ Will the elevator pick me up?
 
 ### Hints
 
-- Do not use `&&` in your `if-statements`.
+- You will need nested `if-statements` to do this project the most efficiently
 - Test your code after finishing each `if-statement`.
