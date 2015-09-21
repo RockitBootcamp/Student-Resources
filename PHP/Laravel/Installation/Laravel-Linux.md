@@ -47,3 +47,11 @@ $ php artisan serve
 # should output this:
 Laravel development server started on http://localhost:8000
 ```
+
+If you get the error "Laravel:command not found" type the following in the terminal:
+
+```
+$ vi ~/.bash_rc
+
+export PATH="~/.composer/vendor/bin:$PATH"
+```
