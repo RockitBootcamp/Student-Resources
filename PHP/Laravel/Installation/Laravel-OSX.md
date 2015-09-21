@@ -8,6 +8,13 @@ $ curl -sS https://getcomposer.org/installer | php
 $ mv composer.phar /usr/local/bin/composer
 ```
 
+If you get "Error: No such file or directory /usr/local/bin: type the following:
+
+```sh
+$ sudo mkdir /usr/local
+$ sudo mkdir /usr/local/bin
+```
+
 Install Laravel
 
 ```sh
