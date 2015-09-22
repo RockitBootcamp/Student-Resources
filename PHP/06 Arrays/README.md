@@ -25,6 +25,7 @@ PHP: 6.6     | Use basic PHP array functions
              | &bull; `array_key_exists()`
              | &bull; `implode()`
              | &bull; `explode()`
+             | &bull; `is_set()`
 
 ## Exercise
 - 1 Create an array of Fruit and echo out the 3rd item
