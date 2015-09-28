@@ -156,7 +156,7 @@ Get a bucket
 Milk cow: Bell
 ```
 
-So it's cleaver that we're using an array and a loop to milk multiple cows, but if you really look at the output, something seems strange. Why do we have to get dressed and get a bucket multiple times? Let's change our code a bit:
+So it's clever that we're using an array and a loop to milk multiple cows, but if you really look at the output, something seems strange. Why do we have to get dressed and get a bucket multiple times? Let's change our code a bit:
 
 ```js
 var getDressed = function() {
