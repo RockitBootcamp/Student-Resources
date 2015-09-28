@@ -64,7 +64,7 @@ Now let's plan for Sunday. What do we do on Sundays? Well we go to church and we
 ```js
 var getDressed = function() {
   console.log('Get dressed');
-}ec
+}
 
 var getBucket = function() {
   console.log('Get a bucket');
