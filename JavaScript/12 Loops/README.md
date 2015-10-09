@@ -244,6 +244,7 @@ var moreAnimals = [
     teeth: 'sharp and blunt'
   }
 ]
+```
 
 1. Print out each animal from `animals`
   1. Use a `while` loop
@@ -257,7 +258,7 @@ var moreAnimals = [
   1. Use a `while` loop
   1. Use a `for` loop
   1. Use a `forEach` on the array
-```
+
 
 [while]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 [for]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
