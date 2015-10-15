@@ -17,3 +17,4 @@ WF: 6.4      | Use common gulp packages
 
 ## Resources
 - [Getting started with Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+- [Gulp for Beginners - CSS Tricks](https://css-tricks.com/gulp-for-beginners/)
