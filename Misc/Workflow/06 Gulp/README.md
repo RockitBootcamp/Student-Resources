@@ -9,7 +9,6 @@ WF: 6.2      | Demonstrate using gulp on a project
              | &bull; create `gulpfile.js`
 WF: 6.3      | Demonstrate task creation and usage
 WF: 6.4      | Use common gulp packages
-             | &bull; `gulp-watch`
              | &bull; `gulp-concat`
              | &bull; `gulp-uglify`
              | &bull; `gulp-sass`
