@@ -9,7 +9,7 @@ Backbone: 1.3  | Demonstrate creating a router "instance"
                | &bull; `var router = new Router();`
 Backbone: 1.4  | Demonstrate creating routes
                | &bull; `var Router = Backbone.Router.extend({ routes: ... });`
-               | &bull; `var router.on('route', function() { ... })`;
+               | &bull; `router.on('route', function() { ... })`;
 Backbone: 1.5  | Explain the default route
 Backbone: 1.6  | Explain dynamic routes
 Backbone: 1.7  | Use `Backbone.history.start();`
