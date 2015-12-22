@@ -1,13 +1,13 @@
-# Lesson 8: Flow and Floats
+# Lesson 9: Layout with Floats
 
 Identifier   | Objectives
 -------------|------------
-CSS: 8.1     | Demonstrate Float Syntax
-CSS: 8.2     | Explain Float applications
+CSS: 9.1     | Demonstrate Float Syntax
+CSS: 9.2     | Explain Float applications
              | &bull; Text Wrapping
              | &bull; Media Object
              | &bull; Columns
-CSS: 8.3     | Explain float clearing approaches
+CSS: 9.3     | Explain float clearing approaches
              | &bull; Element with inline `clear: left` Approach
              | &bull; CSS Pseudo Element `::after` Approach
              | &bull; Block Formatting Context `overflow: hidden`

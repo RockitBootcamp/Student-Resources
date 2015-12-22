@@ -21,9 +21,24 @@ PHP: 6.6     | Use basic PHP array functions
              | &bull; `print_r()`
              | &bull; `array_push()`
              | &bull; `array_pop()`
+             | &bull; `array_map()`
              | &bull; `array_key_exists()`
              | &bull; `implode()`
              | &bull; `explode()`
+             | &bull; `isSet()`
+
+## Exercise
+- 1 Create an array of Fruit and echo out the 3rd item
+- 2 Create an array of Prime Numbers and echo out the 5th one
+- 3 Create an associative array of State=>Capitals ... 2nd
+- 4 Create an associative array of Movie=>Ratings ... 1st
+- 5. Explode the poem If by Kipling into words
+- 6 Implode the array ["I", "love", "beans"]
+- 7 Check if the key exists for 'c' for ["a"=>"1", "b"=>2, "c"=> 3]
+- 8 Use push and pop to manage an array of colors
+
+**Bonus**
+Remove any special characters from the poem If by Kipling before exploding into an array (i.e ' , - )
 
 ## Resources
 - __W3 Schools__ [PHP Arrays](http://www.w3schools.com/php/php_arrays.asp) 

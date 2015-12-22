@@ -1,0 +1,42 @@
+body {
+	background-color: #eee;
+}
+
+div.page {
+	width: 600px;
+	display: flex;
+	padding: 10px;
+}
+
+aside {
+	width: 200px;
+	min-height: 100px;
+	background-color: #fff;
+	border: 1px solid #AAA;
+}
+
+main {
+	background-color: yellow;
+	flex: 1;
+	margin-left: 10px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+}
+
+.comment {
+	margin: 10px;
+	background-color: #ddd;
+	display: flex;
+}
+
+.comment .image {
+	width: 60px;
+	height: 60px;
+	background-color: #aaa;
+}
+
+.comment .content {
+	flex: 1;
+	margin-left: 10px;
+	background-color: #aaa;
+}

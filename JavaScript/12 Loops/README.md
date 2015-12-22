@@ -210,40 +210,41 @@ var moreAnimals = [
     type: 'canine',
     legs: 4,
     eyes: 2,
-    teeth: 'sharp'
+    teeth: ['sharp']
   },
   {
     type: 'cat',
     legs: 4,
     eyes: 2,
-    teeth: 'sharp'
+    teeth: ['sharp']
   },
   {
     type: 'bird',
     legs: 2,
     eyes: 2,
-    teeth: 'none',
+    teeth: [],
     wings: true
   },
   {
     type: 'rodent',
     legs: 4,
     eyes: 2,
-    teeth: 'pointy'
+    teeth: ['pointy']
   },
   {
     type: 'large mammal',
     legs: 4,
     eyes: 2,
-    teeth: 'blunt'
+    teeth: ['blunt']
   },
   {
     type: 'ape',
     legs: 2,
     eyes: 2,
-    teeth: 'sharp and blunt'
+    teeth: ['sharp', 'blunt']
   }
 ]
+```
 
 1. Print out each animal from `animals`
   1. Use a `while` loop
@@ -257,7 +258,7 @@ var moreAnimals = [
   1. Use a `while` loop
   1. Use a `for` loop
   1. Use a `forEach` on the array
-```
+
 
 [while]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 [for]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for

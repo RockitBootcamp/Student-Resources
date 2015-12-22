@@ -2,7 +2,7 @@
 
 > Teachers: this one takes at least 45 minutes to do right!
 
-Create a series of function calls that organize farmer John's day. Since it's a dairy farm, he's going to be milking some cows. Each step in John's day will require a function call. Each function call should perform an `echo` to to indicate the step was completed. Start off my calling the `milkCow()` function:
+Create a series of function calls that organize farmer John's day. Since it's a dairy farm, he's going to be milking some cows. Each step in John's day will require a function call. Each function call should perform an `console.log` to indicate the step was completed. Start off my calling the `milkCow()` function:
 
 ```js
 var milkCow = function() {
@@ -131,17 +131,15 @@ var getBucket = function() {
   console.log('Get a bucket');
 }
 
-var milkCow = function($name) {
+var milkCow = function(name) {
   getDressed();
   getBucket();
-  console.log('Milk cow: ' . $name . '');
+  console.log('Milk cow: ' + name);
 }
 
 var cows = ['Sally', 'Betsy', 'Bell'];
 
-for (i in cows) {
-  milkCow(cows[i]);
-}
+cows.forEach(milkCow);
 ```
 
 Take a moment to study the code. We now have an array of cow names and we're looping through each one to milk all three cows. Notice how we changed the `milkCow()` function to receive an argument for the name of the cow? The code now outputs:
@@ -158,7 +156,7 @@ Get a bucket
 Milk cow: Bell
 ```
 
-So it's cleaver that we're using an array and a loop to milk multiple cows, but if you really look at the output, something seems strange. Why do we have to get dressed and get a bucket multiple times? Let's change our code a bit:
+So it's clever that we're using an array and a loop to milk multiple cows, but if you really look at the output, something seems strange. Why do we have to get dressed and get a bucket multiple times? Let's change our code a bit:
 
 ```js
 var getDressed = function() {

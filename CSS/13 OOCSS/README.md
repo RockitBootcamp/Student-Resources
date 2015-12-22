@@ -1,9 +1,9 @@
-# Lesson 12: OOCSS
+# Lesson 13: OOCSS
 
 Identifier   | Objectives
 -------------|------------
-CSS: 12.1    | Explain "Separation of structure from design"
-CSS: 12.2    | Explain "Separation of containers from content"
+CSS: 13.1    | Explain "Separation of structure from design"
+CSS: 13.2    | Explain "Separation of containers from content"
              | &bull; aka Layout from Components
 CSS: 12.3    | Demonstrate the Media Object pattern using OOCSS
 

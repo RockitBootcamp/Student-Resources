@@ -24,7 +24,7 @@ Imagine we want to make classes that describe the two types of products we have:
 class Car {
     public $vin;
     public $color;
-    $sedan = true;
+    private $isSedan = true;
     
     public function __construct($vin, $color) {
         $this->vin = $vin
@@ -80,7 +80,7 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-    $sedan = true;
+    private $isSedan = true;
     
     public isSedan() {
         return $this->isSedan;

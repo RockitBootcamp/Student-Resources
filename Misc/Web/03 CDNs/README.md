@@ -21,5 +21,5 @@ Web: 3.2     | Use common CDNs
 
 ### FontAwesome
 
-1. Go to [fontawesome.com]() and click on the "Get Started" menu item
+1. Go to [Font-Awesome](http://fortawesome.github.io/Font-Awesome/) and click on the "Get Started" menu item
 1. Under the "Easiest" heading, copy the `<link>` provided

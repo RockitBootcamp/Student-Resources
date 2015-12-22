@@ -77,9 +77,9 @@ for ($i = 0; $i < 5000; $i++) {
 }
 
 // Several Farmers
-$john = new John('John');
-$bob = new John('Bob');
-$joAnne = new John('Jo Anne');
+$john = new Farmer('John');
+$bob = new Farmer('Bob');
+$joAnne = new Farmer('Jo Anne');
 
 // Milk the first five cows
 for ($i = 0; $i < 5; $i++) {

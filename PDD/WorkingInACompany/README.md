@@ -5,6 +5,7 @@ Help students understand how to effectivly work and communicate in a company str
 
 ### Objectives:
 - Discuss technology used in the workplace (OS, Tools, etc)
+- Discuss finding a mentor
 - Consider the range of company types and associated organizational structures within which Web-Developers are employed.
 - Consider the varying role of a Web-Developer within different company structures.
 - Raise awareness of the varying relationships with management, co-workers and clients associated with different organizational structures.

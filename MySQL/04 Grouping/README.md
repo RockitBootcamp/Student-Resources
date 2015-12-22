@@ -4,7 +4,7 @@ Identifier   | Objectives
 -------------|------------
 MySQL: 6.1   | Explain Grouping
 MySQL: 6.2   | Use `GROUP BY` syntax
-MySQL: 6.3   | Use grouping functions:
+MySQL: 6.3   | Use aggregate functions:
              | &bull; `COUNT()`
              | &bull; `SUM()`
              | &bull; `MAX()`
